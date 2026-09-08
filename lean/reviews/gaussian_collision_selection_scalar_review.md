@@ -1,0 +1,17 @@
+# Independent scalar review of the actual Gaussian collision selection
+
+No substantive mathematical defect was found. I read the complete final `GaussianCollisionSelection.lean` and checked its interfaces against the actual good-index and ordered-collision definitions. This was read-only; the finite agent owns its exact-source audit.
+
+Final reviewed SHA256: `23a7af20dd78d04e7c4d0c98f89a49ebcca9d1d4f637316d6f3e59132d556952` (confirmed frozen by its owner).
+
+The graph vertices are the subtype of the actual original goodIndices finite set, defined by projected norm at least 1/4 for the same original matrix. The graph adjacency is exactly distinct vertices whose actual normalized projected ANGLE is <=delta. Symmetry follows from the original real inner-product symmetry, and self-loops are explicitly excluded. The definition neither invents a graph with an assumed edge count nor assumes a preselected independent family.
+
+`orderedCount_le` maps each actual ordered graph edge to the pair of its original indices. This map is injective even though the projected vectors need not be distinct before extraction. Good membership proves each original projected vector nonzero; the actual matrix norm bound supplies the truncation condition. Together with adjacency's angular test these prove membership in the same original orderedCollisions finite set. Thus the comparison is an actual pair injection, not a supplied graph-population premise. Ordered edge conventions agree on both sides; no factor of two is silently lost.
+
+The theorem applies the previously proved actual independent-set extraction to this constructed graph. The image of its selected subtype vertices under the original-index map has exactly the same cardinality, because subtype-value projection is injective. Its subset-of-good property and the projected angular separation >delta are both derived from the actual selected vertices. Positive image norms make these genuine projected directions; the normalization fallback at zero is never used on a selected vertex.
+
+The conversion to projective chord separation is the proved lower comparison chord>=(2/pi)*angle. Hence the final chord coefficient is literally (2/pi)*delta, with no unsupported equality between chord and angle. This matches the fixed-separation normalization available in later actual projected-family estimates.
+
+The exact independent-set denominator initially uses the graph's ordered edge count. The injection bounds that count by the original whole-family ordered collision count, so replacing it by the latter enlarges the denominator and weakens the lower bound in the correct direction. The proof explicitly separates zero good-cardinality; then the numerator is zero and the real ratio is zero, without division by a positive-population assumption. Otherwise the original vertex term makes the denominator positive and validates the reciprocal monotonicity step.
+
+The public select theorem requires only the actual family, mesh parameter, actual Gaussian matrix and norm bound. It has no selected-family, graph-edge-count, good-cardinality or collision-budget premise. The quantitative good population and whole-family collision budget come from the separately proved GaussianRealization theorem. The new scalar `GaussianSelectionAlgebra.cardinality_lower` matches its ratio exactly, with E the original ordered collision count, and supplies the later fixed M/(A*log) population once those actual bounds are substituted.

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "theorem_count": 1,
+  "audited_theorem_count": 1,
+  "exact_named_checks": 0,
+  "trust_mode": "registered_published_axioms",
+  "theorems_using_external_axioms": 1,
+  "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "scope": "All local declarations in every delivered module, including definitions, proof-bearing data and generated declarations, were audited for logical dependencies. This verifies the delivered formal statements and their recorded assumptions; correspondence with the manuscript and coverage of its results require the separate source completion audit."
+}

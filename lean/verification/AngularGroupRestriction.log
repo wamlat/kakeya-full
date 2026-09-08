@@ -1,0 +1,36 @@
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.family_separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.total_active_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.family_admissible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.filter_card_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.occupied_iff AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.mass_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.incidenceMass_union._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.active_disjoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.family_local_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.incidenceMass_union AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.family.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.index_mem AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.family_cap_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularGroupRestriction.index AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.mass_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.reindexed_sum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.group_overlap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.group_overlap._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularGroupRestriction.active AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.family_broad AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.pointwise_card AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.index_injective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularGroupRestriction.family AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.index_surjective_on AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.index.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.incidenceMass_union._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.index_nonempty AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularGroupRestriction.group_overlap._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

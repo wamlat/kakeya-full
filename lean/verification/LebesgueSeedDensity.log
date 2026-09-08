@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.LebesgueSeedDensity.logarithmic_density_seed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LebesgueSeedDensity.comparable_density_seed AXIOMS [propext, Classical.choice, Quot.sound]

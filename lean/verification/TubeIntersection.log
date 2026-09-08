@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.TubeIntersection.transverse_intersection_volume AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeIntersection.intersection_segment AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeIntersection.segment_neighborhood_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeIntersection.unit_projective_le_two AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeIntersection.common_point_distance AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeIntersection.intersection_volume_upper AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,242 @@
+{
+  "status": "PASS",
+  "named_checks": 131,
+  "checks": [
+    "pivot convex coefficient u1",
+    "pivot convex coefficient x",
+    "pivot defect coefficient u1",
+    "pivot defect coefficient u2",
+    "scale exponent in (5.3)",
+    "density exponent in (5.3)",
+    "conditioning exponent before weakening",
+    "marked fraction exponent",
+    "logarithm exponent",
+    "union exponent after substitution",
+    "tube number exponent",
+    "sparse density margin (7.2)",
+    "six D-C",
+    "six angular margin",
+    "six sparse margin combined",
+    "six sparse margin first-step",
+    "six low-cell margin",
+    "six old-cell small-scale margin",
+    "six angular exponent before error",
+    "six operator first-step loss",
+    "six operator diagonal-limit loss",
+    "eight operator diagonal-limit loss",
+    "slope table",
+    "dimension six profile table",
+    "dimension eight profile table",
+    "diagonal closed form n=6 j=0",
+    "diagonal domain n=6 j=0",
+    "diagonal globalization n=6 j=0",
+    "diagonal closed form n=6 j=1",
+    "diagonal domain n=6 j=1",
+    "diagonal globalization n=6 j=1",
+    "diagonal closed form n=6 j=2",
+    "diagonal domain n=6 j=2",
+    "diagonal globalization n=6 j=2",
+    "diagonal closed form n=6 j=3",
+    "diagonal domain n=6 j=3",
+    "diagonal globalization n=6 j=3",
+    "diagonal closed form n=6 j=4",
+    "diagonal domain n=6 j=4",
+    "diagonal globalization n=6 j=4",
+    "diagonal closed form n=6 j=5",
+    "diagonal domain n=6 j=5",
+    "diagonal globalization n=6 j=5",
+    "diagonal closed form n=6 j=6",
+    "diagonal domain n=6 j=6",
+    "diagonal globalization n=6 j=6",
+    "diagonal closed form n=6 j=7",
+    "diagonal domain n=6 j=7",
+    "diagonal globalization n=6 j=7",
+    "diagonal closed form n=6 j=8",
+    "diagonal domain n=6 j=8",
+    "diagonal globalization n=6 j=8",
+    "diagonal closed form n=6 j=9",
+    "diagonal domain n=6 j=9",
+    "diagonal globalization n=6 j=9",
+    "diagonal closed form n=6 j=10",
+    "diagonal domain n=6 j=10",
+    "diagonal globalization n=6 j=10",
+    "diagonal closed form n=6 j=11",
+    "diagonal domain n=6 j=11",
+    "diagonal globalization n=6 j=11",
+    "diagonal closed form n=8 j=0",
+    "diagonal domain n=8 j=0",
+    "diagonal globalization n=8 j=0",
+    "diagonal closed form n=8 j=1",
+    "diagonal domain n=8 j=1",
+    "diagonal globalization n=8 j=1",
+    "diagonal closed form n=8 j=2",
+    "diagonal domain n=8 j=2",
+    "diagonal globalization n=8 j=2",
+    "diagonal closed form n=8 j=3",
+    "diagonal domain n=8 j=3",
+    "diagonal globalization n=8 j=3",
+    "diagonal closed form n=8 j=4",
+    "diagonal domain n=8 j=4",
+    "diagonal globalization n=8 j=4",
+    "diagonal closed form n=8 j=5",
+    "diagonal domain n=8 j=5",
+    "diagonal globalization n=8 j=5",
+    "diagonal closed form n=8 j=6",
+    "diagonal domain n=8 j=6",
+    "diagonal globalization n=8 j=6",
+    "diagonal closed form n=8 j=7",
+    "diagonal domain n=8 j=7",
+    "diagonal globalization n=8 j=7",
+    "diagonal closed form n=8 j=8",
+    "diagonal domain n=8 j=8",
+    "diagonal globalization n=8 j=8",
+    "diagonal closed form n=8 j=9",
+    "diagonal domain n=8 j=9",
+    "diagonal globalization n=8 j=9",
+    "diagonal closed form n=8 j=10",
+    "diagonal domain n=8 j=10",
+    "diagonal globalization n=8 j=10",
+    "diagonal closed form n=8 j=11",
+    "diagonal domain n=8 j=11",
+    "diagonal globalization n=8 j=11",
+    "Appendix B exact benchmark n=5",
+    "Appendix B positive squaring base n=5",
+    "Appendix B sign n=5",
+    "Appendix B exact benchmark n=6",
+    "Appendix B positive squaring base n=6",
+    "Appendix B sign n=6",
+    "Appendix B exact benchmark n=7",
+    "Appendix B positive squaring base n=7",
+    "Appendix B sign n=7",
+    "Appendix B exact benchmark n=8",
+    "Appendix B positive squaring base n=8",
+    "Appendix B sign n=8",
+    "Appendix B exact benchmark n=9",
+    "Appendix B positive squaring base n=9",
+    "Appendix B sign n=9",
+    "Appendix B exact benchmark n=10",
+    "Appendix B positive squaring base n=10",
+    "Appendix B sign n=10",
+    "Appendix B exact benchmark n=11",
+    "Appendix B positive squaring base n=11",
+    "Appendix B sign n=11",
+    "Appendix B exact benchmark n=12",
+    "Appendix B positive squaring base n=12",
+    "Appendix B sign n=12",
+    "Appendix B exact benchmark n=13",
+    "Appendix B positive squaring base n=13",
+    "Appendix B sign n=13",
+    "Appendix B exact benchmark n=14",
+    "Appendix B positive squaring base n=14",
+    "Appendix B sign n=14",
+    "Appendix B exact benchmark n=15",
+    "Appendix B positive squaring base n=15",
+    "Appendix B sign n=15",
+    "exhaustive four-leaf laminar capacity stress test"
+  ],
+  "laminar_capacity_configurations": 720,
+  "laminar_feasible_half_integral_weights": 3961,
+  "appendix_B": [
+    {
+      "n": 5,
+      "B": "18/5",
+      "K": "3.585786",
+      "K_minus_B": "-0.014214",
+      "maximizers": [
+        3
+      ]
+    },
+    {
+      "n": 6,
+      "B": "4",
+      "K": "4.171573",
+      "K_minus_B": "+0.171573",
+      "maximizers": [
+        3,
+        4
+      ]
+    },
+    {
+      "n": 7,
+      "B": "34/7",
+      "K": "4.757359",
+      "K_minus_B": "-0.099784",
+      "maximizers": [
+        4
+      ]
+    },
+    {
+      "n": 8,
+      "B": "21/4",
+      "K": "5.343146",
+      "K_minus_B": "+0.093146",
+      "maximizers": [
+        4
+      ]
+    },
+    {
+      "n": 9,
+      "B": "6",
+      "K": "5.928932",
+      "K_minus_B": "-0.071068",
+      "maximizers": [
+        5
+      ]
+    },
+    {
+      "n": 10,
+      "B": "13/2",
+      "K": "6.514719",
+      "K_minus_B": "+0.014719",
+      "maximizers": [
+        5
+      ]
+    },
+    {
+      "n": 11,
+      "B": "7",
+      "K": "7.100505",
+      "K_minus_B": "+0.100505",
+      "maximizers": [
+        6
+      ]
+    },
+    {
+      "n": 12,
+      "B": "31/4",
+      "K": "7.686292",
+      "K_minus_B": "-0.063708",
+      "maximizers": [
+        6
+      ]
+    },
+    {
+      "n": 13,
+      "B": "106/13",
+      "K": "8.272078",
+      "K_minus_B": "+0.118232",
+      "maximizers": [
+        6
+      ]
+    },
+    {
+      "n": 14,
+      "B": "9",
+      "K": "8.857864",
+      "K_minus_B": "-0.142136",
+      "maximizers": [
+        7
+      ]
+    },
+    {
+      "n": 15,
+      "B": "47/5",
+      "K": "9.443651",
+      "K_minus_B": "+0.043651",
+      "maximizers": [
+        7
+      ]
+    }
+  ],
+  "scope": "Exact algebra and finite tests only; no geometric Kakeya theorem certified."
+}

@@ -1,0 +1,14 @@
+# Completed source sampling probability and realization route
+
+All following new sources compile cleanly and pass exact-source audits using only propext, Classical.choice and Quot.sound. No existing frozen source was edited.
+
+- SamplingGeometricFailure: actual density and ball union event on the coupled ternary law, exact factor2 and rates1/12 and1/4, polynomial count/positive stretched-exponential estimates and a type-uniform one-eighth threshold.
+- SamplingSourceGeometricFailure: original measurable bounded-variable-length shadings construct actual support, tube/ball test counts, full means and ball cutoffs. The full0<s<1 and0<=alpha<1-s range yields failure probability<1/8 on SphereNetSourceFailure.rawLaw.
+- SphereNetFailure and SphereNetSourceFailure: actual whole-sphere net tests, both high-cell and cap failures, augmented test count high.card*(1+net.card)<=N^(ambient+2), the literal a0=64(ambient+4) and displayed angular failure<1/8.
+- SamplingJointProbability: the zero-weight-aware complement identity and the same law give strict probability>3/4. Every avoiding positive-weight outcome satisfies all nine SampleGood fields, including support, full density, full-ball upper bounds, high-cell lower bounds, cap1/10, quarter-total marked mass and original marked subsets.
+- SamplingSourceProbability: one scale cutoff precedes all actual input data. The actual low/high marked-mass dichotomy supplies the low conclusion or both separately derived failure budgets, exact net test-count/display, probability>3/4 of positive SampleGood and a member of that event. No count, expected-value, probability, high-mass or outcome oracle remains in the theorem inputs.
+- SphereNetSampleRealization and SamplingSourceRealization: package THAT same J/net/outcome into actual original-grid shadings and marks, retaining literal c0/2--2C0 density, original Wg/4 and xi/(8C0) relative marked mass, all-ball two ends, closed exact-theta caps at every unit center, positive original intersections, bounded-length carrier/longitudinal geometry, unchanged axes/caps/separation and support/union containment.
+
+The density band here is the original broad [mean/2,2mean] band. No narrow [2mean/3,4mean/3] field is inserted. Source physical-ball thresholds are supplied by proved fixed geometry and original raw full means. This is the source sampling route, distinct from earlier valid sampling constructions using original-direction test centers.
+
+All these modules are outside the published381-module checkpoint21 until the new full integrated build and publication pass. Final independent source review and that integrated verification are the remaining publication steps. A standalone statement-coverage inventory retains the source marked-minimum normalization qualification; this sampling completion does not change that qualification.

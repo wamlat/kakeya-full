@@ -1,0 +1,1 @@
+AUDIT_THEOREM KakeyaFormal.AngularBoxHighDensity.construct AXIOMS [propext, Classical.choice, Quot.sound]

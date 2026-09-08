@@ -1,0 +1,40 @@
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.original_output_noncollapse AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.normalized_kappa_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.geometryConstant._proof_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.geometryConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.tests_of_original_twentieth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotGeometryScale.geometryConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotGeometryScale.Tests.mk._flat_ctor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.geometryConstant._proof_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.geometryConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.tests_of_normalized_twentieth AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotGeometryScale.Tests.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.tests_of_normalized_twentieth._proof_1_3 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.tests_of_normalized_twentieth._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.original_scale_le_normalized_kappa AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotGeometryScale.Tests.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.constant_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.normalized_scale_le_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.normalized_scale_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotGeometryScale.Tests AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.selected_slab_small AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.collision_small AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotGeometryScale.Tests.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.tests_of_normalized_twentieth._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.original_scale_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.normalized_kappa_le_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotGeometryScale.Tests.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.uniform_choice_tests AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotGeometryScale.Tests.attached_witness_small AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

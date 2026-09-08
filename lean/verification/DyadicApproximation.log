@@ -1,0 +1,37 @@
+AUDIT_DECLARATION KakeyaFormal.DyadicApproximation.indices AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.bands_disjoint_of_lt AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.bands.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.DyadicApproximation.approx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.approx_at_top._proof_1_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.index_mem_at_natAbs._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.iSup_approx_at_top AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.bands_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.DyadicApproximation.bands AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.approx_at_top._simp_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.bands_disjoint_of_lt._proof_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.approx_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.iSup_approx_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.height_le_approx._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.bands_disjoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.approx_mono AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.le_two_iSup_approx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.approx_at_top AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.approx_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.height_le_approx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.approx_eq_zero_of_no_band AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.indices_mono._simp_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.height_succ AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.height_le_approx._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.indices_mono AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.indices_mono._proof_1_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.indices.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.index_mem_at_natAbs AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.bands_disjoint_of_lt._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicApproximation.approx_eq_height AXIOMS [propext, Classical.choice, Quot.sound]

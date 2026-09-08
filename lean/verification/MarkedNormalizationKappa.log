@@ -1,0 +1,10 @@
+AUDIT_THEOREM KakeyaFormal.MarkedNormalizationKappa.admissible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedNormalizationKappa.sourceConstant_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedNormalizationKappa.refined_tests AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedNormalizationKappa.choice_le_normalized_source AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedNormalizationKappa.choice._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.MarkedNormalizationKappa.choice AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedNormalizationKappa.choice_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedNormalizationKappa.sourceConstant AXIOMS [propext, Classical.choice, Quot.sound]

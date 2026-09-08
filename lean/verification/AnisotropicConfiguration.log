@@ -1,0 +1,66 @@
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.upperCoeff_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.transformedTube.congr_simp AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicConfiguration.densityFactor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicConfiguration.lowerCoeff AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.lowerCoeff._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_12 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_relative_density._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_relative_density._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicConfiguration.targetGeometry AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.lowerCoeff_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicCap.family.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_relative_density._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.densityFactor_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableNormalization.mk.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_15 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_6 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicConfiguration.selectedFamily AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.cap_coefficient_ge_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicConfiguration.upperCoeff AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.upperCoeff._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.estimate_on_box AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.targetGeometry._proof_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.targetGeometry._proof_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.densityFactor_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_14 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_11 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.tube_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_13 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_10 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_relative_density._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_relative_density._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_9 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_relative_density._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_8 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_relative_density._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_7 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selectedFamily.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_relative_density AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.targetGeometry.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.targetGeometry._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_5 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicConfiguration.normalize AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_4 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.normalize_union_volume AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.selected_base_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.densityFactor_upperCoeff AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicConfiguration.tube_upper AXIOMS [propext, Classical.choice, Quot.sound]

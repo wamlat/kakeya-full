@@ -1,0 +1,18 @@
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.source_sampling AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.stretched_exp_limit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.stretched_exp_limit._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.stretched_exp_limit._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.uniform_sampling AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.logarithmic_tail_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.depth_log_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.source_mean_powers AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.source_counts AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.uniform_threshold AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.stretched_exp_limit._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.stretched_exp_limit._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.stretched_exp_limit._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.stretched_exp_limit._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.failure_budget_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingThreshold.stretched_exp_limit._simp_1_5 AXIOMS [propext]

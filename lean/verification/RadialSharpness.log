@@ -1,0 +1,10 @@
+AUDIT_THEOREM KakeyaFormal.RadialSharpness.pencil_expression AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RadialSharpness.counterexamples AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RadialSharpness.no_uniform_sublinear_cap_comparable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RadialSharpness.no_uniform_sublinear_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RadialSharpness.large_negative_power AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RadialSharpness.comparable_counterexamples AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RadialPencil.capCoefficient.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RadialSharpness.population_identity AXIOMS [propext, Classical.choice, Quot.sound]

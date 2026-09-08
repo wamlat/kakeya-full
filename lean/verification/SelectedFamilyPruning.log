@@ -1,0 +1,7 @@
+AUDIT_THEOREM KakeyaFormal.SelectedFamilyPruning.paletteCount._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedFamilyPruning.palette_modulus_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFamilyPruning.constructed_pruning AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFamilyPruning.paletteCount_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFamilyPruning.capCoefficient_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedFamilyPruning.paletteCount AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFamilyPruning.paletteCount.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]

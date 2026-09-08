@@ -1,0 +1,5 @@
+AUDIT_DECLARATION KakeyaFormal.SpatialTubeLengths.coverWidth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialTubeLengths.length_in_box._abel_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialTubeLengths.length_in_box AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialTubeLengths.coverWidth._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SpatialTubeLengths.coverWidth_nonneg AXIOMS [propext, Classical.choice, Quot.sound]

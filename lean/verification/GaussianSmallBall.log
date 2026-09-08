@@ -1,0 +1,6 @@
+AUDIT_THEOREM KakeyaFormal.GaussianSmallBall.real_density_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSmallBall.closedBall_min_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSmallBall.closedBall_bound._simp_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSmallBall.real_measure_le_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSmallBall.closedBall_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSmallBall.closedBall_bound._simp_1_1 AXIOMS [propext]

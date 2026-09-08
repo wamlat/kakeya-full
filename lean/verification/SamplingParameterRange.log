@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.SamplingParameterRange.source_sampling_narrow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingParameterRange.full_mean_power AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingParameterRange.uniform_source_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingParameterRange.source_mean_powers AXIOMS [propext, Classical.choice, Quot.sound]

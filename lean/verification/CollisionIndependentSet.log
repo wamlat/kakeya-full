@@ -1,0 +1,28 @@
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.complement_edge_identity AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.indepNum_product_bound._proof_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.indepNum_product_bound._proof_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.complement_edge_identity._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.complement_edge_identity._proof_1_4 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.indepNum_product_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.exists_independent AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CollisionIndependentSet.orderedCount AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.exists_independent_ordered AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.orderedCount_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.complement_edge_identity._proof_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIndependentSet.complement_edge_identity._proof_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

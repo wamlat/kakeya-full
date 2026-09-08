@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.MainOperator.endpoint_formula AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MainOperator.six_endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MainOperator.six_diagonal_limit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MainOperator.endpoint_formula._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MainOperator.endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MainOperator.eight_endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MainOperator.eight_diagonal_limit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MainOperator.six_first AXIOMS [propext, Classical.choice, Quot.sound]

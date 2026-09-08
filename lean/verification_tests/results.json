@@ -1,0 +1,175 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-07T03:39:29.201595+00:00",
+  "scope": "Synthetic verifier acceptance/rejection tests; no full package rebuild or Kakeya proof claim",
+  "case_count": 12,
+  "expected_acceptances": 4,
+  "expected_rejections": 8,
+  "verifier_sha256": "419584e57059334f50092d3fe72782c71b5f50d7c19198a44cd4b3cae3e42799",
+  "verifier_unchanged_during_run": true,
+  "harness_sha256": "38755e6bec47e6033f0aca2f8e5e1ab70ef9268f63260f04216e8f632c51b9a1",
+  "lean_toolchain": "leanprover/lean4:v4.33.1",
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "work_subdirectory": "axiom-regression-s6ibn3qp",
+  "cases": [
+    {
+      "case": "standard_pass",
+      "status": "PASS",
+      "expected": "accept",
+      "returncode": 0,
+      "problems": [],
+      "verified_rejection": null,
+      "fixture_source_sha256": "b813a0e767def081caefdffa5a2fa7b97ebb444c83434e075152428937ef51a5",
+      "log_subdirectory": "standard_pass",
+      "inventory": {
+        "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+        "trust_mode": "standard_foundations_only",
+        "theorem_count": 1,
+        "audited_theorem_count": 1,
+        "audited_declaration_count": 1,
+        "theorems_using_external_axioms": 0,
+        "declarations_using_external_axioms": 0
+      }
+    },
+    {
+      "case": "registered_pass",
+      "status": "PASS",
+      "expected": "accept",
+      "returncode": 0,
+      "problems": [],
+      "verified_rejection": null,
+      "fixture_source_sha256": "1c85d0061ad8802b63f28ee6a02b3cbb5fa4f939130ffca5ad52f1dde1b359cd",
+      "log_subdirectory": "registered_pass",
+      "inventory": {
+        "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+        "trust_mode": "registered_published_axioms",
+        "theorem_count": 1,
+        "audited_theorem_count": 1,
+        "audited_declaration_count": 2,
+        "theorems_using_external_axioms": 1,
+        "declarations_using_external_axioms": 2
+      }
+    },
+    {
+      "case": "unregistered_axiom",
+      "status": "PASS",
+      "expected": "reject",
+      "returncode": 1,
+      "problems": [],
+      "verified_rejection": "declared axioms ['Fixture.rogue']",
+      "fixture_source_sha256": "0d77441f3f829641b67c9bae78843b97e746d0c78a1fedbf96bb8e359a050f11",
+      "log_subdirectory": "unregistered_axiom"
+    },
+    {
+      "case": "unregistered_dependency",
+      "status": "PASS",
+      "expected": "reject",
+      "returncode": 1,
+      "problems": [],
+      "verified_rejection": "unexpected axioms {'Lean.trustCompiler'}",
+      "fixture_source_sha256": "8732f602f633f12148dd27b952e1436e43294cb8c89400d14ff5a82e7e05441c",
+      "log_subdirectory": "unregistered_dependency"
+    },
+    {
+      "case": "registry_hash_mismatch",
+      "status": "PASS",
+      "expected": "reject",
+      "returncode": 1,
+      "problems": [],
+      "verified_rejection": "external source differs from reviewed registry hash",
+      "fixture_source_sha256": "1c85d0061ad8802b63f28ee6a02b3cbb5fa4f939130ffca5ad52f1dde1b359cd",
+      "log_subdirectory": "registry_hash_mismatch"
+    },
+    {
+      "case": "strict_rejects_registered",
+      "status": "PASS",
+      "expected": "reject",
+      "returncode": 1,
+      "problems": [],
+      "verified_rejection": "External axioms rejected by strict verification mode",
+      "fixture_source_sha256": "1c85d0061ad8802b63f28ee6a02b3cbb5fa4f939130ffca5ad52f1dde1b359cd",
+      "log_subdirectory": "strict_rejects_registered"
+    },
+    {
+      "case": "strict_accepts_standard",
+      "status": "PASS",
+      "expected": "accept",
+      "returncode": 0,
+      "problems": [],
+      "verified_rejection": null,
+      "fixture_source_sha256": "b813a0e767def081caefdffa5a2fa7b97ebb444c83434e075152428937ef51a5",
+      "log_subdirectory": "strict_accepts_standard",
+      "inventory": {
+        "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+        "trust_mode": "standard_foundations_only",
+        "theorem_count": 1,
+        "audited_theorem_count": 1,
+        "audited_declaration_count": 1,
+        "theorems_using_external_axioms": 0,
+        "declarations_using_external_axioms": 0
+      }
+    },
+    {
+      "case": "sorry_rejected",
+      "status": "PASS",
+      "expected": "reject",
+      "returncode": 1,
+      "problems": [],
+      "verified_rejection": "forbidden proof construct ['sorry']",
+      "fixture_source_sha256": "b450982fb63422f95ebf19059d2b867c9c217e5e9eaabd80a858f2f5b0979ae5",
+      "log_subdirectory": "sorry_rejected"
+    },
+    {
+      "case": "native_decide_rejected",
+      "status": "PASS",
+      "expected": "reject",
+      "returncode": 1,
+      "problems": [],
+      "verified_rejection": "forbidden proof construct ['native_decide']",
+      "fixture_source_sha256": "6599860a2735aabb52951d5651753b20bf42f4a0ebafc97aed7d0fef677c8996",
+      "log_subdirectory": "native_decide_rejected"
+    },
+    {
+      "case": "data_definition_dependency",
+      "status": "PASS",
+      "expected": "reject",
+      "returncode": 1,
+      "problems": [],
+      "verified_rejection": "unexpected axioms {'Lean.trustCompiler'}",
+      "fixture_source_sha256": "1bfa601cdfcec729b6acc6dcac49e9df27db5ed65a907aab922fa9c1a21ecaf7",
+      "log_subdirectory": "data_definition_dependency"
+    },
+    {
+      "case": "opaque_definition_dependency",
+      "status": "PASS",
+      "expected": "reject",
+      "returncode": 1,
+      "problems": [],
+      "verified_rejection": "unexpected axioms {'Lean.trustCompiler'}",
+      "fixture_source_sha256": "6478721615c0ff00f10364fbd363a3fcc8d43268547a610453dedf3462c6cf33",
+      "log_subdirectory": "opaque_definition_dependency"
+    },
+    {
+      "case": "registered_definition",
+      "status": "PASS",
+      "expected": "accept",
+      "returncode": 0,
+      "problems": [],
+      "verified_rejection": null,
+      "fixture_source_sha256": "c9415b5b076d7f4e953387ffd38ff99bdf10581deb924d8be03794209f8ee58f",
+      "log_subdirectory": "registered_definition",
+      "inventory": {
+        "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+        "trust_mode": "registered_published_axioms",
+        "theorem_count": 1,
+        "audited_theorem_count": 3,
+        "audited_declaration_count": 17,
+        "theorems_using_external_axioms": 0,
+        "declarations_using_external_axioms": 2
+      },
+      "proof_record_dependency": [
+        "Fixture.published"
+      ]
+    }
+  ]
+}

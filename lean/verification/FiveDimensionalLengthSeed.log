@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.FiveDimensionalLengthSeed.original_length_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FiveDimensionalLengthSeed.discrete_seed AXIOMS [propext, Classical.choice, Quot.sound]

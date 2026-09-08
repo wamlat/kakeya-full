@@ -1,0 +1,3 @@
+AUDIT_THEOREM Fixture.usesRogue AXIOMS [Fixture.rogue]
+AUDIT_DECLARATION Fixture.rogue AXIOMS [Fixture.rogue]
+AUDIT_AXIOM Fixture.rogue

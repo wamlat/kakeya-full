@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.SamplingHighDensity.all_exponents AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingHighDensity.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingHighDensity.input_weaken_alpha AXIOMS [propext, Classical.choice, Quot.sound]

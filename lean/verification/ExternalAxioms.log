@@ -1,0 +1,53 @@
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.NormalizedShadingBound.to_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.wolff_six AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.wolff1995]
+AUDIT_DECLARATION KakeyaFormal.ExternalAxioms.zahlExponent AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.ExternalAxioms.zahl2021 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.zahl2021]
+AUDIT_AXIOM KakeyaFormal.ExternalAxioms.zahl2021
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.NormalizedShadingBound._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.zahl_eight AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.zahl2021]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.katz_tao_discrete AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.katzTao2002]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.wolff_five AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.wolff1995]
+AUDIT_DECLARATION KakeyaFormal.ExternalAxioms.wolff1995 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.wolff1995]
+AUDIT_AXIOM KakeyaFormal.ExternalAxioms.wolff1995
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.zahlExponent._proof_2 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.ExternalAxioms.NormalizedShadingBound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.katz_tao_nine AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.katzTao2002]
+AUDIT_DECLARATION KakeyaFormal.ExternalAxioms.katzTao2002 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.katzTao2002]
+AUDIT_AXIOM KakeyaFormal.ExternalAxioms.katzTao2002
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.NormalizedShadingBound._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.zahlExponent.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.zahl_discrete AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.zahl2021]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.zahlExponent._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ExternalAxioms.wolff_discrete AXIOMS [propext,
+ Classical.choice,
+ Quot.sound,
+ KakeyaFormal.ExternalAxioms.wolff1995]

@@ -1,0 +1,62 @@
+'KakeyaFormal.SelectedLiftWitness.attach' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.SelectedLiftWitness.attach_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.SelectedLiftWitness.originalPosition_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.SelectedLiftWitness.grouped_energy_equals_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.SelectedLiftWitness.retained_cell_sample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.SelectedLiftWitness.attached_sample_degree_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.SelectedLiftWitness.grouped_attached_sample_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.errorConstant_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.grouped_attached_sample_energy AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_9 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_8 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_10 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_6 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.retained_cell_sample AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.LegalPosition.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.relabel_energy._simp_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.splitCell._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.shifted_position_legal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedLiftWitness.originalPosition AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedLiftWitness.attach AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_4 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attached_sample_degree_energy AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.originalPosition.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.originalPosition_injective._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedLiftWitness.unshiftCell AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.originalCell.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_7 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedLiftWitness.splitCell AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SelectedLiftWitness.errorConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.unshift_shift AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.grouped_energy_equals_original AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach._proof_5 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.fiber_weight_sum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.shifted_original_position AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedLiftWitness.LegalPosition AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.relabel_energy AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.attach_label AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.split_lift_rounding AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.shift_unshift AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.splitCell_injective AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.fiber_weight_sum._simp_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedLiftWitness.originalCell AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.errorConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.energy_congr AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.originalPosition_injective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedLiftWitness.GroupPosition AXIOMS []
+AUDIT_THEOREM KakeyaFormal.SelectedLiftWitness.unshiftCell.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]

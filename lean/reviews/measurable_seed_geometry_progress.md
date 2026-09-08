@@ -1,0 +1,11 @@
+# Fixed geometry for the continuous square-root-cap seed
+
+`MeasurableSeedGeometry.lean` is frozen, clean compiled and exact-source audited. SHA-256: `1f577a0c16bcbd742d35ff115a6a1f008b4d7c0988c24664d2ddf1c8b9308a5f`. Its five source theorems and one definition produce thirteen local declarations (twelve local theorems), all using only standard foundations. No custom axiom, `sorry`, or diagnostic warning occurs.
+
+`natural_logarithmic_seed` extends the actual measurable comparable-density seed to any fixed physical carrier width `width*delta` and any fixed positive direction separation `sigma*delta`. The mesh delta and logarithm log(2/delta) stay unchanged. Its positive coefficient and logarithmic exponent are chosen before every original scale, density, cap coefficient, family, measurable shading and position.
+
+The construction first uses the proved full finite separation coloring and chooses an actual largest color class, retaining at least one reciprocal fixed palette of the original population. All its full measurable shadings are unchanged original sets on those indices. One common homothety with `W=max(1,width)` sends these sets into actual radius-delta unit carriers. Its tube axes keep the same unit direction, so separation becomes exactly delta and the original real cap bound keeps exactly the same coefficient A.
+
+Volume scales by exactly `W^(-n)`. Comparable density becomes `lambda/W^n`, still at most one; full two-ends becomes `B*W^alpha`. Radius tests above one are proved directly from total mass before applying the homothety, so no bounded-position assumption is hidden. The actual transformed union is contained in the image of the original union. Combining this identity with the population retention gives precisely a fixed additional factor `1/[palette*W^n]` in the original normalized-volume estimate. The square-root cap factor, squared density, and `(m-3)/2` scale exponent are unchanged.
+
+This handles arbitrary fixed width and direction separation for actual unit axis lengths. A separate variable-length carrier representation and its common homothety are being developed in `SamplingGeometry`; this module does not claim that additional length interface. Fixed/logarithmic lower-upper density ratios likewise remain the separate exact trimming composition.

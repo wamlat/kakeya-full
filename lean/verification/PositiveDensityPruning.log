@@ -1,0 +1,18 @@
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_spatial_pruning_budget._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_spatial_pruning_budget._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_spatial_pruning_budget._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_spatial_pruning_budget._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_spatial_pruning_budget AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.marked_recovery AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_heavy_mass_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.coarse_union_estimate._simp_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_spatial_pruning_budget._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_spatial_pruning_budget._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.coarse_union_estimate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveDensityPruning.discrete_spatial_pruning_budget._simp_1_1 AXIOMS [propext]

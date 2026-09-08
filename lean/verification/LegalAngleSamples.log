@@ -1,0 +1,34 @@
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.sign AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleSamples.SampleSystem.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleSamples.SampleSystem.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleSamples.SampleSystem.card_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleSamples.SampleSystem.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.AngleIndex AXIOMS []
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.firstCoordinate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleSamples.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.Triple AXIOMS []
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleSamples.sample_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleSamples.SampleSystem.sign_valid AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.samples AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.SampleSystem.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleSamples.SampleSystem.legal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalAngleSamples.secondCoordinate AXIOMS [propext, Classical.choice, Quot.sound]

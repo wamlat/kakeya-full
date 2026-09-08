@@ -1,0 +1,23 @@
+# Independent scalar review of actual variable-length volume normalization
+
+No substantive mathematical defect was found. I read all three final sources end-to-end, including the actual set containments, density transport, final volume-sum inequalities, and endpoint wrappers. This was a read-only review; the geometry agent owns the source compilation and axiom audits.
+
+Final reviewed SHA256 hashes:
+
+- `LengthTubeVolume.lean`: `62cdf22ee47c954b9e83aed0f9d954b9479a566a48633ed0561f70c21630471d`
+- `MaximalLengths.lean`: `fd82e02ef4c9d74904c44f4b357a9ab45ef5b3c142619541f441c6b015bb86b5`
+- `MeasurableLengthEstimates.lean`: `e2265f0016c380f0f58449bdf1f9d31f217a3274a76da73e9a78eb0ba83a9e30`
+
+Let n=k+1, h=min(1,lengthLower,width)>0, and W=max(1,lengthUpper,width)>=1. The actual variable-length carrier contains a copy of a radius-delta unit carrier dilated by h and is contained in a copy dilated by W. The affine base is preserved in the containment proof: dilating the normalized base by h restores the original base, while the axis parameter changes to h*t. The containing map is one common map x->x/W; the new axis parameter lies in [0,1], and width*delta/W<=delta. This keeps the final scale literally delta and every direction unchanged.
+
+`LengthTubeVolume` proves compactness of each actual carrier from the image of a closed bounded interval times a closed ball; measurability and finite volume follow. The two comparisons h^n*V_unit <= V_actual <= W^n*V_unit are consequences of the explicit containments, the previously proved exact homothety volume formula, and actual unit-carrier volume invariance. No variable-length tube-volume formula or comparison is supplied as a premise. Empty or degenerate parameter ranges do not invalidate the set statements; the intended estimates require a fixed positive lower length and width.
+
+`MaximalLengths.from_estimate` normalizes the exact original measurable sets by the same common map. The effective density is lambda_new=lambda*(h/W)^n, which is positive and at most one. From the original relative density lambda*V_actual<=|Y| and the lower volume comparison it obtains the actual normalized density against V_unit. Its final original sum contains the actual variable tube volumes, rather than unit-tube proxies. The upper comparison introduces W^n, while returning the normalized union to the original coordinates supplies exactly the same W^n; these factors cancel. The only remaining fixed density factor is ((h/W)^n)^d. This factor is positive for arbitrary real d. The proof uses an exact positive-base power identity, not an unjustified monotonicity assertion for negative exponents.
+
+The maximal-shading constant is chosen after the fixed dimension/exponent, lower and upper length bounds, physical width, direction-separation coefficient and epsilon, but before every actual scale, density, family, individual axis length, shading or position. There is no bounded-position, cap, two-ends, normalized-output, or volume-comparison hypothesis. Original positions are arbitrary. The final endpoint wrappers therefore preserve the literal arbitrary-position variable-length shading conclusion with original tube-volume sums.
+
+`MeasurableLengthEstimates.of_volume` uses the same normalized sets, density factor and W^n cancellation. Here the real-cap exponent is m+1-d+epsilon and the density power is p; the fixed loss is ((h/W)^n)^p. The cap coefficient A and scale delta are unchanged because the directions are unchanged. The original bounded-base condition is retained after contraction since W>=1. The generic adapter imposes no artificial sign restriction on p, m or d, and uses only exact power products for the density factor. Its real-cap and diagonal endpoint wrappers have the correct m<=n-1 ambient condition and the diagonal specialization m=n-1.
+
+The upper length is fixed before configurations and need not have a separate positivity assumption: any nonempty family with lengths>=the fixed positive lower bound and <=the fixed upper bound implies that positivity. In an inconsistent interval only the empty-family case remains, with zero sums; this does not remove any intended nonempty parameter range. Both length bounds and width are fixed geometric constants, never scale-dependent inputs chosen after delta.
+
+These results close the remaining actual-original-volume variable-length adapter boundary previously recorded in the unmarked length report. They complement the same-label finite-cell adapters: their conclusion is about original measurable sets and actual variable tube-volume sums. This review makes no additional claim about a new variable-length maximal-operator norm definition; the proved endpoint here is the stated shading inequality.

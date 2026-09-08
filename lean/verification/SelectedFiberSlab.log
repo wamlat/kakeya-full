@@ -1,0 +1,19 @@
+'KakeyaFormal.SelectedFiberSlab.lift_time_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.SelectedFiberSlab.unit_slab_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.SelectedFiberSlab.populated_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.SelectedFiberSlab.common_integer_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.SelectedFiberSlab.common_density_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.unit_slab_selection._proof_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.unit_slab_selection._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.commonCount._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SelectedFiberSlab.commonCount AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.common_density_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.common_integer_slab AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.lift_time_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.populated_slab AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.lifted_center_height AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedFiberSlab.unit_slab_selection AXIOMS [propext, Classical.choice, Quot.sound]

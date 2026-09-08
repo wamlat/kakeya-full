@@ -1,0 +1,484 @@
+---
+title: "A six-dimensional Kakeya maximal estimate"
+subtitle: 'The implication \(\mathsf M_6(4)\Rightarrow\mathsf M_6(33/8)\)'
+date: "8 September 2026 (editorial revision)"
+geometry: margin=24mm
+fontsize: 11pt
+---
+
+**Research draft; not independently verified.**
+
+## Abstract
+
+We present a proof of \(\mathsf M_6(4)\Rightarrow\mathsf M_6(33/8)\) by tracking shading density through the Katz–Tao pivot argument. The main discrete estimate has scale exponent \(33/8\) and density exponent \(15/4\). Its lifted input follows by Gaussian projection to \(\mathbb R^5\) and Wolff's maximal theorem there. Angular decomposition, sampling, and two-ends localization give the estimate for arbitrary measurable shadings. The claimed advance concerns the maximal estimate; Katz–Tao already obtain a stronger Hausdorff bound in six dimensions.
+
+# 1. Statement and conventions
+
+Put \(\delta=N^{-1}\) and \(L=\log(2N)\). Let \(M\) unit \(\delta\)-tubes lie in a fixed bounded subset of \(\mathbb R^6\), with \(c\delta\)-separated unoriented directions; set \(S=\delta^5M\lesssim1\). We allow fixed changes of width, length, separation, and bounded region, and take \(\delta\) dyadic after a fixed width adjustment. A discrete shading consists of cells of one \(\delta\)-grid whose centers lie within \(C\delta\) of the tube: \(O(N)\) cells per tube, with \(O(1)\) in each longitudinal interval of length \(\delta\). Let \(E\) be the union cell count, so the union of full cells has volume \(\delta^6E\).
+
+Let \(\mathsf M_6(a)\) mean that, for every \(\varepsilon>0\), arbitrary measurable shadings \(Y(T)\subset T\) with \(|Y(T)|\ge\lambda|T|\) satisfy
+\[
+ \left|\bigcup_TY(T)\right|
+ \ge c_\varepsilon\delta^{6-a+\varepsilon}\lambda^aS,
+ \qquad 0<\lambda\le1.
+\tag{1}
+\]
+The constant is uniform in \(\delta,\lambda,M\). For arbitrary tube positions, assign each tube to one of the boundedly many unit cubes retaining a fixed fraction of its shading, apply the estimate in each cube, and sum.
+
+**Theorem 1.1.** The estimate \(\mathsf M_6(4)\) implies \(\mathsf M_6(33/8)\):
+\[
+ \left|\bigcup_TY(T)\right|
+ \ge c_\varepsilon\delta^{15/8+\varepsilon}
+       \lambda^{33/8}S.
+\tag{2}
+\]
+
+Wolff's theorem supplies both the assumed six-dimensional estimate and the five-dimensional exponent \(7/2\) used in Section 2. The core has scale exponent \(D=33/8\) and density exponent \(C=15/4\); the inequalities \(C<D<5\) permit the reductions in Sections 6–7.
+
+Section 2 proves the lifted input. Section 3 prepares angular decomposition and a continuous comparison. Section 4 proves the discrete pivot estimate; Sections 5–7 extend it to arbitrary measurable shadings.
+
+A shading has two ends with fixed exponent \(\alpha>0\) and constant \(B\) if
+\[
+ |Y(T)\cap B(x,r)|\le Br^\alpha |Y(T)|,\qquad \delta\le r\le1.
+\tag{3}
+\]
+For discrete shadings, use cell counts. A logarithmic constant means a bound \(B_0L^b\) with fixed \(B_0,b\). All auxiliary exponents are fixed before \(N\) varies; powers denoted \(L^{O(1)}\) depend only on these fixed parameters and can be absorbed in any prescribed positive power of \(N\).
+
+# 2. The lifted estimate by projection to \(\mathbb R^5\)
+
+**Lemma 2.1 (lifted estimate).** Let \(\mathcal L\) be \(M\) direction-separated unit \(\delta\)-tubes in \(\mathbb R^7\) satisfying
+\[
+ \#\{\ell:\operatorname{dir}\ell\in B(v,r)\}
+ \le A(Nr)^4,\qquad \delta\le r\le1,\quad A\ge1.
+\tag{4}
+\]
+Discrete shadings with total incidence count at least \(sNM\), allowing empty shadings, satisfy
+\[
+ E_{\mathcal L}\ge c_eA^{-1}N^{-1/2-e}s^{7/2+e}M
+\tag{5}
+\]
+for every \(e>0\). The constant is independent of \(A,N,s,M\).
+
+**Proof.** First suppose all shading counts are comparable to \(sN>0\). Take a standard Gaussian matrix \(P:\mathbb R^7\to\mathbb R^5\). For fixed large \(K\) and small \(c>0\), the operator-norm tail, the small-ball bound for \(Pv\), and Markov's inequality give positive probability that \(\|P\|\le K\) and at least \(M/2\) directions have \(|Pv|\ge c\).
+
+For two projective directions at angle \(\psi\), write \(v'=\cos\psi\,v+\sin\psi\,w\) with \(w\perp v\). The Gaussian vectors \(Pv,Pw\) are independent. Conditional on \(Pv\), the component of \(Pw\) perpendicular to it is a four-dimensional standard Gaussian. On \(\|P\|\le K\), projected angular distance at most \(C\delta\) forces that perpendicular component to have norm at most \(C_K\delta/\sin\psi\). Thus the collision probability is at most
+\[
+ C_K\min\{1,(\delta/\psi)^4\}.
+\]
+Summing dyadic angular annuli with (4) gives at most \(CAM L\) expected ordered collisions. A sufficiently large Markov cutoff yields one such bounded \(P\) with at least \(M/2\) good directions and at most \(CAM L\) collisions.
+
+The collision graph on the good directions has an independent set of size at least \(cM/(AL)\): a graph with \(V\) vertices and \(e\) edges has an independent set of size at least \(V^2/(V+2e)\). To prove this, order vertices randomly, keep those preceding all their neighbors, and apply Cauchy--Schwarz.
+
+Each original cell projects into \(O_K(1)\) target \(\delta\)-cells, so \(E'\le CE_{\mathcal L}\). On a good tube, a target cell restricts the original longitudinal parameter to an \(O_{c,K}(\delta)\) interval and receives only \(O_{c,K}(1)\) shading cells. The selected projections therefore have comparable density \(s\), bounded lengths above and below, and separated directions. Wolff's \(\mathbb R^5\) maximal theorem gives
+\[
+ E'\ge c_\eta N^{-1/2-\eta}s^{7/2}\frac{M}{AL}.
+\tag{6}
+\]
+Fixed changes in projected length and width cost only constants.
+
+For total density \(s\), discard tubes with density below \(s/2\), losing at most half the mass. One of the \(O(L)\) dyadic classes of positive counts has size \(M_j\) and lower density \(s_j\) with
+\[
+ s_j\ge s/4,\qquad s_jM_j\ge csM/L.
+\]
+Thus \(s_j^{7/2}M_j\ge cs^{7/2}M/L\). Apply (6) to this class. Individual positive densities range from \(1/N\) to a fixed constant, giving \(O(L)\) classes even if \(s<1/N\); densities above one cost only a fixed normalization. Absorb both logarithms with \(\eta<e\) and weaken \(s^{7/2}\) to \(s^{7/2+e}\) to obtain (5). \(\square\)
+
+Only the integer cap exponent four in \(\mathbb R^7\) is needed here.
+
+# 3. Angular decomposition and a continuous estimate
+
+Lemma 3.1 adapts Wang–Zahl's vector selection [3, Lemma 7.8]. Its cap bound prevents incident directions from concentrating in a smaller cap; we call this *broadness*. A *marked incidence* is a selected point–tube or cell–tube incidence, used to impose broadness while retaining the full shading for two ends. Lemma 3.2 applies to the sparse measurable shadings produced by angular rescaling.
+
+**Lemma 3.1 (angular pieces).** Fix \(0<\beta\le1\). A direction-separated shaded family admits a common angular scale \(\tau\in[\delta,1]\), disjoint assigned tube families, and restricted shadings \(Y_j(T)\), such that each piece lies in one \(O(\tau)\)-tube, has directions in one \(O(\tau)\)-cap, retains total incidence mass at least \(cL^{-3}\) of the input, and has union overlap at most \(C\tau^{-\beta}\). At every retained point,
+\[
+ \#\{T:x\in Y_j(T),\ \operatorname{dir}T\in B(v,r)\}
+ \le K(r/\tau)^\beta m_j(x),\qquad \delta\le r\le\tau,
+\tag{7}
+\]
+with fixed \(K\). For discrete input, all choices are constant on old cells.
+
+**Proof.** For a finite incident direction set \(V\), maximize \(r^{-\beta}\#(V_{\rm rem}\cap B(v,r))\) on the remaining directions. Keep this cap's directions and delete its \(100\)-fold enlargement; repeat until half of \(V\) is deleted. Maximality gives broadness within each cap and bounds deleted directions by a fixed multiple of retained directions. Before each step, \(\#V_{\rm rem}\ge\#V/2\), so comparison with a fixed radius-one covering gives at least \(cr^\beta\#V\) retained directions. One dyadic radius class retains \(c/L\) of \(V\) in at most \(C\tau^{-\beta}\) disjoint subsets.
+
+Apply this selection at each point after selecting a multiplicity class, then choose one radius globally. These steps lose at most a factor \(CL^3\) in incidence mass. Assign each pointwise cap to a containing cap in a bounded-overlap covering by \(3\tau\)-caps. Each direction belongs to \(O(1)\) covering caps; assign each tube to the cap retaining most of its shading. Keep only points where the assigned directions retain a sufficiently small fixed fraction of the former subset. Integrating these thresholds bounds the lost mass by a fixed fraction and restores (7) with a fixed larger constant.
+
+For each cap, cover space by width-\(C\tau\) tubes with parallel axes on a \(2\tau\)-lattice, and assign each tube to a containing cover tube. Their pointwise overlap is \(O(1)\); repeat the preceding threshold restriction. Each tube is assigned once and at most \(C\tau^{-\beta}\) pieces meet a point. Selection on finite incidence sets gives measurability and, for discrete input, cellwise constancy. \(\square\)
+
+**Density and marks after selection.** Suppose the input densities are comparable to \(\sigma\), with logarithmic two-ends constant. Let \(I\) be the input mass and \(W\ge cL^{-3}I\) the selected mass. Delete tubes retaining less than \(a=c'L^{-3}\) of their shade. This deletes mass \(D_0\le aI\le W/8\). The remaining densities lie in \([\sigma L^{-O(1)},C\sigma]\), with logarithmic two-ends constant.
+
+Let \(m^*,m\) be the remaining and preceding multiplicities. On \(m^*<m/2\), the remaining mass is at most \(D_0\), since \(m^*\le m-m^*\). Mark its complement: it has mass at least \(W-2D_0\) and satisfies (7) with twice the constant. Retain pieces whose marked mass is at least half their full mass. The rejected marked mass is at most the unmarked mass \(D_0\); hence at least \(5W/8\) marked mass survives with the same overlap bound. Full shadings remain the restrictions in the assigned pieces.
+
+**Lemma 3.2 (continuous two-ends estimate).** For fixed \(\alpha>0\), logarithmic two-ends constant, and comparable density \(\sigma\), arbitrary measurable shadings satisfy
+\[
+ \left|\bigcup_TY(T)\right|
+ \ge cL^{-P}\delta^2\sigma^2(\delta^5M)
+\tag{8}
+\]
+for some finite \(P\) depending only on the fixed parameters. Logarithmic density ratios are permitted.
+
+**Proof.** First assume a marked set of mass \(W_G\ge\frac12\sum_T|Y(T)|\) satisfies (7) with \(\tau=1\), exponent \(\beta\), and constant \(K\). Allow densities in \([\lambda,\Lambda]\). Choose
+\[
+ \theta=(CK)^{-1/\beta},\qquad r_0=(CBL)^{-1/\alpha}.
+\]
+A dyadic multiplicity class \(\mu\) carries mass at least \(cW_G/L\), giving \(V:=|\bigcup Y(T)|\ge cW_G/(L\mu)\). Restrict to this class, keep tubes retaining at least \(1/(CL)\) of their shading, and keep points with at least \(c\mu\) remaining incidences. Averaging gives a tube, the *stem*, with retained volume at least \(c\lambda\delta^5/L\). Broadness makes a fixed fraction of its incidences transverse at angle at least \(\theta\). Each intersecting tube contributes at most \(C\delta^6/\theta\), so there are at least
+\[
+ c\mu\lambda\theta/(\delta L)
+\]
+such tubes, called *bristles*.
+
+Delete a radius-\(r_0\) ball on each bristle about its chosen stem intersection. The refined two-ends constant loses only \(CL\), leaving volume at least \(c\lambda\delta^5/L\) at distance at least \(cr_0\theta\) from the stem. Group bristles by \(\delta\)-separated planes through the stem. At distance \(s\), their \(C\delta\)-neighborhoods overlap at most \(Cs^{-4}\) times. Within a group \(H_j\), a \(\psi\)-cap contains \(O(\psi/\delta)\) directions; summing angular annuli bounds intersection volume per bristle by \(CL\delta^5\). Cauchy--Schwarz gives union volume at least \(c\lambda^2\delta^5\#H_j/L^3\).
+
+Sum with overlap at most \(C(r_0\theta)^{-4}\) and use the bristle count:
+\[
+ V\ge c(r_0\theta)^4\theta\,\mu\lambda^3\delta^4/L^4.
+\]
+Taking the geometric mean with \(V\ge cW_G/(L\mu)\) gives
+\[
+ V\ge c(r_0\theta)^{5/2}L^{-5/2}
+          (W_G\lambda^3\delta^4)^{1/2}.
+\tag{9}
+\]
+Direction packing gives \(M\lesssim\delta^{-5}\), hence \(W_G\lesssim\Lambda\) and
+\[
+ V\ge c(r_0\theta)^{5/2}L^{-5/2}
+       \delta^2\lambda^{3/2}\Lambda^{-1/2}W_G.
+\tag{10}
+\]
+If \(r_0\theta<C\delta\) and \(B,K\) are logarithmic, then \(N\) is bounded by a fixed power of \(L\). Direction packing and \(V\ge W_G/M\) give (10) with a larger logarithmic loss.
+
+For general directions, apply Lemma 3.1 with \(\beta=1/4\) and the density and mark restriction above. Expand transverse coordinates in each piece by \(\tau^{-1}\). The new width and direction separation are \(\delta'=\delta/\tau\); density is comparable, and two ends survives since the inverse map contracts. Marked mass and union volume both acquire determinant \(\tau^{-5}\). Apply (10) and cancel it:
+\[
+ V_j\ge cL^{-P}\delta^2\tau^{-2}\sigma W_{G,j}.
+\]
+Sum using overlap \(C\tau^{-1/4}\), retained marked mass \(cL^{-3}\sigma\delta^5M\), and \(\tau^{1/4-2}\ge1\), to obtain (8). If the new eccentricity is bounded by a fixed power of the original \(L\), use the preceding coarse-scale argument. \(\square\)
+
+# 4. The discrete pivot estimate
+
+**Lemma 4.1 (pivot estimate).** Suppose full discrete shading counts are comparable to \(\lambda N\), obey (3), and have marked incidence mass at least \(\xi\lambda NM\). At each marked cell, every projective cap of radius \(\theta\) contains at most one tenth of the marks. Choose one sufficiently small geometric constant \(c>0\) after the fixed tube and grid normalizations, before \(\alpha\) and the varying data. Using this same \(c\) both outside the minimum and inside \((c/B)^{1/\alpha}\), set
+\[
+ \kappa=c\min\{\theta,1/100,(c/B)^{1/\alpha}\}.
+\]
+For every fixed \(0<e<1\), if \(N\kappa^{20}\) is sufficiently large, then
+\[
+ E^4\ge c_e\kappa^{58}\xi^7L^{-8}
+        N^{33/2-3e}\lambda^{15+2e}S^3.
+\tag{11}
+\]
+Consequently logarithmic \(B,\xi^{-1},\theta^{-1}\) give, for every \(\eta>0\),
+\[
+ E\ge c_\eta N^{33/8-\eta}
+          \lambda^{15/4+\eta}S^{3/4}.
+\tag{12}
+\]
+The exponents in (12) are independent of \(\alpha\).
+
+**Proof. Removing dense balls.** Applying \(\mathsf M_6(4)\) at coarser scales, we prune with
+\[
+ F=C_eN^{2e}EN^{-4}\lambda^{-4}S^{-1}(L/\xi)^5
+\tag{13}
+\]
+to leave at most \(CF(Nr)^4\) occupied centers in every radius-\(r\) ball. To justify the mass loss, call a dyadic \(r\)-cube *heavy* if it originally contains more than \(F(Nr)^4\) occupied cells. If heavy cubes carry at least \(a\lambda NM\) incidences, where \(a=c\xi/L\), then at least \(caM\) tubes each meet at least \(ca\lambda/r\) heavy cubes. Direction coloring at separation \(r\) retains \(caM/(Nr)^5\) tubes. The base estimate forces at least \(c_ea^5\lambda^4Sr^{-4+e}\) heavy cubes, and disjointness gives
+\[
+ E\ge c_eFa^5\lambda^4SN^4r^e,
+\]
+contradicting (13) for large \(C_e\). Removing incidences in the original heavy cubes at all scales costs at most \(\xi\lambda NM/100\). Delete tubes losing half their shade, then marks at cells losing half their original marked multiplicity. The inequality \(m'\le m-m'\) bounds the latter loss. A fixed fraction of marked mass survives, the full two-ends constant at most doubles, and each cap contains at most one fifth of the remaining marks. The original-scale base estimate gives \(F\ge1\).
+
+Let \(\mathcal A\) consist of the ordered transverse triples \((x,T_1,T_2)\) at remaining marked cells. Cauchy--Schwarz gives
+\[
+ \#\mathcal A\ge c\xi^2\lambda^2S^2N^{12}/E.
+\tag{14}
+\]
+Shift both axes by \(O(\delta)\) through \(x\), and project shading centers onto them. Two ends supplies fixed mass fractions of triples with translated coordinates
+\[
+ i=s u_1,\quad y_1=b u_1,\quad y_2=c u_2,\qquad
+ 0<s<b\le4,\quad s,b-s,|c|\ge\kappa,\quad
+ |u_1\wedge u_2|\ge\kappa.
+\tag{15}
+\]
+Choose one half of the first shade, remove the vertex neighborhood, and take its first and last fixed mass fractions. Failure of separation would concentrate a fixed fraction in an \(O(\kappa)\)-ball. Choose the second shade away from the vertex. This gives at least \(c\lambda^3N^3\) triples per angle.
+
+**Fibers and collisions.** Set
+\[
+ u=c(1-s/b),\qquad z=i+u u_2.
+\]
+Then \(z=(s/b)y_1+(1-s/b)y_2\);
+\[
+ |u|,|c-u|\ge c\kappa^2,\quad
+ |z-y_1|,|z-y_2|,\operatorname{dist}(z,\mathbb Ru_1)
+ \ge c\kappa^3.
+\tag{16}
+\]
+Let \(z_0\) be the half-open grid cell containing \(z\), and put \(f=(z_0,e_0)\), where \(e_0\) labels the original cell of \(i\). For each angle \(a\), fix the shifted axes, orientations, and sample subsets. Its *fiber* \(\mathcal P(a,f)\) consists of endpoint pairs \((e_1,e_2)\) yielding \(f\).
+
+Each angle has at most \(C\lambda N^2\) nonempty fibers: \(O(\lambda N)\) choices of \(e_0\) and \(O(N)\) pivot cells along a bounded segment. Fixing \(e_1\) confines \(c\) to an \(O(\delta/\kappa)\) interval, so each fiber contains at most \(C\kappa^{-1}N\) pairs. Delete fibers smaller than \(c_0\lambda^2N\), losing at most half the triples per angle. A dyadic size class \([h,2h)\) carries \(c/L\) of the remaining triples. With \(\sigma=h/N\) and \(\Omega\) its pairs \((a,f)\),
+\[
+ \sigma\ge c\lambda^2,\qquad
+ \#\Omega\ge c\lambda^3\sigma^{-1}N^2\#\mathcal A/L.
+\tag{17}
+\]
+
+At fixed \(f\), every second direction lies within \(C\delta\kappa^{-2}\) of \(z_0-\bar e_0\), allowing at most \(C\kappa^{-10}\) second tubes. Retain the most frequent tube by deleting whole pairs \((a,f)\), and let \(m(f)\) be the remaining multiplicity. At least \(c\kappa^{10}\#\Omega\) pairs remain.
+
+An angle sharing \(f\) with \(a\) now shares its second tube. Its first axis passes within \(O(\delta)\) of \(e_0\), and its vertex lies within \(O(\delta)\) of the common second axis; its first direction is therefore within \(C\delta/\kappa\) of the plane of \(a\). In the shell \(\phi\le\angle(T_1,T'_1)\le2\phi\), direction separation allows \(C\kappa^{-4}N\phi\) first tubes. Each allows \(C/\phi\) shared \(e_0\) labels, \(CN\) pivot cells per label, and \(C/\kappa\) vertices. Include angles below \(\delta\) in the shell \(\phi=\delta\). Summation gives
+\[
+ \sum_fm(f)^2\le C\kappa^{-5}N^2L\#\mathcal A.
+\]
+Hence the number \(Q\) of surviving outputs satisfies
+\[
+ Q\ge c\kappa^{25}\lambda^6\sigma^{-2}N^2
+             \#\mathcal A\,L^{-3}.
+\tag{18}
+\]
+For each output, select one remaining angle \(a(f)\) and exactly \(h\) pairs from its intact fiber.
+
+**Lift to \(\mathbb R^7\).** For each output, choose a selected pair and its pivot parameter \(u_f\). All selected pairs have \(|u-u_f|\le C\delta\). Define
+\[
+ \ell_f(t)=(x+t u_f u_2,t).
+\]
+A pair with second endpoint \(x+c u_2\) gives the exact point \(\ell_f(c/u_f)\), where \(1+c\kappa\le c/u_f\le C/\kappa\) by (15) and \(\delta\ll\kappa^{20}\). Pairs in one lifted cell have \(c\)'s in an \(O(\delta)\) interval. By \(b=cs/(c-u)\) and (16), their \(b\)'s lie in an \(O(\kappa^{-4}\delta)\) interval. Thus a cell receives at most \(C\kappa^{-4}\) pairs.
+
+Each output therefore gives at least \(c\kappa^4h\) lifted cells in at most \(C/\kappa\) unit vertical slabs. In a fullest slab retain exactly
+\[
+ K=\max\{1,\lfloor c_1\kappa^6h\rfloor\},\qquad
+ \rho=K/N\ge c\kappa^6\sigma
+\tag{19}
+\]
+cells. Assign each one an original pair. Counting line–cell incidences gives exactly \(I_0=KQ=\rho NQ\).
+
+For fixed \(z_0\), slopes are uniformly bounded and equal \(z_0-\bar e_0+O(\delta)\). A radius-\(r\) direction cap confines \(e_0\) to an \(O(r)\)-ball, giving count \(CF(Nr)^4\). A \(C\delta\)-cap contains \(O(1)\) grid labels \(e_0\); bounded-degree coloring partitions all outputs into a fixed number of direction-separated families.
+
+Group by \(g=(z_0,j_f)\), with \(j_f\) the chosen slab and \(M_g\) the line count; thus \(\sum_gM_g=Q\). Translate slabs to \([0,1]\). Horizontal points remain near bounded original endpoints and slopes are bounded, so the geometric constants are independent of the slab index. Boundary cells lie within \(C\delta\) of the unit segment.
+
+**Pruning by multiplicity.** Lemma 2.1 applies with coefficient \(CF\) within each group and color, also after restricting to high-multiplicity cells. Let \(m_g(v)\) count all colors. Delete incidences where
+\[
+ m_g(v)>H,\qquad
+ H=C_eF\rho^{-5/2-e}N^{3/2+e}.
+\tag{20}
+\]
+Let \(I_{g,c}\) count the deleted incidences, \(s_{g,c}=I_{g,c}/(NM_{g,c})\), and \(I_{\rm high}=\sum I_{g,c}\). Lemma 2.1 and weighted convexity give
+\[
+ \sum_{g,c}\#U_{g,c}\ge
+ c_eF^{-1}N^{-1/2-e}Q
+       \left(\frac{I_{\rm high}}{NQ}\right)^{7/2+e}.
+\]
+This sum is also at most \(J_0I_{\rm high}/H\le J_0I_0/H\), with \(J_0\) the fixed color count. For large \(C_e\), (20) rules out \(I_{\rm high}\ge I_0/2\). The remaining mass \(I\ge I_0/2\) has energy \(\sum_{g,v}m_g(v)^2\le HI\).
+
+**Energy from endpoints.** Each remaining incidence has an assigned triple \((e_1,e_2,z_0)\). There are at most \(CNE^2\) triples: the pair's pivot lies within \(C\delta\) of the segment between its original endpoint centers. For \(t=c/u_f\),
+\[
+ tz-y_2-(t-1)y_1
+ =(u-u_f)(-b u_1/u_f+t u_2).
+\]
+After replacing points by cell centers,
+\[
+ \bar e_2-\bar e_1=t(z_0-\bar e_1)+O(\kappa^{-2}\delta).
+\tag{21}
+\]
+Since \(|z_0-\bar e_1|\ge c\kappa^3\), a triple restricts \(t\) to an interval of length \(C\kappa^{-5}\delta\). The horizontal coordinate lies within \(C\delta\) of \(\bar e_2\), allowing at most \(C\kappa^{-6}\) lifted cells. Each cell center determines the slab index.
+
+The energy has at most \(C\kappa^{-6}NE^2\) targets \((g,v)\). Cauchy--Schwarz gives
+\[
+ HI\ge\operatorname{Energy}
+ \ge c\kappa^6I^2/(NE^2).
+\]
+Using \(I\ge c\rho NQ\) and (20),
+\[
+ E^2\ge c_e\kappa^6F^{-1}
+                \rho^{7/2+e}N^{-3/2-e}Q.
+\tag{22}
+\]
+Insert (18)--(19). The remaining fiber factor is
+\[
+ \lambda^6\sigma^{3/2+e}
+ \ge c\lambda^{9+2e}.
+\]
+Together with \(\lambda^2\) from (14) and \(\lambda^4\) from \(F^{-1}\), this gives \(\lambda^{15+2e}\). The scale power is \(33/2-3e\), the mass factor \(\xi^7S^3L^{-8}\), and the remaining factor \(\kappa^{52+6e}\ge\kappa^{58}\). Moving both inverse factors of \(E\) to the left proves (11).
+
+For fixed \(\alpha\), logarithmic bounds on the input parameters give \(\kappa^{-1}=L^{O(1)}\). Take fourth roots and absorb logarithms to obtain (12). One nonempty shade handles the bounded range where \(N\kappa^{20}\) is small. \(\square\)
+
+# 5. Sampling after rescaling
+
+**Lemma 5.1 (sampling).** At scale \(h=1/R\) in \(\mathbb R^6\), let separated tubes have measurable full shadings \(F_T\) of comparable density \(\lambda>R^{-1/4}\), two ends with fixed \(0<\alpha\le1/4\) and logarithmic constant, and marks \(G_T\subset F_T\) of total normalized mass
+\[
+ W_g=h^{-6}\sum_T|G_T|\ge \xi\lambda RM.
+\]
+Assume \(\xi^{-1}\) is logarithmic and marked directions satisfy
+\[
+ \sum_{\operatorname{dir}T\in B(v,r)}1_{G_T}(x)
+ \le Kr^\beta\sum_T1_{G_T}(x),\qquad h\le r\le1,
+\tag{23}
+\]
+with logarithmic \(K\) and fixed \(\beta>0\). Let \(\mathcal Q\) be the cells meeting \(\bigcup_TF_T\) in positive volume. Either
+\[
+ \#\mathcal Q\ge cW_g/\log(2R),
+\tag{24}
+\]
+or sampling gives full discrete shadings on the same tubes, supported in \(\mathcal Q\), with comparable density \(\lambda\), logarithmic two-ends constant, and at least \(cW_g\) marked incidences satisfying Lemma 4.1's one-tenth condition at an inverse logarithmic cap radius.
+
+**Proof.** Put
+\[
+ p_{TQ}=h^{-6}|F_T\cap Q|,\quad
+ p^g_{TQ}=h^{-6}|G_T\cap Q|,\quad
+ \mu_g(Q)=\sum_Tp^g_{TQ}.
+\]
+Here \(0\le p^g_{TQ}\le p_{TQ}\le1\). If cells with \(\mu_g(Q)<a_0\log(2R)\) carry half the marked mass, their count gives (24).
+
+Otherwise take independent uniform variables \(U_{TQ}\). Select a full incidence when \(U_{TQ}\le p_{TQ}\), and a mark when \(U_{TQ}\le p^g_{TQ}\) and \(\mu_g(Q)\ge a_0\log(2R)\). Each tube's full count has mean comparable to \(\lambda R\ge R^{3/4}\); Chernoff bounds failure of comparable density by \(2\exp(-cR^{3/4})\).
+
+Test two ends on \(h\)-lattice centers and dyadic radii \(r\ge h\). Cells centered in a test ball lie in its \(O(h)\)-enlargement, so their expected count is at most \(CB r^\alpha\lambda R\). At four times this bound, exponential Markov gives failure probability at most \(\exp(-cB r^\alpha\lambda R)\), with threshold at least \(cR^{1/2}\). The \(O(R^{11}\log R)\) tests and all density failures have total probability tending to zero. Fixed ball enlargements cover every radius \(r\ge h\).
+
+Integrate (23) over each cell. Choose
+\[
+ \theta=\min\{1/100,\tfrac12(1000K)^{-1/\beta}\}.
+\]
+Cover radius-\(\theta\) caps by radius-\(2\theta\) net caps, each with expected marked count at most \(\mu_g(Q)/1000\). At a high cell, Chernoff bounds failure of total count \(\ge\mu_g(Q)/2\), or net cap count \(\le\mu_g(Q)/20\), by \(2e^{-c\mu_g(Q)}\). There are \(O(R^6)\) cells and logarithmically many net caps; fixed large \(a_0\) makes total failure probability less than \(1/4\). For large \(R\), \(2\theta\ge h\), as required by (23).
+
+A union bound gives a realization with marked mass at least \(W_g/4\), half the high expected mass, and at most one tenth of the marks in each cap. Selected centers lie within \(Ch\) of their tubes, with bounded longitudinal multiplicity. Directions are unchanged, and the union count is at most \(\#\mathcal Q\). \(\square\)
+
+# 6. Removing angular concentration
+
+**Lemma 6.1 (two-ends estimate).** Fix \(\alpha>0\), \(B_0,b\), and \(\eta>0\). Discrete shadings of comparable density \(\lambda\), with two-ends constant \(B\le B_0L^b\) and no angular broadness assumption, satisfy
+\[
+ E\ge c_\eta N^{D-\eta}\lambda^CS,\qquad
+ D=33/8,\quad C=15/4.
+\tag{25}
+\]
+The constant may depend on \(\alpha,B_0,b,\eta\) and the density comparability constants, but not on \(N,\lambda,M\).
+
+**Proof.** Replace \(\alpha\) by \(\min\{\alpha,1/4\}\). Apply Lemma 3.1 with \(\beta=1/4\) and the density and mark restriction of Section 3. One of the \(O(L)\) dyadic tube-density classes retains at least \(\lambda NM L^{-A}\) marked incidences, with density \(\lambda_1\) satisfying
+\[
+ \lambda L^{-A}\le\lambda_1\le C_0\lambda.
+\tag{26}
+\]
+Delete marks where this class retains less than \(L^{-A'}\) of the preceding marked multiplicity. Integrating the threshold bounds the loss by one quarter of selected marked mass for fixed large \(A'\); broadness has logarithmic constant. Retain pieces with marked fraction at least \(L^{-A''}\), choosing \(A''\) to lose at most another quarter. Thus
+\[
+ \sum_jM_j\ge ML^{-A}
+\tag{27}
+\]
+after enlarging \(A\). Each piece has full density comparable to \(\lambda_1\), logarithmic two-ends and marked broadness constants, and inverse logarithmic marked fraction.
+
+Let \(\mathcal E_j\) be the original \(\delta\)-cells occupied by piece \(j\)'s restricted full shadings, and set \(E_j=\#\mathcal E_j\). Lemma 3.1 gives
+\[
+ \sum_jE_j\le C\tau^{-1/4}E.
+\tag{28}
+\]
+
+Translate the containing \(O(\tau)\)-tube to the origin and expand transverse coordinates by \(\tau^{-1}\). Set \(R=N\tau\), \(h=R^{-1}\), and \(S'=M_j/R^5\lesssim1\). Slopes in a projective chart multiply by \(\tau^{-1}\), giving direction separation \(h\). Full and marked mass share a determinant; two ends survives since the inverse map contracts.
+
+Write \(\Phi_j\) for this map and \(\widetilde F_j(T)\) for the image of \(T\)'s full-cell shading. Set
+\[
+ \mathcal Q_j=\bigl\{Q:\ Q\text{ is an }h\text{-grid cell and }
+ |Q\cap\textstyle\bigcup_T\widetilde F_j(T)|>0\bigr\}.
+\]
+Each \(\Phi_j(Q_0)\), \(Q_0\in\mathcal E_j\), has diameter \(O(h)\) and meets only \(O(1)\) new cells in positive volume. Hence
+\[
+ \#\mathcal Q_j\le CE_j.
+\tag{29}
+\]
+In contrast, the transformed union's volume divided by \(h^6\) is comparable to \(\tau E_j\): the determinant is \(\tau^{-5}\) and \(h^6=\delta^6\tau^{-6}\).
+
+For \(R\le N^{1/12}\), one original tube gives \(E_j\gtrsim\lambda_1N\ge cR^D\lambda_1^CS'\), since \(D<6\), \(C>1\), and \(S'\lesssim1\). Assume henceforth \(R>N^{1/12}\), so logarithms in \(N\) and \(R\) are comparable.
+
+If \(\lambda_1\le R^{-1/4}\), Lemma 3.2 and the volume conversion give
+\[
+ E_j\ge cL^{-A}\tau^{-1}R^4\lambda_1^2S'.
+\]
+Its ratio to \(R^D\lambda_1^CS'\) is at least
+\[
+ cL^{-A}\tau^{-1}R^{4-D+(C-2)/4}
+ =cL^{-A}\tau^{-1}R^{5/16}.
+\]
+The positive power absorbs logarithms.
+
+For \(\lambda_1>R^{-1/4}\), apply Lemma 5.1. In its counting branch, (29) gives
+\[
+ E_j\ge cL^{-A}\lambda_1RM_j.
+\]
+The ratio to \(R^D\lambda_1^CS'\) contains \(R^{6-D}\lambda_1^{1-C}\), which absorbs logarithms.
+
+Otherwise let \(F_j^{\rm s}(T)\subset\mathcal Q_j\) be the sampled discrete full shading, and set
+\[
+ E_j^{\rm s}=\#\bigcup_T F_j^{\rm s}(T).
+\]
+Lemma 4.1 applies to these shadings and marks. Since \(S'\lesssim1\), for arbitrarily small \(e>0\),
+\[
+ E_j^{\rm s}\ge c_eR^{D-e}\lambda_1^{C+e}(S')^{3/4}
+ \ge c'_eR^{D-e}\lambda_1^{C+e}S'.
+\]
+Every selected cell belongs to \(\mathcal Q_j\), so
+\[
+ E_j^{\rm s}\le\#\mathcal Q_j\le CE_j.
+\]
+Thus the estimate transfers to \(E_j\). Since \(\lambda_1^e>R^{-e/4}\), every branch gives
+\[
+ E_j\ge c_\eta R^{D-\eta}\lambda_1^CS'
+\tag{30}
+\]
+with any prescribed scale loss. One original tube handles bounded scales.
+
+Sum original cell counts using (28):
+\[
+ \begin{aligned}
+ E&\ge c_\eta\tau^{1/4}\sum_j
+       (N\tau)^{D-\eta}\lambda_1^C
+              \frac{M_j}{(N\tau)^5}\\
+ &\ge c_\eta N^{D-\eta}\lambda_1^C
+       \tau^{-5/8-\eta}\sum_j\frac{M_j}{N^5}.
+ \end{aligned}
+\]
+The \(\tau\)-factor is at least one. Equations (26)--(27) and logarithmic absorption prove (25).
+
+The sampled estimate uses (29), whereas the continuous estimate uses the volume factor \(\tau^{-1}\). The former suffices because \(D<5\). \(\square\)
+
+# 7. Localization and measurable shadings
+
+**Lemma 7.1 (two-ends localization).** Fix \(0<\alpha<1/2\). Shadings of comparable discrete density \(\lambda\) admit a subfamily of at least \(cM/L^2\) tubes, a common dyadic radius \(\rho\), and localized restrictions of comparable original density \(\nu\), with
+\[
+ \nu\gtrsim\rho^\alpha\lambda,\qquad \nu\lesssim\rho.
+\tag{31}
+\]
+Each restriction lies in a \(\rho\)-ball and has two ends relative to that radius with fixed constant.
+
+**Proof.** Choose the smallest dyadic \(r_T\ge\delta\) such that a ball contains at least \(r_T^\alpha\) of the tube's original shading; a fixed top-scale enlargement guarantees existence. Restrict to that ball. Minimality bounds mass at smaller radii by \(C(r/r_T)^\alpha\) times its total; larger radii are immediate. Geometry bounds its original density by \(Cr_T\). Select a common radius and density from \(O(L)\) classes each. One of the boundedly many \(\rho\)-grid cubes meeting the ball retains a fixed fraction and preserves relative two ends. \(\square\)
+
+**Proof of Theorem 1.1 for discrete shadings.** If \(\lambda\lesssim\delta\), one shade already dominates the target (2), since \(S\lesssim1\) and
+\[
+ \frac{\lambda\delta^5}{\delta^{6-D}\lambda^D}
+ =(\delta/\lambda)^{D-1}.
+\]
+Otherwise trim to comparable counts and apply Lemma 7.1, choosing \(\alpha>0\) after prescribing the final error. Align dyadic grids so each \(\rho\)-cube is a union of original cells. Assign each tube to a cube retaining a fixed fraction of its localized shade. The resulting spatial groups have disjoint shade unions.
+
+In each group, the direction-conflict graph at separation \(C\delta/\rho\) has degree \(O(\rho^{-5})\). A largest color retains at least \(c\rho^5\) of the tubes. Scale by \((H\rho)^{-1}\), with fixed large \(H\), and extend the segments to unit tubes. The new grid mesh is exactly \(\delta/(H\rho)\), and density is comparable to \(\nu/\rho\). Relative two ends gives unit two ends on small rescaled balls; larger balls require only a fixed constant.
+
+Apply Lemma 6.1 and undo the scaling and direction thinning. With \(S_Q\) the original group's tube mass,
+\[
+ V_Q\ge c(\delta/\rho)^e\delta^{6-D}
+             \nu^C\rho^{D-C}S_Q.
+\tag{32}
+\]
+The retained fraction \(\rho^5\) cancels the inverse factor in the rescaled tube mass.
+
+Here \(C=15/4<D=33/8\) and \(\rho\gtrsim\nu\), so \(\nu^C\rho^{D-C}\gtrsim\nu^D\). Also \((\delta/\rho)^e\ge\delta^e\) and \(\nu\gtrsim\delta^\alpha\lambda\). Summing disjoint groups yields
+\[
+ V\ge c\delta^{6-D+e+\alpha D}\lambda^DS/L^2.
+\]
+Given \(\varepsilon>0\), fix \(\alpha,e\) with \(\alpha D+e<\varepsilon/2\), then absorb the fixed logarithmic losses. The exponents \(D,C\) are independent of \(\alpha\); constants may depend on its chosen value. This proves (2) for discrete shadings.
+
+**Measurable shadings.** Put \(U=\bigcup_TY(T)\) and \(w_Q=|U\cap Q|/\delta^6\). Again \(\lambda\lesssim\delta\) is elementary. Since a tube meets \(O(N)\) cells, those with \(w_Q<c\lambda\) contain at most half of any shade. Divide the rest into \(O(L)\) dyadic classes \(w\le w_Q<2w\). Assign each tube to a class retaining at least \(c\lambda|T|/L\) of its shade, then keep a common class with tube mass at least \(cS/L\).
+
+Each retained tube has discrete density at least \(c\lambda/(wL)\): a cell contains at most \(2w\delta^6\) original shade. The full-cell union \(U_w\) satisfies \(|U|\ge w|U_w|\). Apply the discrete estimate with half the permitted error:
+\[
+ \begin{aligned}
+ |U|&\ge c_\varepsilon w\delta^{6-D+\varepsilon/2}
+             \left(\frac{\lambda}{wL}\right)^D\frac SL\\
+ &=c_\varepsilon\delta^{6-D+\varepsilon/2}\lambda^DS
+                   \frac{w^{1-D}}{L^{D+1}}\\
+ &\ge c_\varepsilon\delta^{6-D+\varepsilon}\lambda^DS.
+ \end{aligned}
+\]
+The last step uses \(w\le1\) and \(D>1\). The discrete estimate is unrestricted, so this decomposition need not preserve two ends. This proves Theorem 1.1. \(\square\)
+
+# References
+
+1. T. H. Wolff, *An improved bound for Kakeya type maximal functions*, Revista Matemática Iberoamericana **11** (1995), 651–674, [DOI 10.4171/RMI/188](https://ems.press/content/serial-article-files/37888). Theorem 1 supplies the \(\mathbb R^5\) exponent \(7/2\) used in Lemma 2.1; its six-dimensional specialization supplies the assumed exponent \(4\).
+2. N. H. Katz and T. Tao, *New bounds for Kakeya problems*, Journal d'Analyse Mathématique **87** (2002), 231–263; [arXiv:math/0102135](https://arxiv.org/pdf/math/0102135). Section 6 supplies the pivot, collision, lift, and energy argument underlying Section 4.
+
+3. H. Wang and J. Zahl, *Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions*, [arXiv:2502.17655v1](https://arxiv.org/pdf/2502.17655v1), Lemma 7.8. The pointwise vector selection is adapted in Lemma 3.1 above.
+

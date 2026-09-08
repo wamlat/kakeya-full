@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-07T03:39:18.191836+00:00",
+  "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "theorem_count": 1,
+  "audited_theorem_count": 1,
+  "modules": [
+    {
+      "module": "Fixture",
+      "theorem_count": 1,
+      "source_declarations": [
+        "checked"
+      ],
+      "audited_theorem_count": 1,
+      "audited_theorems": [
+        "Fixture.checked"
+      ],
+      "source_sha256": "b813a0e767def081caefdffa5a2fa7b97ebb444c83434e075152428937ef51a5",
+      "compiler_exit_code": 0,
+      "axioms": [],
+      "command": [
+        "/Users/ssoh/.elan/bin/lake",
+        "env",
+        "lean",
+        "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/strict_accepts_standard/scratch/Fixture_AxiomAudit.lean"
+      ],
+      "declared_external_axioms": [],
+      "theorem_dependencies": {
+        "Fixture.checked": []
+      },
+      "theorems_using_external_axioms": {},
+      "audited_declaration_count": 1,
+      "declaration_dependencies": {
+        "Fixture.checked": []
+      },
+      "declarations_using_external_axioms": {}
+    }
+  ],
+  "audited_declaration_count": 1,
+  "trust_mode": "standard_foundations_only",
+  "external_axioms": [],
+  "theorems_using_external_axioms": 0,
+  "declarations_using_external_axioms": 0,
+  "exact_named_checks": 0,
+  "scope": "All local declarations in every delivered module, including definitions, proof-bearing data and generated declarations, were audited for logical dependencies. This verifies the delivered formal statements and their recorded assumptions; correspondence with the manuscript and coverage of its results require the separate source completion audit."
+}

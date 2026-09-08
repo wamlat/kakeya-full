@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.ActualCollisionSelection.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ActualLabelSelection.Selection.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]

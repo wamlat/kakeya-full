@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.SourceMarkedPivotInputs.source_union AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceMarkedPivotInputs.source_fourth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceMarkedPivotInputs.source_notation AXIOMS [propext, Classical.choice, Quot.sound]

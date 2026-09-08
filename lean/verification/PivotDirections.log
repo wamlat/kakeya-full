@@ -1,0 +1,63 @@
+'KakeyaFormal.PivotDirections.distinct_fiber_second_direction_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.PivotDirections.two_cell_cap_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.common_two_point_direction_count AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_cap_multiplicity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.observed_distance_axis_gap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_cap_multiplicity._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_cap_multiplicity._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_cap_multiplicity._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_cap_multiplicity._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.distant_two_point_direction_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_point_axis_displacement AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.projective_direction_of_displacement_any AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_neg_smul._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_neg_smul._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_neg_smul._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_neg_smul._simp_1_7 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.pivot_output_direction_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_pos_smul AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_perturbation._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_point_observation_separated._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_perturbation._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_incidence_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.observed_distance_axis_gap._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_cap_multiplicity._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_neg_smul._simp_1_8 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_point_observation_separated AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_perturbation._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_neg_smul AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.distinct_fiber_second_direction_count AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_point_direction_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_unit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_cap_multiplicity._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_neg_smul._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_neg_smul._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_perturbation._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_perturbation._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_perturbation._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_perturbation._simp_1_6 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.unitize_perturbation AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.two_cell_cap_multiplicity._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotDirections.projective_direction_of_displacement AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotDirections.unitize AXIOMS [propext, Classical.choice, Quot.sound]

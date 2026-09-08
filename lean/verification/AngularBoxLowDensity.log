@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.AngularBoxLowDensity.spatialConstant_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxLowDensity.box_broad_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxLowDensity.construct AXIOMS [propext, Classical.choice, Quot.sound]

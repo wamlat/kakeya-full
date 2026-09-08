@@ -1,0 +1,28 @@
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radius_to_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.choose_alpha._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.choose_alpha._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.choose_alpha._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.choose_alpha._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radius_to_density._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radius_to_density._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radius_to_density._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radius_to_density._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.localized_density_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radiusPower_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radius_to_density._simp_1_5 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SeedGlobalizationAlgebra.densityPower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.choose_alpha AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.choose_alpha._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.choose_alpha._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.choose_alpha._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radius_to_density._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.densityPower_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radiusPower._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SeedGlobalizationAlgebra.radius_to_density._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SeedGlobalizationAlgebra.radiusPower AXIOMS [propext, Classical.choice, Quot.sound]

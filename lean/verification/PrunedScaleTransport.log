@@ -1,0 +1,19 @@
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.all_radius_transport AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.all_radius_transport._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.same_label_center_distance AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.all_radius_transport._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.all_radius_transport._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.cellCenter.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.Rescaling.shiftLabel.eq_1 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.pruned_normalized_ball_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.same_label_ball_cells AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.all_radius_transport._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.all_radius_transport._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.all_radius_transport._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedScaleTransport.all_radius_transport._simp_1_2 AXIOMS [propext]

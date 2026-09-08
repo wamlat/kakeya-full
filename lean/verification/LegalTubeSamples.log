@@ -1,0 +1,7 @@
+AUDIT_THEOREM KakeyaFormal.LegalTubeSamples.coordinate_difference_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalTubeSamples.shifted_tube_projection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalTubeSamples.coordinate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalTubeSamples.coordinate._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalTubeSamples.coordinate.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalTubeSamples.projection_distance_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalTubeSamples.legal_triples_from_tubes AXIOMS [propext, Classical.choice, Quot.sound]

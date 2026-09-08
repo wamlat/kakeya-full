@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "LebesgueDensityPruning",
+      "status": "PASS",
+      "sha256": "bb2474418b4adc435bc08e504ecd982ac2221b5a804e05bc7f7a004cb6e93010",
+      "named_theorems": 11,
+      "theorem_declarations": 11,
+      "all_declarations": 11,
+      "custom_axioms": []
+    }
+  ]
+}

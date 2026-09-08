@@ -1,0 +1,28 @@
+AUDIT_DECLARATION KakeyaFormal.AnisotropicVolume.stretchEquiv AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.stretch_determinant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.normalizeBox_image_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.translation_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicVolume.boxHomeomorph AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.stretchLinearMap_diagonal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.normalizeBox_union_realVolume AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.normalizeBox_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.boxHomeomorph._proof_5 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.boxHomeomorph._proof_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.boxHomeomorph._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicVolume.stretchLinearMap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.boxHomeomorph._proof_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.frame_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.stretchLinearMap.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.normalizeBox_image AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.translation_volume._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.boxHomeomorph._proof_4 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.boxHomeomorph._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.stretch_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.normalizeBox_realVolume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.boxHomeomorph_apply AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.boxHomeomorph._proof_6 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicVolume.normalizeBox_volume_finite AXIOMS [propext, Classical.choice, Quot.sound]

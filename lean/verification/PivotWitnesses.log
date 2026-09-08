@@ -1,0 +1,261 @@
+'KakeyaFormal.PivotWitnesses.AttachedSample.toWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotWitnesses.finite_sample_support_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotWitnesses.finite_sample_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotWitnesses.rounded_sample_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.attachRounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.angle AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Angle.second_unit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_9 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.rounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_energy AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.firstLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.grid_round_bound._simp_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_8 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.endpoint_distance AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.coefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.mk._flat_ctor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.mk._flat_ctor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.coefficient.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.liftRound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_11 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.second_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Angle.transverse_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair._sizeOf_inst AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.toWitness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.noConfusionType AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber._sizeOf_inst AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.second_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.pivot_separation AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.RoundedSampleInput.same_pivot AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.mk.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_12 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.imageWitness._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.horizontal_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.label AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.scalar_floor_round_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.reference AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_support_count._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Fiber.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.coefficient_perturbation._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_support_count._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_support_count._simp_1_4 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.secondCoord AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.first_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_support_count._simp_1_7 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.endpoints AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.grid_round_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Angle.intermediate_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.mk.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.second_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.noConfusionType AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.reference AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Fiber.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.endpoint_distance._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput._sizeOf_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.second AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Fiber.rounded._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.mk._flat_ctor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_5 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.pivot_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.secondLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.second_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.vertex AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.first_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.firstPoint.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.endpoints AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.residual AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.liftLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.endpoint_label_distance AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.incidenceWeight.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.attachRounded._proof_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.attachRounded._proof_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Fiber.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.RoundedSampleInput.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.lift_round_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.rounded_sample_support_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_7 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.angle AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.coefficient_perturbation AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.mk._flat_ctor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_support_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Angle.first_unit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.imageWitness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_support_count._simp_1_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.pivot_between AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.lift_range AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints._sizeOf_inst AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Fiber.reference_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.first_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.imageWitness._proof_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.fiber AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.secondLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.imageWitness._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.mk.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.mk.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.RoundedSampleInput.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.attach AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.scale_gives_rounding_separation AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_support_count._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.vertical_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.attachRounded._proof_5 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.incidenceWeight_total AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.RoundedSampleInput.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.finite_sample_support_count._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Angle.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.attachRounded._proof_4 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.ShadedPair.attachRounded._proof_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.incidenceWeight AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.rounded_sample_energy AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_4 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.pivot AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.secondPoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.firstLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.gridRound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.RoundedSampleInput.pair AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.firstCoord AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.intermediateLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.gap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Angle.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.noConfusionType AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Fiber.rounded._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.first AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle._sizeOf_inst AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Fiber.pivotLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.pivot.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.ShadedPair.noConfusionType AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Angle.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Endpoints.coefficient_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.Fiber.intermediate_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample._sizeOf_inst AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Endpoints.firstPoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.AttachedSample._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotWitnesses.Angle.intermediate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotWitnesses.AttachedSample.toWitness._proof_10 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

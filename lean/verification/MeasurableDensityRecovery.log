@@ -1,0 +1,46 @@
+'KakeyaFormal.MeasurableDensityRecovery.recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selected_broad AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selected_mass_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.good_card_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.marked_subset_selected AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.marked_mass_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.multiplicity_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.marked_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityRecovery.selectedFamily AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selectedFamily_separated AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.discarded_mass_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selectedIndex_injective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.marked_finite AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.full_selected_ratio AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selectedIndex_mem AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.good._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selected_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityRecovery.good AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityRecovery.instDecidable_measurableDensityRecovery_AxiomAudit AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.marked_subset_reference AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selected_mass_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selected_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityRecovery.marked AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.marked._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.recover AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityRecovery.selected AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityRecovery.selectedIndex AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.marked_population_ratio AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selectedFamily_cap_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.selected_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.discarded_pointwise AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityRecovery.good_mass_and_count AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+{
+  "utc": "2026-09-07T04:10:53.832995+00:00",
+  "method": "APFS cloned verified local build cache",
+  "source_modules": 406,
+  "all_source_hashes_unchanged": true,
+  "source_summary_sha256": "b312653ae9b26a5dbfb3753dcc4d743545c61be256940c3e2121a7b5a75cc8af",
+  "scope": "Reuse of already verified unchanged406 local build artifacts. Final Lake build validates the enlarged snapshot; every source is independently recompiled for the complete logical-dependency audit."
+}

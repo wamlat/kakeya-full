@@ -1,0 +1,1 @@
+AUDIT_THEOREM KakeyaFormal.LowerDensityEstimate.lower_density AXIOMS [propext, Classical.choice, Quot.sound]

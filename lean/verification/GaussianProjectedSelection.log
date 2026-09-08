@@ -1,0 +1,8 @@
+AUDIT_DECLARATION KakeyaFormal.GaussianProjectedSelection.retainedConstant AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectedSelection.retainedConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectedSelection.exists_projection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectedSelection.retainedConstant_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

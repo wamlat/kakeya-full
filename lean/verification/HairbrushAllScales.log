@@ -1,0 +1,8 @@
+'KakeyaFormal.HairbrushAllScales.all_scale_real_cap_hairbrush' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushAllScales.allScaleConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushAllScales.all_scale_real_cap_hairbrush AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushAllScales.allScaleConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]

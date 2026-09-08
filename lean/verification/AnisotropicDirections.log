@@ -1,0 +1,61 @@
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_positive_scale._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_projective_inverse_coarse AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.frame_projective._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.graphSlope_cons AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_slope_bound._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.angular_head_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.compress_sub AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.compress_smul._simp_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.compress_smul AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_slope_bound._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_slope_bound._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_slope_bound._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_slope_bound._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_compress_transformed AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.projective_unitize AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.compress_add AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.graphSlope.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.compress_projective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.frame_projective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_positive_scale._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_positive_scale._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_positive_scale._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_positive_scale._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_projective_inverse_small AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.graphSlope_representative AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicDirections.graphSlope AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_positive_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.graphSlope_recover AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.compress_transformed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_projective_inverse AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.norm_compress_transformed AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.frame_projective._simp_1_2 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_slope_bound._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.graphSlope_stretch AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_direction_separation AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_slope_bound._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_positive_scale._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_positive_scale._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.transformed_slope_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.graphSlope_projective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicDirections.unitize_neg AXIOMS [propext, Classical.choice, Quot.sound]

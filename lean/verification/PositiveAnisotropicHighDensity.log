@@ -1,0 +1,9 @@
+AUDIT_THEOREM KakeyaFormal.PositiveAnisotropicHighDensity.original_parameters AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveAnisotropicHighDensity.original_log_parameters AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveAnisotropicHighDensity.upper_log_transport AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

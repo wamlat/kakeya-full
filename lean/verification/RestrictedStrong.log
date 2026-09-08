@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.RestrictedStrong.from_estimate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedStrong.gamma AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedStrong.coefficient_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedStrong.coefficient_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedStrong.gamma._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedStrong.gamma_tests AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedStrong.from_restricted_weak AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedStrong.coefficient AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.GaussianProjectionSeed.original_rows AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectionSeed.targetGeometry._proof_5 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectionSeed.targetGeometry._proof_4 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectionSeed.targetGeometry._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.GaussianProjectionSeed.targetGeometry AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectionSeed.targetGeometry._proof_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectionSeed.targetGeometry._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianProjectionSeed.targetGeometry._proof_6 AXIOMS [propext, Classical.choice, Quot.sound]

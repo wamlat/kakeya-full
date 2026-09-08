@@ -1,0 +1,27 @@
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_upper._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotSelectionBudgets.fiberLogCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.labelConstant_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.pivotLog_mul_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.labelConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_upper._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiber_log_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_upper._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_upper._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_upper._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberCoefficient_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSelectionBudgets.labelConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSelectionBudgets.fiberCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberLogCoefficient_ge_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.pivotLog_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_upper._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.pivotLog_mul_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSelectionBudgets.pivotLog AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.labelBudget_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.labelConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSelectionBudgets.fiberBudget_upper._simp_1_5 AXIOMS [propext]

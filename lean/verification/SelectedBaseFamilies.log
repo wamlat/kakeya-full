@@ -1,0 +1,47 @@
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.capCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.capCoefficient._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.capCoefficient.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.population AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.union_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.nonempty_shade AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.shade_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.union_card AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.bounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.direction AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.geometry AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.intermediate_in_union AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.normalizedGroup AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.slope._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.group_exists AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.Group AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.base AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.original_base AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.admissible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.family AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.slope AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.original AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedBaseFamilies.GroupData AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedBaseFamilies.GroupData.shade_subset AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,150 @@
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.thinningCapConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.populous_signed_chart AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.hierarchy_proportional_selection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree_partitioned AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chart_fiber_population_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.dyadicLabel AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.partitionTree._f AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadicLabel.eq_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chartMove_involutive AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadic_cap_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.floor_gap_physical AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chart_lattice_projective_separation AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.proportionalCapacity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.partitionTree AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.partitionTree._sunfold AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.full_cap_thinning._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.hierarchyTree_occurs AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.hierarchyTree_support AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.hierarchyTree.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedFiber.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.thinningCapConstant.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM _private.CapThinningGeometry_AxiomAudit.0.KakeyaFormal.CapThinningGeometry.partitionTree.match_1.eq_1 AXIOMS [propext,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadic_inverse_selection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.thinningCapConstant._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.occupiedIndex AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedLabel_injective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree_support AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.euclidean_cap_label_box AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.directionChartFamily.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Occurs.congr_simp AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.proportional_block_feasible AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.hierarchyTree.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.directionChartFamily._proof_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.partitionTree.match_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.occupiedLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree_occurs._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.hierarchyTree_partitioned AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedIndex.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.hierarchyTree_proportional_feasible AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.proportionalCapacity.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.full_cap_thinning AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree_proportional_feasible AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.thinningRetentionConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chart_real_cap_dyadic_selection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree.eq_def AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.directionChartFamily AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedFibers_disjoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.hierarchyTree AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.full_cap_thinning._simp_1_8 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.full_cap_thinning._simp_1_9 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadic_cap_count._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.thinningRetentionConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.proportionalCapacity.congr_simp AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chart_real_cap_thinning AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartBin.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.euclidean_cap_label_box._proof_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.full_cap_thinning._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chart_full_cap_thinning AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnitTube.mk.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chartDyadicLabel.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.euclidean_cap_label_box._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.inter_original_filter._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree_occurs._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree_occurs AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.Coherent AXIOMS []
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedIndex._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.inter_original_filter AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.thinningCapConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadic_bounds_give_cap_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadicLabel_coherent AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.full_cap_thinning._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedLabel.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.full_cap_thinning._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chart_dyadic_population_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedLabel_index AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.occupiedFiber AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.full_cap_thinning._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.exists_dyadic_top AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadic_scale_between._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.partitionTree._unsafe_rec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedFiber_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.directionChartFamily_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.chartDyadicLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.occupiedFibers_union AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.hierarchyTree_occurs._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree_capacity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chart_dyadic_coloring AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM _private.CapThinningGeometry_AxiomAudit.0.KakeyaFormal.CapThinningGeometry.partitionTree.match_1.eq_2 AXIOMS [propext,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chartDyadicLabel_coherent AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadic_scale_between AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION _private.CapThinningGeometry_AxiomAudit.0.KakeyaFormal.CapThinningGeometry.partitionTree.match_1.splitter AXIOMS [propext,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapThinningGeometry.thinningRetentionConstant AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.chartDyadicLabel_floor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.mem_occupiedFiber_index AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.inter_original_filter._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree.eq_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.projective_cap_label_cover AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.dyadic_proportional_selection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapThinningGeometry.partitionTree_occurs._proof_1_4 AXIOMS [propext, Quot.sound]

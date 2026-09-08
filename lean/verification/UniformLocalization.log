@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.UniformLocalization.extend_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UniformLocalization.measurable_localization AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UniformLocalization.finite_localization AXIOMS [propext, Classical.choice, Quot.sound]

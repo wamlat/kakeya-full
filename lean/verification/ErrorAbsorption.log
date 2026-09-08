@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.PerturbedDiscreteEstimate.remove_errors._proof_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PerturbedDiscreteEstimate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PerturbedDiscreteEstimate.remove_errors AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PerturbedDiscreteEstimate.remove_errors._simp_1_1 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.density_log_product AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PerturbedDiscreteEstimate._proof_1 AXIOMS [propext]

@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.SourceMarkedLengths.source_fourth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceMarkedLengths.source_notation AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SourceMarkedLengths.kappa AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceMarkedLengths.source_fourth._proof_1_1 AXIOMS [propext, Quot.sound]

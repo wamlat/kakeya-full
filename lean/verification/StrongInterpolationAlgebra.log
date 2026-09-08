@@ -1,0 +1,22 @@
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.balanced_coefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.balanced_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.moment_scale_identity AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.weights AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.StrongInterpolationAlgebra.lowWeight AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.balance.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.coefficient_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.coefficient._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.StrongInterpolationAlgebra.balance AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.denom_mul_ratio_rpow AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.balance_low AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.StrongInterpolationAlgebra.highWeight AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.balance_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.balance_high AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolationAlgebra.mul_ratio_rpow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.StrongInterpolationAlgebra.coefficient AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,83 @@
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.index_injective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.density_population AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.effective_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.density_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.N AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.contained AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.index AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.depth_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.density_population_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.population AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.marked_retention AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.depth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.cap_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.population_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.family AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.xi_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.union_volume AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.marks AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.density AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.density_upper AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.input AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.construct._simp_1_1 AXIOMS []
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.full AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.casesOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.effective_le_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingRetention.Output.separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.ctorIdx AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output._sizeOf_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingRetention.Output.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

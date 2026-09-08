@@ -1,0 +1,45 @@
+{
+  "audit_date": "2026-09-06",
+  "sources": [
+    {
+      "name": "kakeya_combined (1).pdf",
+      "path": "/Users/ssoh/Downloads/kakeya_combined (1).pdf",
+      "bytes": 307199,
+      "sha256": "9c3afb90b33f1ccdbc9b11f4d3939499710d3df68268e3b3c3487867db08a678"
+    },
+    {
+      "name": "kakeya_6d_first_step.pdf",
+      "path": "/Users/ssoh/Downloads/kakeya_6d_first_step.pdf",
+      "bytes": 152210,
+      "sha256": "f8d0fa6409e286bc5fa279518331462e1899ed66066adbfb027d5cf0657620ac"
+    },
+    {
+      "name": "kakeya_6d_audit.md",
+      "path": "/Users/ssoh/Downloads/kakeya_6d_audit.md",
+      "bytes": 13205,
+      "sha256": "d96698f33001c6c04654d20742702e80a052495ce7a244037288df22c2abe771"
+    }
+  ],
+  "external_sources": [
+    {
+      "title": "Wolff 1995, Theorem 1, printed page 652",
+      "url": "https://ems.press/content/serial-article-files/37888"
+    },
+    {
+      "title": "Katz–Tao, New bounds for Kakeya problems, Section 6",
+      "url": "https://arxiv.org/pdf/math/0102135"
+    },
+    {
+      "title": "Hickman–Rogers–Zhang, Figure 1 and Section 9.2",
+      "url": "https://arxiv.org/pdf/1908.05589"
+    },
+    {
+      "title": "Zahl, Theorem 1.5, equation (1.6)",
+      "url": "https://arxiv.org/pdf/1908.05314"
+    },
+    {
+      "title": "Wang–Zahl v1, Lemma 7.8 and Corollary 7.10",
+      "url": "https://arxiv.org/pdf/2502.17655v1"
+    }
+  ]
+}

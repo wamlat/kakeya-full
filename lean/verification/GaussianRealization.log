@@ -1,0 +1,15 @@
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.excessive._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.simultaneous_probability AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.excessive_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.GaussianRealization.excessive AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.budget.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.excessive_probability AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.budget._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.budget_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.GaussianRealization.budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.GaussianRealization.simultaneousEvent AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.exists_matrix AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.budget._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianRealization.simultaneousEvent_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

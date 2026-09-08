@@ -1,0 +1,28 @@
+{
+  "module": "LebesgueSeedDensity",
+  "status": "PASS",
+  "source_sha256": "cc505d91734f1e039f4304eb5233c2a7747f23f33533574f5c2ed890d757344b",
+  "source_theorems": [
+    "logarithmic_density_seed",
+    "comparable_density_seed"
+  ],
+  "audited_theorem_count": 2,
+  "audited_declaration_count": 2,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.LebesgueSeedDensity.logarithmic_density_seed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueSeedDensity.comparable_density_seed": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

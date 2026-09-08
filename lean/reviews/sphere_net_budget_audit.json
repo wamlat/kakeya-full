@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "SphereNetBudget",
+      "status": "PASS",
+      "sha256": "cd2eea7bd08900bab48039b927d4da90e1fda76998b6c1a4e02946c9959cc465",
+      "named_theorems": 5,
+      "theorem_declarations": 5,
+      "all_declarations": 5,
+      "custom_axioms": []
+    }
+  ]
+}

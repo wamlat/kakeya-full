@@ -1,0 +1,111 @@
+'KakeyaFormal.PivotSupport.fixed_triple_lift_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotSupport.support_count_from_legal_witnesses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.PivotSupport.energy_bound_from_legal_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotSupport.normalized_liftCount_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotSupport.pivotCount_scale_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount_scale_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.geometric_energy_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.time AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_vertical_radius_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_from_legal_witnesses._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.rounded_segment_proximity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.pivot_between AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount_scale_bound._simp_1_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_from_legal_witnesses._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.verticalRadius._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.verticalRadius._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.y2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.energyPosition AXIOMS []
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_by_triples AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.pivotCount AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount_scale_bound._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_from_legal_witnesses._simp_1_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount_scale_bound._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.pivot_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.SupportLabel AXIOMS []
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.Triple AXIOMS []
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.vertical_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count._simp_1_8 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.y1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.time_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_vertical_radius_bound._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_vertical_radius_bound._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_vertical_radius_bound._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_vertical_radius_bound._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_liftCount_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.energy_bound_from_legal_witnesses AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.z AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.liftCount.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_vertical_radius_bound._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.second_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_from_legal_witnesses._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_from_legal_witnesses._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_from_legal_witnesses._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_from_legal_witnesses._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.support_count_from_legal_witnesses AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.endpoint_triple_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.finite_image_support_energy AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.first_close AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount_scale_bound._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.integer_interval_count._proof_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount_scale_bound._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount_scale_bound._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.pivotCount_scale_bound._simp_1_6 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.rounded_segment_proximity._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.verticalRadius AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_vertical_radius_bound._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.horizontal_close AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.lift_grid_box_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.endpoint_lift_support_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.integer_interval_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count._simp_1_7 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count._abel_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.fixed_triple_lift_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.normalized_vertical_radius_bound._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.liftCount AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.RoundedLiftWitness.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotSupport.RoundedLiftWitness.residual_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotSupport.LiftCell AXIOMS []

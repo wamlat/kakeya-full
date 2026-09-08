@@ -1,0 +1,14 @@
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.average_eq_unit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.maximal_lowerSemicontinuous AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperator.tube.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.maximal_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.normalized_carrier_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LengthOperatorGeometry.average AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.normalized_measure AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LengthOperatorGeometry.maximal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.maximal_ae_congr AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.normalized_set_integral AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.average._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorGeometry.average._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]

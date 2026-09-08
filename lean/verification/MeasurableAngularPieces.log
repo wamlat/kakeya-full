@@ -1,0 +1,49 @@
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.broad AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.assign_mem AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.J AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.exists_pieces._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.exists_pieces AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.local_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.tau AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.assign AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.groups AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.upper_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.exists_pieces._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.depth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPruning.mass.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.unique AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.overlap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.shading AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.retained AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.lower_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.finite AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.pruning AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularPieces.Pieces.measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularPieces.Pieces.recOn AXIOMS [propext, Classical.choice, Quot.sound]

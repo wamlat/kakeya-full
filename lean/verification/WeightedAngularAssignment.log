@@ -1,0 +1,11 @@
+AUDIT_DECLARATION KakeyaFormal.WeightedAngularAssignment.tubeWeight AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularAssignment.sum_weighted_row_cards AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularAssignment.tubeWeight.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularAssignment.tubeWeight_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularAssignment.assign_incidence AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularAssignment.assign_and_restore AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularAssignment.assigned_total AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularAssignment.tubeWeight_support AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularAssignment.restore_mass AXIOMS [propext, Classical.choice, Quot.sound]

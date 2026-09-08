@@ -1,0 +1,11 @@
+# Literal variable axis lengths in the continuous seed
+
+`MeasurableSeedLengths.lean` is frozen and clean compiled. SHA-256: `cc3480bffa968b236632dba1a0427abe331514ab80d47c41bbfa5e5d3b28f261`. The complete exact-source audit passes all ten local theorem declarations (three source theorem statements), with only standard foundational axioms and no custom axiom, `sorry`, or diagnostic warnings.
+
+The `natural_logarithmic_seed` theorem permits each original tube index to have its own literal finite axis length `length_i<=upperLength`, where the positive upperLength, width, and separation constant are fixed before all families/scales/shadings. It uses the actual `SamplingGeometry.lengthCarrier`: distance at most width*delta from axis parameters in `[0,length_i]`. No lower length is required, so the source's fixed positive lower/upper length interval is included.
+
+One common homothety with `W=max(1,max(width,upperLength))` maps every actual original shading into a genuine unit-length radius-delta carrier; the same original directions are preserved. The proof then uses the actual fixed-palette largest color class. Density becomes lambda/W^n, full two-ends becomes B*W^alpha, and the actual union volume is bounded by originalUnionVolume/W^n. The final normalized-volume loss is exactly a fixed factor 1/[palette*W^n]. Mesh delta and log(2/delta) remain unchanged. No common region or bound on tube positions is imposed.
+
+A new direct geometric lemma bounds each finite lengthCarrier by the ball at its own base of radius length+width and derives finite volume. This ensures that the finite-union/measure comparisons use actual individual carriers, including empty or degenerate intervals, rather than an assumed global bounded region.
+
+The theorem is currently for comparable full density `[lambda*delta^(n-1),2*lambda*delta^(n-1)]`, lambda<=1. Root's exact measurable trimming composition extends the density interval to the literal fixed/logarithmic ratios; this module supplies its full fixed-geometry input. The imported variable-length normalization module `SamplingGeometry` was already frozen and independently source-audited (seven named theorems, standard foundations only) before this construction.

@@ -1,0 +1,11 @@
+# Actual Kakeya operator laws
+
+`KakeyaOperatorLaws.lean` derives 25 actual operator laws from the fixed original-position carrier integral and supremum. It imports only the frozen KakeyaOperator core.
+
+The central theorem `maximal_indicator` proves exact equality of the ENNReal operator on the measurable indicator of E and `ENNReal.ofReal (indicatorMaximal delta E v)`. The per-tube identity first uses the literal integral over E intersect carrier, and both conversions back from real volume explicitly use finite carrier/intersection measures and the positive carrier denominator. Boundedness of every indicator average by one proves finiteness of the ENNReal supremum before its reverse-order conversion. `indicator_level_eq` identifies every nonnegative strict ENNReal level with the literal real level set used by IndicatorWitnessCover.
+
+Other proved laws: pointwise and almost-everywhere monotonicity; invariance under almost-everywhere changes; zero; exact averaging of constants (including infinite constants for positive mesh); pointwise and essential infinity contraction; exact measurable finite-sum averaging and subadditivity of the supremum; measurable homogeneity for any ENNReal factor; finite-factor homogeneity without an input measurability premise; and exact commutation of the actual operator with increasing measurable sequential suprema. All statements allow every original tube position.
+
+Measurability is an explicit premise where required for lower-integral additivity and monotone convergence. The finite-sum law is not asserted for arbitrary nonmeasurable summands. No output-measurability or analytic estimate assumption is inserted into these proofs. Those are separate geometric/interpolation interfaces. These laws directly instantiate scalar's PositiveLaws interface once that module freezes.
+
+Source frozen after a clean build with zero diagnostics. Exact full-source audit PASS25 theorem declarations, standard foundations only (propext, Classical.choice, Quot.sound); no sorry or custom axiom. SHA256 f9b1c94fe66ab7fec33f953e25d011b8ce2e9855d1d93fe88f5cbd58f5c7b436. Source-prefix/hash checks and expected declaration checks passed; audit files/log/meta are `KakeyaOperatorLaws_full_source_audit.*` in audit_work. The frozen core and witness-cover sources were not modified.

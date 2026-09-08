@@ -1,0 +1,32 @@
+'KakeyaFormal.HairbrushRemoval.two_ends_crossing_hairbrush' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.stem_carrier_transverse._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.bristle_stem_base_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.two_ends_crossing_hairbrush AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_ball_escape._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_hairbrush_union_lower._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_ball_escape AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.outsideCrossing_half_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_hairbrush_union_lower._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.stem_carrier_transverse AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.removalConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.removalConstant._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.HairbrushRemoval.outsideCrossing AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_hairbrush_union_lower._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.carrier_base_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_hairbrush_union_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_hairbrush_union_lower._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_hairbrush_union_lower._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_hairbrush_union_lower._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.crossing_hairbrush_union_lower._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.removalConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushRemoval.removalConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnitTube.axisPoint.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushRemoval.carrier_diameter_bound AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.AnisotropicJointRecovery.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicJointRecovery.broadFactor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicJointRecovery.broadFactor.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicJointRecovery.density_parameter AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicJointShading.family.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicJointRecovery.broadFactor._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicJointRecovery.broadFactor._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicJointRecovery.retainedFraction AXIOMS [propext, Classical.choice, Quot.sound]

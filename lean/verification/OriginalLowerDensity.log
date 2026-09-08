@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.OriginalLowerDensity.from_discrete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OriginalLowerDensity.globalize AXIOMS [propext, Classical.choice, Quot.sound]

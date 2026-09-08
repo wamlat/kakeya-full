@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.TubeFamily.Separated.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WideTwoEndsEstimate.normalize_rows AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.WideTwoEndsEstimate.lowerFactor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WideTwoEndsEstimate.lowerFactor._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.TubeFamily.CapBound.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WideTwoEndsEstimate.lowerFactor_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WideTwoEndsEstimate.from_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeFamily.Bounded.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]

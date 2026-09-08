@@ -1,0 +1,108 @@
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.shade_card AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.density_eq AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.full_two_ends AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct_partition AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.bounded_axis_intervals AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.baseRadius_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.geometry._proof_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct._simp_1_7 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.partition_population_lower._simp_1_2 AXIOMS [propext,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.count_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.shade_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.union_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output._sizeOf_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.union_card_le AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.cap_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.baseRadius AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.partition_population_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.configuration AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.direction_eq AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.index_injective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.partition_population_lower._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.partition_union_sum AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.scale_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.index AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.baseRadius._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.geometry AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct._simp_1_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.Output.population_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.casesOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.partition_construct AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGroupedNormalization.normalized_ends_ge_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGroupedNormalization.Output.ctorIdx AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

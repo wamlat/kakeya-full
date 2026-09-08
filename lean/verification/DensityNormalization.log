@@ -1,0 +1,6 @@
+AUDIT_THEOREM KakeyaFormal.DensityNormalization.trim_equal_cardinality AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DensityNormalization.clamped_count_bounds._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DensityNormalization.clamped_count_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DensityNormalization.floor_ge_half AXIOMS [propext, Classical.choice, Quot.sound]

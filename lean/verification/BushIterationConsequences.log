@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.BushIteration.weakened_bush_stage_maximal._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.BushIteration.bush_endpoint_maximal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.BushIteration.weakened_bush_endpoint_maximal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.BushIteration.weakened_bush_endpoint_maximal._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.BushIteration.bush_endpoint_maximal._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.BushIteration.weakened_bush_stage_maximal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.BushIteration.bush_stage_maximal._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.BushIteration.bush_stage_maximal AXIOMS [propext, Classical.choice, Quot.sound]

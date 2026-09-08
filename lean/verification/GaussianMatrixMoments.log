@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.GaussianMatrixMoments.tail_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianMatrixMoments.five_by_seven_tail AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianMatrixMoments.stdGaussian_norm_sq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianMatrixMoments.norm_sq_integrable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianMatrixMoments.matrix_norm_sq AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,11 @@
+# Exact isometric tube-volume identity
+
+`TubeIsometryVolume.lean` is frozen and clean-built. For any two actual `UnitTube (k+1)` objects T and U and every real radius δ, `carrier_volume_eq T U δ` proves equality of their actual ENNReal Lebesgue carrier measures. The real-volume corollary is also provided. There is no bounded-position, positive-radius, approximate-volume, or desired equality premise.
+
+The explicit reference tube has base zero and direction `EuclideanSplit.axisUnit k`. The normalization map is `x ↦ alignStem T.direction (x−T.base)`: translation by minus the original base followed by the already constructed orthogonal Householder reflection. `normalize_axis` maps each actual axis point at parameter t to the reference axis point with the SAME t. `normalize_dist` preserves its distance, so `carrier_eq_preimage` identifies the entire actual closed carrier exactly as the reference carrier's preimage. This works for δ=0 or δ<0 as well. The map is proved measure preserving from Mathlib's orthogonal Lebesgue-invariance theorem and additive translation invariance. Applying it to the proved measurable reference carrier gives the exact equality.
+
+The operator adapter defines `referenceVolume k δ` and proves `operator_carrier_volume v b δ` for every original sphere direction and base. `average_fixed_denominator` rewrites the already defined general ENNReal average with this single denominator. `referenceVolume_finite` holds for all δ, and `referenceVolume_pos` holds for δ>0. Thus a lower-semicontinuity argument may vary base and direction while holding the denominator fixed; this module does not itself assert continuity, lower semicontinuity or measurability of those averages.
+
+Verification: clean compilation with zero diagnostics. The production exact full-source audit covers 24 local declarations, including 21 theorem declarations (11 named source theorems and three definitions). All dependencies are among `propext`, `Classical.choice`, and `Quot.sound`; no custom axiom or admitted proof was added. Evidence: `TubeIsometryVolumeSourceAudit.lean`, `TubeIsometryVolume_axioms.log`, and `TubeIsometryVolume_audit.json`.
+
+Frozen SHA-256: `769b7134ed907e535fd0d14583cbfc7980898bba7a8b8d665333413a8a8dbbf1`. The module is outside frozen checkpoint 17, and no existing source or shared registry was edited.

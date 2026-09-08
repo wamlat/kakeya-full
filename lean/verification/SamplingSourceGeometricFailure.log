@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.SamplingSourceGeometricFailure.law_eq_rawLaw AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingSourceGeometricFailure.source_geometric_failure AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

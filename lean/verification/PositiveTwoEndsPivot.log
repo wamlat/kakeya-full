@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.PositiveTwoEndsPivot.from_base_and_lift AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveTwoEndsPivot.from_source_inputs AXIOMS [propext, Classical.choice, Quot.sound]

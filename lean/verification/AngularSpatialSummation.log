@@ -1,0 +1,13 @@
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.cancel_logarithmic_overlap._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.cancel_logarithmic_overlap._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.cancel_logarithmic_overlap._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.cancel_logarithmic_overlap._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.cancel_logarithmic_overlap AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.from_piece_estimates AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.cancel_logarithmic_overlap._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.cancel_logarithmic_overlap._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSpatialSummation.cancel_logarithmic_overlap._simp_1_1 AXIOMS [propext]

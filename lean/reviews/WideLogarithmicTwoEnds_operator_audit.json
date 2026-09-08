@@ -1,0 +1,22 @@
+{
+  "module": "WideLogarithmicTwoEnds",
+  "status": "PASS",
+  "source_sha256": "129fab43489452c389ffa12e7f47c15c35b2384895edc36e41c6ac159eb7c6fa",
+  "source_theorems": [
+    "estimate"
+  ],
+  "audited_theorem_count": 1,
+  "audited_declaration_count": 1,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.WideLogarithmicTwoEnds.estimate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

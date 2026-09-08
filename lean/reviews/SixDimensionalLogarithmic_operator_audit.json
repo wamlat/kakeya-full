@@ -1,0 +1,34 @@
+{
+  "module": "SixDimensionalLogarithmic",
+  "status": "PASS",
+  "source_sha256": "1e1af2d07c92c93f0aa8b291bea16ecb95e3da0e60fb9e89a9ed1aac0bafd842",
+  "source_theorems": [
+    "configuration_estimate",
+    "cap_free",
+    "source_notation"
+  ],
+  "audited_theorem_count": 3,
+  "audited_declaration_count": 3,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.SixDimensionalLogarithmic.source_notation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.SixDimensionalLogarithmic.cap_free": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.SixDimensionalLogarithmic.configuration_estimate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

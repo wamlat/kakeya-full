@@ -1,0 +1,8 @@
+'KakeyaFormal.PivotKappaScale.power_lower_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotKappaScale.normalized_choice_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotKappaScale.choice_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PivotKappaScale.normalized_choice_small_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotKappaScale.normalized_choice_cutoff AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotKappaScale.normalized_choice_small_scales AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotKappaScale.power_lower_cutoff AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotKappaScale.choice_cutoff AXIOMS [propext, Classical.choice, Quot.sound]

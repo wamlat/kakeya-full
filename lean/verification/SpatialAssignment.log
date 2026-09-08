@@ -1,0 +1,30 @@
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.shading_double_count._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.spatialOverlap_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.splitShading_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SpatialAssignment.cellDirections AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialSplitting.fiber.eq_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SpatialAssignment.spatialOverlap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.shading_double_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.discrete_angular_spatial_decomposition._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialSplitting.restore.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.shading_double_count._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.splitShading_incidence AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.cell_spatial_label_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.cellDirections.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.splitShading_label AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.discrete_angular_spatial_decomposition._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.spatialOverlap._proof_2 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SpatialAssignment.splitShading AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.discrete_angular_spatial_decomposition AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.spatial_shading_assignment AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SpatialAssignment.spatialOverlap._proof_1 AXIOMS [propext]

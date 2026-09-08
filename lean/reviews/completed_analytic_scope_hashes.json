@@ -1,0 +1,71 @@
+{
+  "scope": "Individually audited additions outside frozen406; does not assert integrated verification",
+  "modules": [
+    {
+      "module": "LebesgueMaximal",
+      "sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueRealCap",
+      "sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueSeedDensity",
+      "sha256": "cc505d91734f1e039f4304eb5233c2a7747f23f33533574f5c2ed890d757344b",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueRepresentatives",
+      "sha256": "0384ebb173ae149fe7fc253d2b4b9fda0fd10797505c66ae5ec5865933250523",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueAngularSpatial",
+      "sha256": "d1dad9395442f6a89a1338bc4c4f8acd09a219315fb17299d9b463cac45a98d7",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueLocalization",
+      "sha256": "714383c010dad54ecc9140b79f61f11486a9a6f215bf417f8a4d7c8c23cdb50e",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueSampling",
+      "sha256": "ad78a4007b9bb51323e504fa7137b8b3fadadc3e8e24a92229685e0767ca34c3",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueSamplingGeometry",
+      "sha256": "e1e6c73e98f22678db75e206db74d079ba5b6d9647e1e6c001e2bea0b3aa6f29",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueSamplingSource",
+      "sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "CumulativeFixedError",
+      "sha256": "266e9eb0435e9e665335b633e07301ffc23dcc5d06ac911f0c9d29742a7ba961",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    },
+    {
+      "module": "LebesgueDensityPruning",
+      "sha256": "bb2474418b4adc435bc08e504ecd982ac2221b5a804e05bc7f7a004cb6e93010",
+      "individual_audit": "PASS",
+      "standard_axioms_only": true
+    }
+  ]
+}

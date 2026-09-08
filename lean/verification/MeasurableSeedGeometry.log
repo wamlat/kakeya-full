@@ -1,0 +1,19 @@
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.natural_logarithmic_seed._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.normalizedFamily_separated AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.natural_logarithmic_seed._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.all_radius_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.exists_large_color AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.natural_logarithmic_seed._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.natural_logarithmic_seed._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.natural_logarithmic_seed._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.natural_logarithmic_seed._simp_1_4 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.MeasurableSeedGeometry.normalizedFamily AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.natural_logarithmic_seed._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.normalizedFamily_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedGeometry.natural_logarithmic_seed AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

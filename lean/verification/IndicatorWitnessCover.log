@@ -1,0 +1,45 @@
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.shading_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.union_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.shading AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.direction_level AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.direction AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.level_net._simp_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.M AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.covers AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.family AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.direction_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.level_net AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.strict_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.shading_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.IndicatorWitnessCover.Witnesses AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.IndicatorWitnessCover.Witnesses.shading_subset AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+{
+  "axioms": [
+    {
+      "name": "Fixture.published",
+      "module": "Fixture",
+      "source_url": "https://example.invalid/synthetic-verifier-test",
+      "source_locator": "Synthetic True axiom; not a published result",
+      "formal_statement": "Fixture.published : True",
+      "trust_boundary": "Verifier regression fixture only; no mathematical import",
+      "module_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ]
+}

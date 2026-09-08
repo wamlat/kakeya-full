@@ -1,0 +1,111 @@
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.groupFamily AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.shade AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.group_cap_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.index_assignment AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.comparable._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.slice AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.best_bin AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.assignment AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.binCount_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.index AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.index.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.index_injective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.comparable._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.card_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.normalized_group AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.groupCells AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.groupIndices AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.density_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.label_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.group_label AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.union_sum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.cellLabel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.bins AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.comparable._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.comparable._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.proportional_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.comparable._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.comparable._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.density_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.commonCard_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.population_sum AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.binCount._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.group_admissible AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.comparable._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.nonempty AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.group_card_sum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.group_comparable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.family AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.binCount AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.admissible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.groupFamily.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.group_separated AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.occupied_bin_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.group_union AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.commonCard AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.center_near_origin AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.full_retention AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedCellPartition.Partition AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.origin_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.Partition.comparable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedCellPartition.groups_disjoint AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.TubeLocalCount.tube_ball_grid_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeLocalCount.tube_ball_parameter_gap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeLocalCount.axisPoint_mem_segment AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TubeLocalCount.tube_ball_grid_count_real AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,25 @@
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_at_localized_scale._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_at_localized_scale._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.cap_bound_smaller_scale AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_at_localized_scale._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.capConstant_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_to_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.retentionConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.retentionConstant_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_at_localized_scale._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_at_localized_scale._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_at_localized_scale._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_at_localized_scale._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedDirectionThinning.thin_at_localized_scale AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedDirectionThinning.retentionConstant AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalizedDirectionThinning.capConstant AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,128 @@
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_actual_marked_mass AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_ball_test AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.ballCoefficient._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_mass._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_mean_bounds._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_actual_marked_mass._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_full_mean AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.marked_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.Input.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.broadness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_probabilities AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_mass._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.full_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.two_ends_exponent AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_actual_marked_mass._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.upper_constant_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.constants_order AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.marked_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_actual_marked_mass._simp_1_5 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.equalizer AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.ballCoefficient._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.broadness_exponent AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.marked AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.lower_constant_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_mean_bounds._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_probabilities AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.ballCoefficient_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.commonMean_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.full AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.count_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.scale_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.full_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.Input AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.ballCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_mean_bounds._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.full_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.commonMean AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.rawMarked AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.two_ends_constant AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.rawFull AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.ratio AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.width_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.bounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_mass._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_mass._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_mass._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.broadness_constant AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_mass._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_mean_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_cap_test AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_full_le_weight AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.ratio_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.uniform_angular_tests AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.density_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.Input.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_support AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_mass._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.scale_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.marked_fraction_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_actual_marked_mass._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_actual_marked_mass._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_actual_marked_mass._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_actual_marked_mass._simp_1_4 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.Input.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.ratio_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.Input.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_ball_mean AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_full_support AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.density_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingNormalizedMeans.Input.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_cap_mean AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_mean_bounds._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_mean_bounds._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.marked_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_mean_bounds._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.raw_mean_bounds._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.normalized_marked_mass AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.equalizer_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.Input.equalizer_pos AXIOMS [propext, Classical.choice, Quot.sound]

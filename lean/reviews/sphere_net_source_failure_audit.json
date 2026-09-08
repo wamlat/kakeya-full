@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "source": "SphereNetSourceFailure.lean",
+  "source_sha256": "36e453b75585065954290a11affb96e5d09db74f32afc638bbf0cc491043fc09",
+  "named_theorems": 1,
+  "local_theorems": 4,
+  "all_local_declarations": 6,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "entries": [
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSourceFailure.rawLaw",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSourceFailure.rawLaw._proof_3",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSourceFailure.rawLaw._proof_2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSourceFailure.highCells",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSourceFailure.rawLaw._proof_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSourceFailure.source_angular_failure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "log": "../SphereNetSourceFailure_axioms.log"
+}

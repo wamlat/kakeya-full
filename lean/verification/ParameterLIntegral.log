@@ -1,0 +1,7 @@
+AUDIT_THEOREM KakeyaFormal.ParameterLIntegral.lowerSemicontinuous_setLIntegral AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ParameterLIntegral.lowerSemicontinuous_lintegral AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ParameterLIntegral.open_tube_lintegral AXIOMS [propext, Classical.choice, Quot.sound]

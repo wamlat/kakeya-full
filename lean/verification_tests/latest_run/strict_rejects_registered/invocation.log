@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/strict_rejects_registered/verify.py", line 153, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/strict_rejects_registered/verify.py", line 68, in main
+    if args.reject_external_axioms and external: raise RuntimeError('External axioms rejected by strict verification mode')
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: External axioms rejected by strict verification mode

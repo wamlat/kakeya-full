@@ -1,0 +1,16 @@
+AUDIT_THEOREM KakeyaFormal.FractionalSeedFullRange.fractional_real_cap_seed AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeedFullRange.fractional_discrete_seed AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeedFullRange.source_cumulative AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeedFullRange.fractional_cumulative_seed AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeedFullRange.fractional_real_cap_cumulative AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeedFullRange.fractional_discrete_seed._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,323 @@
+{
+  "status": "PASS",
+  "source": "ProjectiveSphereNet.lean",
+  "source_sha256": "9417c061c19cb7675e20474f1aab27e2d46a63ce10fcd5d295bc273beb5308ef",
+  "named_theorems": 11,
+  "local_theorems": 20,
+  "all_local_declarations": 34,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "log": "../ProjectiveSphereNet_axioms.log",
+  "entries": [
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.center_mem",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.points",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.noConfusionType",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.covers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.ctorIdx",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net._sizeOf_inst",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.center_injective",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.mk._flat_ctor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.unit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.casesOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.center.eq_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.mk.noConfusion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.center_double_cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.exists_net",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.double_cap_containment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.center_unit",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.recOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.noConfusion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.center",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.mk.injEq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.mk.sizeOf_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.center_covers",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net._sizeOf_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.exists_indexed_net",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.sphere_packing",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.cap_containment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.mk.inj",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.rec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.card_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.exists_net._proof_1_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.mk",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.ProjectiveSphereNet.Net.center_separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ]
+}

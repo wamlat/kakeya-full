@@ -1,0 +1,16 @@
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.cap_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.bounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.center_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.admissible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.dilation_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.two_ends._simp_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedLengthNormalization.normalizedFamily AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedLengthNormalization.dilation AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.union_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.dilation_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.center_distance AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedLengthNormalization.normalizedFamily.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

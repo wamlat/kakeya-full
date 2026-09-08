@@ -1,0 +1,10 @@
+AUDIT_THEOREM KakeyaFormal.AngularSeedSqrtCap.logarithmic_seed_with_pieces AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSqrtCap.uniform_prefactor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSqrtCap.two_ends_seed._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSqrtCap.logarithmic_seed._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSqrtCap.two_ends_seed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSqrtCap.natural_logarithmic_seed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSqrtCap.logarithmic_seed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSqrtCap.natural_log_le_seedLog AXIOMS [propext, Classical.choice, Quot.sound]

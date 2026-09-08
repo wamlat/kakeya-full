@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.TwoEndsPivot.six_dimensional AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsPivot.from_base_and_lift AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsPivot.six_dimensional_diagonal AXIOMS [propext, Classical.choice, Quot.sound]

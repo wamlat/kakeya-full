@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "GaussianGoodDirections",
+      "status": "PASS",
+      "sha256": "c76c9a6dabf0f62d3265c609ca542c39df747f2ed3085d098aa5cc162dfd6da9",
+      "named_theorems": 16,
+      "theorem_declarations": 29,
+      "all_declarations": 34,
+      "custom_axioms": []
+    }
+  ]
+}

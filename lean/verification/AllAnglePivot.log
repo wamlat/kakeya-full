@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.AllAnglePivot.fixed_width_test AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AllAnglePivot.all_scales AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AllAnglePivot.logarithmic_range AXIOMS [propext, Classical.choice, Quot.sound]

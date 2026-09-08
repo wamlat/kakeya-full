@@ -1,0 +1,7 @@
+# Independent review of wider-density logarithmic normalization
+
+Reviewed frozen `WideLogarithmicTwoEnds.lean` at SHA-256 `129fab43489452c389ffa12e7f47c15c35b2384895edc36e41c6ac159eb7c6fa`. The owner reports clean .olean and exact-source PASS (one local theorem, standard-only); this read checks statement fidelity independently.
+
+The theorem fixes the lower/upper row constants, original log prefactor and exponent, normalization, ball exponent and final error before selecting c and before all original configurations. It uses the actual `normalize_rows` construction on every original tube, including the one-cell regime. The same axes and number of tubes remain; each new row is an actual subset of its original row. Its normalized density nu is bounded below by `(min(c0,1/2)/2)*lambda`, and the original row count is at most the fixed multiple `C0/min(c0,1/2)` of the retained count.
+
+The full two-ends proof pays exactly this fixed count ratio. Its new fixed log prefactor is `max(1,B0*C0/min(c0,1/2))`, and its logarithmic exponent remains b. The estimate never requires the varying product B0*log(2/delta)^b to be at least one, so delta near one is covered. The derived normalized configuration is supplied to the proved generic logarithmic theorem; it is not an input hypothesis. Raising the density lower bound uses C>=1, hence nonnegative C, and the actual original union contains the retained union. The conclusion keeps exactly the original lambda^C and set exponent D. No marked-broadness inheritance is claimed. No defect found.

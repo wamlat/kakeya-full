@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.ScaleChoice.dyadic_class_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ScaleChoice.dyadic_depth AXIOMS [propext, Classical.choice, Quot.sound]

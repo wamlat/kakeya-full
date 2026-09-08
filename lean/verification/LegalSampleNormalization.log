@@ -1,0 +1,36 @@
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalizeAngle._proof_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalized_endpoints_exact AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalSampleNormalization.normalizeAngle AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalizeEndpoints._proof_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalizeEndpoints._proof_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.transverse_signed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalized_cell AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalizeEndpoints._proof_4 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalizeEndpoints._proof_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalSampleNormalization.normalizeEndpoints AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalizeAngle._proof_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalizeAngle._proof_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalized_pivot_exact AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalSampleNormalization.normalized_center_distance AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

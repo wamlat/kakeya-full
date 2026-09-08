@@ -1,0 +1,27 @@
+# LogarithmicTwoEnds: independent finite/localization review
+
+Read-only generic source SHA-256 `569da09b05110e964f820042b223f08b1ba0ed42f3a9dbf0aa2a972c5d0cf075`. Reviewed the complete source and actual FiniteGridLocalization.Selection, FiniteLocalizedFamily, TwoEndsDiscreteEstimate, LocalizedTwoEndsApplication and coarse/globalization interfaces. Final source was reread in full after the hash change. It adds explicit positive-width and density facts and pins the coarse theorem parameters; the mathematical statements and argument are unchanged. Author confirms clean production .olean and exact-source audit PASS2 named/9 local theorem/9 total declarations, standard foundations only. No source edits or duplicate dependency audit.
+
+No mathematical defect found. The theorem fixes geometry, B0, alpha, b and epsilon before the actual ShadedConfiguration, and never passes the varying B0*log(2/delta)^b to a theorem whose constant can depend on that value. Instead it applies the analytic local estimate at fixed exponent beta=alpha/2 and fixed coefficient4^beta.
+
+The key radius_constraint derives its input from the SAME actual Selection S. Choose a retained index using S.nonempty; original FullTwoEnds at its center and rho bounds the literal restricted row by B*rho^(2beta) times its original count. Original factor-two comparability and S.comparable imply s≤2B*rho^(2beta)*lambda. Combining S.density_lower and cancelling positive lambda and rho^beta yields1≤2B*rho^beta. There is no use of an unrecorded original-row retained fraction or a different favorable radius.
+
+The scalar loss q=max(0,beta*C+D-C)/beta is nonnegative. LogarithmicTwoEndsAlgebra.density_factor gives the exact density-C lower bound, including negative combined radius exponents. Multiplication by the actual S population loses precisely two additional original logs. The local estimate spends epsilon/2; inverse_log_delta spends the other epsilon/2. Hence the final output has delta^(m-D+epsilon) and retains lambda^C, rather than silently weakening to lambda^max(D,C).
+
+The selected local family is exactly family S. Its actual admissibility, comparable density, inherited real-cap bound, ball support and all relative two-ends tests are supplied by the constructed finite geometry. Its union is a literal subset of the original union. Both count and cap losses refer to the same original M,A and delta. M=0 is handled before choosing a retained index.
+
+Fine scales use the actual midpoint cover at width*delta≤1/2. Larger scales use the proved coarse_configuration_bound and the same density exponent, requiring C≥1. Constants are a fixed minimum chosen before configurations. Positivity of log(2/delta), rather than log≥1, is used; the case delta close to1 and log below1 is not discarded. No limitation on D is added by this generic scalar/localization assembly; its analytic premise is the literal TwoEndsDiscreteEstimate at those parameters.
+
+This generic result positively closes the previously identified uniform-log-B analytic boundary once specialized to TwoEndsPivot.six_dimensional. The separately authored final SixDimensionalLogarithmic source-N consumer is reviewed below. All new sources remain outside frozen418 and require their own frozen integration/publication.
+
+## Final six-dimensional consumer
+
+Read the complete final SixDimensionalLogarithmic.lean at SHA-256 `1e1af2d07c92c93f0aa8b291bea16ecb95e3da0e60fb9e89a9ed1aac0bafd842`, clean production .olean; exact-source audit PASS3 named/3 local theorem/3 total declarations, standard foundations only, was subsequently verified at the same hash. No source edits. No defect found.
+
+configuration_estimate specializes the actual TwoEndsPivot.six_dimensional input, with ambient6, cap5, set exponent33/8, density exponent15/4. The output delta power is5−33/8+epsilon=7/8+epsilon. Geometry, B0, alpha, b and epsilon precede the single positive c and every actual configuration.
+
+cap_free derives A0=fullDirectionCoefficient(5,geom.separation) directly from the ORIGINAL separated directions, with A0≥1 and fixed before the family. It constructs a literal ShadedConfiguration with the SAME M,delta,lambda,F and absorbs only A0 inverse. There is no supplied cap bound or estimate at a surrogate family.
+
+source_notation uses N≥1 (hence the sourceN≥2), preserves the exact log(2N) budget, and proves the actual power identity (1/N)^(7/8+epsilon)=N^(33/8−epsilon)/N^5. Its conclusion is precisely c*N^(33/8−epsilon)*lambda^(15/4)*S≤E with S=M/N^5 and E the original finite union. Original full two ends remains the genuine hypothesis; marked rows, broadness, angular decomposition, sampled outcome, radius or logarithmic-conditioned family are not supplied.
+
+Scope: the current direct source consumer assumes actual unit axes, arbitrary fixed positive width/separation/base normalization, delta<=1 and0<lambda<=1, and literal F.Comparable (ratio2). Thus the original variable log-B quantifier boundary is closed in that normalized convention. If interpreting “comparable density” as arbitrary prescribed lower/upper multiples, an additional actual normalize_rows consumer is required to expose that full convention in this new log-B API; WideTwoEndsEstimate.normalize_rows provides the needed fixed losses, while its older final from_two_ends applies only to a fixed B. This qualification has been sent to parent rather than silently asserting arbitrary fixed multiples from a ratio2 signature.

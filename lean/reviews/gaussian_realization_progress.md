@@ -1,0 +1,9 @@
+# Actual simultaneous Gaussian realization
+
+GaussianRealization.lean compiles cleanly and passes the production all-local source audit: 10 theorem entries and 13 total declarations, standard foundations only. SHA-256: 7ad87b2daf1598494a0c68c2b4bef71da9e913943a84d54958ddb24d6f72ed10. The independent scalar review checks the same source. This module is excluded from frozen checkpoint21 and is development for the following checkpoint.
+
+The event uses the SAME actual Gaussian matrix for the operator bound, retained original directions and ordered original-pair collision count. If Q=expectationCoefficient(20)*A*M*log(2/delta), the probability of count>=4Q is at most1/4 by Markov on the actual nonnegative finite count. The existing actual good event has probability at least17/20, so their good combination has probability at least3/5. No joint independence of the original directions or simultaneous-event oracle is used.
+
+For every original cap-four, delta-separated family with0<delta<=1 and A>=1, exists_matrix returns an actual omega, operator norm<=20, at leastM/2 original good indices, every retained image norm>=1/4, and actual distinct ordered collision count<=4Q. The coefficient precedes M,A,delta and the family. The M=0 case uses the actual empty ordered-pair set, with no division by Q. All ENNReal-to-real steps have finite right-hand sides and explicit nonnegative/positive budgets.
+
+GaussianProjectedSelection then combines this with the actual collision graph and the reviewed scalar population bound. Its clean build is complete and its separate source audit is running. Its final conclusion constructs one omega and actual original S with cardinality>=c*M/(A*log(2/delta)), projected angle>delta and chord separation>=(2/pi)*delta. This remains separate from the actual projected shading and final five-dimensional estimate assembly.

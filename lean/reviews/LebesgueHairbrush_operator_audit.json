@@ -1,0 +1,219 @@
+{
+  "module": "LebesgueHairbrush",
+  "status": "PASS",
+  "source_sha256": "02c63fed02ad8e4679b198ea2d9e0cefcaa8bea4accc933539214225867b8c96",
+  "source_theorems": [
+    "representatives",
+    "full_real",
+    "inter_real",
+    "total_real",
+    "marked_real",
+    "union_real",
+    "broadness",
+    "broad_hairbrush_squared",
+    "broad_hairbrush_linear",
+    "real_cap_hairbrush_linear"
+  ],
+  "audited_theorem_count": 25,
+  "audited_declaration_count": 39,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.LebesgueHairbrush.Representative.union_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.broad_hairbrush_squared": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.broadness._simp_1_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.total_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.broad_hairbrush_linear": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.representatives": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.full_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.real_cap_hairbrush_linear": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.good_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.representatives._simp_1_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.mk.injEq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.membership": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.mk.sizeOf_spec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.union_real._simp_1_1": [
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.inter_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.full_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.mk.inj": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.full_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.good_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.good_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.full_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.broadness": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.marked_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.broadness._simp_1_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.HairbrushBroad.nearCount.eq_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.noConfusionType": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative._sizeOf_inst": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.ctorIdx": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.casesOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.noConfusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.rec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative._sizeOf_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.mk._flat_ctor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.recOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.mk.noConfusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.good": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.full": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueHairbrush.Representative.mk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

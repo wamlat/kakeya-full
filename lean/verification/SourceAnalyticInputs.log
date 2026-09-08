@@ -1,0 +1,12 @@
+AUDIT_DECLARATION KakeyaFormal.SourceAnalyticInputs.TwoEnds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceAnalyticInputs.TwoEnds.globalize AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SourceAnalyticInputs.Base AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceAnalyticInputs.Lifted.to_discrete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceAnalyticInputs.TwoEnds.globalize_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceAnalyticInputs.Base.to_discrete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceAnalyticInputs.TwoEnds.globalize_measurable._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceAnalyticInputs.Base._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SourceAnalyticInputs.Lifted AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceAnalyticInputs.TwoEnds.to_two_ends AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,99 @@
+'KakeyaFormal.CommonDensityLocalization.exists_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.CommonDensityLocalization.Selection.common_mass_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.CommonDensityLocalization.Selection.density_depth_log_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.exists_selection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.radius_depth_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.density_depth_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.selected AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.radius_upper AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.exists_selection._proof_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.casesOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.centers AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.selected_nonempty AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.common_mass_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.localized_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.ctorIdx AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.radiusIndex AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection._sizeOf_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.original_mass_fraction AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.densityIndex AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.density_depth_log_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.radiusDepth AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.density_range AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.radius_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.exists_selection._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CommonDensityLocalization.Selection.count_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection.densityDepth AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CommonDensityLocalization.Selection AXIOMS [propext, Classical.choice, Quot.sound]

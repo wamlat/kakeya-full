@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.MeasurableLengthEstimates.real_cap_endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableLengthEstimates.real_cap_endpoint._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableLengthEstimates.Estimate._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableLengthEstimates.Estimate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableLengthEstimates.Estimate._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableLengthEstimates.diagonal_endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableLengthEstimates.of_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableLengthEstimates.diagonal_endpoint._proof_1_1 AXIOMS [propext, Quot.sound]

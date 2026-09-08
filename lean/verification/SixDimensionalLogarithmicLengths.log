@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.SixDimensionalLogarithmicLengths.source_notation AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalLogarithmicLengths.cap_free AXIOMS [propext, Classical.choice, Quot.sound]

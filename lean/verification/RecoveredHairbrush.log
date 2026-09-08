@@ -1,0 +1,4 @@
+'KakeyaFormal.RecoveredHairbrush.eta_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.RecoveredHairbrush.retained_output_hairbrush' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RecoveredHairbrush.retained_output_hairbrush AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RecoveredHairbrush.eta_le_two AXIOMS [propext, Classical.choice, Quot.sound]

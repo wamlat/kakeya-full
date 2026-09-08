@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/registry_hash_mismatch/verify.py", line 153, in <module>
+    if __name__=='__main__': main()
+                             ~~~~^^
+  File "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/registry_hash_mismatch/verify.py", line 75, in main
+    raise RuntimeError(f'{name}: external source differs from reviewed registry hash')
+RuntimeError: Fixture.published: external source differs from reviewed registry hash

@@ -1,0 +1,10 @@
+AUDIT_THEOREM KakeyaFormal.SixDimensionalUnrestricted.bounded_maximal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalUnrestricted.volume_first_step AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalUnrestricted.discrete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalUnrestricted.bounded_first_step AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalUnrestricted.measurable_first_step AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalUnrestricted.measurable_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalUnrestricted.measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalUnrestricted.volume_lower AXIOMS [propext, Classical.choice, Quot.sound]

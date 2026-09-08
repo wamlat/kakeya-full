@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "CumulativeFixedError",
+      "status": "PASS",
+      "sha256": "266e9eb0435e9e665335b633e07301ffc23dcc5d06ac911f0c9d29742a7ba961",
+      "named_theorems": 5,
+      "theorem_declarations": 12,
+      "all_declarations": 12,
+      "custom_axioms": []
+    }
+  ]
+}

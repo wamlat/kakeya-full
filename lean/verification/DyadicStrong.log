@@ -1,0 +1,12 @@
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.bandSum_rpow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadic_strong_moment AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.integrate_band_distribution AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.bandKernel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.lintegral_bandSum_rpow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.lintegral_bandKernel AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.bandKernel_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.lintegral_bandKernel._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.bandKernel.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.integrate_band_distribution._simp_1_2 AXIOMS [propext]

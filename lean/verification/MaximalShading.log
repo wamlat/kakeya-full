@@ -1,0 +1,6 @@
+AUDIT_THEOREM KakeyaFormal.MaximalShading.bounded_maximal_of_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalShading.BoundedEstimate._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableConfiguration.unionSet.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MaximalShading.Estimate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalShading.BoundedEstimate._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MaximalShading.BoundedEstimate AXIOMS [propext, Classical.choice, Quot.sound]

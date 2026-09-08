@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.AngularBoxCoarse.bounded_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxCoarse.density_target_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxCoarse.coarse AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxCoarse.physical_density_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxCoarse.original_density_le_two AXIOMS [propext, Classical.choice, Quot.sound]

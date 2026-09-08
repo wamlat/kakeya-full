@@ -1,0 +1,46 @@
+'KakeyaFormal.HairbrushPlanes.plane_bin_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.HairbrushPlanes.bristle_plane_bins' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.plank_iff_affine_plane AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.bristleNormal_unit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.plank_direction_cap._abel_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.stem_transverse_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.plank_direction_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushPlanes.plank AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.norm_smul_unitize AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.EuclideanSplit.tail.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.plank_normal_change AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.transverseCoordinate_smul AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.isometry_projective._simp_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.plank_normal_change._abel_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.transverseCoordinate_add AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.isometry_projective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.exists_stem_point_at_transverse_distance AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.plank_iff_affine_plane._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.stem_transverse_zero AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.axis_inner_head AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.transverseCoordinate.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.transverseCoordinate_zero AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.bristle_in_stem_plank._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.plank_normal_change._abel_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.transverseCoordinate_norm_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.bristle_plane_bins AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.bristle_in_stem_plank AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.transverseCoordinate_sub AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.isometry_projective._simp_1_2 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.exists_stem_point_at_transverse_distance._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.finite_plane_bins AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushPlanes.transverseCoordinate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushPlanes.bristleNormal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.scalar_projective_match AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.distance_from_stem_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.EuclideanSplit.head.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.EuclideanSplit.cons.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushPlanes.plane_bin_overlap AXIOMS [propext, Classical.choice, Quot.sound]

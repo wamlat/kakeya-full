@@ -1,0 +1,4 @@
+'KakeyaFormal.HairbrushKernel.chosen_radius_hairbrush' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushKernel.PointwiseBroad AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushKernel.chosen_radius_half_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushKernel.chosen_radius_hairbrush AXIOMS [propext, Classical.choice, Quot.sound]

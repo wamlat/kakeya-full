@@ -1,0 +1,11 @@
+{
+  "LebesgueDensityTrimming": "lebesgue_density_trimming_geometry_review.md",
+  "SourceLocalization": "source_localization_finite_review.md",
+  "SourceLocalizationGeometry": "source_localization_geometry_finite_review.md",
+  "LogarithmicTwoEndsAlgebra": "logarithmic_two_ends_algebra_root_review.md",
+  "LogarithmicTwoEnds": "logarithmic_two_ends_finite_review.md",
+  "SixDimensionalLogarithmic": "six_dimensional_logarithmic_scalar_review.md",
+  "WideLogarithmicTwoEnds": "wide_logarithmic_two_ends_root_review.md",
+  "LogarithmicLengthEstimates": "logarithmic_lengths_geometry_review.md",
+  "SixDimensionalLogarithmicLengths": "logarithmic_lengths_geometry_review.md"
+}

@@ -1,0 +1,21 @@
+# Actual measurable inputs to normalized sampling expectations
+
+`SamplingNormalizedMeans.lean` is clean-built, fully source-audited and frozen. It contains 21 theorems, eight definitions and one actual-input structure (30 named declarations). The exact source-prefix audit passed with no errors or warnings and only `propext`, `Classical.choice`, `Quot.sound`. No frozen dependency was edited.
+
+The namespace is `KakeyaFormal.SamplingNormalizedMeans`. Its `Input F Full G delta width baseR lambda c0 C0 xi B alpha K beta`, in actual ambient dimension n+1, contains only original physical data: positive mesh and density, bounded unit-tube bases, measurable full/marked sets inside actual carriers, marks contained in full sets, comparable physical full masses, original total marked mass, full physical two ends, and almost-everywhere bounded-radii marked broadness. No probability mean, support count, cap expectation, ball expectation or energy bound is an input.
+
+The arrays use the exact positive-cell support from `SamplingSupport`. Put cEq=min(c0,1), Rratio=C0/cEq, and mu=cEq*lambda/delta. The definitions `rawFull` and `rawMarked` are actual normalized cell-intersection volumes. `full` and `marked` apply `SamplingRowNormalization` using the same positive row factor mu/oldFullMean to both arrays.
+
+The methods of Input derive c0≤C0 from one nonempty actual full shading; it is not an extra assumption. They prove mu>0, Rratio≥1, the actual raw mean interval [mu,Rratio*mu], valid nested normalized probabilities, and exact fullMean=mu for every original tube. All tube indices remain unchanged. `normalized_full_le_weight` is the precise support-domination interface for `SamplingRealization.admissible`. Positive full and marked normalized probabilities are each equivalent to positive original measurable intersection mass.
+
+`normalized_actual_marked_mass` retains at least cEq/C0 of the actual original normalized marked volume. The weaker convenient `normalized_marked_mass` substitutes the original physical marked-mass budget to give at least `(cEq/C0)*xi*lambda*M/delta`. Thus the low/high partition should be taken on the **normalized** marked means. It need not equal the original unnormalized low/high partition; its fixed-factor support-count alternative is sufficient for the later globalization.
+
+`normalized_ball_mean` proves the same relative two-ends coefficient after normalization: expected count in a test of radius r is at most `B*(1+(n+1)/2)^alpha*r^alpha*mu`. The row factor cancels against the original full mean. For 0≤alpha≤1, `normalized_ball_test` gives the exact factor-four sampling premise with fixed `ballCoefficient n=4*(1+(n+1)/2)`: `4*ballMean≤ballCoefficient*B*r^alpha*mu`. The original physical two ends is used only for radii delta through one, with the already-proved total-mass fallback outside that range.
+
+`normalized_cap_mean` derives the relative angular expectation coefficient Rratio*K from actual a.e. broadness integrated over cells. The finite cap tests are the actual original-direction open radius-2theta masks from `SamplingCapTests`. `normalized_cap_test` uses the existing literal `SamplingTheta.choice(Rratio*K,beta)` and requires only its bottom-radius test delta≤2theta; it concludes the exact `1000*capMean≤markedMean` requirement.
+
+`uniform_angular_tests` fixes a positive mesh threshold before every dimension, tube family, actual measurable set, mesh, density or conditioning constant K. Under the original fixed logarithmic upper budget `K≤K0*log(2/delta)^logPower`, it derives theta>0, delta≤2theta≤1, the explicit fixed logarithmic lower bound for theta, and all normalized angular expectation tests. Its outer constants depend only on fixed c0,C0,K0,beta,logPower; there is no density-dependent angular scale cutoff.
+
+The actual random outcome and low/high dichotomy are not asserted by this module alone. The next separate `SamplingMeasurableAssembly` will combine these derived means with actual geometric test counts and the scalar agent's sharp Chernoff realization. The latter gives [2mu/3,4mu/3], which will produce exact Comparable density `(2/3)cEq*lambda` on all original tubes without post-sampling density binning.
+
+Source SHA-256: `3fa854e75a1aec6cbd41fd7080e8607bf920f2585c46e5767d0d4bf3fd25d00c`.

@@ -1,0 +1,106 @@
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.packingConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.indexed_projective_cap_packing AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_neg_left AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_cap_packing AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.same_floor_distance AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_distance_le_sqrt_two AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_triangle AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.fullDirectionCoefficient_ge_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_le_antipodal_chord AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.spherical_cap_packing AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.ProjectiveGeometry.chartMove AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartBin_injective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_le_chord AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex_norm AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_symm AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.packingConstant.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.packingConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex_projective._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_triangle._abel_1_4 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex_sub AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.ProjectiveGeometry.chartConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartConstant.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex_add AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.norm_le_coordinate_sum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.norm_le_coordinate_sum._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartMove_norm AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.spherical_chart_packing_real AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.unit_has_large_coordinate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartMove_injective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_triangle._abel_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.ProjectiveGeometry.fullDirectionCoefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.packingConstant_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartMove_dist AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.fullDirectionCoefficient.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.nearRepresentative_injective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartMove_projective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex_dist AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.packingConstant_formula AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.ProjectiveGeometry.packingConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.unit_in_signed_chart AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.sphere_chart_distance AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.spherical_chart_packing AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_zero_iff AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.separated_tube_family_cap_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex_projective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartMove_zero AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartMove.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_triangle._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.ProjectiveGeometry.reindex AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.ProjectiveGeometry.nearRepresentative AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.nearRepresentative_norm AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_chord_sq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.chartMove._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.floor_distance_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.cap_representative._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_triangle._abel_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.nearRepresentative_in_cap._abel_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.cap_representative AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.reindex_projective._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.ProjectiveGeometry.chartBin AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.separated_total_tube_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.nearRepresentative_projective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.unit_has_large_coordinate._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.projective_angle_sine_sq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveGeometry.nearRepresentative_in_cap AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+# Actual planar row energy and measurable per-bin union bound
+
+`formalization/PlanarEnergy.lean` compiles cleanly; its principal row and union theorems audit with only `propext`, `Classical.choice`, and `Quot.sound`. There are no custom axioms or unfinished proof placeholders.
+
+The finite dyadic shell predicate includes the complete sub-mesh shell and all subsequent angular annuli. Its finite covering property and its inverse-angle bound are proved, not assumed. A linear cap-count hypothesis then gives the corresponding inverse-angle sum. The actual application derives that cap count from `ThickCircle.plane_bin_direction_count`. A concrete terminal depth ceil(log₂(2/δ)) is proved to cover every possible unit chord, and the depth is bounded by log₂(2/δ)+1.
+
+For actual ambient dimension d=k+2, `plane_inverse_angle_sum` proves the inverse-angle row is at most 2 circleConstant(k,1) [log₂(2/δ)+2]/δ. Combining this with root's actual tube-intersection volume theorem proves `planar_intersection_row`: the row of actual tube-intersection volumes is at most rowConstant(k) [log₂(2/δ)+2] δ^(d−1). Here rowConstant=88·2^d·unitBallVolume(d)·circleConstant(k,1). This is the elementary planar intersection sum in (4.13).
+
+`planar_shading_row` derives the same bound for actual shading subsets. `planar_shading_union_lower` applies root's proved measurable L2/Cauchy–Schwarz theorem to those actual sets. Finally `planar_density_union_lower` proves the exact form used in (4.14): if every measurable shading in one actual plane bin has volume at least λ δ^(d−1)/L, and L≥log₂(2/δ)+2, its union has volume at least #bin·λ²δ^(d−1)/(rowConstant(k)·L³). Empty finite index types are included by the imported finite-measure theorem.
+
+The geometric inputs are an actual stem tube and actual unit plane representative, the assignment relation between every actual bristle transverse normal and that representative at projective distance at most δ, original δ-separated tube directions, and 0<δ≤1/2. No inverse-angle sum, tube-intersection bound, energy row, or per-bin union lower bound appears among the final theorem's hypotheses. Actual measurable shading membership and actual volume lower bounds remain explicit, as they should. The plane-bin assignment can be supplied by the preceding finite-net construction.
+
+This module does not select a high-multiplicity stem, prove its bristle-count lower bound, remove near-stem shading by two-ends, or yet sum the bin union lower bounds through the established plank-overlap factor. Consequently it proves this substantial hairbrush step, not the full fractional hairbrush seed or the final Kakeya exponent.

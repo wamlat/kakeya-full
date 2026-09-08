@@ -1,0 +1,17 @@
+AUDIT_DECLARATION KakeyaFormal.SamplingLengthAssembly.directionCoefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingLengthAssembly.gridConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.gridConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.gridConstant.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.HighResult._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.HighResult._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.LowResult.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.LowResult._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.LowResult._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.tube_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingLengthAssembly.HighResult AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.gridConstant._proof_2 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SamplingLengthAssembly.LowResult AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingLengthAssembly.construct._simp_1_3 AXIOMS [propext, Classical.choice, Quot.sound]

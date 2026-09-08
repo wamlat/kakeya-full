@@ -1,0 +1,6 @@
+AUDIT_THEOREM KakeyaFormal.TruncationIntegral.low_joint_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TruncationIntegral.low_integral_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TruncationIntegral.high_joint_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TruncationIntegral.low_kernel_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TruncationIntegral.high_integral_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TruncationIntegral.high_kernel_le AXIOMS [propext, Classical.choice, Quot.sound]

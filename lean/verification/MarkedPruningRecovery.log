@@ -1,0 +1,59 @@
+'KakeyaFormal.MarkedPruningRecovery.good_marked_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningRecovery.two_density_bins' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningRecovery.select_marked_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningRecovery.retained_broadness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningRecovery.selected_broadness' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningRecovery.selected_two_ends' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningRecovery.selected_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningRecovery.recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.retained_marked_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.pointwise_full_loss AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.recover AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.pointwise_full_loss._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.retained_broadness._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.selectedIndex.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.keptCells AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.pointwise_full_loss._proof_1_4 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.retained_marked_mass._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.selected_geometry AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.reindex_predicate_card AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.retainedMarks.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.currentMarks AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.two_density_bins AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.reindex_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.goodTubes AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.deletionMass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.selectedMarks AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.selected_broadness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.select_marked_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.selectedFamily.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.selectedIndex_injective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.cell_filter_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.pointwise_full_loss._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.selected_broadness._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.selectedIndex_mem AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.retained_broadness._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.selected_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.retainedMarks AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.goodTubes.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.retained_broadness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.retained_marked_mass._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.selectedFamily AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.keptCells._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningRecovery.good_marked_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.selectedIndex AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningRecovery.markedMass AXIOMS [propext, Classical.choice, Quot.sound]

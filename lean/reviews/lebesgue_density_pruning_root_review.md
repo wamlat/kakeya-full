@@ -1,0 +1,9 @@
+# Independent source review: completed-measurable density pruning
+
+Reviewed `LebesgueDensityPruning.lean` at SHA-256 `bb2474418b4adc435bc08e504ecd982ac2221b5a804e05bc7f7a004cb6e93010`, against the actual definitions and theorems in `SourceGoodMass`, `SourceDensityPruning`, and `SourceDensityPruningGeometry`. No defect found in the eleven declarations. This is a second AI-assisted source review, distinct from compilation and the exact-source logical-dependency audit.
+
+The extension instantiates the generic measurable-space results on `NullMeasurableSpace X μ` with `μ.completion`. It introduces no completeness or sigma-finiteness hypothesis on the original measure. The completion evaluates to the original outer measure on every set; the three initial equality theorems use `rfl`. Thus row masses, survivor decisions, retained labels, and all actual original masks remain identical, including at zero masses and equality thresholds. It does not select different representatives.
+
+The measurability wrappers certify exactly the original good, full surviving, marked, and bad sets as null-measurable. Finiteness and subset assumptions needed by subtraction of real masses are retained in the public inequalities. `source_fractions` retains the original nonnegative kappa, original finite row masses, and original mass premise, and concludes the literal one-eighth deleted, three-quarters good, and five-eighths retained fractions for the same assignment and original rows.
+
+The existing geometry results use the original masks and numerical values, without a Borel-measurability premise. They therefore apply directly after this construction: there is no a.e. substitution for pointwise density, two-ends, broadness, or overlap conclusions. The source remains outside the frozen 406-module checkpoint and needs inclusion in the next integrated verification before publication.

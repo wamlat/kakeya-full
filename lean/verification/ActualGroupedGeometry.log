@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.ActualGroupedGeometry.trimmed_incidence_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ActualGroupedGeometry.intermediate_injective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ActualGroupedGeometry.palette_card AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ActualGroupedGeometry.graph_family_separated AXIOMS [propext, Classical.choice, Quot.sound]

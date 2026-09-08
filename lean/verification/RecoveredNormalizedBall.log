@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.RecoveredNormalizedBall.recovered_cap_coefficient_ge_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RecoveredNormalizedBall.recovered_ball_bound AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,16 @@
+AUDIT_THEOREM KakeyaFormal.GaussianCollisionGeometry.unitDirection_neg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianCollisionGeometry.smul_unitDirection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianCollisionGeometry.collision_containment AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianCollisionGeometry.perpendicular_angle_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianCollisionGeometry.perpendicular_add_smul AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianCollisionGeometry.inner_unitDirection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianCollisionGeometry.perpendicular_self AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianCollisionGeometry.angle_unitDirection_neg_right AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

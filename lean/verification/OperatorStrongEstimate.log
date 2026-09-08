@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.OperatorStrongEstimate.l1_constant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OperatorStrongEstimate.interpolated_moment AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolation.coefficient.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]

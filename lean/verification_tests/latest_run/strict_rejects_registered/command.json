@@ -1,0 +1,15 @@
+[
+  "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+  "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/strict_rejects_registered/verify.py",
+  "--mathlib-project",
+  "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint21_verify",
+  "--scratch",
+  "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/strict_rejects_registered/scratch",
+  "--log-dir",
+  "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/strict_rejects_registered/logs",
+  "--lake",
+  "/Users/ssoh/.elan/bin/lake",
+  "--workers",
+  "1",
+  "--reject-external-axioms"
+]

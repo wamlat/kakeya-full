@@ -1,0 +1,35 @@
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.maximizing_broad_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.cap_biUnion._simp_1_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.weighted_color_pigeonhole AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.broad_proportional_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularDecomposition.Broad AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.maximizing_broad_subset._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularDecomposition.GoodPiece AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.score_comparison AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.top_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.cap.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.common_scale_broad_decomposition._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.round_real_radius AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.GoodPiece._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.common_scale_piece_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.cap_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.GoodPiece._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.disjoint_broad_decomposition AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.disjoint_broad_decomposition._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.cap_biUnion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.finite_disjoint_saturation AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.cap_biUnion._simp_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.common_scale_broad_decomposition AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.finite_disjoint_saturation._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularDecomposition.cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.broad_biUnion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.unit_direction_distance_le_two AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.maximizing_broad_subset._proof_1_2 AXIOMS [propext, Quot.sound]

@@ -1,0 +1,23 @@
+AUDIT_THEOREM _private.SamplingJointProbability_AxiomAudit.0.KakeyaFormal.SamplingGeometricFailure.bad.match_1.eq_2 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.SamplingJointProbability.sampleGood_probability AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION _private.SamplingJointProbability_AxiomAudit.0.KakeyaFormal.SamplingGeometricFailure.bad.match_1.splitter AXIOMS []
+AUDIT_THEOREM KakeyaFormal.SamplingJointProbability.sampleGood_of_avoiding AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM _private.SamplingJointProbability_AxiomAudit.0.KakeyaFormal.SamplingGeometricFailure.bad.match_1.eq_1 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.SamplingJointProbability.positive_avoidance_identity AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingGeometricFailure.bad.eq_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingJointProbability.sampleGood_of_avoiding._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingJointProbability.sampleGood_of_avoiding._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingGeometricFailure.bad.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingJointProbability.sampleGood_of_avoiding._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingJointProbability.positive_avoidance_probability AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingJointProbability.positive_avoidance_identity._simp_1_1 AXIOMS [propext, Quot.sound]

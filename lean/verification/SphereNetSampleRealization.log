@@ -1,0 +1,91 @@
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output._sizeOf_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.marked_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_7 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.omega AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.closed_broadness AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.good AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.broadness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.union_card AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.longitudinal_count AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.marked_density AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.of_sample AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.marked_positive AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.axes AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.admissible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.family AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.closed_broadness._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.bounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.depth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.cell_union_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.marks AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.bottom AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.marked_relative AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.bottom_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.of_sample._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.cap_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.closed_broadness._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.full_positive AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSampleRealization.Output.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.support_and_marks AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.depth_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSampleRealization.Output.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]

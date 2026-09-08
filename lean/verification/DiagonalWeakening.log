@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaScalar.slopeLimit.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiagonalDiscreteEstimate.weaken AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiagonalConsequences.six AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiagonalConsequences.eight AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaScalar.limitProfile.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]

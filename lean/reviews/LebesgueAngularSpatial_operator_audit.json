@@ -1,0 +1,47 @@
+{
+  "module": "LebesgueAngularSpatial",
+  "status": "PASS",
+  "source_sha256": "d1dad9395442f6a89a1338bc4c4f8acd09a219315fb17299d9b463cac45a98d7",
+  "source_theorems": [
+    "construct"
+  ],
+  "audited_theorem_count": 5,
+  "audited_declaration_count": 6,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.LebesgueAngularSpatial.construct": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueAngularSpatial.restoreInput._proof_4": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueAngularSpatial.restoreInput._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueAngularSpatial.restoreInput._proof_3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueAngularSpatial.restoreInput._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueAngularSpatial.restoreInput": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

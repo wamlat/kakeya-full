@@ -1,0 +1,14 @@
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.retainedUnion_overlap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularSeedSummation.retainedUnion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.groupUnion_finite AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.angular_gain_absorbs_overlap AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.retainedUnion_finite AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.retainedUnion.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.groupUnion.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.group_volume_sum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.retainedUnion_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.groupUnion_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedSummation.retainedUnion_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularSeedSummation.groupUnion AXIOMS [propext, Classical.choice, Quot.sound]

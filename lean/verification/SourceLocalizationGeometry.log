@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.SourceLocalizationGeometry.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceLocalizationGeometry.unit_source_notation AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

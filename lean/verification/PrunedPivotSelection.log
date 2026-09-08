@@ -1,0 +1,16 @@
+'KakeyaFormal.PrunedPivotSelection.recovered_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PrunedPivotSelection.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.PrunedPivotSelection.geometry_tests' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.geometry_tests AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection._simp_1_7 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PrunedPivotSelection.recovered_selection._simp_1_8 AXIOMS [propext]

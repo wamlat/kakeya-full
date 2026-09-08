@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.AppendixEndpoints.weakened_bush_discrete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AppendixEndpoints.weakened_bush_maximal._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AppendixEndpoints.bush_maximal._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AppendixEndpoints.bush_discrete._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AppendixEndpoints.bush_le_main AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AppendixEndpoints.bush_discrete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AppendixEndpoints.weakened_bush_maximal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AppendixEndpoints.bush_maximal AXIOMS [propext, Classical.choice, Quot.sound]

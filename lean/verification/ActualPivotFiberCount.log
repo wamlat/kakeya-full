@@ -1,0 +1,14 @@
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.restricted_output_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.output_count_at_intermediate AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.output_count_at_intermediate._simp_1_8 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.output_count_at_intermediate._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalLabeledSamples.pairSet.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.output_count_at_intermediate._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.output_count_at_intermediate._simp_1_7 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.output_count_at_intermediate._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.output_count_at_intermediate._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ActualPivotFiberCount.output_count_at_intermediate._simp_1_3 AXIOMS [propext]

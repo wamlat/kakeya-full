@@ -1,0 +1,18 @@
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.measurable_seed_at_depth AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularHairbrush.keptGroups AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.seedConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.group_volume_sum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularHairbrush.groupUnion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.groupUnion.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.seedConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.keptGroups._proof_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.keptGroups._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableAngularHairbrush.seedConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.summed_hairbrush AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.keptGroups._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.kept_group_hairbrush AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableAngularHairbrush.seedConstant.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]

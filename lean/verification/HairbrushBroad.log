@@ -1,0 +1,26 @@
+'KakeyaFormal.HairbrushBroad.broad_hairbrush_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broadConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broad_hairbrush_squared._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broad_hairbrush_squared._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broad_hairbrush_squared._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broad_hairbrush_squared._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broad_hairbrush_squared AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.bristle_multiplicity._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.bristle_multiplicity._simp_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushBroad.broadConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.bristle_multiplicity_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.bristles.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.overlap_restrict AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broad_hairbrush_squared._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.bristle_multiplicity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broad_hairbrush_squared._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broad_hairbrush_squared._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.bristle_multiplicity._simp_1_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushBroad.nearCount AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushBroad.instDecidable_hairbrushBroad_AxiomAudit AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushBroad.broadConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.HairbrushBroad.bristles AXIOMS [propext, Classical.choice, Quot.sound]

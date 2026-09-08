@@ -1,0 +1,6 @@
+AUDIT_THEOREM KakeyaFormal.StrongInterpolation.strong_interpolation AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.StrongInterpolation.coefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolation.coefficient._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolation.coefficient_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolation.weighted_endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.StrongInterpolation.weighted_level_bound AXIOMS [propext, Classical.choice, Quot.sound]

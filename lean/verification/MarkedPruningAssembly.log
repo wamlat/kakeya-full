@@ -1,0 +1,99 @@
+'KakeyaFormal.MarkedPruningAssembly.marked_union_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningAssembly.marked_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningAssembly.recover_pruned' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.MarkedPruningAssembly.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.casesOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.union_subset_pruned AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.count_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.marks_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.ctorIdx AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.admissible AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.recover_pruned._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.marked_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput._sizeOf_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.bounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.recover_pruned AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.cap_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.comparable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.full_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.comparison_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.N AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.marked_mass AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.density_choice AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.index AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.marked_broad AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.density_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.union_subset_E AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.marked_union_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.count_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.union_nonempty AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.index_injective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.original_marks_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.tube_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.family AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.recover_pruned._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedPruningAssembly.RecoveredInput.two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.marks AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedPruningAssembly.RecoveredInput.density AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedDensityLengths.comparable_density_seed AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableSeedDensityLengths.logarithmic_density_seed AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

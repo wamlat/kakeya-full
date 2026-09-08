@@ -1,0 +1,17 @@
+AUDIT_DECLARATION KakeyaFormal.GaussianSelectionAlgebra.populationConstant AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.GaussianSelectionAlgebra.denominatorCoefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSelectionAlgebra.denominator_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSelectionAlgebra.denominatorCoefficient_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSelectionAlgebra.cardinality_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSelectionAlgebra.population_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianSelectionAlgebra.denominatorCoefficient._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianSelectionAlgebra.denominatorCoefficient._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianSelectionAlgebra.populationConstant_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

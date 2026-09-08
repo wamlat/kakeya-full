@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.ProjectionConclusion.source_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectionConclusion.source_cumulative AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,21 @@
+'KakeyaFormal.AngularPiecePopulation.sum_old_unions' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.AngularPiecePopulation.sum_piece_positive_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.sum_old_unions._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.sum_piece_positive_counts AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.piece_positive_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.sum_old_unions._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.sum_old_unions._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.transformed_ref_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.sum_old_unions AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.family_union_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularPiecePopulation.sum_piece_positive_counts._simp_1_1 AXIOMS [propext, Quot.sound]

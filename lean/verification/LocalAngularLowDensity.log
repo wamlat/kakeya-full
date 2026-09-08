@@ -1,0 +1,7 @@
+AUDIT_THEOREM KakeyaFormal.LocalAngularLowDensity.volume_to_old_cells AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularLowDensity.inverse_seedLog_uniform AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularLowDensity.retained_low_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularLowDensity.uniform_sparse AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularLowDensity.retained_quadratic AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularLowDensity.natural_le_seedLog AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularLowDensity.sparse_power AXIOMS [propext, Classical.choice, Quot.sound]

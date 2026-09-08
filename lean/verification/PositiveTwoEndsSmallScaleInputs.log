@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.PositiveTwoEndsPivot.from_source_small_scale_inputs AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

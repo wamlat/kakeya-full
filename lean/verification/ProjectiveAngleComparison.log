@@ -1,0 +1,31 @@
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.transverse_eq_sin AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cap_comparison AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cap_comparison._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cap_comparison._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.chord_angle_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cap_comparison._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.representative AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.orthogonal_decomposition._abel_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.orthogonal_decomposition AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.chord_eq_two_sin_half AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.sin_angle_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cap_comparison._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.sine_angle_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cos_angle AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cap_comparison._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cap_comparison._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.cap_comparison._simp_1_4 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.ProjectiveAngleComparison.angle AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.angle._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.angle.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.sine_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.angle_le_half_pi AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.ProjectiveAngleComparison.angle_nonneg AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,21 @@
+# Actual variable-length tube-volume adapters
+
+The three new modules are frozen, compile cleanly, and pass the exact-source all-local-declaration audit with only propext, Classical.choice and Quot.sound. They are outside the frozen 340-module checkpoint20 until the parent integrates a later snapshot. Existing source files, lakefile, verifier and output package are unchanged.
+
+`LengthTubeVolume` proves compactness, measurability and finite volume of the actual carrier with an individual axis length. Its two geometric containments produce actual volume comparisons; no tube-volume formula or desired comparison is assumed. Write h=min(1,lengthLower,width)>0 and W=max(1,lengthUpper,width). The small homothetic unit carrier lies inside every original tube, and the common map x↦x/W sends every original carrier into an actual unit carrier of radius delta. Exact isometry-invariance of unit-tube volume then gives h^n Vunit≤Voriginal≤W^n Vunit, including every actual original base and direction.
+
+`MaximalLengths.from_estimate` normalizes every shading by the SAME common map, at the SAME direction-separation scale delta. Its unit-tube density is lambda*(h/W)^n. The transformed union has exactly W^(-n) times the original union volume; the upper bound on the original tube-volume sum cancels this common factor. Thus the new constant is c_unit*((h/W)^n)^d, fixed before delta,lambda,M,positions,lengths and shadings. It proves the full arbitrary-position maximal-shading inequality with the actual variable-length tube volumes BOTH in the density assumptions and in the final sum. It requires only fixed positive width and lower length, a fixed upper length and positive separation, measurable shadings, 0<delta,lambda≤1 and actual carrier incidence. There is no cap, bounded-base, two-ends or volume-comparison premise. No positivity restriction on the abstract exponent d is needed. The empty family is handled automatically.
+
+The public `MaximalLengths.Estimate` is instantiated by actual theorem wrappers for every main dimension n≥6, the exact limit formula, 33/8 in dimension6, 7−2sqrt2 in dimension6, 11−4sqrt2 in dimension8, and the old diagonal values29/7 and37/7. These follow the proved position-unrestricted unit-axis theorem, rather than assuming the new predicate.
+
+`MeasurableLengthEstimates.of_volume` proves the corresponding generic real-cap measurable volume form with exponents (m,d,p). It constructs the actual normalized MeasurableConfiguration, with exactly unchanged directions, cap exponent/coefficient, scale and population, and a proved inherited bounded-base condition. The density multiplier gives the fixed coefficient c_unit*((h/W)^n)^p; the original variable tube-volume sum and original union again occur literally in the result. Actual endpoint wrappers give the real-m endpoint for m>3 and integer ambient dimension n≥m+1, and the diagonal endpoint for n≥6. No desired configuration, density, volume relation or normalized geometric condition is an input.
+
+This closes the separately named bounded-variable-length actual-tube-volume normalization for the maximal and real-cap measurable conclusions. Width is an arbitrary fixed positive common multiplier of delta. The source's comparable positive length interval is included; no claim is made about constants uniform as its positive lower bound approaches zero. This is a shading/volume statement; the already proved standard Kakeya operator uses its literal unit-axis definition and is unchanged.
+
+All validation used Lean4.33.1 and mathlib0df444a360eaa60ab8c11dca51a86af692955474. The JSON record is measurable_length_volume_audit.json. Every source theorem, generated local theorem and proof-bearing local declaration was examined by the production appended collector. Independent read-only review was requested from the scalar agent.
+
+| Module | Named source theorems | Local theorems | All local declarations | SHA-256 |
+|---|---:|---:|---:|---|
+| LengthTubeVolume | 7 | 17 | 17 | 62cdf22ee47c954b9e83aed0f9d954b9479a566a48633ed0561f70c21630471d |
+| MaximalLengths | 11 | 15 | 20 | fd82e02ef4c9d74904c44f4b357a9ab45ef5b3c142619541f441c6b015bb86b5 |
+| MeasurableLengthEstimates | 3 | 7 | 8 | e2265f0016c380f0f58449bdf1f9d31f217a3274a76da73e9a78eb0ba83a9e30 |

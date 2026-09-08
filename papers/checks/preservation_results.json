@@ -1,0 +1,36 @@
+{
+  "kakeya_paper_i": {
+    "original_display_blocks": 61,
+    "revised_display_blocks": 61,
+    "original_numbered_displays": 32,
+    "revised_numbered_displays": 32,
+    "removed_tags": [],
+    "added_tags": [],
+    "changed_numbered_displays": [],
+    "original_prose_words": 4141,
+    "revised_prose_words": 3553,
+    "original_whitespace_tokens": 5044,
+    "revised_whitespace_tokens": 4465,
+    "original_sha256": "06efaa2d046321abcd89ec82d20a748ce10da7699cfc8b6de8e291fc42e5d810",
+    "revised_sha256": "3469a55fc8c238c401372d5b33d07baf2151e6549363178363528fc2b459de37",
+    "statement_numbers_preserved": true,
+    "all_original_displays_preserved": true
+  },
+  "kakeya_combined": {
+    "original_display_blocks": 236,
+    "revised_display_blocks": 236,
+    "original_numbered_displays": 130,
+    "revised_numbered_displays": 130,
+    "removed_tags": [],
+    "added_tags": [],
+    "changed_numbered_displays": [],
+    "original_prose_words": 12911,
+    "revised_prose_words": 10491,
+    "original_whitespace_tokens": 15858,
+    "revised_whitespace_tokens": 13396,
+    "original_sha256": "95c981d175abc13d704da8bb081b8d53681536c833d525c09e6a369cb2ec595d",
+    "revised_sha256": "b4544e080b18333a8ffc58444a2bdc95be2b0ea9b2847ed048727354ee949d82",
+    "statement_numbers_preserved": true,
+    "all_original_displays_preserved": false
+  }
+}

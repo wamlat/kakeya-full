@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.SamplingSourceProbability.exists_of_probability_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingSourceProbability.goodEvent AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingSourceProbability.source_sampling AXIOMS [propext, Classical.choice, Quot.sound]

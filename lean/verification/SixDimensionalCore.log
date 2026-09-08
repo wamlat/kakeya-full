@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.SixDimensionalCore.base AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalCore.marked_union_estimate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalCore.marked_estimate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalCore.lift AXIOMS [propext, Classical.choice, Quot.sound]

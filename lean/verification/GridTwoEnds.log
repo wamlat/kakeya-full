@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.GridTwoEnds.localized_unit_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GridTwoEnds.rescaled_center_distance AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GridTwoEnds.rescaled_ball_card AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GridTwoEnds.rescaled_two_ends AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,19 @@
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_cap_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.threshold_low_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_original_log_low_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_bound._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_bound._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.inverse_log_scale_transport AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_bound._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.log_scale_transport AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.log_eccentricity_transport AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.log_scale_transport_of_power_cutoff AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_bound._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_bound._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_bound._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LowCellAbsorption.uniform_low_bound._simp_1_6 AXIOMS [propext, Classical.choice, Quot.sound]

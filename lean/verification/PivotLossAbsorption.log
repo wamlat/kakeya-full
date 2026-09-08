@@ -1,0 +1,38 @@
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.cap_population_linearization AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.conditioning_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.PivotLossAbsorption.totalLogLoss AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.root_unconditioned AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_natural_upper._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_population_bound._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_population_bound._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_population_bound._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_population_bound._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.inverse_log_delta AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_natural_upper._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.uniform_absorption AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_natural_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_population_bound._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.polylog_small_scales AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.totalLogLoss_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_inverse_power AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_natural_upper._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.density_log_fourth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivot_small_scale_absorption AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_natural_upper._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_natural_upper._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_natural_upper._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.pivotLog_natural_upper._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_population_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_population_bound._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_absorption AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PivotLossAbsorption.configuration_population_bound._simp_1_1 AXIOMS [propext]

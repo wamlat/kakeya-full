@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.FamilyLocalization.measurable_family_localization._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FamilyLocalization.measurable_family_localization._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FamilyLocalization.finite_family_localization._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FamilyLocalization.finite_family_localization AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FamilyLocalization.measurable_family_localization AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FamilyLocalization.finite_family_localization._proof_1_1 AXIOMS [propext, Quot.sound]

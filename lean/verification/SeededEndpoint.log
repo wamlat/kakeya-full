@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.SeededEndpoint.diagonal_endpoint_from_pivot AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SeededEndpoint.real_cap_endpoint_from_pivot AXIOMS [propext, Classical.choice, Quot.sound]

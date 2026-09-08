@@ -1,0 +1,15 @@
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.fixed_radius_choice AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MarkedSubsetSamples.markedFamily AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.fixed_radius_choice._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.marked_angle_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.construct_fixed_radius AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.fixed_radius_choice._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.fixed_radius_choice._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.marked_angles_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.fixed_radius_choice._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.fixed_radius_choice._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.fixed_radius_choice._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MarkedSubsetSamples.fixed_radius_choice._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

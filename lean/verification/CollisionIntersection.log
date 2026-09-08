@@ -1,0 +1,30 @@
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.intersectionConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CollisionIntersection.intersectionConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.unit_cell_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.fixed_pair_angle_subtype_count._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.fixed_pair_vertex_injective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.common_shading_count_max AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.fixed_pair_angle_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.intersectionConstant._proof_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.intersectionConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.common_cell_count_max AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.fixed_pair_angle_subtype_count AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.fixed_pair_angle_subtype_count._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.fixed_pair_angle_subtype_count._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.intersectionConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.common_label_subset_count AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.common_shading_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.common_cell_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionIntersection.common_vertex_count AXIOMS [propext, Classical.choice, Quot.sound]

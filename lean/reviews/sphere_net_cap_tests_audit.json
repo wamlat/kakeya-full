@@ -1,0 +1,155 @@
+{
+  "status": "PASS",
+  "source": "SphereNetCapTests.lean",
+  "source_sha256": "1a904c253c381ecbf814760a7cad0409c304628d4f3368eb006fafbda8cc06a2",
+  "named_theorems": 9,
+  "local_theorems": 15,
+  "all_local_declarations": 16,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "log": "../SphereNetCapTests_axioms.log",
+  "entries": [
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.source_cap_test",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.row_cap_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.row_cap_card._simp_1_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.cap_mean_le._simp_1_2",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.cap_mean_from_bounded_radii",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.capMean_admissible",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.cap_mean_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.input_cap_test",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetCapTests.cap",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.cap._proof_1",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.row_cap_card._simp_1_2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.cap_mean_le._simp_1_3",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.cap_containment",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.cap.eq_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.sampled_closed_broadness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetCapTests.all_closed_caps",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ]
+}

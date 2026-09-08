@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.LocalAngularLowDensityOriginal.original_parameters AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

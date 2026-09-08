@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.SphereNetBudget.product_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetBudget.theta_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetBudget.exists_product_threshold AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetBudget.polylog_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetBudget.exists_threshold AXIOMS [propext, Classical.choice, Quot.sound]

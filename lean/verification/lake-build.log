@@ -1,0 +1,462 @@
+ℹ [8707/9503] Replayed Finite
+info: Finite.lean:274:0: 'KakeyaFinite.weighted_power' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:275:0: 'KakeyaFinite.cumulative_from_bins' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:276:0: 'KakeyaFinite.dyadic_bin_membership' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:277:0: 'KakeyaFinite.nonempty_floor_truncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:278:0: 'KakeyaFinite.proportional_bad_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:279:0: 'KakeyaFinite.proportional_good_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:280:0: 'KakeyaFinite.retain_good_pieces' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:281:0: 'KakeyaFinite.restoration_constants' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:282:0: 'KakeyaFinite.grouped_cutoff_retains_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:283:0: 'KakeyaFinite.cutoff_calibration_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:284:0: 'KakeyaFinite.bounded_multiplicity_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:285:0: 'KakeyaFinite.support_card_by_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:286:0: 'KakeyaFinite.finite_support_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Finite.lean:287:0: 'KakeyaFinite.close_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8711/9503] Replayed Laminar
+info: Laminar.lean:164:0: 'KakeyaVerification.Laminar.CapacityTree.attainsRank' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Laminar.lean:165:0: 'KakeyaVerification.Laminar.CapacityTree.fractionalSelection' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8723/9503] Replayed TubeGeometry
+info: TubeGeometry.lean:423:0: 'KakeyaAudit.TubeGeometry.legal_pivot_mem_openSegment' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TubeGeometry.lean:424:0: 'KakeyaAudit.TubeGeometry.normalized_perturbed_lift_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TubeGeometry.lean:425:0: 'KakeyaAudit.TubeGeometry.rounded_triple_parameter_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TubeGeometry.lean:426:0: 'KakeyaAudit.TubeGeometry.projected_tube_parameter_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TubeGeometry.lean:427:0: 'KakeyaAudit.TubeGeometry.legal_pivot_stem_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8725/9503] Replayed Sampling
+info: Sampling.lean:635:0: 'KakeyaSampling.FiniteLaw.toPMF_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:636:0: 'KakeyaSampling.FiniteLaw.probability_true' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:637:0: 'KakeyaSampling.FiniteLaw.probability_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:638:0: 'KakeyaSampling.FiniteLaw.probability_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:639:0: 'KakeyaSampling.FiniteLaw.probability_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:640:0: 'KakeyaSampling.FiniteLaw.probability_union' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:641:0: 'KakeyaSampling.FiniteLaw.probability_exists_le_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:642:0: 'KakeyaSampling.FiniteLaw.exists_avoiding_of_probability_sum_lt_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Sampling.lean:643:0: 'KakeyaSampling.FiniteLaw.exists_positive_avoiding_of_probability_sum_lt_one' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: Sampling.lean:644:0: 'KakeyaSampling.FiniteLaw.probability_eq_sum_pmf' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:645:0: 'KakeyaSampling.FiniteLaw.exponential_event_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:646:0: 'KakeyaSampling.product_expectation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:647:0: 'KakeyaSampling.product_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:648:0: 'KakeyaSampling.expectation_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:649:0: 'KakeyaSampling.marked_le_full' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:650:0: 'KakeyaSampling.pair_full_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:651:0: 'KakeyaSampling.pair_marked_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:652:0: 'KakeyaSampling.pair_full_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:653:0: 'KakeyaSampling.pair_marked_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:654:0: 'KakeyaSampling.bernoulli_product_mgf_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:655:0: 'KakeyaSampling.chernoff_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:656:0: 'KakeyaSampling.chernoff_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:657:0: 'KakeyaSampling.poisson_binomial_two_sided' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:658:0: 'KakeyaSampling.poisson_binomial_large_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:659:0: 'KakeyaSampling.poisson_binomial_half_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:660:0: 'KakeyaSampling.poisson_binomial_tiny_mean_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:661:0: 'KakeyaSampling.pair_selection_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:662:0: 'KakeyaSampling.markedSelected_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:663:0: 'KakeyaSampling.fullCount_eq_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:664:0: 'KakeyaSampling.markedCount_eq_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:665:0: 'KakeyaSampling.coupled_full_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:666:0: 'KakeyaSampling.coupled_marked_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:667:0: 'KakeyaSampling.coupled_full_mgf_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:668:0: 'KakeyaSampling.coupled_marked_mgf_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:669:0: 'KakeyaSampling.coupled_full_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:670:0: 'KakeyaSampling.coupled_marked_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:671:0: 'KakeyaSampling.coupled_positive_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:672:0: 'KakeyaSampling.coupled_full_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:673:0: 'KakeyaSampling.coupled_marked_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:674:0: 'KakeyaSampling.test_mean_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:675:0: 'KakeyaSampling.coupled_test_mgf' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:676:0: 'KakeyaSampling.coupled_test_mgf_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:677:0: 'KakeyaSampling.coupled_test_concentration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:678:0: 'KakeyaSampling.coupled_test_large_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:679:0: 'KakeyaSampling.coupled_test_half_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:680:0: 'KakeyaSampling.coupled_test_tiny_mean_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:681:0: 'KakeyaSampling.coupled_angular_failure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:682:0: 'KakeyaSampling.angular_good_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:683:0: 'KakeyaSampling.coupled_simultaneous_realization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Sampling.lean:684:0: 'KakeyaSampling.coupled_test_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8735/9503] Replayed PivotSupport
+info: PivotSupport.lean:486:0: 'KakeyaFormal.PivotSupport.fixed_triple_lift_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotSupport.lean:487:0: 'KakeyaFormal.PivotSupport.support_count_from_legal_witnesses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PivotSupport.lean:488:0: 'KakeyaFormal.PivotSupport.energy_bound_from_legal_witnesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotSupport.lean:490:0: 'KakeyaFormal.PivotSupport.normalized_liftCount_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotSupport.lean:492:0: 'KakeyaFormal.PivotSupport.pivotCount_scale_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8737/9503] Replayed SamplingApplication
+info: SamplingApplication.lean:382:0: 'KakeyaSamplingApplication.tube_test_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:383:0: 'KakeyaSamplingApplication.cell_test_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:384:0: 'KakeyaSamplingApplication.ball_test_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:385:0: 'KakeyaSamplingApplication.cap_test_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:386:0: 'KakeyaSamplingApplication.tube_test_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:387:0: 'KakeyaSamplingApplication.cell_test_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:388:0: 'KakeyaSamplingApplication.ball_test_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:389:0: 'KakeyaSamplingApplication.cap_test_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:390:0: 'KakeyaSamplingApplication.markedShading_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:391:0: 'KakeyaSamplingApplication.fullTubeCount_eq_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:392:0: 'KakeyaSamplingApplication.marked_total_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:393:0: 'KakeyaSamplingApplication.failureBudget_le_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:394:0: 'KakeyaSamplingApplication.finite_sampling_assembly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:395:0: 'KakeyaSamplingApplication.capped_probabilities' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:396:0: 'KakeyaSamplingApplication.capped_sampling_assembly' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:397:0: 'KakeyaSamplingApplication.SampleGood.density_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingApplication.lean:398:0: 'KakeyaSamplingApplication.SampleGood.relative_ball_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8749/9503] Replayed PivotWitnesses
+info: PivotWitnesses.lean:483:0: 'KakeyaFormal.PivotWitnesses.AttachedSample.toWitness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotWitnesses.lean:484:0: 'KakeyaFormal.PivotWitnesses.finite_sample_support_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotWitnesses.lean:485:0: 'KakeyaFormal.PivotWitnesses.finite_sample_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotWitnesses.lean:487:0: 'KakeyaFormal.PivotWitnesses.rounded_sample_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8751/9503] Replayed OccupancySelection
+info: OccupancySelection.lean:494:0: 'KakeyaFormal.OccupancySelection.dyadic_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:495:0: 'KakeyaFormal.OccupancySelection.weighted_class_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:496:0: 'KakeyaFormal.OccupancySelection.weighted_dyadic_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:497:0: 'KakeyaFormal.OccupancySelection.half_mass_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:498:0: 'KakeyaFormal.OccupancySelection.tube_mass_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:499:0: 'KakeyaFormal.OccupancySelection.uniform_integer_trim' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:500:0: 'KakeyaFormal.OccupancySelection.measurable_occupancy_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:501:0: 'KakeyaFormal.OccupancySelection.measurable_tube_class_and_trim' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OccupancySelection.lean:502:0: 'KakeyaFormal.OccupancySelection.low_occupancy_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:503:0: 'KakeyaFormal.OccupancySelection.exists_common_integer_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OccupancySelection.lean:504:0: 'KakeyaFormal.OccupancySelection.high_occupancy_integer_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: OccupancySelection.lean:505:0: 'KakeyaFormal.OccupancySelection.finite_class_budgets' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:506:0: 'KakeyaFormal.OccupancySelection.uniform_integer_trim_capped' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OccupancySelection.lean:507:0: 'KakeyaFormal.OccupancySelection.capped_density_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8761/9503] Replayed PivotDirections
+info: PivotDirections.lean:280:0: 'KakeyaFormal.PivotDirections.distinct_fiber_second_direction_count' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: PivotDirections.lean:281:0: 'KakeyaFormal.PivotDirections.two_cell_cap_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8765/9503] Replayed DiscreteMeasurable
+info: DiscreteMeasurable.lean:484:0: 'KakeyaFormal.DiscreteMeasurable.injective_tube_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:485:0: 'KakeyaFormal.DiscreteMeasurable.gridCountConstant_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:486:0: 'KakeyaFormal.DiscreteMeasurable.admissible_count_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:487:0: 'KakeyaFormal.DiscreteMeasurable.normalize_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:488:0: 'KakeyaFormal.DiscreteMeasurable.selectedIndex_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:489:0: 'KakeyaFormal.DiscreteMeasurable.selectedIndex_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:490:0: 'KakeyaFormal.DiscreteMeasurable.selectedFamily_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:491:0: 'KakeyaFormal.DiscreteMeasurable.selectedFamily_admissible' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:492:0: 'KakeyaFormal.DiscreteMeasurable.selectedFamily_union_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:493:0: 'KakeyaFormal.DiscreteMeasurable.selection_configuration' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:494:0: 'KakeyaFormal.DiscreteMeasurable.selection_measurable_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:495:0: 'KakeyaFormal.DiscreteMeasurable.selection_measure_class_losses' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: DiscreteMeasurable.lean:496:0: 'KakeyaFormal.DiscreteMeasurable.discrete_estimate_measurable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: DiscreteMeasurable.lean:497:0: 'KakeyaFormal.DiscreteMeasurable.logarithmic_class_budgets' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:498:0: 'KakeyaFormal.DiscreteMeasurable.positive_incidence_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:499:0: 'KakeyaFormal.DiscreteMeasurable.actual_occupancy_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:500:0: 'KakeyaFormal.DiscreteMeasurable.small_density_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:501:0: 'KakeyaFormal.DiscreteMeasurable.small_density_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DiscreteMeasurable.lean:502:0: 'KakeyaFormal.DiscreteMeasurable.small_density_actual_tube' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8767/9503] Replayed Bush
+info: Bush.lean:542:0: 'KakeyaFormal.Bush.cumulative_bush_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bush.lean:543:0: 'KakeyaFormal.Bush.cumulative_bush_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bush.lean:545:0: 'KakeyaFormal.Bush.bush_real_cap_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8773/9503] Replayed HairbrushPlanes
+info: HairbrushPlanes.lean:307:0: 'KakeyaFormal.HairbrushPlanes.plane_bin_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HairbrushPlanes.lean:308:0: 'KakeyaFormal.HairbrushPlanes.bristle_plane_bins' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8779/9503] Replayed MeasurableEstimate
+info: MeasurableEstimate.lean:522:0: 'KakeyaFormal.MeasurableConversion.finite_mass_trim' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:523:0: 'KakeyaFormal.MeasurableConversion.measurable_mass_trim' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:524:0: 'KakeyaFormal.MeasurableConversion.carrier_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:525:0: 'KakeyaFormal.MeasurableConversion.class_log_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:526:0: 'KakeyaFormal.MeasurableConversion.uniform_class_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:527:0: 'KakeyaFormal.MeasurableConversion.specialized_expression' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:528:0: 'KakeyaFormal.MeasurableConversion.absorb_class_loss' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:529:0: 'KakeyaFormal.MeasurableConversion.union_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:530:0: 'KakeyaFormal.MeasurableConversion.union_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:531:0: 'KakeyaFormal.MeasurableConversion.union_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:532:0: 'KakeyaFormal.MeasurableConversion.high_density_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:533:0: 'KakeyaFormal.MeasurableConversion.discrete_to_measurable_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MeasurableEstimate.lean:534:0: 'KakeyaFormal.DiscreteEstimate.to_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:535:0: 'KakeyaFormal.MeasurableEstimate.volume_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:536:0: 'KakeyaFormal.DiscreteEstimate.to_measurable_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableEstimate.lean:537:0: 'KakeyaFormal.RealCapEstimate.to_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8787/9503] Replayed ThickCircle
+info: ThickCircle.lean:379:0: 'KakeyaFormal.ThickCircle.plane_bin_direction_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8789/9503] Replayed PlanarEnergy
+info: PlanarEnergy.lean:274:0: 'KakeyaFormal.PlanarEnergy.planar_intersection_row' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PlanarEnergy.lean:276:0: 'KakeyaFormal.PlanarEnergy.planar_density_union_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8791/9503] Replayed CommonDensityLocalization
+info: CommonDensityLocalization.lean:140:0: 'KakeyaFormal.CommonDensityLocalization.exists_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CommonDensityLocalization.lean:141:0: 'KakeyaFormal.CommonDensityLocalization.Selection.common_mass_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: CommonDensityLocalization.lean:142:0: 'KakeyaFormal.CommonDensityLocalization.Selection.density_depth_log_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8793/9503] Replayed MeasurableRescaling
+info: MeasurableRescaling.lean:285:0: 'KakeyaFormal.MeasurableRescaling.inverse_rescale' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:286:0: 'KakeyaFormal.MeasurableRescaling.rescale_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:287:0: 'KakeyaFormal.MeasurableRescaling.rescale_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:288:0: 'KakeyaFormal.MeasurableRescaling.image_eq_preimage' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:289:0: 'KakeyaFormal.MeasurableRescaling.image_measurable' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:290:0: 'KakeyaFormal.MeasurableRescaling.image_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:291:0: 'KakeyaFormal.MeasurableRescaling.image_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:292:0: 'KakeyaFormal.MeasurableRescaling.image_inter_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:293:0: 'KakeyaFormal.MeasurableRescaling.rescaled_two_ends' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:294:0: 'KakeyaFormal.MeasurableRescaling.unit_two_ends' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:295:0: 'KakeyaFormal.MeasurableRescaling.image_union' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:296:0: 'KakeyaFormal.MeasurableRescaling.union_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:297:0: 'KakeyaFormal.MeasurableRescaling.localized_parameter_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: MeasurableRescaling.lean:298:0: 'KakeyaFormal.MeasurableRescaling.localized_tube_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:299:0: 'KakeyaFormal.MeasurableRescaling.shared_origin_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MeasurableRescaling.lean:300:0: 'KakeyaFormal.MeasurableRescaling.localized_volume_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8805/9503] Replayed CumulativeEstimate
+info: CumulativeEstimate.lean:282:0: 'KakeyaFormal.Cumulative.subfamily_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CumulativeEstimate.lean:283:0: 'KakeyaFormal.Cumulative.finite_bin_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CumulativeEstimate.lean:284:0: 'KakeyaFormal.Cumulative.uniform_bin_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CumulativeEstimate.lean:285:0: 'KakeyaFormal.DiscreteEstimate.to_cumulative' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: CumulativeEstimate.lean:286:0: 'KakeyaFormal.RealCapEstimate.to_cumulative' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8809/9503] Replayed GroupedCumulative
+info: GroupedCumulative.lean:295:0: 'KakeyaFormal.GroupedCumulative.total_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GroupedCumulative.lean:296:0: 'KakeyaFormal.GroupedCumulative.total_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GroupedCumulative.lean:297:0: 'KakeyaFormal.GroupedCumulative.grouped_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GroupedCumulative.lean:298:0: 'KakeyaFormal.GroupedCumulative.pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: GroupedCumulative.lean:299:0: 'KakeyaFormal.GroupedCumulative.discrete_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8811/9503] Replayed HeavyIncidence
+info: HeavyIncidence.lean:239:0: 'KakeyaFormal.HeavyIncidence.many_large' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HeavyIncidence.lean:240:0: 'KakeyaFormal.HeavyIncidence.select_heavy' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HeavyIncidence.lean:241:0: 'KakeyaFormal.HeavyIncidence.excess_forces_union_normalized' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HeavyIncidence.lean:242:0: 'KakeyaFormal.HeavyIncidence.calibrated_mass_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HeavyIncidence.lean:243:0: 'KakeyaFormal.HeavyIncidence.discrete_heavy_mass_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8813/9503] Replayed PrunedIncidence
+info: PrunedIncidence.lean:130:0: 'KakeyaFormal.PrunedIncidence.deleted_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedIncidence.lean:131:0: 'KakeyaFormal.PrunedIncidence.deletion_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedIncidence.lean:132:0: 'KakeyaFormal.PrunedIncidence.retains_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedIncidence.lean:133:0: 'KakeyaFormal.PrunedIncidence.discrete_spatial_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8823/9503] Replayed HairbrushRemoval
+info: HairbrushRemoval.lean:220:0: 'KakeyaFormal.HairbrushRemoval.two_ends_crossing_hairbrush' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8825/9503] Replayed HairbrushStem
+info: HairbrushStem.lean:146:0: 'KakeyaFormal.HairbrushStem.stem_hairbrush_union_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8829/9503] Replayed HairbrushBroad
+info: HairbrushBroad.lean:186:0: 'KakeyaFormal.HairbrushBroad.broad_hairbrush_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8831/9503] Replayed HairbrushFractional
+info: HairbrushFractional.lean:171:0: 'KakeyaFormal.HairbrushFractional.real_cap_hairbrush_squared' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HairbrushFractional.lean:173:0: 'KakeyaFormal.HairbrushFractional.real_cap_hairbrush_linear' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8835/9503] Replayed HairbrushCoarse
+info: HairbrushCoarse.lean:95:0: 'KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8841/9503] Replayed HairbrushAllScales
+info: HairbrushAllScales.lean:121:0: 'KakeyaFormal.HairbrushAllScales.all_scale_real_cap_hairbrush' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8845/9503] Replayed HairbrushKernel
+info: HairbrushKernel.lean:90:0: 'KakeyaFormal.HairbrushKernel.chosen_radius_hairbrush' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8847/9503] Replayed HairbrushLogLoss
+info: HairbrushLogLoss.lean:168:0: 'KakeyaFormal.HairbrushLogLoss.hairbrush_prefactor_log_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: HairbrushLogLoss.lean:170:0: 'KakeyaFormal.HairbrushLogLoss.logarithmic_hairbrush_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8855/9503] Replayed DensityBroadnessRecovery
+info: DensityBroadnessRecovery.lean:323:0: 'KakeyaFormal.DensityBroadnessRecovery.marked_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DensityBroadnessRecovery.lean:324:0: 'KakeyaFormal.DensityBroadnessRecovery.recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: DensityBroadnessRecovery.lean:325:0: 'KakeyaFormal.DensityBroadnessRecovery.selected_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8857/9503] Replayed RecoveredHairbrush
+info: RecoveredHairbrush.lean:121:0: 'KakeyaFormal.RecoveredHairbrush.eta_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RecoveredHairbrush.lean:122:0: 'KakeyaFormal.RecoveredHairbrush.retained_output_hairbrush' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8875/9503] Replayed MeasurableDensityRecovery
+info: MeasurableDensityRecovery.lean:356:0: 'KakeyaFormal.MeasurableDensityRecovery.recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8879/9503] Replayed PrunedGraphLift
+info: PrunedGraphLift.lean:262:0: 'KakeyaFormal.PrunedGraphLift.pruned_all_ball_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedGraphLift.lean:263:0: 'KakeyaFormal.PrunedGraphLift.pruned_graph_cap_and_colors' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedGraphLift.lean:264:0: 'KakeyaFormal.PrunedGraphLift.discrete_pruned_graph_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedGraphLift.lean:265:0: 'KakeyaFormal.PrunedGraphLift.color_family_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedGraphLift.lean:266:0: 'KakeyaFormal.PrunedGraphLift.color_family_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedGraphLift.lean:268:0: 'KakeyaFormal.PrunedGraphLift.lifted_cap_coefficient_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8881/9503] Replayed SeparationColoring
+info: SeparationColoring.lean:272:0: 'KakeyaFormal.SeparationColoring.full_separation_partition' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8885/9503] Replayed LiftedAnalytic
+info: LiftedAnalytic.lean:206:0: 'KakeyaFormal.LiftedAnalytic.color_density_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LiftedAnalytic.lean:207:0: 'KakeyaFormal.LiftedAnalytic.colored_cumulative_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LiftedAnalytic.lean:208:0: 'KakeyaFormal.LiftedAnalytic.segment_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LiftedAnalytic.lean:209:0: 'KakeyaFormal.LiftedAnalytic.discrete_pruned_lifted_union' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8889/9503] Replayed AngleFiberSelection
+info: AngleFiberSelection.lean:429:0: 'KakeyaFormal.AngleFiberSelection.low_fiber_deletion' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngleFiberSelection.lean:430:0: 'KakeyaFormal.AngleFiberSelection.dyadic_edge_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngleFiberSelection.lean:431:0: 'KakeyaFormal.AngleFiberSelection.frequent_output_labels' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngleFiberSelection.lean:432:0: 'KakeyaFormal.AngleFiberSelection.collision_energy_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngleFiberSelection.lean:433:0: 'KakeyaFormal.AngleFiberSelection.collision_support_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngleFiberSelection.lean:434:0: 'KakeyaFormal.AngleFiberSelection.exact_fiber_representatives' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AngleFiberSelection.lean:435:0: 'KakeyaFormal.AngleFiberSelection.select_angle_fibers' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8891/9503] Replayed AngularBoxSelection
+info: AngularBoxSelection.lean:91:0: 'KakeyaFormal.AngularBoxSelection.exists_mass_color' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngularBoxSelection.lean:92:0: 'KakeyaFormal.AngularBoxSelection.recovered_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8893/9503] Replayed AngularBoxRecovery
+info: AngularBoxRecovery.lean:186:0: 'KakeyaFormal.AngularBoxRecovery.single_box_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8895/9503] Replayed AngularBoxHairbrush
+info: AngularBoxHairbrush.lean:150:0: 'KakeyaFormal.AngularBoxHairbrush.single_box_hairbrush' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8897/9503] Replayed AngularBoxAlgebra
+info: AngularBoxAlgebra.lean:111:0: 'KakeyaFormal.AngularBoxAlgebra.boxLowerBound_density_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: AngularBoxAlgebra.lean:112:0: 'KakeyaFormal.AngularBoxAlgebra.single_box_quadratic_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8899/9503] Replayed AngularBoxLogLoss
+info: AngularBoxLogLoss.lean:217:0: 'KakeyaFormal.AngularBoxLogLoss.density_prefactor_log_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngularBoxLogLoss.lean:218:0: 'KakeyaFormal.AngularBoxLogLoss.single_box_logarithmic' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8913/9503] Replayed PivotOutputCount
+info: PivotOutputCount.lean:377:0: 'KakeyaFormal.PivotOutputCount.LabeledPair.labels_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotOutputCount.lean:378:0: 'KakeyaFormal.PivotOutputCount.pivot_output_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotOutputCount.lean:379:0: 'KakeyaFormal.PivotOutputCount.same_first_second_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotOutputCount.lean:380:0: 'KakeyaFormal.PivotOutputCount.pivot_fiber_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotOutputCount.lean:381:0: 'KakeyaFormal.PivotOutputCount.sample_labels_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotOutputCount.lean:382:0: 'KakeyaFormal.PivotOutputCount.all_output_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotOutputCount.lean:383:0: 'KakeyaFormal.PivotOutputCount.output_fiber_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotOutputCount.lean:384:0: 'KakeyaFormal.PivotOutputCount.all_output_fiber_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotOutputCount.lean:385:0: 'KakeyaFormal.PivotOutputCount.integer_output_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8915/9503] Replayed RawSampleTransfer
+info: RawSampleTransfer.lean:144:0: 'KakeyaFormal.RawSampleTransfer.attach_filter_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RawSampleTransfer.lean:145:0: 'KakeyaFormal.RawSampleTransfer.raw_fiber_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RawSampleTransfer.lean:146:0: 'KakeyaFormal.RawSampleTransfer.raw_nonempty_fiber' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RawSampleTransfer.lean:147:0: 'KakeyaFormal.RawSampleTransfer.raw_geometric_output_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RawSampleTransfer.lean:148:0: 'KakeyaFormal.RawSampleTransfer.raw_geometric_fiber_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: RawSampleTransfer.lean:149:0: 'KakeyaFormal.RawSampleTransfer.raw_integer_fiber_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8923/9503] Replayed PivotKappa
+info: PivotKappa.lean:174:0: 'KakeyaFormal.PivotKappa.legal_two_ends' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotKappa.lean:175:0: 'KakeyaFormal.PivotKappa.broad_half_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotKappa.lean:176:0: 'KakeyaFormal.PivotKappa.choice_log_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8925/9503] Replayed PivotKappaScale
+info: PivotKappaScale.lean:104:0: 'KakeyaFormal.PivotKappaScale.power_lower_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotKappaScale.lean:105:0: 'KakeyaFormal.PivotKappaScale.normalized_choice_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotKappaScale.lean:106:0: 'KakeyaFormal.PivotKappaScale.choice_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PivotKappaScale.lean:107:0: 'KakeyaFormal.PivotKappaScale.normalized_choice_small_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8947/9503] Replayed SelectedFiberLift
+info: SelectedFiberLift.lean:300:0: 'KakeyaFormal.SelectedFiberLift.endpoint_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberLift.lean:301:0: 'KakeyaFormal.SelectedFiberLift.recovery_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberLift.lean:302:0: 'KakeyaFormal.SelectedFiberLift.liftedPoint_on_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberLift.lean:303:0: 'KakeyaFormal.SelectedFiberLift.same_lift_first_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberLift.lean:304:0: 'KakeyaFormal.SelectedFiberLift.single_lift_cell_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberLift.lean:305:0: 'KakeyaFormal.SelectedFiberLift.lifted_cell_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberLift.lean:306:0: 'KakeyaFormal.SelectedFiberLift.lifted_population' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8949/9503] Replayed SelectedFiberSlab
+info: SelectedFiberSlab.lean:200:0: 'KakeyaFormal.SelectedFiberSlab.lift_time_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberSlab.lean:201:0: 'KakeyaFormal.SelectedFiberSlab.unit_slab_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberSlab.lean:202:0: 'KakeyaFormal.SelectedFiberSlab.populated_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberSlab.lean:203:0: 'KakeyaFormal.SelectedFiberSlab.common_integer_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedFiberSlab.lean:204:0: 'KakeyaFormal.SelectedFiberSlab.common_density_upper' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8951/9503] Replayed SlabNormalization
+info: SlabNormalization.lean:305:0: 'KakeyaFormal.SlabNormalization.shift_grid' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SlabNormalization.lean:306:0: 'KakeyaFormal.SlabNormalization.shift_graph' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SlabNormalization.lean:307:0: 'KakeyaFormal.SlabNormalization.shifted_graph_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SlabNormalization.lean:308:0: 'KakeyaFormal.SlabNormalization.shifted_union_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SlabNormalization.lean:309:0: 'KakeyaFormal.SlabNormalization.normalize_common_slab' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SlabNormalization.lean:310:0: 'KakeyaFormal.SlabNormalization.reference_pivot_residual' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SlabNormalization.lean:311:0: 'KakeyaFormal.SlabNormalization.normalize_selected_group' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8953/9503] Replayed SelectedSlabGeometry
+info: SelectedSlabGeometry.lean:147:0: 'KakeyaFormal.SelectedSlabGeometry.common_color_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedSlabGeometry.lean:148:0: 'KakeyaFormal.SelectedSlabGeometry.common_color_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedSlabGeometry.lean:149:0: 'KakeyaFormal.SelectedSlabGeometry.cap_coefficient_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedSlabGeometry.lean:150:0: 'KakeyaFormal.SelectedSlabGeometry.selected_group_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8991/9503] Replayed SelectedLiftWitness
+info: SelectedLiftWitness.lean:308:0: 'KakeyaFormal.SelectedLiftWitness.attach' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedLiftWitness.lean:309:0: 'KakeyaFormal.SelectedLiftWitness.attach_label' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedLiftWitness.lean:310:0: 'KakeyaFormal.SelectedLiftWitness.originalPosition_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedLiftWitness.lean:312:0: 'KakeyaFormal.SelectedLiftWitness.grouped_energy_equals_original' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: SelectedLiftWitness.lean:313:0: 'KakeyaFormal.SelectedLiftWitness.retained_cell_sample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SelectedLiftWitness.lean:315:0: 'KakeyaFormal.SelectedLiftWitness.attached_sample_degree_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: SelectedLiftWitness.lean:317:0: 'KakeyaFormal.SelectedLiftWitness.grouped_attached_sample_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [8994/9503] Replayed MarkedPruningRecovery
+info: MarkedPruningRecovery.lean:389:0: 'KakeyaFormal.MarkedPruningRecovery.good_marked_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningRecovery.lean:390:0: 'KakeyaFormal.MarkedPruningRecovery.two_density_bins' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningRecovery.lean:392:0: 'KakeyaFormal.MarkedPruningRecovery.select_marked_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningRecovery.lean:393:0: 'KakeyaFormal.MarkedPruningRecovery.retained_broadness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningRecovery.lean:395:0: 'KakeyaFormal.MarkedPruningRecovery.selected_broadness' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningRecovery.lean:396:0: 'KakeyaFormal.MarkedPruningRecovery.selected_two_ends' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningRecovery.lean:397:0: 'KakeyaFormal.MarkedPruningRecovery.selected_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningRecovery.lean:399:0: 'KakeyaFormal.MarkedPruningRecovery.recover' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8997/9503] Replayed MarkedPruningAssembly
+info: MarkedPruningAssembly.lean:198:0: 'KakeyaFormal.MarkedPruningAssembly.marked_union_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningAssembly.lean:199:0: 'KakeyaFormal.MarkedPruningAssembly.marked_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningAssembly.lean:200:0: 'KakeyaFormal.MarkedPruningAssembly.recover_pruned' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: MarkedPruningAssembly.lean:201:0: 'KakeyaFormal.MarkedPruningAssembly.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9031/9503] Replayed PrunedPivotSelection
+info: PrunedPivotSelection.lean:142:0: 'KakeyaFormal.PrunedPivotSelection.recovered_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedPivotSelection.lean:143:0: 'KakeyaFormal.PrunedPivotSelection.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: PrunedPivotSelection.lean:145:0: 'KakeyaFormal.PrunedPivotSelection.geometry_tests' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9033/9503] Replayed UniformPrunedPivotSelection
+info: UniformPrunedPivotSelection.lean:86:0: 'KakeyaFormal.UniformPrunedPivotSelection.recovered_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: UniformPrunedPivotSelection.lean:87:0: 'KakeyaFormal.UniformPrunedPivotSelection.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9043/9503] Replayed OriginalPivotSlabs
+info: OriginalPivotSlabs.lean:187:0: 'KakeyaFormal.OriginalPivotSlabs.spatial_coefficient_ge_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OriginalPivotSlabs.lean:188:0: 'KakeyaFormal.OriginalPivotSlabs.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9047/9503] Replayed OriginalPivotEnergy
+info: OriginalPivotEnergy.lean:89:0: 'KakeyaFormal.OriginalPivotEnergy.geometricFactor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OriginalPivotEnergy.lean:90:0: 'KakeyaFormal.OriginalPivotEnergy.cap_factorization' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: OriginalPivotEnergy.lean:91:0: 'KakeyaFormal.OriginalPivotEnergy.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9063/9503] Replayed SamplingBallTests
+info: SamplingBallTests.lean:155:0: 'KakeyaFormal.SamplingBallTests.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingBallTests.lean:156:0: 'KakeyaFormal.SamplingBallTests.all_ball_from_tests' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9065/9503] Replayed SamplingSupport
+info: SamplingSupport.lean:137:0: 'KakeyaFormal.SamplingSupport.mem_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingSupport.lean:138:0: 'KakeyaFormal.SamplingSupport.support_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingSupport.lean:139:0: 'KakeyaFormal.SamplingSupport.coupled_weights' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9071/9503] Replayed SamplingDichotomy
+info: SamplingDichotomy.lean:63:0: 'KakeyaSamplingDichotomy.marked_dichotomy' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9073/9503] Replayed SamplingTheta
+info: SamplingTheta.lean:119:0: 'KakeyaFormal.SamplingTheta.cap_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: SamplingTheta.lean:120:0: 'KakeyaFormal.SamplingTheta.uniform_small_scales' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9089/9503] Replayed TransformedGridSupport
+info: TransformedGridSupport.lean:150:0: 'KakeyaFormal.TransformedGridSupport.piece_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: TransformedGridSupport.lean:151:0: 'KakeyaFormal.TransformedGridSupport.positive_support_card' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9091/9503] Replayed AngularPiecePopulation
+info: AngularPiecePopulation.lean:103:0: 'KakeyaFormal.AngularPiecePopulation.sum_old_unions' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngularPiecePopulation.lean:104:0: 'KakeyaFormal.AngularPiecePopulation.sum_piece_positive_counts' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9093/9503] Replayed TransformedSamplingPopulation
+info: TransformedSamplingPopulation.lean:61:0: 'KakeyaFormal.TransformedSamplingPopulation.sampled_union_card' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+info: TransformedSamplingPopulation.lean:62:0: 'KakeyaFormal.TransformedSamplingPopulation.low_count_or_high' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+ℹ [9097/9503] Replayed MarkedDensityClass
+info: MarkedDensityClass.lean:175:0: 'KakeyaFormal.MarkedDensityClass.select' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9099/9503] Replayed AngularRestrictedRefinement
+info: AngularRestrictedRefinement.lean:212:0: 'KakeyaFormal.AngularRestrictedRefinement.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9101/9503] Replayed AngularRestrictedMeasurable
+info: AngularRestrictedMeasurable.lean:138:0: 'KakeyaFormal.AngularRestrictedMeasurable.full_eq_ref' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngularRestrictedMeasurable.lean:139:0: 'KakeyaFormal.AngularRestrictedMeasurable.marked_fraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngularRestrictedMeasurable.lean:140:0: 'KakeyaFormal.AngularRestrictedMeasurable.marked_broad' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: AngularRestrictedMeasurable.lean:141:0: 'KakeyaFormal.AngularRestrictedMeasurable.two_ends' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [9518/9559] Built LogarithmicTwoEndsAlgebra (23s)
+✔ [9520/9559] Built LebesgueRepresentatives (24s)
+✔ [9522/9559] Built LebesgueDensityPruning (24s)
+✔ [9524/9559] Built LebesgueLocalization (24s)
+✔ [9526/9559] Built LebesgueMaximal (24s)
+✔ [9528/9559] Built LebesgueRealCap (24s)
+✔ [9530/9559] Built SourceLocalization (24s)
+✔ [9532/9559] Built CumulativeFixedError (24s)
+✔ [9534/9559] Built LebesgueAngularSpatial (11s)
+✔ [9536/9559] Built LebesgueDensityTrimming (11s)
+✔ [9538/9559] Built LebesgueSeedDensity (11s)
+✔ [9540/9559] Built SourceLocalizationGeometry (11s)
+✔ [9542/9559] Built LebesgueSampling (12s)
+✔ [9544/9559] Built LogarithmicTwoEnds (12s)
+✔ [9546/9559] Built LebesgueHairbrush (13s)
+✔ [9548/9559] Built LebesgueSamplingSource (4.6s)
+✔ [9550/9559] Built SixDimensionalLogarithmic (4.7s)
+✔ [9552/9559] Built WideLogarithmicTwoEnds (4.0s)
+✔ [9554/9559] Built LebesgueSamplingGeometry (4.1s)
+✔ [9556/9559] Built LogarithmicLengthEstimates (4.7s)
+✔ [9558/9559] Built SixDimensionalLogarithmicLengths (3.3s)
+Build completed successfully (9559 jobs).

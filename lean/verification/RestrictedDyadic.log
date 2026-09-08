@@ -1,0 +1,27 @@
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_power_lower._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.decayRatio_lt_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight_offset._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight_offset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadic_distribution._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.decayRatio._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight_coe AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_power_lower._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_power_lower._simp_1_4 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.decayRatio AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_power_lower._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_power_lower._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.exists_dyadic_cutoff AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.decayRatio_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadic_distribution AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_power_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometric_cost_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_power_lower._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight_offset._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_power_lower._simp_1_3 AXIOMS [propext]

@@ -1,0 +1,10 @@
+AUDIT_DECLARATION KakeyaFormal.DyadicOperatorExtension.FiniteMomentBound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicOperatorExtension.FiniteMomentBound._proof_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicOperatorExtension.maximal_le_two_iSup AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicOperatorExtension.FiniteMomentBound._proof_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicOperatorExtension.extend AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DyadicOperatorExtension.rpow_iSup AXIOMS [propext, Classical.choice, Quot.sound]

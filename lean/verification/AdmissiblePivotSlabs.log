@@ -1,0 +1,99 @@
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.mk.sizeOf_spec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.marked_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.recovered AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.angular_radius_le_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.pruned_union_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.lines AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.small_radius AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.graph_coefficient_ge_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection._simp_1_9 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection._simp_1_8 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.two_ends_coefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.scale_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.admissible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.sigma_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.cap_coefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.samples AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.marked_broad AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.density_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.depth_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.cap_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.scale_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.construct_source AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.kappa_le_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.normalized_spatial AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.kappa_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.marked_fraction_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package._sizeOf_inst AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.cover AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.deletion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.mk._flat_ctor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.width_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.marks_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.scale_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.selection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.count_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.normalized_coefficient_ge_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.tubes_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.output_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.geometry AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.bounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Hypotheses AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.full_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Package.sigma_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.comparable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.depth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.recovered_selection._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.AdmissiblePivotSlabs.Package.noConfusion AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AdmissiblePivotSlabs.Hypotheses.angular_radius_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

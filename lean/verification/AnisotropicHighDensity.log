@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.AnisotropicHighDensity.original_log_parameters AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicHighDensity.original_parameters AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicHighDensity.upper_log_transport AXIOMS [propext, Classical.choice, Quot.sound]

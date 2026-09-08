@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.LebesgueDensityTrimming.exists_exact_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LebesgueDensityTrimming.construct AXIOMS [propext, Classical.choice, Quot.sound]

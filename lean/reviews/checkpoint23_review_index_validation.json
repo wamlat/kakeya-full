@@ -1,0 +1,558 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-07T04:27:57.299745+00:00",
+  "all427_source_hashes": 427,
+  "reviewed_module_sets": {
+    "finite": 111,
+    "geometry": 119,
+    "analytic": 92
+  },
+  "checked_artifact_path_hash_records": 334,
+  "unique_checked_artifact_paths": 262,
+  "legacy_embedded_source_hash_records": [
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/GaussianPerpendicular_full_source_audit.json",
+      "module": "GaussianPerpendicular",
+      "source_sha256": "986aacd78d413c68144cdffd36b1974bce03d4b626385cf17db207e635abd2c3",
+      "reference_file_sha256": "e44c3db7005336eaa59aaa1c29f94993689c65d0fce7588e93a4bf61fc9d7b16",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/MarkedNormalizationKappa_full_source_audit.json",
+      "module": "MarkedNormalizationKappa",
+      "source_sha256": "5c57d6f836efc18aa58a265658c9b41939c1febdf750d008e26d45c4788bcd98",
+      "reference_file_sha256": "4034aa6fd7bdd123225520a3f5aa8559ddef6d0a5c0cb80d3bd0e6d5ac17ad40",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/marked_grid_normalization_audit.json",
+      "module": "MarkedNormalizationKappa",
+      "source_sha256": "5c57d6f836efc18aa58a265658c9b41939c1febdf750d008e26d45c4788bcd98",
+      "reference_file_sha256": "cd9927f2eddc25bd905fee112e94885483d266d92ef6e24bffe019b27f24b90f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueSamplingGeometry",
+      "source_sha256": "e1e6c73e98f22678db75e206db74d079ba5b6d9647e1e6c001e2bea0b3aa6f29",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueMaximal",
+      "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueRepresentatives",
+      "source_sha256": "0384ebb173ae149fe7fc253d2b4b9fda0fd10797505c66ae5ec5865933250523",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/lebesgue_density_pruning_audit.json",
+      "module": "LebesgueDensityPruning",
+      "source_sha256": "bb2474418b4adc435bc08e504ecd982ac2221b5a804e05bc7f7a004cb6e93010",
+      "reference_file_sha256": "4399c016d5d915170b01caba66eb33d1f7d0356f776194c57db56e10599c02fb",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueDensityPruning",
+      "source_sha256": "bb2474418b4adc435bc08e504ecd982ac2221b5a804e05bc7f7a004cb6e93010",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/GaussianCollisionExpectation_full_source_audit.json",
+      "module": "GaussianCollisionExpectation",
+      "source_sha256": "dcac07519daaee00d02444be030a492ab4ecec97adc5659cb11b34536c8a25dd",
+      "reference_file_sha256": "3bc5869d73b54fe0fd8ca9fa1465116276c33e255f15eb14b12ec9cb6d7770a0",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "CumulativeEstimate",
+      "source_sha256": "736bd79037fd2b6649f88d462d45b484c5863d73413ecc9e674112708c2dc303",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "MarkedLengthInput",
+      "source_sha256": "3425378039d183f61a4ed092ca9530264e9f144cd9c4c450f3c7bd48c3d89066",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/marked_length_complete_audit.json",
+      "module": "MarkedLengthInput",
+      "source_sha256": "3425378039d183f61a4ed092ca9530264e9f144cd9c4c450f3c7bd48c3d89066",
+      "reference_file_sha256": "caca60ca150197950f4a8df92709a78ca73be64d9f270ae9a5841b647fa99345",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/marked_length_normalization_audit.json",
+      "module": "MarkedLengthInput",
+      "source_sha256": "3425378039d183f61a4ed092ca9530264e9f144cd9c4c450f3c7bd48c3d89066",
+      "reference_file_sha256": "8e8eca2f9cc239a6d9bfcbc569d37a929587288d84779a859c9f67dc787fce81",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/sphere_net_exact_budget_audit.json",
+      "module": "SphereNetExactBudget",
+      "source_sha256": "3962cc9ebd618e80efd01e0cca1a553d299550a41f530bb3418932e21220df52",
+      "reference_file_sha256": "adeeb14bcc92501c691abd8334b836c48ffd181e63e89959a3e1855b84d2eaca",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "FractionalSeedFullRange",
+      "source_sha256": "319aa2a0e18b601051cc29520d2a5702fac9fa7edbaa371e24b45aaf6d9f9642",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/GaussianMatrix_full_source_audit.json",
+      "module": "GaussianMatrix",
+      "source_sha256": "e6e69c216aad017867923d0991122013f6422bea95755fae5229cd7475892d41",
+      "reference_file_sha256": "8aaeebf5e157bf8adaa72a4e6017bf348950b3c128a65494216dbdeaf88dcc0b",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/sampling_length_assembly_audit.json",
+      "module": "SamplingLengthAssembly",
+      "source_sha256": "7c1955db5eafd5d0939865afd50c938c1e971a07eb71babf7970d56fb82ef3cc",
+      "reference_file_sha256": "1b6ff8ac974628f6783679d30369fd9b14c9453687b7fb02f287307badefa347",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueSeedDensity",
+      "source_sha256": "cc505d91734f1e039f4304eb5233c2a7747f23f33533574f5c2ed890d757344b",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/gaussian_selection_algebra_audit.json",
+      "module": "GaussianSelectionAlgebra",
+      "source_sha256": "3c3a7328fea7ce04c314b8232afe62e85331cc82a13ce761017f6fb6f523b324",
+      "reference_file_sha256": "906ce471f89e9fc4e35cadb0c7e6ddddea9b069d40725bec56b66cbda84bb35e",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueLocalization",
+      "source_sha256": "714383c010dad54ecc9140b79f61f11486a9a6f215bf417f8a4d7c8c23cdb50e",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/GaussianCollision_full_source_audit.json",
+      "module": "GaussianCollision",
+      "source_sha256": "d10388da3a37a753d11a02639d0429472fb747e02425b3f94571658c4f60a9bb",
+      "reference_file_sha256": "e3545ed69f277131ebcd2a3a6f19ddf407e0b09c2274e777ed027960cf01a27a",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/AppendixEndpoints_full_source_audit.json",
+      "module": "AppendixEndpoints",
+      "source_sha256": "287a5eef6ceb74dce60587b2d13ce1d4876841a9e8f24a73dc0a7bc958c2e75e",
+      "reference_file_sha256": "ac20e6a421143d6a4302cac7f1509bfdf222c80f7d056a72f4e0216dd81234b7",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "AppendixEndpoints",
+      "source_sha256": "287a5eef6ceb74dce60587b2d13ce1d4876841a9e8f24a73dc0a7bc958c2e75e",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/sphere_net_budget_audit.json",
+      "module": "SphereNetBudget",
+      "source_sha256": "cd2eea7bd08900bab48039b927d4da90e1fda76998b6c1a4e02946c9959cc465",
+      "reference_file_sha256": "8135769262ca69213804beca9ee12de2d47d55da3b303f4c0993e38210f19c08",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "Endpoint",
+      "source_sha256": "648989bbe7a7cb15ea24435581ae6bb3f0b1cb625f0e7b53f3a09cb5e8f11f05",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/sampling_length_input_audit.json",
+      "module": "SamplingLengthInput",
+      "source_sha256": "2aa8f1437ee876da5a3ab444af27e89a77703bc78234b66d039fb0dc7c92c0e4",
+      "reference_file_sha256": "f59c471b1dfffe52488dd94dabe7f0621e9d38d7d0b2a95c588d344432b4d870",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "BushIterationConsequences",
+      "source_sha256": "198d1fcc8443790e431513e19aafd9cda013bf54608ed519e5e52f31ad274798",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "GaussianProjectionSeed",
+      "source_sha256": "5344667dc4cb6ff8f50b551288d4f18b0648116f6533a6b5284df7244d9f1357",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueRealCap",
+      "source_sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "BushIteration",
+      "source_sha256": "8077245382f010bec470501c8085ffa9fc7f163b4805bc683f444a7587142e90",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "MainMaximal",
+      "source_sha256": "21bebed09066ec041ea33d1377d55c6f9e8ba0a35085138971ee5e8eb9f809b7",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/sampling_bounded_support_audit.json",
+      "module": "SamplingBoundedSupport",
+      "source_sha256": "b1313fee65ab09892edfcfec27b6dd3961199ef348e4427901afe93e4ad0e56c",
+      "reference_file_sha256": "a86f008d15f8d2cc03495acc8af562feeea802a01451b89dd827b8cb85deb2fa",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/AbsoluteCapGlobalization_full_source_audit.json",
+      "module": "AbsoluteCapGlobalization",
+      "source_sha256": "a031b3827a3b4bb415aedf6d18f4d6288b2b25cdc540d66a9cab8d5c1cd6f93b",
+      "reference_file_sha256": "6d57da31490a4e5a0844bcc98747c6efaf6493a5d62c9b0fb9ce74a8164351db",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "AbsoluteCapGlobalization",
+      "source_sha256": "a031b3827a3b4bb415aedf6d18f4d6288b2b25cdc540d66a9cab8d5c1cd6f93b",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "SourceAnalyticInputs",
+      "source_sha256": "0e41e594931a2ca53beebfc0297e6ca99b0d1d09c5eedb0ccb1e980a4c40b322",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/gaussian_good_directions_audit.json",
+      "module": "GaussianGoodDirections",
+      "source_sha256": "c76c9a6dabf0f62d3265c609ca542c39df747f2ed3085d098aa5cc162dfd6da9",
+      "reference_file_sha256": "a4d18a3d73af9d89d1dc134c2aa5e2f797911267b10d471843ef00ac0dd79b7b",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/GaussianConditioning_full_source_audit.json",
+      "module": "GaussianConditioning",
+      "source_sha256": "3acae884727b924ca32bbcd65d3c0dd4d678253f282f6c7a1ff7c757f19f2cdc",
+      "reference_file_sha256": "0119924686219cd3c86bafff488badc22531d207742ae751200f0b0a70844468",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/source_marked_lengths_audit.json",
+      "module": "SourceMarkedLengths",
+      "source_sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+      "reference_file_sha256": "642fb7fd584c61a95e48c3545b54e347c591149d10a4cb6028ca8d1b7cf6c56b",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "SourceMarkedLengths",
+      "source_sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/marked_length_complete_audit.json",
+      "module": "SourceMarkedLengths",
+      "source_sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+      "reference_file_sha256": "caca60ca150197950f4a8df92709a78ca73be64d9f270ae9a5841b647fa99345",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueAngularSpatial",
+      "source_sha256": "d1dad9395442f6a89a1338bc4c4f8acd09a219315fb17299d9b463cac45a98d7",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/SourceMarkedPivotFullRange_full_source_audit.json",
+      "module": "SourceMarkedPivotFullRange",
+      "source_sha256": "dfcd7b86dd15da7a60b511dfcd4ca59846e6a3867bb746c8b16c75f105c645fc",
+      "reference_file_sha256": "6c44b6bab8508faff3e0a0a347ec8d7773de389cc1c01543c002019edd212f1d",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "SourceUnmarkedLengths",
+      "source_sha256": "1fad383899933828f56fb22a0e9e4576fdf6adabdb50aa05159de83459c03217",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/unmarked_length_audit.json",
+      "module": "SourceUnmarkedLengths",
+      "source_sha256": "1fad383899933828f56fb22a0e9e4576fdf6adabdb50aa05159de83459c03217",
+      "reference_file_sha256": "878b9ca8a82c6a0d0bffe69b762dc860139d9ebfbca00124b6125ab3e839c5ef",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "SamplingSourceRealization",
+      "source_sha256": "104d8af452866b829b74921a9d8a1e9537f0ba3e0f60fb5dac739e9d22233e93",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/GaussianSmallBall_full_source_audit.json",
+      "module": "GaussianSmallBall",
+      "source_sha256": "52d629b302106f365bdaba0095920874171db0e622fdf6377099b9c67909c0b0",
+      "reference_file_sha256": "48d871e52d4ff9a56bfdb1a16ef10acfd5c13e53da4d74991189a3deb9a0ef9f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "Scalar",
+      "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueSampling",
+      "source_sha256": "ad78a4007b9bb51323e504fa7137b8b3fadadc3e8e24a92229685e0767ca34c3",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/MeasurableAngularDecomposition_audit.json",
+      "module": "MeasurableAngularDecomposition",
+      "source_sha256": "b718f0d98d1bfbbf03135c98b387bad3e3a1d7cfa29f1c65754cb051bfa030a0",
+      "reference_file_sha256": "d2c0203855809a2fcbc3b111b18c5018f26e9576f5d7d71b2d2a61908ecfd3c5",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/projected_grid_audit.json",
+      "module": "ProjectedGridFamily",
+      "source_sha256": "92744d3882fc76cb440fb5ffcecab5757adb2857fa371d8a986bfbba3d6d532f",
+      "reference_file_sha256": "0bb12b4c73b4d419de14100477414113940c10f72751652b3219361a5eb34b8e",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "FiveDimensionalLengthSeed",
+      "source_sha256": "f33ecf1b83994d21a25f32d0c31cd822f0471784d523b01b0c6a3976b9d3a1e3",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/five_dimensional_length_seed_audit.json",
+      "module": "FiveDimensionalLengthSeed",
+      "source_sha256": "f33ecf1b83994d21a25f32d0c31cd822f0471784d523b01b0c6a3976b9d3a1e3",
+      "reference_file_sha256": "db0e8b5fcae92bd7fa9e1ec64263f25e02246f0fdcae5381d264f8e598ebdf1f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/GaussianCollisionKernel_full_source_audit.json",
+      "module": "GaussianCollisionKernel",
+      "source_sha256": "53fe88861368bbcf8b4654fac0d50b0ada5f4f6ac4201ec6b85b263b86f8c69a",
+      "reference_file_sha256": "1d05ecd6e674a47cd27791a3e76d55dea87e9d74b7be24576597b4815d13064a",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "SixDimensionalUnrestricted",
+      "source_sha256": "942105ec8c6b5c687be573d10899cbbb34f77f0b8765f2181112ac2b5c16a0ee",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/cumulative_fixed_error_audit.json",
+      "module": "CumulativeFixedError",
+      "source_sha256": "266e9eb0435e9e665335b633e07301ffc23dcc5d06ac911f0c9d29742a7ba961",
+      "reference_file_sha256": "9f5a65b6fc2969ca8711e5b3e1c3dcd29ef89bda6aa69cda9ee04e9c1dc04548",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "CumulativeFixedError",
+      "source_sha256": "266e9eb0435e9e665335b633e07301ffc23dcc5d06ac911f0c9d29742a7ba961",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/completed_analytic_scope_hashes.json",
+      "module": "LebesgueSamplingSource",
+      "source_sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+      "reference_file_sha256": "e7cedfbde4e91b2d17b4dfb0f45a66e0743cdc654e6468b2c2628ef27ec6afc2",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/positive_angular_complete_audit.json",
+      "module": "PositiveTwoEndsPivot",
+      "source_sha256": "3ec19d098a90738a18978e41d5de46d06af345dbb9a97efe165350dfe3d0ca3a",
+      "reference_file_sha256": "c5b049a8f5437d7890b624ada33a6f1a57116eea0ab2be20e710f7d4de5c2e76",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/positive_angular_range_audit.json",
+      "module": "PositiveTwoEndsPivot",
+      "source_sha256": "3ec19d098a90738a18978e41d5de46d06af345dbb9a97efe165350dfe3d0ca3a",
+      "reference_file_sha256": "df8f5dc1b197d9ab556b2920077935613d588dddbc9c27db4c95cd4b199902e1",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/positive_angular_chain_audit.json",
+      "module": "PositiveTwoEndsPivot",
+      "source_sha256": "3ec19d098a90738a18978e41d5de46d06af345dbb9a97efe165350dfe3d0ca3a",
+      "reference_file_sha256": "2ba2d2457525157b71da76555f107af961ce0b63b0fe54e92e179b13ee5e02e3",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/GaussianCollisionGeometry_full_source_audit.json",
+      "module": "GaussianCollisionGeometry",
+      "source_sha256": "b755ed67e50a054197f7048dacfd5b31dfe0d42c204a634add6080d3d67acd97",
+      "reference_file_sha256": "cdc439b65110ec7c6c43543fce08ead229b79907f4954fa409665b7724d57367",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/sampling_source_geometric_failure_audit.json",
+      "module": "SamplingSourceGeometricFailure",
+      "source_sha256": "e3ce1d27d2e010fcdf44aedb56576b0ab9bee0e481a1088570f1a08c86ae4627",
+      "reference_file_sha256": "a23aec83349aa8631af6842f7f0aac5286998331160052a3379d7f8b9942e145",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/MeasurableAngularSpatialLengths_audit.json",
+      "module": "MeasurableAngularSpatialLengths",
+      "source_sha256": "fbc9188f6ddfb3884f5b9c1e068f1ef6d7f8a4aee3be74b36f3fea0e1dcedb92",
+      "reference_file_sha256": "05b40ee254a18b7bc60998108052b658befebe641adfee5f89709d10f1b48a37",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/projected_grid_audit.json",
+      "module": "ProjectedGrid",
+      "source_sha256": "7ce2f4373b7ff11280775ead5eed783ef76599fa3d3c69861696babb11807faa",
+      "reference_file_sha256": "0bb12b4c73b4d419de14100477414113940c10f72751652b3219361a5eb34b8e",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "GaussianNormalizedSeed",
+      "source_sha256": "f0a6b55ef0da354e7da2975a9e05a4b630c1dd3cdbb3c59c376f386d83186594",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/gaussian_normalized_seed_audit.json",
+      "module": "GaussianNormalizedSeed",
+      "source_sha256": "f0a6b55ef0da354e7da2975a9e05a4b630c1dd3cdbb3c59c376f386d83186594",
+      "reference_file_sha256": "f392d6ca4a5c3859d86dd4565dc1da7ae9215df205176d5b2bee4344f96cdb52",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "Bush",
+      "source_sha256": "50b774bc5992159e34b334a26f94e508bfa054cea15ed0bb64441af628de644a",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "BushLengths",
+      "source_sha256": "9d7b3b280e93affa08115c1e9c097422157997c722a5a670cb64692020d667a9",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_analytic_completion_hashes.json",
+      "module": "DiagonalWeakening",
+      "source_sha256": "4231dbdecbaa784e3ff7bc14adb93c6c10128ac0cc96cce1996fd348f6321860",
+      "reference_file_sha256": "f4875e76142b19e3398f0bf32d28089d862d36f2dd062d5d0c89a8a7b918c68f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/positive_angular_complete_audit.json",
+      "module": "PositiveAllAnglePivot",
+      "source_sha256": "7b78341d4b5142d0dfa2138a82f0e3117dc930f4c4d2a89d2fb55d2d9ca70858",
+      "reference_file_sha256": "c5b049a8f5437d7890b624ada33a6f1a57116eea0ab2be20e710f7d4de5c2e76",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/positive_angular_range_audit.json",
+      "module": "PositiveAllAnglePivot",
+      "source_sha256": "7b78341d4b5142d0dfa2138a82f0e3117dc930f4c4d2a89d2fb55d2d9ca70858",
+      "reference_file_sha256": "df8f5dc1b197d9ab556b2920077935613d588dddbc9c27db4c95cd4b199902e1",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/positive_angular_chain_audit.json",
+      "module": "PositiveAllAnglePivot",
+      "source_sha256": "7b78341d4b5142d0dfa2138a82f0e3117dc930f4c4d2a89d2fb55d2d9ca70858",
+      "reference_file_sha256": "2ba2d2457525157b71da76555f107af961ce0b63b0fe54e92e179b13ee5e02e3",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/SourceMarkedNormalization_full_source_audit.json",
+      "module": "SourceMarkedNormalization",
+      "source_sha256": "5f222dc2d7791e3fbb8717f301d61fb1b716c4c9c020821cbf8807853e13eef3",
+      "reference_file_sha256": "7963ab74538708908b7b5615ba17604f260826b8a61ba7b90ffdf2c20f4530f0",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/marked_grid_normalization_audit.json",
+      "module": "SourceMarkedNormalization",
+      "source_sha256": "5f222dc2d7791e3fbb8717f301d61fb1b716c4c9c020821cbf8807853e13eef3",
+      "reference_file_sha256": "cd9927f2eddc25bd905fee112e94885483d266d92ef6e24bffe019b27f24b90f",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/logarithmic_two_ends_audit.json",
+      "module": "LogarithmicTwoEnds",
+      "source_sha256": "569da09b05110e964f820042b223f08b1ba0ed42f3a9dbf0aa2a972c5d0cf075",
+      "reference_file_sha256": "b23efb29e441c416a41285155bcac198ad380153d4b51d3fae96390e23339988",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/logarithmic_length_estimates_audit.json",
+      "module": "LogarithmicLengthEstimates",
+      "source_sha256": "6a4c9c352ea8d5769beea554d3b3a0fccaeec492297ed7bf08d2bc1c721b9068",
+      "reference_file_sha256": "afc10ba79189c007c309dc968cca498452ee8c7d6a192b6618bc56c338697d18",
+      "scope": "source-hash reference validation, not a new compiler run"
+    },
+    {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/logarithmic_length_estimates_audit.json",
+      "module": "SixDimensionalLogarithmicLengths",
+      "source_sha256": "a4b219785138dc9b83af8d790eb4ce0a8cd271277e52f6470652da5119f891dc",
+      "reference_file_sha256": "afc10ba79189c007c309dc968cca498452ee8c7d6a192b6618bc56c338697d18",
+      "scope": "source-hash reference validation, not a new compiler run"
+    }
+  ],
+  "index_files": {
+    "checkpoint23_finite_completion_hashes.json": "f703ff09cb6e454149a73b5d3733e76ba70d29874ecd581eb15b392d1291b144",
+    "checkpoint23_geometry_completion_hashes.json": "c00cddf690264d907a7497364b6186a20abe9cfea017d0493d39212281e8542b",
+    "checkpoint23_analytic_completion_hashes.json": "db0b7852f5b783560ce72d83f5d0ef9adf0d4e961cd886e33af359e547287b1b"
+  }
+}

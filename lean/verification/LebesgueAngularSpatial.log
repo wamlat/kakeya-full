@@ -1,0 +1,6 @@
+AUDIT_THEOREM KakeyaFormal.LebesgueAngularSpatial.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LebesgueAngularSpatial.restoreInput AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LebesgueAngularSpatial.restoreInput._proof_4 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LebesgueAngularSpatial.restoreInput._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LebesgueAngularSpatial.restoreInput._proof_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LebesgueAngularSpatial.restoreInput._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+# Independent review: six-dimensional logarithmic two ends
+
+Reviewed `SixDimensionalLogarithmic.lean` at SHA-256 `1e1af2d07c92c93f0aa8b291bea16ecb95e3da0e60fb9e89a9ed1aac0bafd842`. Parent reports a clean compile and owns its exact-source dependency audit. No source was edited in this review.
+
+`configuration_estimate` specializes the actual proved `TwoEndsPivot.six_dimensional` through `LogarithmicTwoEnds.estimate`, rather than taking a new analytic output premise. It fixes the normalization, B0>=1, alpha>0, logarithmic exponent b>=0 and final eps>0 before choosing c and before all configurations. The set exponent is 33/8 and density exponent 15/4; the scale exponent 5-33/8+eps=7/8+eps is correct. The original two-ends coefficient varies as B0 log(2/delta)^b, so this is the stronger first-step Lemma 6 quantifier, not the earlier fixed-B statement.
+
+`cap_free` constructs the configuration using the actual separated original directions and the fixed ambient cap coefficient `fullDirectionCoefficient 5 geom.separation`. That coefficient is >=1 and independent of the family and scale. Absorbing its inverse into c removes the cap premise. All original axes, rows and the original union remain unchanged. Bounds on width, direction separation and the region are arbitrary fixed normalization parameters.
+
+`source_notation` uses N>=1, positive lambda<=1, the same original family and `S=M/N^5`. Its exact power identity `(1/N)^(7/8+eps)=N^(33/8-eps)/N^5` yields `E>=c N^(33/8-eps) lambda^(15/4) S`, matching first-step (25). Its logarithm is exactly log(2N). All constants precede N, lambda and M; the zero-population case is inherited from the generic proof.
+
+No mathematical defect found. The literal predicates of this particular file use unit axes and factor-two comparable density. Existing actual fixed-length and wider-density normalization ingredients cannot be described as a *named logarithmic-budget consumer* until their corresponding new composition is exposed. This convention boundary has been reported to the parent; it does not affect the correctness of the three statements reviewed here.
+
+Final extension addendum: the normalized statement's fixed-convention boundary is now closed by the separately audited `SixDimensionalLogarithmicLengths.source_notation` at SHA-256 `a4b219785138dc9b83af8d790eb4ce0a8cd271277e52f6470652da5119f891dc`. It includes arbitrary fixed positive c0/C0 and individual bounded lengths, with original log2N and old union. The earlier three reviewed statements remain byte-for-byte unchanged. See the independent `logarithmic_lengths_geometry_review.md`.

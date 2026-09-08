@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.LengthOperatorBound.carrier_volume_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorBound.maximal_le_unit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LengthOperatorBound.average_le_unit AXIOMS [propext, Classical.choice, Quot.sound]

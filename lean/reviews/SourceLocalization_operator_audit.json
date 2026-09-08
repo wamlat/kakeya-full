@@ -1,0 +1,28 @@
+{
+  "module": "SourceLocalization",
+  "status": "PASS",
+  "source_sha256": "8bb4be461f60b9625f83b5bdfb1c9cecfc5eb76b40fe39ce4627b043cc8dce88",
+  "source_theorems": [
+    "dyadic_selection",
+    "construct"
+  ],
+  "audited_theorem_count": 2,
+  "audited_declaration_count": 2,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.SourceLocalization.construct": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.SourceLocalization.dyadic_selection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

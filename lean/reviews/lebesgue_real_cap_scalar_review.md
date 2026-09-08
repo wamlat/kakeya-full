@@ -1,0 +1,13 @@
+# Independent review: completed-Lebesgue real-cap estimates
+
+Reviewed `LebesgueRealCap.lean` read-only at SHA-256 `25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503`. The parent owns compilation and the all-local axiom audit. No source edits or duplicate audit were performed.
+
+No mathematical or statement defect found. The new `Configuration` differs from the original Borel configuration only in permitting `NullMeasurableSet ... volume` for its original shadings. Its `borel` configuration keeps the exact same population, scale, density, cap coefficient, tube family, separation, boundedness and cap test. Actual measurable subsets remain inside the original shadings and carriers, and a.e. equality preserves each individual shading mass. The countable/finite union a.e. identity restores the measure of the original union exactly.
+
+`of_borel`, `volume_of_borel` and their reverse implications preserve the very same constant and quantifier order. No new scale, error, density or cap loss is introduced. The count form has exponent `n+m-d+eps`; the physical-volume form has exponent `m+1-d+eps` multiplying the unchanged actual tube-volume sum. A real-valued infinite-measure ambiguity cannot make these concrete configurations vacuous: each original shading lies in one finite-volume actual tube and the family is finite. The a.e. measure identity itself is valid without that extra observation.
+
+The endpoint wrappers preserve the original integer-ambient and real-cap ranges and the density envelope. `globalize` accepts the source absolute-cap two-ends input and returns the completed-measurable volume conclusion with set exponent `D` and density exponent `max D C`; it does not replace the conditional input by a stronger full-cap hypothesis. Its unchanged `C` range follows the already proved source adapter.
+
+The length predicate uses the original individual lengths in a fixed positive compact interval and the original variable-length carrier volumes. The chosen Borel subsets preserve their lower density inequalities, and all direction, base and cap data are unchanged. `lengths_of_borel` restores the original union measure by a finite union a.e. identity. The same constants prove the reverse implication, so `length_estimate_iff_borel` is an actual equivalence. These are bounded-position real-cap predicates, matching the source normalization; the separate completed maximal-shading wrappers supply the arbitrary-position, cap-free conclusion.
+
+This source closes the completed-Lebesgue real-cap consumer boundary, including variable lengths, in development. It was not present in the original frozen 406-source tree.

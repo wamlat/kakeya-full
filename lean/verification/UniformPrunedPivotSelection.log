@@ -1,0 +1,4 @@
+'KakeyaFormal.UniformPrunedPivotSelection.recovered_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.UniformPrunedPivotSelection.construct' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UniformPrunedPivotSelection.recovered_geometry AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UniformPrunedPivotSelection.construct AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.DiscreteScaleCompletion.bounded_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiscreteScaleCompletion.coefficient_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiscreteScaleCompletion.complete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.DiscreteScaleCompletion.coefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiscreteScaleCompletion.coefficient._proof_1 AXIOMS [propext]

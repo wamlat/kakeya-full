@@ -1,0 +1,14 @@
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.conversion_identity._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.conversion_identity._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.conversion_identity._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.conversion_identity._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.conversion_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableEstimate.to_discrete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.normalized_base_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.conversion_identity._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.discrete_iff_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.conversion_identity._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.conversion_identity._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableToDiscrete.realized_relative_density AXIOMS [propext, Classical.choice, Quot.sound]

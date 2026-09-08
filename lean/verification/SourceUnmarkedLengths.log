@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.SourceUnmarkedLengths.globalize AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceUnmarkedLengths.angular AXIOMS [propext, Classical.choice, Quot.sound]

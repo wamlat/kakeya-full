@@ -1,0 +1,7 @@
+AUDIT_THEOREM KakeyaFormal.conditional_diagonal_endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiscreteEstimate.of_limit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RealCapEstimate.weaken_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiagonalDiscreteEstimate.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiscreteEstimate.weaken_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.real_cap_endpoint_from_seed_and_pivot AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RealCapEstimate.of_limit AXIOMS [propext, Classical.choice, Quot.sound]

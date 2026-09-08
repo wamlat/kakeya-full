@@ -1,0 +1,17 @@
+AUDIT_DECLARATION KakeyaFormal.UnmarkedLengthEstimates.geometry AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_two_ends._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_two_ends._simp_1_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.UnmarkedLengthEstimates.factor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_two_ends._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_two_ends._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_two_ends._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_two_ends._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_two_ends._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.two_ends_weaken AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.geometry._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.power_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_discrete AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.from_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnmarkedLengthEstimates.factor_pos AXIOMS [propext, Classical.choice, Quot.sound]

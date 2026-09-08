@@ -1,0 +1,58 @@
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.speed_smul_transformedDirection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_speed._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_nonzero AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_speed._simp_1_7 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_speed._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_speed._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.transformedDirection_unit AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_norm_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_norm_bounds._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.finite_unit_interval_cover AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicRescaling.directionVector AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.transformedDirection.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.normalizeBox_distance_bounds AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_compress AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.transformed_carrier_unit_cover AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_speed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.normalizeBox_axisPoint._abel_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.compress_stretch AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_smul._simp_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.norm_cons_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_speed._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_smul AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_speed._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_distance_bounds._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicRescaling.transformedTube AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector_speed._simp_1_8 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.normalizeBox_axisPoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.norm_cons_le._simp_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.normalizeBox_affine AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_zero AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.directionVector.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicRescaling.stretch AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicRescaling.compress AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicRescaling.transformedDirection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.compress.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.compress_norm_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.transformedTube._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_sub AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_injective AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_distance_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.stretch_add AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,189 @@
+{
+  "module": "LebesgueLocalization",
+  "status": "PASS",
+  "source_sha256": "714383c010dad54ecc9140b79f61f11486a9a6f215bf417f8a4d7c8c23cdb50e",
+  "source_theorems": [
+    "exists_selection",
+    "NullSelection.common_mass_lower",
+    "NullSelection.density_depth_log_bound"
+  ],
+  "audited_theorem_count": 16,
+  "audited_declaration_count": 34,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.LebesgueLocalization.NullSelection.mk.inj": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.density_depth_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.density_range": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.radius_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.localized_nullMeasurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.radius_depth_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.selected_nonempty": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.common_mass_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.density_depth_log_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.two_ends": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.radius_upper": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.count_lower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.exists_selection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.original_mass_fraction": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.mk.injEq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.mk.sizeOf_spec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.recOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.selected": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.mk.noConfusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.mk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.densityDepth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.noConfusionType": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection._sizeOf_inst": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.ctorIdx": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.radiusDepth": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.casesOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.noConfusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.rec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.radiusIndex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection._sizeOf_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.centers": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.mk._flat_ctor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueLocalization.NullSelection.densityIndex": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

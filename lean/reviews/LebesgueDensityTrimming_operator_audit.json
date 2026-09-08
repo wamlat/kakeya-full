@@ -1,0 +1,28 @@
+{
+  "module": "LebesgueDensityTrimming",
+  "status": "PASS",
+  "source_sha256": "79a5d42d97ea6c9f67fe2a311f6cc04e39ba42e8d49bfccadea80ee047fd68c0",
+  "source_theorems": [
+    "exists_exact_subset",
+    "construct"
+  ],
+  "audited_theorem_count": 2,
+  "audited_declaration_count": 2,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.LebesgueDensityTrimming.exists_exact_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueDensityTrimming.construct": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

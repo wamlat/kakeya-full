@@ -1,0 +1,14 @@
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.coarse_power_old_shade AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.complementary_log_comparison AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.not_coarse_log_comparison AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.local_cap_population AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.target_from_population AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.bounded_density_power AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.coarse_family_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.populationCoefficient_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LocalAngularCoarse.populationCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.coarse_power AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.populationCoefficient.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalAngularCoarse.bounded_scale_family_bound AXIOMS [propext, Classical.choice, Quot.sound]

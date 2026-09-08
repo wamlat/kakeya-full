@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "module_count": 427,
+  "source_theorems": 3316,
+  "audited_theorems": 6686,
+  "all_declarations": 8549,
+  "exact_checks": 131,
+  "all_frozen_hashes_match": true,
+  "old381_unchanged": true,
+  "external_axioms": 3,
+  "external_dependent_theorems": 7,
+  "external_dependent_declarations": 10,
+  "all_non_external_standard_only": true,
+  "old406_unchanged": true
+}

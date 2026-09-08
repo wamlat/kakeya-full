@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.SixDimensionalLogarithmic.source_notation AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalLogarithmic.cap_free AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SixDimensionalLogarithmic.configuration_estimate AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

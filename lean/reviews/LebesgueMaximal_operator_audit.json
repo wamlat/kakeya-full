@@ -1,0 +1,162 @@
+{
+  "module": "LebesgueMaximal",
+  "status": "PASS",
+  "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+  "source_theorems": [
+    "of_borel",
+    "to_borel",
+    "estimate_iff_borel",
+    "endpoint",
+    "endpoint_formula",
+    "six_first",
+    "six_first_step",
+    "six_endpoint",
+    "eight_endpoint",
+    "six_diagonal_limit",
+    "eight_diagonal_limit",
+    "lengths_of_borel",
+    "lengths_to_borel",
+    "length_estimate_iff_borel",
+    "length_endpoint",
+    "length_endpoint_formula",
+    "length_six_first",
+    "length_six_endpoint",
+    "length_eight_endpoint",
+    "length_six_diagonal_limit",
+    "length_eight_diagonal_limit"
+  ],
+  "audited_theorem_count": 23,
+  "audited_declaration_count": 25,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.LebesgueMaximal.eight_diagonal_limit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.six_diagonal_limit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.estimate_iff_borel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.length_eight_endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.of_borel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.length_eight_diagonal_limit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.six_first_step": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.length_six_endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.length_estimate_iff_borel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.endpoint_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.to_borel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.length_six_first": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.length_six_diagonal_limit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.six_first": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.Estimate._proof_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.six_endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.length_endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.Estimate._proof_2": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.length_endpoint_formula": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.lengths_to_borel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.lengths_of_borel": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.eight_endpoint": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.LengthEstimate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueMaximal.Estimate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

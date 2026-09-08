@@ -1,0 +1,15 @@
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.all_scales._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.all_scales._simp_1_7 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.all_scales._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.all_scales._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.all_scales AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.exists_large_color AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.configuration_estimate AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.all_scales._simp_1_8 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.all_scales._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.all_scales._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveAllAngleSeparation.class_union_subset AXIOMS [propext, Classical.choice, Quot.sound]

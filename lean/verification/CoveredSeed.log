@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.CoveredSeed.countConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CoveredSeed.covered_seed AXIOMS [propext, Classical.choice, Quot.sound]

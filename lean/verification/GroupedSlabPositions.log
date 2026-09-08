@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.GroupedSlabPositions.restricted_energy_equals_original AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GroupedSlabPositions.restricted_position_legal AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GroupedSlabPositions.incidence_position_legal AXIOMS [propext, Classical.choice, Quot.sound]

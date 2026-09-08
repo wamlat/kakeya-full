@@ -1,0 +1,27 @@
+AUDIT_THEOREM KakeyaFormal.MeasurableUnitPartition.Partition.selected.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_bounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translatedFamily.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_tube_volume AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.bounded_to_unbounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableUnitPartition.Partition.group.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.Rescaling.tube.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_carrier AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_union_volume AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_union_volume._simp_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableMarkedSelection.reindex.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MaximalPositionReduction.translatedFamily AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MaximalPositionReduction.translatedShading AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_volume_sum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translatedShading.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MaximalPositionReduction.translated_density AXIOMS [propext, Classical.choice, Quot.sound]

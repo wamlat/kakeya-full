@@ -1,0 +1,24 @@
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.normalization_identity._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.retained_closing._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.retained_closing._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.originalCoefficient_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.retained_closing._simp_1_7 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.retained_closing._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.normalization_identity._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.retained_closing._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.normalization_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.normalization_identity._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.normalization_identity._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.normalization_identity._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.normalization_identity._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.retained_closing AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SelectedOutputClosing.originalCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.retained_closing._simp_1_8 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.retained_closing._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.originalCoefficient._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.normalization_identity._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SelectedOutputClosing.originalCoefficient._proof_2 AXIOMS [propext]

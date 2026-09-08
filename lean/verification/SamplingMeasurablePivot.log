@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.commonMean.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingNormalizedMeans.equalizer.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingMeasurablePivot.low_or_pivot AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingMeasurablePivot.inverse_log_budget AXIOMS [propext, Classical.choice, Quot.sound]

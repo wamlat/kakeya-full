@@ -1,0 +1,2667 @@
+{
+  "scope": "Semantic geometry/source completion review against authoritative final427 freeze; historical initial418 references are preserved separately. Hashes do not substitute for integrated verification.",
+  "generated_utc": "2026-09-07T04:17:04.600519+00:00",
+  "source_hashes": {
+    "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/source/combined.txt": "318b812333e7224c2e4f12cfcdb711562d6d0476a330fa849b13d18f45b5606a",
+    "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/source/first_step.txt": "869c13915fb926bc63e1075721c322ba7f8d9a7bb1478ce647813057f19a29f2",
+    "/Users/ssoh/Downloads/kakeya_6d_audit.md": "d96698f33001c6c04654d20742702e80a052495ce7a244037288df22c2abe771",
+    "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_freeze.json": "d6cce5210a29e4c87df9e1ce607eb9afbbc34cc22c899cb9e52c5df5964a1374",
+    "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint22_frozen_source_hashes.json": "d6d25509db21d08ab26c4d3c9792013b3726b87a42a71eb18b71803622dff736",
+    "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_initial418_freeze.json": "856a30947611d36bf9c9d319bc7b53bafd13c49b04e579a58628f82eb36b6703",
+    "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_freeze.json": "82105faecc7539d210a8eae5f4b9ef37b8bbf62273c2c5e68acc7362a21e3a43",
+    "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_initial418_source_hashes.json": "93f9a4b0eeb1be1215742759c25e9e3b4f0859934af2e488831c1d09a69ac6d7",
+    "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_frozen_source_hashes.json": "d1064bdbd50a6234671f321ad0827148b6f3833d32fa2b5bb94461ef179e72bb"
+  },
+  "lean_sources": {
+    "ActualLabelSelection": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/ActualLabelSelection.lean",
+      "sha256": "0d539179b03bca2a6b14daec0f7bbdee21910837d9145a44da7ad2db6d927605",
+      "named_statement_lines": {
+        "labelBudget": 15,
+        "labelBudget_pos": 18,
+        "Selection": 28,
+        "construct": 81,
+        "Selection.retained_fiber_range": 171,
+        "Selection.chosen_samples_actual": 185
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "AdmissiblePivotSlabs": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/AdmissiblePivotSlabs.lean",
+      "sha256": "3360ffcde27905cd41fc14f4b3fcadb6d8d949a6898b2a355a514a99e0390b72",
+      "named_statement_lines": {
+        "Hypotheses": 16,
+        "recovered_selection": 47,
+        "Package": 98,
+        "construct": 147,
+        "construct_source": 201
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "AllAnglePivot": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/AllAnglePivot.lean",
+      "sha256": "442d13e8f9a331edcc59532bfa61f1028c9eddf9186d2530b88cdb128c8a5cf4",
+      "named_statement_lines": {
+        "logarithmic_range": 17,
+        "fixed_width_test": 72,
+        "all_scales": 92
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "AngularBoxAllCases": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/AngularBoxAllCases.lean",
+      "sha256": "e4b8b483dcbf82507ff155137c6d37545118458e0452702023707cb4be7f2279",
+      "named_statement_lines": {
+        "inverse_density_cutoff": 16,
+        "fine_power_comparison": 24,
+        "construct": 33
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "AngularSpatialSummation": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/AngularSpatialSummation.lean",
+      "sha256": "6cbd10d28d2ba103973bd734b0863260555edab2d72f9871dca0d547e1d88d7a",
+      "named_statement_lines": {
+        "cancel_logarithmic_overlap": 16,
+        "from_piece_estimates": 61
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "AnisotropicSamplingInput": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/AnisotropicSamplingInput.lean",
+      "sha256": "92ad6a8897b33f82eb926cedb716f6f40686377bbabbc22d5542bc026b6d2fd4",
+      "named_statement_lines": {
+        "retention": 16,
+        "markedFraction": 18,
+        "endsConstant": 19,
+        "broadConstant": 20,
+        "retention_pos": 23,
+        "retention_le_one": 30,
+        "construct": 42
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "AnisotropicSamplingRetention": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/AnisotropicSamplingRetention.lean",
+      "sha256": "7b81218726795dd4d7fc436be0cd39b227bfba543a49cf7f88c1fad69a2758be",
+      "named_statement_lines": {
+        "density_population": 15,
+        "population": 32,
+        "Output": 49,
+        "construct": 81
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "CapThinningGeometry": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/CapThinningGeometry.lean",
+      "sha256": "2db7aea7b312cc2f8f8a5b0f7a5c8d5c8c6fe306e038073908887b1fbc83fb2a",
+      "named_statement_lines": {
+        "occupiedLabel": 20,
+        "occupiedFiber": 23,
+        "occupiedLabel_injective": 28,
+        "occupiedFiber_subset": 33,
+        "occupiedFibers_disjoint": 38,
+        "occupiedIndex": 47,
+        "occupiedLabel_index": 52,
+        "mem_occupiedFiber_index": 57,
+        "occupiedFibers_union": 61,
+        "Coherent": 70,
+        "partitionTree": 74,
+        "partitionTree_support": 82,
+        "partitionTree_partitioned": 91,
+        "hierarchyTree": 104,
+        "hierarchyTree_support": 110,
+        "hierarchyTree_partitioned": 115,
+        "partitionTree_capacity": 125,
+        "partitionTree_occurs": 131,
+        "hierarchyTree_occurs": 178,
+        "proportionalCapacity": 204,
+        "proportional_block_feasible": 209,
+        "partitionTree_proportional_feasible": 222,
+        "hierarchyTree_proportional_feasible": 238,
+        "inter_original_filter": 251,
+        "hierarchy_proportional_selection": 264,
+        "dyadicLabel": 295,
+        "dyadicLabel_coherent": 299,
+        "chartDyadicLabel": 309,
+        "chartDyadicLabel_coherent": 312,
+        "chartDyadicLabel_floor": 316,
+        "dyadic_proportional_selection": 323,
+        "dyadic_inverse_selection": 335,
+        "chart_fiber_population_bound": 366,
+        "chart_dyadic_population_bound": 422,
+        "chart_real_cap_dyadic_selection": 452,
+        "floor_gap_physical": 490,
+        "chart_lattice_projective_separation": 504,
+        "chart_dyadic_coloring": 520,
+        "chart_real_cap_thinning": 555,
+        "dyadic_scale_between": 580,
+        "exists_dyadic_top": 593,
+        "euclidean_cap_label_box": 600,
+        "projective_cap_label_cover": 619,
+        "dyadic_cap_count": 631,
+        "dyadic_bounds_give_cap_bound": 660,
+        "chart_full_cap_thinning": 693,
+        "chartMove_involutive": 713,
+        "directionChartFamily": 722,
+        "directionChartFamily_cap": 731,
+        "populous_signed_chart": 747,
+        "thinningRetentionConstant": 772,
+        "thinningCapConstant": 776,
+        "full_cap_thinning": 783
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "ClosingEnergyAlgebra": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/ClosingEnergyAlgebra.lean",
+      "sha256": "7ea91cf4de666749ae6c389fa42975a079a8eb9f199761132103a02d17c092ff",
+      "named_statement_lines": {
+        "pivotCoefficient": 17,
+        "liftCoefficient": 20,
+        "pivotCoefficient_pos": 23,
+        "liftCoefficient_pos": 26,
+        "actual_count_bounds": 30,
+        "grouped_witness_bound": 51,
+        "closingCoefficient": 71,
+        "closingCoefficient_pos": 74,
+        "closing_energy": 80,
+        "closing_energy_six": 108,
+        "kappa_power_identity": 128,
+        "density_combination": 138,
+        "source_density_combination": 183,
+        "retained_grouped_closing": 202,
+        "source_from_energy": 229,
+        "error_kappa_weakening": 252
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "CollisionEnergy": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/CollisionEnergy.lean",
+      "sha256": "1e0e0282114a25a68b2c70efc9ee7154db16342556e59fb6847ecc67734e6cb7",
+      "named_statement_lines": {
+        "rowConstant": 14,
+        "rowConstant_pos": 17,
+        "row_count": 28,
+        "collision_row_membership": 73,
+        "energy_le_sum_rows": 92,
+        "collision_energy_bound": 126
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "CollisionIntersection": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/CollisionIntersection.lean",
+      "sha256": "1c3f8b9f31c92cbe8ae46a9f7eceab733fa55a6353367b567c3488f286646f39",
+      "named_statement_lines": {
+        "intersectionConstant": 14,
+        "intersectionConstant_pos": 17,
+        "common_cell_count": 24,
+        "common_shading_count": 61,
+        "common_label_subset_count": 74,
+        "common_vertex_count": 86,
+        "fixed_pair_vertex_injective": 96,
+        "fixed_pair_angle_count": 108,
+        "unit_cell_count": 140,
+        "common_cell_count_max": 162,
+        "common_shading_count_max": 177,
+        "fixed_pair_angle_subtype_count": 191
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "CollisionPlane": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/CollisionPlane.lean",
+      "sha256": "70e725c253a4cd0940f02526cead734e4ac7915dd29db4a16712b59723463f5a",
+      "named_statement_lines": {
+        "normalCoordinate": 11,
+        "normalCoordinate_norm_le": 14,
+        "unitize_normal_zero": 20,
+        "frame": 33,
+        "frame_first_zero": 36,
+        "frame_second_zero": 43,
+        "direction_normal_bound": 50,
+        "output_intermediate": 85,
+        "colliding_angle_thin": 96,
+        "firstIndices": 134,
+        "collision_cap_count": 144,
+        "circleConstant_div_le": 170,
+        "collision_shell_count": 189
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "CommonDensityLocalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/CommonDensityLocalization.lean",
+      "sha256": "44ae2c803809a9641bd1e3c78ab947408e475bc65377ed6013254cab00497449",
+      "named_statement_lines": {
+        "Selection": 17,
+        "exists_selection": 48,
+        "Selection.common_mass_lower": 107,
+        "Selection.density_depth_log_bound": 118
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "Configurations": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/Configurations.lean",
+      "sha256": "f6c6b02ab4ac9a43ad200de7c525b67649e9987f73e2e02521b738719a21aef2",
+      "named_statement_lines": {
+        "Space": 14,
+        "Cell": 15,
+        "UnitTube": 17,
+        "UnitTube.axisPoint": 22,
+        "UnitTube.carrier": 25,
+        "cellCenter": 28,
+        "projectiveDistance": 33,
+        "TubeFamily": 36,
+        "TubeFamily.unionCells": 40,
+        "TubeFamily.Admissible": 44,
+        "TubeFamily.Separated": 49,
+        "TubeFamily.CapBound": 52,
+        "TubeFamily.Comparable": 58,
+        "TubeFamily.Bounded": 61,
+        "Normalization": 64,
+        "ShadedConfiguration": 74,
+        "DiscreteEstimate": 93,
+        "RealCapEstimate": 99,
+        "DiagonalDiscreteEstimate": 102,
+        "projectiveDistance_nonneg": 105,
+        "projectiveDistance_self": 108,
+        "projectiveDistance_neg_right": 112,
+        "UnitTube.axisPoint_distance": 116,
+        "UnitTube.axisPoint_mem_carrier": 124,
+        "TubeFamily.shade_subset_union": 129,
+        "TubeFamily.one_tube_card_bound": 135,
+        "ShadedConfiguration.density_ge_half_scale": 140
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "ConstructedPivotClosing": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/ConstructedPivotClosing.lean",
+      "sha256": "07f8be04872c1fedd4c264feb3470b99ca232a720519dc8b1d6873934234c11b",
+      "named_statement_lines": {
+        "construct": 18
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "CumulativeFixedError": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/CumulativeFixedError.lean",
+      "sha256": "266e9eb0435e9e665335b633e07301ffc23dcc5d06ac911f0c9d29742a7ba961",
+      "named_statement_lines": {
+        "subfamily_bound_fixed_cap": 13,
+        "finite_bin_bound_fixed_cap": 52,
+        "linear_bin_budget": 122,
+        "from_fixed_input": 166,
+        "source_notation": 213
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/cumulative_fixed_error_audit.json",
+        "status": "PASS",
+        "matches_current_source": true,
+        "audit_file_sha256": "9f5a65b6fc2969ca8711e5b3e1c3dcd29ef89bda6aa69cda9ee04e9c1dc04548"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "CumulativeLengths": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/CumulativeLengths.lean",
+      "sha256": "cef706b53546f6c16daaf44b635f4ae6435cdaf180b2ada84df084b23d07ebbc",
+      "named_statement_lines": {
+        "from_cumulative": 12
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/CumulativeLengths_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 1,
+        "audited_declaration_count": 1,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "04b58d32446e1b62c227f75a648fa597c53671f5d753bdd02ff319b663481672"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "DiscreteScaleCompletion": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/DiscreteScaleCompletion.lean",
+      "sha256": "2c9752ba6d09715aa2025da4e030ecf0f68087122c7ee4c70f66a30bb6aa5aba",
+      "named_statement_lines": {
+        "coefficient": 11,
+        "coefficient_pos": 15,
+        "bounded_scale": 26,
+        "complete": 75
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/DiscreteScaleCompletion_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 4,
+        "audited_declaration_count": 5,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "6ff738e55276631d7fda0aab98121d37b242c0acec2f7ae45f451cd6fc56c073"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "FiniteGridLocalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/FiniteGridLocalization.lean",
+      "sha256": "83cd2a77994556f9e28cc4e1c2a652ab32d10f37a1fac3d0debd00eeca4abd15",
+      "named_statement_lines": {
+        "cellCenter_injective": 11,
+        "restrictCells": 20,
+        "restrict_image": 23,
+        "image_mass": 28,
+        "common_radius": 35,
+        "Selection": 65,
+        "exists_selection": 90
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "FiniteLocalizedFamily": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/FiniteLocalizedFamily.lean",
+      "sha256": "b2a7e0feb18b07b50fbf0f64ded4f3ee6090d7bfb4cab7d004a92a828a37cb4c",
+      "named_statement_lines": {
+        "index": 11,
+        "index_injective": 14,
+        "index_mem": 18,
+        "family": 22,
+        "family_admissible": 27,
+        "family_comparable": 32,
+        "family_ball": 36,
+        "family_two_ends": 41,
+        "family_cap_bound": 47,
+        "family_union_subset": 58,
+        "selected_count_log": 66,
+        "selected_density_upper": 83,
+        "radius_density": 95
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "FractionalSeedFullRange": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/FractionalSeedFullRange.lean",
+      "sha256": "319aa2a0e18b601051cc29520d2a5702fac9fa7edbaa371e24b45aaf6d9f9642",
+      "named_statement_lines": {
+        "fractional_discrete_seed": 17,
+        "fractional_real_cap_seed": 91,
+        "fractional_cumulative_seed": 103,
+        "fractional_real_cap_cumulative": 107,
+        "source_cumulative": 113
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/FractionalSeedFullRange_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 6,
+        "audited_declaration_count": 6,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "770b4d195c8f1a53e230e5ee7d321860ce1438b587ab334abc947aed358bde08"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "HairbrushAllScales": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/HairbrushAllScales.lean",
+      "sha256": "69c66a41085be66a771550620c1789019f2793ea2c67c8f77f1e7186f05935c6",
+      "named_statement_lines": {
+        "allScaleConstant": 18,
+        "allScaleConstant_pos": 20,
+        "all_scale_real_cap_hairbrush": 29
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "HairbrushBroad": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/HairbrushBroad.lean",
+      "sha256": "e9ecdf484589ba1c212998b9ea8a52c8fa13cfcb1225a8e5dbad31d0ba168e4c",
+      "named_statement_lines": {
+        "nearCount": 21,
+        "bristles": 28,
+        "overlap_restrict": 37,
+        "bristle_multiplicity": 51,
+        "bristle_multiplicity_lower": 76,
+        "broadConstant": 85,
+        "broadConstant_pos": 87,
+        "broad_hairbrush_squared": 94
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "HairbrushFractional": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/HairbrushFractional.lean",
+      "sha256": "465df20a5eca57b7c8fa4bf3e6fa5913b10cc839b9c12de62f7ac2fe73d9e4dc",
+      "named_statement_lines": {
+        "marked_mass_cap_upper": 19,
+        "fractionalConstant": 38,
+        "fractionalConstant_pos": 40,
+        "fractional_scale_identity": 44,
+        "real_cap_hairbrush_squared": 55,
+        "half_power_square": 106,
+        "fractional_square_root": 113,
+        "real_cap_hairbrush_linear": 140
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "HairbrushKernel": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/HairbrushKernel.lean",
+      "sha256": "125aeb82173945accad6e452532f10e79e7051e2c0a54c95d02c3aad39e1e5b6",
+      "named_statement_lines": {
+        "PointwiseBroad": 20,
+        "chosen_radius_half_cap": 29,
+        "chosen_radius_hairbrush": 57
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "HairbrushPlanes": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/HairbrushPlanes.lean",
+      "sha256": "893137a45a2cb215b48afadfd52adbc0505fd806d9930a71da0ddcc464f4b795",
+      "named_statement_lines": {
+        "transverseCoordinate": 18,
+        "transverseCoordinate_norm_le": 36,
+        "plank": 41,
+        "plank_iff_affine_plane": 47,
+        "distance_from_stem_lower": 70,
+        "exists_stem_point_at_transverse_distance": 77,
+        "plank_direction_cap": 92,
+        "plane_bin_overlap": 112,
+        "scalar_projective_match": 130,
+        "plank_normal_change": 144,
+        "finite_plane_bins": 166,
+        "norm_smul_unitize": 192,
+        "bristleNormal": 197,
+        "stem_transverse_zero": 202,
+        "bristle_in_stem_plank": 208,
+        "isometry_projective": 243,
+        "axis_inner_head": 248,
+        "stem_transverse_lower": 254,
+        "bristleNormal_unit": 274,
+        "bristle_plane_bins": 283
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "HairbrushRemoval": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/HairbrushRemoval.lean",
+      "sha256": "81a144844385f65dcf7a0708e6451c54451f482e38f3e21e58d98374817e3064",
+      "named_statement_lines": {
+        "carrier_diameter_bound": 18,
+        "carrier_base_bound": 30,
+        "bristle_stem_base_bound": 43,
+        "stem_carrier_transverse": 54,
+        "crossing_ball_escape": 67,
+        "outsideCrossing": 111,
+        "outsideCrossing_half_mass": 116,
+        "removalConstant": 130,
+        "removalConstant_pos": 132,
+        "crossing_hairbrush_union_lower": 140,
+        "two_ends_crossing_hairbrush": 191
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "Laminar": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/Laminar.lean",
+      "sha256": "eb108d25bc5e672b93580f22d960ec60d86bd385b78960db37c87ac80e9aa140",
+      "named_statement_lines": {
+        "support": 29,
+        "rank": 33,
+        "Partitioned": 37,
+        "Admissible": 42,
+        "Feasible": 49,
+        "admissible_mono": 56,
+        "attainsRank": 69,
+        "mass_le_rank": 122,
+        "fractionalSelection": 150
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueAngularSpatial": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueAngularSpatial.lean",
+      "sha256": "d1dad9395442f6a89a1338bc4c4f8acd09a219315fb17299d9b463cac45a98d7",
+      "named_statement_lines": {
+        "restoreInput": 16,
+        "construct": 43
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueAngularSpatial_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 5,
+        "audited_declaration_count": 6,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "e3df0ee96e6573e298b7b135b3b0b307e308acaa8f83d7d3f1a4cf8977523f95"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueDensityPruning": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueDensityPruning.lean",
+      "sha256": "bb2474418b4adc435bc08e504ecd982ac2221b5a804e05bc7f7a004cb6e93010",
+      "named_statement_lines": {
+        "mass_completion": 14,
+        "survivors_completion": 19,
+        "retained_completion": 22,
+        "good_nullMeasurable": 25,
+        "goodRows_nullMeasurable": 31,
+        "badRows_nullMeasurable": 37,
+        "bad_mass_le_deleted": 45,
+        "mass_split": 53,
+        "good_mass_lower": 61,
+        "pieces_nullMeasurable": 69,
+        "source_fractions": 80
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/lebesgue_density_pruning_audit.json",
+        "status": "PASS",
+        "matches_current_source": true,
+        "audit_file_sha256": "4399c016d5d915170b01caba66eb33d1f7d0356f776194c57db56e10599c02fb"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueDensityTrimming": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueDensityTrimming.lean",
+      "sha256": "79a5d42d97ea6c9f67fe2a311f6cc04e39ba42e8d49bfccadea80ee047fd68c0",
+      "named_statement_lines": {
+        "exists_exact_subset": 14,
+        "construct": 29
+      },
+      "cohort": "frozen427_addition_after_initial418",
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueDensityTrimming_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 2,
+        "audited_declaration_count": 2,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "3ce5e39cf5295f0340edb40d34d4e4d50485c3ea92961daabe383b8e0a0adf7a"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueHairbrush": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueHairbrush.lean",
+      "sha256": "02c63fed02ad8e4679b198ea2d9e0cefcaa8bea4accc933539214225867b8c96",
+      "named_statement_lines": {
+        "Representative": 18,
+        "representatives": 32,
+        "full_real": 71,
+        "inter_real": 72,
+        "total_real": 75,
+        "marked_real": 77,
+        "union_real": 81,
+        "broadness": 90,
+        "broad_hairbrush_squared": 110,
+        "broad_hairbrush_linear": 146,
+        "real_cap_hairbrush_linear": 194
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueHairbrush_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 25,
+        "audited_declaration_count": 39,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "49aef5f605573f9c269edcaf23fd819a2a50e2c7c72b82ec6ab0f772cd645616"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueLocalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueLocalization.lean",
+      "sha256": "714383c010dad54ecc9140b79f61f11486a9a6f215bf417f8a4d7c8c23cdb50e",
+      "named_statement_lines": {
+        "NullSelection": 15,
+        "exists_selection": 46,
+        "NullSelection.common_mass_lower": 90,
+        "NullSelection.density_depth_log_bound": 101
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueLocalization_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 16,
+        "audited_declaration_count": 34,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "71598accebc485d0a7cdf893d26ab7a7652f49a09178356460a2316683da40ad"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueMaximal": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueMaximal.lean",
+      "sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+      "named_statement_lines": {
+        "Estimate": 14,
+        "of_borel": 28,
+        "to_borel": 42,
+        "estimate_iff_borel": 49,
+        "endpoint": 52,
+        "endpoint_formula": 55,
+        "six_first": 58,
+        "six_first_step": 60,
+        "six_endpoint": 62,
+        "eight_endpoint": 63,
+        "six_diagonal_limit": 64,
+        "eight_diagonal_limit": 65,
+        "LengthEstimate": 69,
+        "lengths_of_borel": 87,
+        "lengths_to_borel": 103,
+        "length_estimate_iff_borel": 112,
+        "length_endpoint": 115,
+        "length_endpoint_formula": 118,
+        "length_six_first": 121,
+        "length_six_endpoint": 122,
+        "length_eight_endpoint": 123,
+        "length_six_diagonal_limit": 124,
+        "length_eight_diagonal_limit": 125
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueMaximal_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 23,
+        "audited_declaration_count": 25,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "14ac178a578a6c290ec63c063845ee19e13349dc10c21bb40fb17639a975aeec"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueRealCap": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueRealCap.lean",
+      "sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+      "named_statement_lines": {
+        "Configuration": 14,
+        "unionSet": 37,
+        "core": 39,
+        "core_subset": 42,
+        "core_measurable": 45,
+        "core_ae_eq": 48,
+        "borel": 53,
+        "borel_union_ae_eq": 72,
+        "borel_union_volume": 76,
+        "ofBorel": 80,
+        "Estimate": 102,
+        "VolumeEstimate": 108,
+        "of_borel": 115,
+        "to_borel": 120,
+        "estimate_iff_borel": 125,
+        "volume_of_borel": 128,
+        "volume_to_borel": 134,
+        "volume_estimate_iff_borel": 140,
+        "real_cap_endpoint": 146,
+        "diagonal_endpoint": 151,
+        "diagonal_volume": 155,
+        "globalize": 161,
+        "LengthEstimate": 166,
+        "lengths_of_borel": 182,
+        "lengths_to_borel": 198,
+        "length_estimate_iff_borel": 207,
+        "length_real_cap_endpoint": 211,
+        "length_diagonal_endpoint": 215
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueRealCap_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 41,
+        "audited_declaration_count": 66,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "d6357fd8ff5ef966ec7aa345df6f97ddf105bb677c8b2f08400809236f965983"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueRepresentatives": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueRepresentatives.lean",
+      "sha256": "0384ebb173ae149fe7fc253d2b4b9fda0fd10797505c66ae5ec5865933250523",
+      "named_statement_lines": {
+        "Output": 15,
+        "construct": 28,
+        "membership": 51,
+        "full_union_subset": 58,
+        "marks_union_subset": 61,
+        "full_union_ae": 64,
+        "marks_union_ae": 71,
+        "full_measure": 78,
+        "marks_measure": 79,
+        "full_real": 80,
+        "marks_real": 81,
+        "full_inter_measure": 83,
+        "marks_inter_measure": 85,
+        "full_inter_real": 87,
+        "marks_inter_real": 89,
+        "full_union_measure": 92,
+        "marks_union_measure": 93,
+        "full_union_real": 94,
+        "marks_union_real": 95,
+        "full_total_real": 97,
+        "marks_total_real": 99,
+        "rows_ae": 104,
+        "transfer_ae": 118
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueRepresentatives_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 35,
+        "audited_declaration_count": 49,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "bd8f606a518bb45bd2847c5f0314084da90b8b0b10969cf6ff25e6966fc8ba1e"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueSampling": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueSampling.lean",
+      "sha256": "ad78a4007b9bb51323e504fa7137b8b3fadadc3e8e24a92229685e0767ca34c3",
+      "named_statement_lines": {
+        "Input": 14,
+        "representatives": 56,
+        "to_borel": 62,
+        "probabilities": 98,
+        "support_eq": 112,
+        "full_heq": 119,
+        "marked_heq": 128,
+        "Data": 140,
+        "law": 158,
+        "data": 164,
+        "borelData": 172,
+        "data_eq": 181,
+        "law_heq": 188,
+        "full_mean_eq": 199,
+        "marked_mean_eq": 208,
+        "full_mean_bounds": 216,
+        "marked_mean_lower": 223
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueSampling_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 51,
+        "audited_declaration_count": 75,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "24fae411ad797264422749fd2879d8af86da2a5de4cc6604e47611b78124cc0f"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueSamplingGeometry": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueSamplingGeometry.lean",
+      "sha256": "e1e6c73e98f22678db75e206db74d079ba5b6d9647e1e6c001e2bea0b3aa6f29",
+      "named_statement_lines": {
+        "admissible": 21,
+        "density": 35,
+        "marked_mass": 45,
+        "marked_density": 54,
+        "relative_le_marked_expectation": 59,
+        "marked_relative": 75,
+        "two_ends": 81
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueSamplingGeometry_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 14,
+        "audited_declaration_count": 14,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "63b50c7b42da265055be3287915c9311bb58403fbbea5f6c04ae90f41ac4e219"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueSamplingSource": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueSamplingSource.lean",
+      "sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+      "named_statement_lines": {
+        "high": 16,
+        "Low": 19,
+        "good": 25,
+        "Result": 32,
+        "source_sampling": 53,
+        "source_realization": 84
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueSamplingSource_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 6,
+        "audited_declaration_count": 10,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "9efe976522bdc335c06dde6dd50c028dcb53597500a4f2b54257170faeb778cf"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LebesgueSeedDensity": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LebesgueSeedDensity.lean",
+      "sha256": "cc505d91734f1e039f4304eb5233c2a7747f23f33533574f5c2ed890d757344b",
+      "named_statement_lines": {
+        "logarithmic_density_seed": 11,
+        "comparable_density_seed": 52
+      },
+      "cohort": "frozen418_addition",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LebesgueSeedDensity_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 2,
+        "audited_declaration_count": 2,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "d4d3fa209523916ab0d7fb2013126011a50d522f72804e791d519d5821b98523"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LengthOperatorNorm": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LengthOperatorNorm.lean",
+      "sha256": "e45b94338ec243e8613ab2dc8afce92e9ba8c0a77092f8111e01ac9d0f348574",
+      "named_statement_lines": {
+        "normMaximal": 11,
+        "normMaximal_measurable": 15,
+        "factor": 22,
+        "factor_pos": 26,
+        "Estimate": 35,
+        "from_unit": 43,
+        "endpoint_formula": 88,
+        "endpoint": 103,
+        "six_first": 111,
+        "six_endpoint": 113,
+        "eight_endpoint": 119
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "LiftGraph": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LiftGraph.lean",
+      "sha256": "6b54b4af80a18294d5b1ec784693cef937e89a50b7b78d800ca691e068390226",
+      "named_statement_lines": {
+        "graphDirection": 13,
+        "graph_norm_ge_one": 15,
+        "graph_nonzero": 20,
+        "graph_norm_upper": 26,
+        "graphDirection_recover": 40,
+        "head_abs_le_norm": 44,
+        "graphDirection_forward": 49,
+        "graphDirection_chord_inverse": 62,
+        "graphDirection_inverse": 107,
+        "graph_cap_to_slope_ball": 136,
+        "residual_label_distance": 147,
+        "fixed_pivot_cap_labels": 159,
+        "fixed_pivot_cap_count": 184,
+        "coordinate_gap": 224,
+        "modular_grid_separation": 239,
+        "fixed_pivot_coloring": 258,
+        "lifted_family_cap_bound": 289
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "LiftedCumulativeInput": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LiftedCumulativeInput.lean",
+      "sha256": "01cc887125d6677b4f015026c6e9af766fba7b1244196db7e2a6a272aed548cc",
+      "named_statement_lines": {
+        "LiftedCumulativeInput": 18,
+        "cumulative": 28,
+        "power_transfer": 57,
+        "to_discrete": 82
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LiftedCumulativeInput_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 11,
+        "audited_declaration_count": 13,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "6f2cf415f05128f04a536a8cc5df1351fc6c1075b5b160973a5684d959878b53"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LocalizedCellPartition": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LocalizedCellPartition.lean",
+      "sha256": "6868d9372707681e6320130a647660569c6f5a160543d1373a6f7866084ed0a2",
+      "named_statement_lines": {
+        "cellLabel": 12,
+        "slice": 13,
+        "binCount": 15,
+        "binCount_pos": 17,
+        "occupied_bin_count": 19,
+        "best_bin": 34,
+        "center_near_origin": 56,
+        "proportional_two_ends": 75,
+        "groupIndices": 92,
+        "groupCells": 95,
+        "group_label": 98,
+        "groups_disjoint": 104,
+        "group_card_sum": 113,
+        "Partition": 130,
+        "construct": 145,
+        "Partition.family": 191,
+        "Partition.density": 196,
+        "Partition.nonempty": 199,
+        "Partition.comparable": 203,
+        "Partition.admissible": 216,
+        "Partition.two_ends": 220,
+        "Partition.origin_bound": 231,
+        "Partition.bins": 242,
+        "Partition.index": 245,
+        "Partition.index_injective": 250,
+        "Partition.index_assignment": 254,
+        "Partition.groupFamily": 259,
+        "Partition.group_union": 264,
+        "Partition.group_comparable": 277,
+        "Partition.group_admissible": 281,
+        "Partition.group_separated": 285,
+        "Partition.group_cap_bound": 290,
+        "Partition.population_sum": 303,
+        "Partition.union_sum": 312,
+        "Partition.normalized_group": 321
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "LocalizedDirectionThinning": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LocalizedDirectionThinning.lean",
+      "sha256": "eb51d4938225318a3eca5439a36ceee9c448271eea0dccfc337e7e39677f7a95",
+      "named_statement_lines": {
+        "cap_bound_smaller_scale": 15,
+        "retentionConstant": 37,
+        "capConstant": 40,
+        "retentionConstant_pos": 42,
+        "capConstant_ge_one": 48,
+        "thin_to_scale": 52,
+        "thin_at_localized_scale": 111
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "LocalizedGroupedNormalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LocalizedGroupedNormalization.lean",
+      "sha256": "86c4426e10b71fc3cb249e4c2e05ec7f42fbdafd19397dd2342ce0b91476e2dd",
+      "named_statement_lines": {
+        "baseRadius": 15,
+        "baseRadius_pos": 18,
+        "geometry": 24,
+        "bounded_axis_intervals": 29,
+        "Output": 51,
+        "construct": 73,
+        "Output.shade_card": 153,
+        "Output.union_card_le": 160,
+        "Output.full_two_ends": 167,
+        "partition_construct": 176,
+        "normalized_ends_ge_one": 208,
+        "partition_population_lower": 218,
+        "partition_union_sum": 232,
+        "construct_partition": 245
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "LocalizedSeedNormalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LocalizedSeedNormalization.lean",
+      "sha256": "f663b826ed0329f0ae770f527812b956cafd5f8016b22e99584c3e7b524334c9",
+      "named_statement_lines": {
+        "countConstant": 15,
+        "dilationConstant": 19,
+        "dilationConstant_ge_one": 21,
+        "dilationConstant_pos": 25,
+        "localized_card_upper": 28,
+        "normalized_density_le_one": 41,
+        "normalized_axis_intervals": 57,
+        "normalize_localized_family": 77
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "LocalizedTwoEndsApplication": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LocalizedTwoEndsApplication.lean",
+      "sha256": "f94be66373842f91d597b4459789be71fcd1df6cf01053043ce78adbd656f21e",
+      "named_statement_lines": {
+        "scale_identity": 15,
+        "localized_bound": 35
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "LogarithmicLengthEstimates": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LogarithmicLengthEstimates.lean",
+      "sha256": "6a4c9c352ea8d5769beea554d3b3a0fccaeec492297ed7bf08d2bc1c721b9068",
+      "cohort": "frozen427_addition_after_initial418",
+      "named_statement_lines": {
+        "logFactor": 11,
+        "logFactor_ge_one": 13,
+        "factor_budget": 17,
+        "log_dilation": 30,
+        "full_ends_mono": 37,
+        "estimate": 48
+      },
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/logarithmic_length_estimates_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 13,
+        "audited_declaration_count": 14,
+        "custom_axioms": [],
+        "audit_file_sha256": "afc10ba79189c007c309dc968cca498452ee8c7d6a192b6618bc56c338697d18"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LogarithmicTwoEnds": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LogarithmicTwoEnds.lean",
+      "cohort": "frozen427_addition_after_initial418",
+      "sha256": "569da09b05110e964f820042b223f08b1ba0ed42f3a9dbf0aa2a972c5d0cf075",
+      "named_statement_lines": {
+        "radius_constraint": 16,
+        "estimate": 47
+      },
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/logarithmic_two_ends_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 9,
+        "audited_declaration_count": 9,
+        "custom_axioms": [],
+        "audit_file_sha256": "b23efb29e441c416a41285155bcac198ad380153d4b51d3fae96390e23339988"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "LogarithmicTwoEndsAlgebra": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/LogarithmicTwoEndsAlgebra.lean",
+      "cohort": "frozen427_addition_after_initial418",
+      "sha256": "8497459fb6230c4df07a5afb8c013722d3bf68867803385c4d614bddb6c4342e",
+      "named_statement_lines": {
+        "lossPower": 9,
+        "lossPower_nonneg": 11,
+        "constraint_power": 16,
+        "density_factor": 29
+      },
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/LogarithmicTwoEndsAlgebra_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 10,
+        "audited_declaration_count": 11,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "7e7e2763fc08523abe85e599615f5474518f17fb2cef05ef89ad533e5e38c801"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "MainMaximal": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MainMaximal.lean",
+      "sha256": "21bebed09066ec041ea33d1377d55c6f9e8ba0a35085138971ee5e8eb9f809b7",
+      "named_statement_lines": {
+        "from_diagonal": 15,
+        "endpoint": 26,
+        "endpoint_formula": 32,
+        "six_first": 42,
+        "six_first_step": 47,
+        "six_endpoint": 51,
+        "eight_endpoint": 55,
+        "six_diagonal_limit": 61,
+        "eight_diagonal_limit": 65
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MarkedGridNormalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MarkedGridNormalization.lean",
+      "sha256": "2a06f6b3c0eb9aa1c92a1365fab3b26a2eef7e00f26058ed6a7dbe378c6e6fba",
+      "named_statement_lines": {
+        "depth": 14,
+        "depth_bounds": 16,
+        "rowTarget": 32,
+        "newDensity": 34,
+        "newFraction": 36,
+        "newWidth": 38,
+        "row_target_bounds": 42,
+        "parameter_bounds": 77,
+        "Input": 128,
+        "Output": 161,
+        "construct": 178
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MarkedGridPadding": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MarkedGridPadding.lean",
+      "sha256": "4da40cae28dd3793af6221f28d942bbdf0e83687ee244d476570d6d84f87db01",
+      "named_statement_lines": {
+        "Padding": 14,
+        "Padding.family": 20,
+        "marked": 23,
+        "construct": 27,
+        "Padding.original_card_le": 34,
+        "Padding.marks_subset": 38,
+        "marked_card": 44,
+        "marked_mass": 47,
+        "Padding.union_subset": 51,
+        "Padding.union_card": 57,
+        "Padding.comparable": 64,
+        "Padding.admissible": 77,
+        "Padding.separated": 94,
+        "Padding.bounded": 101,
+        "Padding.cap_bound": 104,
+        "Padding.two_ends": 114,
+        "Padding.marked_broad": 153,
+        "endsFactor": 171,
+        "endsFactor_ge_one": 173,
+        "Padding.two_ends_fixed": 182
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MarkedLengthAlgebra": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MarkedLengthAlgebra.lean",
+      "sha256": "39a313f959f9424cf83c06284233f2f23ca3dd2469117c4491c0cc536021968c",
+      "named_statement_lines": {
+        "choice_identity": 10,
+        "choice_le_rescaled": 23,
+        "rescaled_cutoff": 36
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MarkedLengthInput": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MarkedLengthInput.lean",
+      "sha256": "3425378039d183f61a4ed092ca9530264e9f144cd9c4c450f3c7bd48c3d89066",
+      "named_statement_lines": {
+        "Input": 12,
+        "to_unit_input": 47,
+        "bounded_lengths": 97
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MarkedLengthNormalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MarkedLengthNormalization.lean",
+      "sha256": "5ea82c09f6b8cf490214ba7289a622a61f1c4773be9606ebe7daa58ebd9ab861",
+      "named_statement_lines": {
+        "dilation": 14,
+        "dilation_ge_one": 16,
+        "dilation_pos": 18,
+        "normalizedFamily": 21,
+        "union_eq": 24,
+        "center_eq": 27,
+        "center_distance": 34,
+        "admissible": 41,
+        "separated": 55,
+        "bounded": 64,
+        "cap_bound": 73,
+        "two_ends": 84
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MarkedNormalizationAlgebra": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MarkedNormalizationAlgebra.lean",
+      "sha256": "b00c18b6dce0d6e563d22d5e9ab34097bdd9f44b86b0f93d4776981ecadec01f",
+      "named_statement_lines": {
+        "logFactor": 8,
+        "logFactor_ge_one": 10,
+        "refined_log_upper": 17,
+        "refined_log_power": 34,
+        "scale_identity": 50,
+        "transportFactor": 56,
+        "transportFactor_pos": 59,
+        "transport_fourth": 69
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MarkedNormalizationKappa": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MarkedNormalizationKappa.lean",
+      "sha256": "5c57d6f836efc18aa58a265658c9b41939c1febdf750d008e26d45c4788bcd98",
+      "named_statement_lines": {
+        "sourceConstant": 13,
+        "choice": 15,
+        "sourceConstant_bounds": 18,
+        "choice_pos": 27,
+        "choice_le_normalized_source": 36,
+        "admissible": 51,
+        "refined_tests": 69
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MaximalLengths": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MaximalLengths.lean",
+      "sha256": "fd82e02ef4c9d74904c44f4b357a9ab45ef5b3c142619541f441c6b015bb86b5",
+      "named_statement_lines": {
+        "lowerScale": 12,
+        "upperScale": 13,
+        "densityFactor": 14,
+        "scale_bounds": 17,
+        "densityFactor_bounds": 28,
+        "family": 38,
+        "from_estimate": 46,
+        "Estimate": 112,
+        "of_unit": 130,
+        "endpoint": 137,
+        "endpoint_formula": 143,
+        "six_first": 149,
+        "six_endpoint": 150,
+        "eight_endpoint": 151,
+        "six_diagonal_limit": 152,
+        "eight_diagonal_limit": 153
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MaximalShading": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MaximalShading.lean",
+      "sha256": "1c9047261f36a2de03801849109e7c25e22bb803b7fdcb07088dae7425a4a4c4",
+      "named_statement_lines": {
+        "BoundedEstimate": 13,
+        "Estimate": 29,
+        "bounded_maximal_of_volume": 45
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableAngularDecomposition": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableAngularDecomposition.lean",
+      "sha256": "b718f0d98d1bfbbf03135c98b387bad3e3a1d7cfa29f1c65754cb051bfa030a0",
+      "named_statement_lines": {
+        "retentionConstant": 13,
+        "retentionConstant_pos": 16,
+        "cubic_log_rate": 22,
+        "exists_angular_pieces": 67,
+        "Decomposition": 96,
+        "construct": 120
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableAngularHairbrush": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableAngularHairbrush.lean",
+      "sha256": "b4c3e82ccf8601182da6595af0afcfa0b8bc0cff85a2202c5dffcc83d44b4560",
+      "named_statement_lines": {
+        "keptGroups": 18,
+        "groupUnion": 21,
+        "group_volume_sum": 26,
+        "seedConstant": 61,
+        "seedConstant_pos": 65,
+        "kept_group_hairbrush": 75,
+        "summed_hairbrush": 114,
+        "measurable_seed_at_depth": 149
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableAngularPieces": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableAngularPieces.lean",
+      "sha256": "4cd58e215019596dbc061c8fed1056d23a75afd8d35ac0522ff55474abfe8e4f",
+      "named_statement_lines": {
+        "Pieces": 15,
+        "exists_pieces": 41,
+        "Pieces.pruning": 102
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableAngularSpatial": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableAngularSpatial.lean",
+      "sha256": "47d2c28a7348a7de7640cb40dc5d3f86ac9f768ed58aaae880ba88e6a6462aaf",
+      "named_statement_lines": {
+        "angularFamily": 19,
+        "angularShading": 22,
+        "label": 25,
+        "labels": 28,
+        "population": 30,
+        "spatialConstant": 33,
+        "family": 36,
+        "shading": 40,
+        "originalIndex": 44,
+        "originalIndex_injective": 49,
+        "tube_eq": 53,
+        "original_assignment": 56,
+        "original_label": 60,
+        "groups_disjoint": 66,
+        "shading_subset_angular": 76,
+        "shading_subset": 80,
+        "shading_measurable": 85,
+        "shading_finite": 90,
+        "union_subset": 95,
+        "separated": 101,
+        "local_cap": 106,
+        "containing_box": 113,
+        "containing_tube": 124,
+        "occupied_labels": 134,
+        "retained_mass": 147,
+        "broad": 170,
+        "population_bound": 178,
+        "occupied": 186,
+        "spatial_overlap": 190,
+        "total_overlap": 206
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableAngularSpatialLengths": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableAngularSpatialLengths.lean",
+      "sha256": "fbc9188f6ddfb3884f5b9c1e068f1ef6d7f8a4aee3be74b36f3fea0e1dcedb92",
+      "named_statement_lines": {
+        "occupied_labels": 17,
+        "containing_box": 33,
+        "containing_tube": 46,
+        "retained_mass": 59,
+        "spatial_overlap": 85,
+        "total_overlap": 102,
+        "Decomposition": 135,
+        "construct": 163
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableDensityTrimming": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableDensityTrimming.lean",
+      "sha256": "5a93da1d10e71880ebb326e6dd06f14640b205a39c6ba1c488661ec473e02d66",
+      "named_statement_lines": {
+        "radial_no_atoms": 16,
+        "continuous_ball_mass": 29,
+        "exists_exact_subset": 52,
+        "Output": 77,
+        "construct": 88,
+        "union_subset": 105,
+        "union_volume_le": 109,
+        "total_volume": 121,
+        "two_ends_ratio": 127,
+        "two_ends_upper": 144
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableEstimate": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableEstimate.lean",
+      "sha256": "8a59c4a8a81096f43635914540066663edabbbc952a2f657cebc5dfcca1f6ed7",
+      "named_statement_lines": {
+        "MeasurableNormalization": 12,
+        "MeasurableConfiguration": 18,
+        "MeasurableConfiguration.unionSet": 38,
+        "MeasurableEstimate": 41,
+        "VolumeMeasurableEstimate": 49,
+        "RealCapMeasurableEstimate": 56,
+        "finite_mass_trim": 63,
+        "measurable_mass_trim": 90,
+        "carrier_norm_bound": 121,
+        "class_log_bounds": 137,
+        "uniform_class_loss": 184,
+        "specialized_expression": 224,
+        "absorb_class_loss": 253,
+        "union_measurable": 273,
+        "union_norm_bound": 276,
+        "union_finite": 282,
+        "discreteNormalization": 289,
+        "high_density_bound": 299,
+        "discrete_to_measurable_succ": 398,
+        "DiscreteEstimate.to_measurable": 462,
+        "MeasurableEstimate.volume_form": 471,
+        "DiscreteEstimate.to_measurable_volume": 507,
+        "RealCapEstimate.to_measurable": 513
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableIncidenceAtoms": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableIncidenceAtoms.lean",
+      "sha256": "7d34c48a3f0c680477287f10fb43c87dd0c367708d93ebe770867f0b4e21d2a6",
+      "named_statement_lines": {
+        "pattern": 12,
+        "atom": 15,
+        "patterns": 18,
+        "mem_atom": 24,
+        "atom_measurable": 31,
+        "atom_disjoint": 46,
+        "atom_subset_shading": 53,
+        "atom_subset_union": 57,
+        "atom_finite": 62,
+        "union_atoms": 68,
+        "shading_atoms": 77,
+        "union_mass": 86,
+        "shading_mass": 94,
+        "incidence_mass": 105,
+        "realize": 116,
+        "realize_measurable": 120,
+        "realize_subset": 125,
+        "realize_pattern": 132,
+        "realize_mass": 148,
+        "realize_incidence_mass": 156,
+        "realize_union_subset": 168,
+        "realize_finite": 176,
+        "realize_pattern_outside": 185,
+        "realize_pattern_eq": 194
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableLocalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableLocalization.lean",
+      "sha256": "6fd156ed84fd3e77b6c937253b81c0de80e5c127a35983c55b651596eb1160be",
+      "named_statement_lines": {
+        "smallest_scale_two_ends": 15
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableRescaling": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableRescaling.lean",
+      "sha256": "fa5d007afc7ab7f03b1c84ae90e745d57ec0b484702058e7972c60b202bffabd",
+      "named_statement_lines": {
+        "inverse": 14,
+        "inverse_rescale": 16,
+        "rescale_inverse": 20,
+        "rescale_injective": 24,
+        "image_eq_preimage": 30,
+        "image_measurable": 40,
+        "image_volume": 47,
+        "image_finite": 60,
+        "image_inter_ball": 69,
+        "rescaled_two_ends": 93,
+        "unit_two_ends": 112,
+        "image_union": 145,
+        "union_volume": 151,
+        "localized_parameter_interval": 160,
+        "localized_tube_image": 191,
+        "shared_origin_family": 220,
+        "localized_volume_upper": 256
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableSeedDensityLengths": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableSeedDensityLengths.lean",
+      "sha256": "2005fa25b02fbaa8d99e9cf70b39b616df178b4bf95f535186a0bf952a3b0f88",
+      "named_statement_lines": {
+        "logarithmic_density_seed": 17,
+        "comparable_density_seed": 110
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/MeasurableSeedDensityLengths_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 2,
+        "audited_declaration_count": 2,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "9c6b80563986f88b77595cbfa5a7b633de19a66ad51b95bd4916e81aa66c0623"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "MeasurableSeedEstimate": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MeasurableSeedEstimate.lean",
+      "sha256": "faa95947670fa51936287e78bf7ad8ba0a09bd583846ac433134b22bb84669a7",
+      "named_statement_lines": {
+        "logarithmic_seed_with_pieces": 16,
+        "logarithmic_seed": 47,
+        "natural_logarithmic_seed": 83
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/MeasurableSeedEstimate_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 4,
+        "audited_declaration_count": 4,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "df05907f1c68d1011e57d000c8bcaa7d225fe79d2ad5321dd34415d37a2bcbba"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "MinPivotLogBudget": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/MinPivotLogBudget.lean",
+      "sha256": "a80c585e5f7be68da70e8e27f78d6cfdbc0a5973d697a40cf192050c69c4e8e8",
+      "named_statement_lines": {
+        "prefactor": 11,
+        "prefactor_pos": 14,
+        "minimum_lower": 22,
+        "source_lower": 66,
+        "normalized_lower": 76,
+        "source_log_ge_one": 84,
+        "source_notation": 89
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/MinPivotLogBudget_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 7,
+        "audited_declaration_count": 8,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "35a1b652d9bef80fe6b40f9f137a8c1f0e6708e1516bac3b979aac8be72c1a51"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "PivotFourthPower": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PivotFourthPower.lean",
+      "sha256": "3d1df603c1e61fc155c53cc1f067af1d02511763b294c96679da10a9d8f26921",
+      "named_statement_lines": {
+        "recovered_angle_count": 16,
+        "recovered_density_power": 34,
+        "inverse_base_bound": 51,
+        "max_cutoff_bound": 67,
+        "marked_budget_power": 84,
+        "fourth_power_substitution": 95,
+        "actual_cutoff_upper": 131,
+        "source_fourth_power": 169,
+        "population_scale_identity": 194,
+        "source_fourth_power_density": 205,
+        "quarter_power": 229,
+        "fourth_root_bound": 237,
+        "population_linearization": 259
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "PivotOutputLowerBound": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PivotOutputLowerBound.lean",
+      "sha256": "3f1ebbef9f24ac065c1d8f5f9eb0a2fd7553a1a031a49a6b1154459719593ad0",
+      "named_statement_lines": {
+        "outputCoefficient": 12,
+        "outputCoefficient_pos": 16,
+        "support_algebra": 26,
+        "construct": 55,
+        "scale_le_kappa": 85,
+        "construct_polynomial": 96,
+        "construct_standard_log": 125,
+        "sigma_bounds": 141,
+        "construct_sigma": 165,
+        "construct_from_two_ends": 185
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "PlanarEnergy": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PlanarEnergy.lean",
+      "sha256": "2bdf0f33e405481d745ffcec4d4fd8d7ee3da74c3a6a2aa7bd70bff9dd60d988",
+      "named_statement_lines": {
+        "shellCondition": 12,
+        "exists_shell": 16,
+        "shell_inverse_bound": 29,
+        "inverse_angle_sum_of_linear_caps": 45,
+        "dyadicDepth": 105,
+        "dyadicDepth_covers": 108,
+        "dyadicDepth_log_bound": 117,
+        "circleConstant_pos": 125,
+        "plane_inverse_angle_sum": 131,
+        "rowConstant": 161,
+        "rowConstant_pos": 164,
+        "planar_intersection_row": 172,
+        "planar_shading_row": 210,
+        "planar_shading_union_lower": 229,
+        "planar_density_union_lower": 248
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "PositiveAllAnglePivot": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PositiveAllAnglePivot.lean",
+      "sha256": "7b78341d4b5142d0dfa2138a82f0e3117dc930f4c4d2a89d2fb55d2d9ca70858",
+      "named_statement_lines": {
+        "logarithmic_range": 18,
+        "fixed_width_test": 73,
+        "all_scales": 93
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "PositiveAngularBoxAllCases": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PositiveAngularBoxAllCases.lean",
+      "sha256": "fe75e8df9f301b7d15e1b34b6c63388f25ca99b2cdc6b556e9af02c153a73fbc",
+      "named_statement_lines": {
+        "inverse_density_cutoff": 17,
+        "fine_power_comparison": 25,
+        "construct": 34
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "PositivePivotSlabs": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PositivePivotSlabs.lean",
+      "sha256": "e7be65a12a35958332fd0c6a76066337c0003de9ffa14ec1ece9c1278ecef078",
+      "named_statement_lines": {
+        "construct": 15,
+        "construct_source": 69
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "PositiveTwoEndsPivot": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PositiveTwoEndsPivot.lean",
+      "sha256": "3ec19d098a90738a18978e41d5de46d06af345dbb9a97efe165350dfe3d0ca3a",
+      "named_statement_lines": {
+        "from_base_and_lift": 16,
+        "from_source_inputs": 33
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "PositiveTwoEndsSmallScaleInputs": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PositiveTwoEndsSmallScaleInputs.lean",
+      "sha256": "6b41c018121f4b516c05fae2cdb31070f78738d173cd812fca21a2f366e46ce5",
+      "named_statement_lines": {
+        "from_source_small_scale_inputs": 12
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "ProjectiveAngleComparison": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/ProjectiveAngleComparison.lean",
+      "sha256": "cce9de5b8c22b8bfc4801282e01fbe028962266a94dcdca70839121fc3012834",
+      "named_statement_lines": {
+        "angle": 10,
+        "angle_nonneg": 12,
+        "angle_le_half_pi": 14,
+        "cos_angle": 17,
+        "sin_angle_nonneg": 22,
+        "chord_eq_two_sin_half": 27,
+        "chord_angle_bounds": 40,
+        "transverse_eq_sin": 53,
+        "sine_angle_bounds": 63,
+        "sine_pos": 67,
+        "cap_comparison": 73,
+        "representative": 86,
+        "orthogonal_decomposition": 96
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/ProjectiveAngleComparison_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 22,
+        "audited_declaration_count": 23,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "2ac64a57f4e9149385d6d803dc1185dbf625b3979112afbb2f444a30a50ecb21"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "ProjectiveGeometry": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/ProjectiveGeometry.lean",
+      "sha256": "788164b345dff42d0e626a5c53c6c3bf5df8662cd536ec834944e024a7309d2e",
+      "named_statement_lines": {
+        "projective_symm": 18,
+        "projective_neg_left": 22,
+        "projective_le_chord": 26,
+        "projective_le_antipodal_chord": 29,
+        "projective_triangle": 32,
+        "projective_zero_iff": 57,
+        "cap_representative": 73,
+        "norm_le_coordinate_sum": 83,
+        "unit_has_large_coordinate": 94,
+        "sphere_chart_distance": 121,
+        "same_floor_distance": 179,
+        "chartConstant": 193,
+        "chartConstant_pos": 195,
+        "chartBin": 200,
+        "chartBin_injective": 204,
+        "floor_distance_bounds": 228,
+        "spherical_chart_packing": 248,
+        "spherical_chart_packing_real": 273,
+        "reindex": 299,
+        "reindex_norm": 302,
+        "reindex_sub": 309,
+        "reindex_add": 312,
+        "reindex_dist": 315,
+        "reindex_projective": 319,
+        "chartMove": 324,
+        "chartMove_norm": 327,
+        "chartMove_dist": 330,
+        "chartMove_projective": 334,
+        "chartMove_injective": 338,
+        "chartMove_zero": 345,
+        "unit_in_signed_chart": 350,
+        "spherical_cap_packing": 363,
+        "nearRepresentative": 419,
+        "nearRepresentative_norm": 422,
+        "nearRepresentative_projective": 427,
+        "nearRepresentative_in_cap": 433,
+        "nearRepresentative_injective": 448,
+        "projective_cap_packing": 462,
+        "indexed_projective_cap_packing": 494,
+        "packingConstant": 532,
+        "packingConstant_formula": 535,
+        "packingConstant_ge_one": 541,
+        "fullDirectionCoefficient": 550,
+        "fullDirectionCoefficient_ge_one": 553,
+        "separated_tube_family_cap_bound": 564,
+        "separated_total_tube_count": 590,
+        "projective_chord_sq": 602,
+        "projective_angle_sine_sq": 617,
+        "projective_distance_le_sqrt_two": 633
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "PrunedScaleTransport": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/PrunedScaleTransport.lean",
+      "sha256": "4e229edf1e9f42bcb75e5fd62d11977489be63abd6f4a1b0ff6cc0789c690378",
+      "named_statement_lines": {
+        "same_label_center_distance": 12,
+        "same_label_ball_cells": 25,
+        "all_radius_transport": 36,
+        "pruned_normalized_ball_bound": 51
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "RadialPencil": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/RadialPencil.lean",
+      "sha256": "eace03a56f7241f657cb18868452ad88ec367e67f68a543e89a6b44f960fdb6a",
+      "named_statement_lines": {
+        "Index": 12,
+        "population": 14,
+        "population_eq": 16,
+        "label": 19,
+        "label_injective": 21,
+        "slope": 29,
+        "chartConstant": 31,
+        "scale": 33,
+        "chartConstant_ge_two": 35,
+        "scale_pos": 40,
+        "scale_le_one": 46,
+        "slope_norm": 53,
+        "slope_separation": 64,
+        "direction_separation": 71,
+        "index": 82,
+        "index_injective": 84,
+        "family": 87,
+        "family_separated": 91,
+        "family_base": 96,
+        "family_shade": 98,
+        "family_admissible": 100,
+        "family_bounded": 110,
+        "family_comparable": 115,
+        "population_pos": 125,
+        "family_union": 129,
+        "family_union_card": 139,
+        "family_total_incidence": 142,
+        "population_scale_identity": 146,
+        "arbitrarily_small_scale": 155,
+        "fractional_cap_from_full": 168,
+        "capCoefficient": 192,
+        "capCoefficient_ge_one": 195,
+        "family_cap_bound": 202,
+        "geometry": 212,
+        "configuration": 222,
+        "cumulativeConfiguration": 242
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "RadialSharpness": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/RadialSharpness.lean",
+      "sha256": "85c786911547c5f41ba61519c05b586c6f5976478628b94efcdcf7e24f6da52f",
+      "named_statement_lines": {
+        "population_identity": 10,
+        "pencil_expression": 19,
+        "large_negative_power": 37,
+        "counterexamples": 51,
+        "no_uniform_sublinear_cap": 82,
+        "comparable_counterexamples": 96,
+        "no_uniform_sublinear_cap_comparable": 125
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SamplingGeometry": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SamplingGeometry.lean",
+      "sha256": "726dde39fb3915ff83e1b9991e2e4d5ffd33747d72d019285190e4609ef06e0a",
+      "named_statement_lines": {
+        "lengthCarrier": 12,
+        "normalized_length_carrier": 17,
+        "normalized_grid_membership": 32,
+        "normalized_grid_cell": 46,
+        "normalized_intersection": 54,
+        "normalized_weight": 62,
+        "normalized_positive_support": 70,
+        "normalized_separation": 79
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SelectedColoredFamilies": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SelectedColoredFamilies.lean",
+      "sha256": "01a5e36b2a53ace14fcba2983cb5b1a5170fbc8363764db32b5b5492dc19554f",
+      "named_statement_lines": {
+        "locate": 19,
+        "original_locate": 22,
+        "locate_original": 26,
+        "locate_base": 30,
+        "original_exists": 34,
+        "tube": 51,
+        "shading": 54,
+        "tube_original": 57,
+        "shading_original": 62,
+        "direction": 67,
+        "shade_subset": 74,
+        "shade_mass": 82,
+        "shade_nonempty": 85,
+        "admissible": 88,
+        "bounded": 93,
+        "base_cap_count": 99,
+        "color": 128,
+        "ColoredGroup": 133,
+        "coloredPopulation": 134,
+        "coloredFamily": 137,
+        "colored_geometry": 142,
+        "incidences": 163,
+        "incidence_mass": 166,
+        "incidence_nonempty": 174,
+        "population_total": 179
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SelectedFamilyPruning": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SelectedFamilyPruning.lean",
+      "sha256": "46cf9986ed10ed632fc3256591f57998be8e904a4b9ba51838980adcd4e60189",
+      "named_statement_lines": {
+        "paletteCount": 16,
+        "palette_modulus_pos": 19,
+        "paletteCount_pos": 23,
+        "capCoefficient_ge_one": 26,
+        "constructed_pruning": 40
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SelectedOutputDensity": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SelectedOutputDensity.lean",
+      "sha256": "6c07da2811efeb9fd37af38c27d254823cf699d74d40cdd5bfe13c8d5b01f3ee",
+      "named_statement_lines": {
+        "rho": 22,
+        "lowerCoefficient": 25,
+        "lowerCoefficient_pos": 28,
+        "output_card_pos": 34,
+        "rho_lower": 40,
+        "rho_pos": 65,
+        "shading_card_le": 74,
+        "rho_upper": 83
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SelectedOutputPairs": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SelectedOutputPairs.lean",
+      "sha256": "e59270d130518a2bfc24e151e6b6b0099be79ac10449c35740e2505a20854f77",
+      "named_statement_lines": {
+        "Index": 19,
+        "chosen_samples_nonempty": 21,
+        "sample_intermediate": 28,
+        "intermediate": 37,
+        "intermediate_val": 42,
+        "normalizedAngle": 45,
+        "pair": 50,
+        "pair_labels": 61,
+        "pair_injective": 64,
+        "encode_pair": 73,
+        "pair_pivot": 90,
+        "raw": 98,
+        "raw_card": 102,
+        "raw_nonempty": 106,
+        "raw_pivot": 111,
+        "raw_original_sample": 118,
+        "reference": 127,
+        "reference_mem": 131,
+        "reference_pivot": 134,
+        "fixed_pivot_intermediate_injective": 139
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SelectedOutputSlabs": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SelectedOutputSlabs.lean",
+      "sha256": "4685d2d098c039289e8b6312963e0300ff3cb1c3f0a696fb96522f62cd51489c",
+      "named_statement_lines": {
+        "commonK": 21,
+        "commonK_pos": 23,
+        "commonK_bounds": 27,
+        "LineData": 43,
+        "line_exists": 61,
+        "selectedLine": 87,
+        "LineData.cells_nonempty": 93,
+        "LineData.representative_original": 100,
+        "LineData.representative_occupied": 106,
+        "LineData.base": 114,
+        "line_output_injective": 118,
+        "total_selected_cells": 123,
+        "index_nonempty": 130,
+        "intermediate_close": 142,
+        "normalized_vertex_bound": 152,
+        "reference_slope_bound": 167,
+        "reference_pivot_residual": 174,
+        "common_density_upper": 184
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SelectedOutputWitness": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SelectedOutputWitness.lean",
+      "sha256": "1ff2bdbadd8bfb912483b88f9b85c3ae1327a4ef6385ce23693baf2b9ce54e0e",
+      "named_statement_lines": {
+        "unshift_mem": 23,
+        "cellSample": 31,
+        "cellSample_occupied": 41,
+        "cellSample_position": 50,
+        "defaultSample": 62,
+        "groupedSample": 75,
+        "groupedSample_occupied": 84,
+        "groupedSample_position": 92,
+        "retained_energy": 105
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SixDimensionalAllAngles": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SixDimensionalAllAngles.lean",
+      "sha256": "2d33975996b5ab36ffe964847811547f4151d90f58745fac150d2fa9b5ec3963",
+      "named_statement_lines": {
+        "two_ends_estimate": 15
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SixDimensionalCore": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SixDimensionalCore.lean",
+      "sha256": "b37e9ee19d97d10e487534d25df89c00d5f71432b0fb5e1b4599d7cdc19c4db7",
+      "named_statement_lines": {
+        "base": 14,
+        "lift": 20,
+        "marked_estimate": 28,
+        "marked_union_estimate": 50
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SixDimensionalLogarithmic": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SixDimensionalLogarithmic.lean",
+      "cohort": "frozen427_addition_after_initial418",
+      "sha256": "1e1af2d07c92c93f0aa8b291bea16ecb95e3da0e60fb9e89a9ed1aac0bafd842",
+      "named_statement_lines": {
+        "configuration_estimate": 12,
+        "cap_free": 25,
+        "source_notation": 52
+      },
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/SixDimensionalLogarithmic_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 3,
+        "audited_declaration_count": 3,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "9dc029fed0d3d61ba87c33055f8aaf9155c5eb0a5c4a28aef61397c607384f71"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "SixDimensionalLogarithmicLengths": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SixDimensionalLogarithmicLengths.lean",
+      "sha256": "a4b219785138dc9b83af8d790eb4ce0a8cd271277e52f6470652da5119f891dc",
+      "cohort": "frozen427_addition_after_initial418",
+      "named_statement_lines": {
+        "cap_free": 12,
+        "source_notation": 43
+      },
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/logarithmic_length_estimates_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 2,
+        "audited_declaration_count": 2,
+        "custom_axioms": [],
+        "audit_file_sha256": "afc10ba79189c007c309dc968cca498452ee8c7d6a192b6618bc56c338697d18"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "SixDimensionalUnrestricted": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SixDimensionalUnrestricted.lean",
+      "sha256": "942105ec8c6b5c687be573d10899cbbb34f77f0b8765f2181112ac2b5c16a0ee",
+      "named_statement_lines": {
+        "discrete": 18,
+        "measurable": 25,
+        "measurable_volume": 29,
+        "bounded_maximal": 34,
+        "measurable_first_step": 39,
+        "volume_first_step": 43,
+        "bounded_first_step": 48,
+        "volume_lower": 53
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceAnalyticInputs": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceAnalyticInputs.lean",
+      "sha256": "0e41e594931a2ca53beebfc0297e6ca99b0d1d09c5eedb0ccb1e980a4c40b322",
+      "named_statement_lines": {
+        "Base": 12,
+        "Lifted": 19,
+        "TwoEnds": 26,
+        "Base.to_discrete": 33,
+        "Lifted.to_discrete": 46,
+        "TwoEnds.to_two_ends": 69,
+        "TwoEnds.globalize": 99,
+        "TwoEnds.globalize_measurable": 104
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/SourceAnalyticInputs_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 7,
+        "audited_declaration_count": 10,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "131dd47a8d739e72254bcee99b6cea7aa2c2711f8df616fb9767143c0eb73d16"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceDensityPruning": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceDensityPruning.lean",
+      "sha256": "8ba01cd9897ceee6de47c453913a6f95879da65ce566b07d7d031721db92b8af",
+      "named_statement_lines": {
+        "survives": 13,
+        "survivors": 16,
+        "piece": 19,
+        "retained": 22,
+        "survivors_subset": 25,
+        "survivors_measurable": 30,
+        "piece_subset": 39,
+        "piece_measurable": 44,
+        "piece_mono": 53,
+        "piece_mass_sum": 63,
+        "deleted_mass_le": 78,
+        "retained_good_lower": 91,
+        "source_fractions": 130
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/SourceDensityPruning_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 12,
+        "audited_declaration_count": 16,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "43081a310d3da35a20bd56f4aa0a59b87489a67deb6aa0f07406790679696a8d"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceDensityPruningGeometry": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceDensityPruningGeometry.lean",
+      "sha256": "4d184d94334bf531dc00b3d12aaf352ad6a9a1418fd6bb2b7ae97b9e769ef2c4",
+      "named_statement_lines": {
+        "survivingPiece": 15,
+        "markedPiece": 19,
+        "kept": 23,
+        "surviving_piece_eq": 27,
+        "surviving_piece_nonempty": 33,
+        "surviving_piece_subset": 43,
+        "surviving_piece_subset_original": 48,
+        "marked_piece_subset": 53,
+        "pieces_measurable": 58,
+        "pieces_finite": 65,
+        "surviving_density": 75,
+        "active_density": 88,
+        "surviving_two_ends": 100,
+        "all_rows_two_ends": 122,
+        "good_row_eq": 139,
+        "surviving_broad_on_good": 147,
+        "goodRows_broad": 165,
+        "marked_piece_broad": 177,
+        "retained_half_mass": 188,
+        "retained_overlap": 195,
+        "retained_marked_overlap": 204
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceGoodMass": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceGoodMass.lean",
+      "sha256": "cc8c4b79d7b9085960e8cfc8f33b7a4df86db50b21d28c29b46285496c7b3f27",
+      "named_statement_lines": {
+        "mass": 13,
+        "good": 15,
+        "goodRows": 18,
+        "badRows": 21,
+        "good_measurable": 24,
+        "goodRows_measurable": 30,
+        "badRows_measurable": 35,
+        "multiplicity_mono": 41,
+        "bad_pointwise": 53,
+        "bad_mass_le_deleted": 68,
+        "mass_split": 85,
+        "good_mass_lower": 95
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/SourceGoodMass_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 10,
+        "audited_declaration_count": 14,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "a615231a31f14a4de84abb3859935c7a97530cf1882168e593de99fc02496483"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceLocalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceLocalization.lean",
+      "sha256": "8bb4be461f60b9625f83b5bdfb1c9cecfc5eb76b40fe39ce4627b043cc8dce88",
+      "named_statement_lines": {
+        "dyadic_selection": 14,
+        "construct": 80
+      },
+      "cohort": "frozen427_addition_after_initial418",
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/SourceLocalization_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 2,
+        "audited_declaration_count": 2,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "40693214fe12bd7422533ff8fd7ff7a19cc80848a786df26fc3788ceb74ef649"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceLocalizationGeometry": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceLocalizationGeometry.lean",
+      "cohort": "frozen427_addition_after_initial418",
+      "sha256": "cbc68cc2b665b643046bde76acd81289efda033dde4745c4c75cee8202ba7c96",
+      "named_statement_lines": {
+        "construct": 14,
+        "unit_source_notation": 32
+      },
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/SourceLocalizationGeometry_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 2,
+        "audited_declaration_count": 2,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "1fc2c3251e845b9095391f8213820060be41520d007606c98be28115097d3210"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceMarkedLengths": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceMarkedLengths.lean",
+      "sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+      "named_statement_lines": {
+        "kappa": 15,
+        "source_fourth": 21,
+        "source_notation": 92
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceMarkedNormalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceMarkedNormalization.lean",
+      "sha256": "5f222dc2d7791e3fbb8717f301d61fb1b716c4c9c020821cbf8807853e13eef3",
+      "named_statement_lines": {
+        "kappa": 16,
+        "newWidth_lower": 20,
+        "source_fourth": 30,
+        "source_notation": 90
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceMarkedPivotFullRange": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceMarkedPivotFullRange.lean",
+      "sha256": "dfcd7b86dd15da7a60b511dfcd4ca59846e6a3867bb746c8b16c75f105c645fc",
+      "named_statement_lines": {
+        "admissible_fourth": 17,
+        "source_fourth": 83,
+        "source_union": 117,
+        "source_notation": 143
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SourceUnmarkedLengths": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SourceUnmarkedLengths.lean",
+      "sha256": "1fad383899933828f56fb22a0e9e4576fdf6adabdb50aa05159de83459c03217",
+      "named_statement_lines": {
+        "angular": 12,
+        "globalize": 44
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SpatialAssignment": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SpatialAssignment.lean",
+      "sha256": "a48e66e0e3a1b57a6cf1be1e4bc12640ee8fe6d36db2062977ac3f4a942f00a9",
+      "named_statement_lines": {
+        "cellDirections": 11,
+        "splitShading": 16,
+        "splitShading_subset": 22,
+        "splitShading_incidence": 27,
+        "splitShading_label": 42,
+        "shading_double_count": 49,
+        "spatialOverlap": 62,
+        "spatialOverlap_pos": 65,
+        "cell_spatial_label_count": 71,
+        "spatial_shading_assignment": 89,
+        "discrete_angular_spatial_decomposition": 204
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SpatialGridPopulation": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SpatialGridPopulation.lean",
+      "sha256": "57b16d013dfb0eb95326ca346beccac56811d54c9c0d1553f5370b4c32fb9731",
+      "named_statement_lines": {
+        "boxCells": 16,
+        "box_full_union": 22,
+        "boxCells_subset": 33,
+        "all_box_counts": 41,
+        "box_counts": 65,
+        "refinedLabel": 86,
+        "refinedCells": 92,
+        "refined_full_union": 97,
+        "refined_box_counts": 105,
+        "sum_refined_box_counts": 132,
+        "sum_good_refined_box_counts": 157
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "SpatialTubeLengths": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/SpatialTubeLengths.lean",
+      "sha256": "7fd29ea3872f1301975f82261c1fdcf89084c7324dd4481f36d15943b7933635",
+      "named_statement_lines": {
+        "coverWidth": 10,
+        "coverWidth_nonneg": 12,
+        "length_in_box": 20
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "ThickCircle": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/ThickCircle.lean",
+      "sha256": "4a286e6e6963133551e44714b75b80e566f4e37b49d635132522c3dca4c86689",
+      "named_statement_lines": {
+        "normalTail": 17,
+        "thinBox": 19,
+        "thinBox_card": 23,
+        "thick_chart_count": 38,
+        "thick_chart_count_real": 77,
+        "planeChart": 109,
+        "planeChart_norm": 112,
+        "planeChart_dist": 115,
+        "planeChart_projective": 118,
+        "planeChart_injective": 122,
+        "planeChart_normalTail": 127,
+        "unit_in_plane_chart": 150,
+        "circleConstant": 180,
+        "spherical_thick_circle_count": 185,
+        "normalTail_nearRepresentative": 245,
+        "projective_thick_circle_count": 251,
+        "indexed_thick_circle_count": 289,
+        "straightenPlane": 322,
+        "normalTail_straightenPlane": 325,
+        "assigned_direction_thin": 333,
+        "plane_bin_direction_count": 352
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "TubeIntersection": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/TubeIntersection.lean",
+      "sha256": "62fb9c4c246ee4524c687743558e8bc49ef590d79fe208e7a85a7e376e43b716",
+      "named_statement_lines": {
+        "unit_projective_le_two": 13,
+        "common_point_distance": 19,
+        "segment_neighborhood_volume": 54,
+        "intersection_segment": 86,
+        "transverse_intersection_volume": 119,
+        "intersection_volume_upper": 149
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "TwoEndsGlobalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/TwoEndsGlobalization.lean",
+      "sha256": "fca72eb28ade95cc8b17912eb5fee7a7637efcc765aaf6ed75476c51557f69b2",
+      "named_statement_lines": {
+        "unit_ball_cover": 19,
+        "populationCoefficient": 32,
+        "populationCoefficient_pos": 35,
+        "selected_population": 43,
+        "remove_two_ends": 65
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "UniformLocalization": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/UniformLocalization.lean",
+      "sha256": "b9ba8ac7d1b4611898109c6d4543458af76c28d454fa02ec2a9f7f21e924c3c6",
+      "named_statement_lines": {
+        "extend_two_ends": 12,
+        "finite_localization": 42,
+        "measurable_localization": 65
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "matches_authoritative_final427_manifest": true
+    },
+    "WeightedAngularAssignment": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/WeightedAngularAssignment.lean",
+      "sha256": "5911fd148595d7a4c0237d6b25652f3a96371f15226e88961b8469a8716a3f07",
+      "named_statement_lines": {
+        "sum_weighted_row_cards": 10,
+        "tubeWeight": 18,
+        "tubeWeight_nonneg": 22,
+        "tubeWeight_support": 32,
+        "assigned_total": 42,
+        "assign_incidence": 60,
+        "restore_mass": 92,
+        "assign_and_restore": 133
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/WeightedAngularAssignment_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 8,
+        "audited_declaration_count": 9,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "6c0ee719f6eb1121ff026e9ac3c1b6e648e8509e3f7ad584bcbf3dff6081af65"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "WeightedAngularSelection": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/WeightedAngularSelection.lean",
+      "sha256": "32e4882cd70e10a8f602b4dd2e1b93a48d8743851d4b4ed3dea0bb937ff02597",
+      "named_statement_lines": {
+        "common_scale_pieces": 10,
+        "actual_angular_groups": 57,
+        "actual_angular_assignment": 141
+      },
+      "cohort": "frozen406",
+      "matches_frozen_manifest": true,
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/WeightedAngularSelection_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 13,
+        "audited_declaration_count": 13,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "62dcc085fa12d4b8fbe66fea1f08bf7550f6e811c502289c5d71654f420922c0"
+      },
+      "matches_authoritative_final427_manifest": true
+    },
+    "WideLogarithmicTwoEnds": {
+      "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/formalization/WideLogarithmicTwoEnds.lean",
+      "sha256": "129fab43489452c389ffa12e7f47c15c35b2384895edc36e41c6ac159eb7c6fa",
+      "cohort": "frozen427_addition_after_initial418",
+      "named_statement_lines": {
+        "estimate": 15
+      },
+      "individual_audit": {
+        "path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/WideLogarithmicTwoEnds_operator_audit.json",
+        "status": "PASS",
+        "matches_source": true,
+        "audited_theorem_count": 1,
+        "audited_declaration_count": 1,
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ],
+        "audit_file_sha256": "5b8ad7c572b30c94767fc6c35088053c98ab0640c817008fa34806257df66fd3"
+      },
+      "matches_authoritative_final427_manifest": true
+    }
+  },
+  "authoritative_snapshot": {
+    "name": "checkpoint23_final427",
+    "module_count": 427,
+    "freeze_path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_freeze.json",
+    "source_manifest_path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_frozen_source_hashes.json",
+    "status": "frozen_integrated_verification_running_not_claimed_pass"
+  },
+  "historical_initial_snapshot": {
+    "name": "checkpoint23_initial418",
+    "module_count": 418,
+    "freeze_path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_initial418_freeze.json",
+    "source_manifest_path": "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_initial418_source_hashes.json"
+  },
+  "referenced_path_hash_validation": {
+    "utc": "2026-09-07T04:17:04.600519+00:00",
+    "status": "PASS",
+    "source_reference_count": 9,
+    "reviewed_lean_source_count": 119,
+    "authoritative_module_count": 427,
+    "historical_initial_module_count": 418
+  }
+}

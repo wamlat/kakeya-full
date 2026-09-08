@@ -1,0 +1,3 @@
+AUDIT_THEOREM Fixture.usesPublished AXIOMS [Fixture.published]
+AUDIT_DECLARATION Fixture.published AXIOMS [Fixture.published]
+AUDIT_AXIOM Fixture.published

@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.PositiveMarkedPivotEstimate.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveMarkedPivotEstimate.all_scales AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveMarkedPivotEstimate.pivot_small_scale_absorption AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

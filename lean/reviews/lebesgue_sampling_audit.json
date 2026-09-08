@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-07T03:36:49.832058+00:00",
+  "modules": [
+    {
+      "module": "LebesgueSampling",
+      "status": "PASS",
+      "source_sha256": "ad78a4007b9bb51323e504fa7137b8b3fadadc3e8e24a92229685e0767ca34c3",
+      "audited_theorem_count": 51,
+      "audited_declaration_count": 75,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "named_source_theorems": 13
+    },
+    {
+      "module": "LebesgueSamplingSource",
+      "status": "PASS",
+      "source_sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+      "audited_theorem_count": 6,
+      "audited_declaration_count": 10,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "named_source_theorems": 2
+    },
+    {
+      "module": "LebesgueSamplingGeometry",
+      "status": "PASS",
+      "source_sha256": "e1e6c73e98f22678db75e206db74d079ba5b6d9647e1e6c001e2bea0b3aa6f29",
+      "audited_theorem_count": 14,
+      "audited_declaration_count": 14,
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "named_source_theorems": 7
+    }
+  ],
+  "new_axioms": [],
+  "outside_checkpoint22_frozen406": true
+}

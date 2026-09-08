@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.AngularSeedEstimate.seedLog_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedEstimate.two_ends_seed._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedEstimate.seedLog_absorption._simp_1_1 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.AngularSeedEstimate.seedLog_absorption AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedEstimate.logarithmic_seed_with_pieces AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedEstimate.two_ends_seed AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,12 @@
+AUDIT_THEOREM KakeyaFormal.SamplingClosedCaps.raw_output_closed_broadness._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingClosedCaps.sampled_closed_broadness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingClosedCaps.all_closed_caps AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingClosedCaps.cap_containment AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingClosedCaps.projective_cap_diameter AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingClosedCaps.raw_output_closed_broadness AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingClosedCaps.raw_output_closed_broadness._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingClosedCaps.chord_cap_diameter AXIOMS [propext, Classical.choice, Quot.sound]

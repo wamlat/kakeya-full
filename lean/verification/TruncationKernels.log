@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.TruncationKernels.lintegral_Ioi_rpow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TruncationKernels.low_kernel_finite AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TruncationKernels.scaled_power AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TruncationKernels.high_kernel_finite AXIOMS [propext, Classical.choice, Quot.sound]

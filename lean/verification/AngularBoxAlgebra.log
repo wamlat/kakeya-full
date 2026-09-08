@@ -1,0 +1,15 @@
+'KakeyaFormal.AngularBoxAlgebra.boxLowerBound_density_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.AngularBoxAlgebra.single_box_quadratic_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAlgebra.densityConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAlgebra.boxLowerBound_density_identity AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAlgebra.densityConstant._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.AngularBoxAlgebra.densityConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAlgebra.densityConstant._proof_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAlgebra.densityConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAlgebra.density_factor_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAlgebra.single_box_quadratic_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAlgebra.physical_angular_power AXIOMS [propext, Classical.choice, Quot.sound]

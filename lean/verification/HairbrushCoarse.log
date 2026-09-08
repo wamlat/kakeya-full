@@ -1,0 +1,16 @@
+'KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarseConstant._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.HairbrushCoarse.coarseConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarseConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.coarse_hairbrush_union_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.marked_mass_union_upper AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.HairbrushCoarse.fractional_factor_le_one AXIOMS [propext, Classical.choice, Quot.sound]

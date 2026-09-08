@@ -1,0 +1,33 @@
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.localized_scale_loss AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.geometryCoefficient.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.localized_scaling_identity AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.density_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.TwoEndsGlobalizationAlgebra.densityExponent AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.densityExponent.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.uniform_localized_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.geometryCoefficient_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.uniform_globalization AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.choose_losses AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.uniform_factor_absorption AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.TwoEndsGlobalizationAlgebra.geometryCoefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.TwoEndsGlobalizationAlgebra.density_collapse AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+AUDIT_THEOREM KakeyaFormal.CapCover.finite_projective_net AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapCover.cap_bound_total_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapCover.unit_direction_cap_cover AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CapCover.SeparatedOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapCover.cap_bound_total_count_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CapCover.finite_projective_net._proof_1_1 AXIOMS [propext, Quot.sound]

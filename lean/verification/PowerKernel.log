@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.cutoff_power_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.lintegral_cutoff_power AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.lintegral_Ioo_rpow AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,26 @@
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.restoredShading.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.weighted_group_assignment AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.actual_angular_shading_assignment AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.restored_broad AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.restored_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.threshold_retains_three_quarters AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.assign_incidence AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.restored_cell_incidence AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.restored._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.sum_row_cards AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.total_restored_shading AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.assign_and_restore AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.assigned_total AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.restoredShading.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.tubeWeight.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.restored.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularAssignment.restored AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.assigned.congr_simp AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularAssignment.tubeWeight AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularAssignment.assigned.eq_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularAssignment.restoredShading AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularAssignment.assigned AXIOMS [propext, Quot.sound]

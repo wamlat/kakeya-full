@@ -1,0 +1,38 @@
+AUDIT_DECLARATION KakeyaFormal.LocalizedSeedNormalization.dilationConstant AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalized_axis_intervals AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.localized_card_upper AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.countConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.dilationConstant.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalize_localized_family._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalize_localized_family AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalized_density_le_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalize_localized_family._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalize_localized_family._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalize_localized_family._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalize_localized_family._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.dilationConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.dilationConstant_ge_one AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalize_localized_family._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalized_density_le_one._simp_1_1 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.dilationConstant_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.normalize_localized_family._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LocalizedSeedNormalization.countConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedSeedNormalization.countConstant._proof_1 AXIOMS [propext]

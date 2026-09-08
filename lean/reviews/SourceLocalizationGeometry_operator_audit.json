@@ -1,0 +1,28 @@
+{
+  "module": "SourceLocalizationGeometry",
+  "status": "PASS",
+  "source_sha256": "cbc68cc2b665b643046bde76acd81289efda033dde4745c4c75cee8202ba7c96",
+  "source_theorems": [
+    "construct",
+    "unit_source_notation"
+  ],
+  "audited_theorem_count": 2,
+  "audited_declaration_count": 2,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.SourceLocalizationGeometry.construct": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.SourceLocalizationGeometry.unit_source_notation": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

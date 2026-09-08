@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.UnrestrictedPivot.real_cap_pivot._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnrestrictedPivot.real_cap_pivot._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnrestrictedPivot.diagonal_endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnrestrictedPivot.real_cap_endpoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.UnrestrictedPivot.real_cap_pivot AXIOMS [propext, Classical.choice, Quot.sound]

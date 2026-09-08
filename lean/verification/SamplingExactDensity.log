@@ -1,0 +1,37 @@
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.source_sampling_narrow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.sharpBudget._proof_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.sharpBudget._proof_1 AXIOMS [propext]
+AUDIT_THEOREM _private.SamplingExactDensity_AxiomAudit.0.KakeyaFormal.SamplingExactDensity.finite_sampling_narrow.match_1_1.eq_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.uniform_sampling_narrow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM _private.SamplingExactDensity_AxiomAudit.0.KakeyaFormal.SamplingExactDensity.finite_sampling_narrow.match_1_1.eq_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.coupled_test_narrow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.finite_sampling_narrow._simp_1_7 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.finite_sampling_narrow._simp_1_6 AXIOMS [propext]
+AUDIT_DECLARATION _private.SamplingExactDensity_AxiomAudit.0.KakeyaFormal.SamplingExactDensity.finite_sampling_narrow.match_1_1.splitter AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.finite_sampling_narrow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.log_four_thirds_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.sharpBudget.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM _private.SamplingExactDensity_AxiomAudit.0.KakeyaFormal.SamplingExactDensity.finite_sampling_narrow.match_1_1.eq_4 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.sharp_budget_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SamplingExactDensity.finite_sampling_narrow.match_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.sharpBudget_eq_rescaled AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.sharpBudget._proof_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.sharpBudget._proof_2 AXIOMS [propext]
+AUDIT_THEOREM _private.SamplingExactDensity_AxiomAudit.0.KakeyaFormal.SamplingExactDensity.finite_sampling_narrow.match_1_1.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.poisson_binomial_narrow AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SamplingExactDensity.finite_sampling_narrow._simp_1_5 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SamplingExactDensity.sharpBudget AXIOMS [propext, Classical.choice, Quot.sound]

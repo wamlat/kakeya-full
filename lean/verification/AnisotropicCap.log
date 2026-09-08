@@ -1,0 +1,3 @@
+AUDIT_THEOREM KakeyaFormal.AnisotropicCap.family_separated AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicCap.family_cap_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicCap.family AXIOMS [propext, Classical.choice, Quot.sound]

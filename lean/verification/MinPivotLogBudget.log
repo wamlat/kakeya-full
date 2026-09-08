@@ -1,0 +1,8 @@
+AUDIT_THEOREM KakeyaFormal.MinPivotLogBudget.normalized_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MinPivotLogBudget.prefactor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MinPivotLogBudget.source_notation AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MinPivotLogBudget.source_log_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MinPivotLogBudget.prefactor._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MinPivotLogBudget.minimum_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MinPivotLogBudget.prefactor_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MinPivotLogBudget.source_lower AXIOMS [propext, Classical.choice, Quot.sound]

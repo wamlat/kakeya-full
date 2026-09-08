@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.AngularBoxAllCases.fine_power_comparison AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAllCases.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAllCases.inverse_density_cutoff AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxAllCases.construct._simp_1_1 AXIOMS []

@@ -1,0 +1,172 @@
+'KakeyaFormal.OccupancySelection.dyadic_cover' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.weighted_class_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.weighted_dyadic_selection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.half_mass_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.tube_mass_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.uniform_integer_trim' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.measurable_occupancy_class' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.measurable_tube_class_and_trim' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.OccupancySelection.low_occupancy_pruning' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.exists_common_integer_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.OccupancySelection.high_occupancy_integer_selection' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KakeyaFormal.OccupancySelection.finite_class_budgets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.uniform_integer_trim_capped' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KakeyaFormal.OccupancySelection.capped_density_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.measurable_tube_class_and_trim._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.ctorIdx AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.half_mass_pruning._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.occupancy_range AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.casesOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.half_mass_pruning._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_class_selection._simp_1_5 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.exists_common_integer_selection._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.rec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.incidenceMass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_class_selection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.dyadic_cover._proof_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection._sizeOf_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_class_selection._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_class_selection._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_class_selection._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.restrictedMass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_class_selection._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.exists_common_integer_selection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.incidenceMass.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.mk.injEq AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.dyadic_cover AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.high_occupancy_integer_selection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.uniform_integer_trim AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_dyadic_selection._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.count_positive AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.cells AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.occupancyIndex AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.recOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.measurable_tube_class_and_trim AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.half_mass_pruning._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.half_mass_pruning._simp_1_6 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.count AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.half_mass_pruning._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.mk.inj AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.half_mass_pruning._simp_1_4 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.selected AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.tubeIndex AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.union_volume AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.finite_class_budgets AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.tube_count_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_dyadic_selection._proof_1_3 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_dyadic_selection._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.shades_card AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.half_mass_pruning._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_class_selection._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.tube_mass_range AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.tube_mass_class._proof_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.low_occupancy_pruning AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.selected_nonempty AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.cells_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.dyadic_cover._proof_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.highOccupancyCells AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.dyadic_cover._proof_1_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_class_selection._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.shades_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.shades AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.tube_mass_class AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.exists_common_integer_selection._proof_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.OccupancySelection.CommonIntegerSelection.mk AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.capped_density_bounds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.weighted_dyadic_selection AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.half_mass_pruning AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.count_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.CommonIntegerSelection.shades_zero AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.uniform_integer_trim_capped AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.OccupancySelection.measurable_occupancy_class AXIOMS [propext, Classical.choice, Quot.sound]

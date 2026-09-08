@@ -1,0 +1,27 @@
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.seedLog_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.uniformConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.eta_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.rate_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.uniformConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.etaBase._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.ends_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.uniformLoss_nonneg AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularSeedLogLoss.uniformLoss AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.rateBase._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.etaBase_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularSeedLogLoss.seedLog AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.uniform_prefactor AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularSeedLogLoss.rateBase AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.seedLog_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.rateBase._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.logarithmicConstant_cap_identity AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.depth_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.seedLog._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.AngularSeedLogLoss.uniformConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.logarithmicConstant_cap_lower AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularSeedLogLoss.etaBase AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularSeedLogLoss.rateBase_pos AXIOMS [propext, Classical.choice, Quot.sound]

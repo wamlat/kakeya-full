@@ -1,0 +1,4 @@
+AUDIT_THEOREM KakeyaFormal.TwoEndsDiscreteEstimate.weaken_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.TwoEndsDiscreteEstimate AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.TubeFamily.FullTwoEnds AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.DiscreteEstimate.to_two_ends AXIOMS [propext, Classical.choice, Quot.sound]

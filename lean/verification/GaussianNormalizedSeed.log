@@ -1,0 +1,14 @@
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.source_cumulative AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.cumulative_seed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.normalized_rows._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.normalized_rows._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.source_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.discrete_seed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.normalized_rows._simp_1_8 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.normalized_rows._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.normalized_rows._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.normalized_rows._simp_1_7 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.normalized_rows._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.GaussianNormalizedSeed.normalized_rows AXIOMS [propext, Classical.choice, Quot.sound]

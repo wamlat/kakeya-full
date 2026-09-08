@@ -1,0 +1,71 @@
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.radial_no_atoms AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.union_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output._sizeOf_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.radial_no_atoms._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_upper AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.total_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.mk.injEq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.exact_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.subset_carrier AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.continuous_ball_mass AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_ratio._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_ratio._simp_1_2 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_ratio._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_ratio._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.mk.inj AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.continuous_ball_mass._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.exists_exact_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.continuous_ball_mass._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.radial_no_atoms._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.finite_volume AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_ratio AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.shading AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.union_volume_le AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.radial_no_atoms._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_ratio._simp_1_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.mk.sizeOf_spec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_ratio._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.two_ends_ratio._simp_1_5 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.noConfusionType AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output._sizeOf_inst AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.ctorIdx AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.continuous_ball_mass._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.Output.subset_original AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.mk.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.MeasurableDensityTrimming.construct AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.casesOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.MeasurableDensityTrimming.Output.noConfusion AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

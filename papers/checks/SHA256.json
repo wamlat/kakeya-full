@@ -1,0 +1,16 @@
+{
+  "EDITORIAL_CHANGES.md": "e38d3a952f5f9278e51ec6f31111f8c2d57616cde6f724412c91ad247834f3b7",
+  "README.md": "e4f774d0219a8d7501619fe3aca9eefcef16782d20b06a71f054de561313e6eb",
+  "build_papers.py": "ca6f4a0396faff8dc5c9cf75502816cac78c0f48e558d137c5aba8b56eb74704",
+  "checks/check_preservation.py": "e528c4886516d9f872a8d429abb4ec6ddf25ac466578a98f304e4c60934efdca",
+  "checks/preservation_results.json": "06b04bb49a4da715505a2ad85c41ab5963f7f1c95f72f28cac83976d3d3566d5",
+  "diffs/kakeya_combined.diff": "e48f73e7fa6fabe2c882dae76d818a334ccc45cc4882f628fe4699fd21465c4c",
+  "diffs/kakeya_paper_i.diff": "3cee88dcc5b41a6af80574c08616a0b091368377840abc16324c705e5bc28b0f",
+  "kakeya_combined.md": "b4544e080b18333a8ffc58444a2bdc95be2b0ea9b2847ed048727354ee949d82",
+  "kakeya_combined.tex": "f432de1482b47ab3e4a41a0d1fbb65146af5bf663026f4d0f5713683c4a94559",
+  "kakeya_paper_i.md": "3469a55fc8c238c401372d5b33d07baf2151e6549363178363528fc2b459de37",
+  "kakeya_paper_i.tex": "ad3a52e60d2ef1e04f7f7c974a21a5990f80c24569b4382a10aec3cf489238aa",
+  "originals/kakeya_combined.md": "95c981d175abc13d704da8bb081b8d53681536c833d525c09e6a369cb2ec595d",
+  "originals/kakeya_paper_i.md": "06efaa2d046321abcd89ec82d20a748ce10da7699cfc8b6de8e291fc42e5d810",
+  "paper_style.tex": "041239850208bbdab554be65b82b1331fb2c14e25b24b564da9ffeb7729dde1c"
+}

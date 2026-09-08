@@ -1,0 +1,10 @@
+AUDIT_THEOREM KakeyaFormal.PositiveSamplingOriginalCells.construct._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveSamplingOriginalCells.construct._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveSamplingOriginalCells.construct._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.PositiveSamplingOriginalCells.construct._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveSamplingOriginalCells.construct._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveSamplingOriginalCells.construct._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveSamplingOriginalCells.construct._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.PositiveSamplingOriginalCells.construct AXIOMS [propext, Classical.choice, Quot.sound]

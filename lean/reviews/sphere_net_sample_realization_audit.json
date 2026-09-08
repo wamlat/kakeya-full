@@ -1,0 +1,480 @@
+{
+  "status": "PASS",
+  "source": "SphereNetSampleRealization.lean",
+  "source_sha256": "ad372c13817b22b97aa1474638d07d2def201d2c708aaafa29df9a65b67747b8",
+  "named_theorems": 19,
+  "local_theorems": 36,
+  "all_local_declarations": 53,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "entries": [
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output._sizeOf_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.mk.noConfusion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.marked_mass",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_7",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.omega",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_2",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_6",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.closed_broadness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.good",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_4",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.broadness",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.two_ends",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.mk.inj",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.union_card",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.mk",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.longitudinal_count",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.marked_density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.of_sample",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.marked_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.axes",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.noConfusionType",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.ctorIdx",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.separated",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.admissible",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output._sizeOf_inst",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.family",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.closed_broadness._simp_1_2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.mk._flat_ctor",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_1",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.bounded",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.depth",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.mk.sizeOf_spec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.casesOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.density",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.cell_union_subset",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.marks",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_3",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.bottom",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.rec",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.marked_relative",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.bottom_upper",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.of_sample._proof_1",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.cap_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.closed_broadness._simp_1_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.full_positive",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.recOn",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.noConfusion",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.relative_le_marked_expectation._simp_1_5",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.support_and_marks",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.depth_bound",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetSampleRealization.Output.mk.injEq",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "log": "../SphereNetSampleRealization_axioms.log"
+}

@@ -1,0 +1,5 @@
+AUDIT_THEOREM KakeyaFormal.SphereNetExactBudget.linear_count_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetExactBudget.exists_product_threshold AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetExactBudget.exists_augmented_threshold AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

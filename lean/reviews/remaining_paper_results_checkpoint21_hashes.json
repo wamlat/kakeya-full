@@ -1,0 +1,302 @@
+[
+  {
+    "module": "AppendixEndpoints",
+    "snapshot": "published20",
+    "sha256": "287a5eef6ceb74dce60587b2d13ce1d4876841a9e8f24a73dc0a7bc958c2e75e"
+  },
+  {
+    "module": "CollisionIndependentSet",
+    "snapshot": "frozen21_new",
+    "sha256": "3d28a164bd567faf3b9a4a9271d452dae6c576b1d67ddadb360f3c08aee7fd5c"
+  },
+  {
+    "module": "ComplexOperator",
+    "snapshot": "frozen21_new",
+    "sha256": "173adb29079b8fa60f45022043df4978a4c468cf5fe07a928c44617d973db99a"
+  },
+  {
+    "module": "DilationIntegral",
+    "snapshot": "frozen21_new",
+    "sha256": "1ae4d332ceb69f7524c7d40af43a199c14fe649c35cf79802eb53c20dc66f308"
+  },
+  {
+    "module": "FractionalSeedFullRange",
+    "snapshot": "published20",
+    "sha256": "319aa2a0e18b601051cc29520d2a5702fac9fa7edbaa371e24b45aaf6d9f9642"
+  },
+  {
+    "module": "GaussianCollision",
+    "snapshot": "frozen21_new",
+    "sha256": "d10388da3a37a753d11a02639d0429472fb747e02425b3f94571658c4f60a9bb"
+  },
+  {
+    "module": "GaussianCollisionExpectation",
+    "snapshot": "frozen21_new",
+    "sha256": "dcac07519daaee00d02444be030a492ab4ecec97adc5659cb11b34536c8a25dd"
+  },
+  {
+    "module": "GaussianCollisionGeometry",
+    "snapshot": "frozen21_new",
+    "sha256": "b755ed67e50a054197f7048dacfd5b31dfe0d42c204a634add6080d3d67acd97"
+  },
+  {
+    "module": "GaussianCollisionKernel",
+    "snapshot": "frozen21_new",
+    "sha256": "53fe88861368bbcf8b4654fac0d50b0ada5f4f6ac4201ec6b85b263b86f8c69a"
+  },
+  {
+    "module": "GaussianConditioning",
+    "snapshot": "frozen21_new",
+    "sha256": "3acae884727b924ca32bbcd65d3c0dd4d678253f282f6c7a1ff7c757f19f2cdc"
+  },
+  {
+    "module": "GaussianGoodDirections",
+    "snapshot": "frozen21_new",
+    "sha256": "c76c9a6dabf0f62d3265c609ca542c39df747f2ed3085d098aa5cc162dfd6da9"
+  },
+  {
+    "module": "GaussianLinearOperator",
+    "snapshot": "frozen21_new",
+    "sha256": "9ca1017e5f66f55d29f68b62e5c1ec2922f50dbd1a6d6ee1c0b8bfec04f582de"
+  },
+  {
+    "module": "GaussianMatrix",
+    "snapshot": "frozen21_new",
+    "sha256": "e6e69c216aad017867923d0991122013f6422bea95755fae5229cd7475892d41"
+  },
+  {
+    "module": "GaussianMatrixMoments",
+    "snapshot": "frozen21_new",
+    "sha256": "6bec03641b26b51e3bc9a3747249664fb5c9d8466063a82176c6ee52dcba5ca5"
+  },
+  {
+    "module": "GaussianPerpendicular",
+    "snapshot": "frozen21_new",
+    "sha256": "986aacd78d413c68144cdffd36b1974bce03d4b626385cf17db207e635abd2c3"
+  },
+  {
+    "module": "GaussianSmallBall",
+    "snapshot": "frozen21_new",
+    "sha256": "52d629b302106f365bdaba0095920874171db0e622fdf6377099b9c67909c0b0"
+  },
+  {
+    "module": "LengthOperatorBound",
+    "snapshot": "frozen21_new",
+    "sha256": "68813cf9030002d122665aae0a977f8fd8c47eac26c548da3042699c2486d02b"
+  },
+  {
+    "module": "LengthOperatorGeometry",
+    "snapshot": "frozen21_new",
+    "sha256": "eebfef86494249e681d614a6908795742c6a0d9fc270585a3741190ad0aade5b"
+  },
+  {
+    "module": "LengthOperatorNorm",
+    "snapshot": "frozen21_new",
+    "sha256": "e45b94338ec243e8613ab2dc8afce92e9ba8c0a77092f8111e01ac9d0f348574"
+  },
+  {
+    "module": "MainMaximal",
+    "snapshot": "published20",
+    "sha256": "21bebed09066ec041ea33d1377d55c6f9e8ba0a35085138971ee5e8eb9f809b7"
+  },
+  {
+    "module": "MainOperator",
+    "snapshot": "published20",
+    "sha256": "1969cc3901ec390b7b0f0ff36d9d229eed83b5e9eb8f78541cb705adf0ba90d3"
+  },
+  {
+    "module": "MarkedDensityClass",
+    "snapshot": "published20",
+    "sha256": "49dfa2108c50649617873e2a881ef111f1512fd0a4c2c11c91c5baef64c98c7f"
+  },
+  {
+    "module": "MarkedGridNormalization",
+    "snapshot": "frozen21_new",
+    "sha256": "2a06f6b3c0eb9aa1c92a1365fab3b26a2eef7e00f26058ed6a7dbe378c6e6fba"
+  },
+  {
+    "module": "MarkedGridPadding",
+    "snapshot": "frozen21_new",
+    "sha256": "4da40cae28dd3793af6221f28d942bbdf0e83687ee244d476570d6d84f87db01"
+  },
+  {
+    "module": "MarkedGridRefinement",
+    "snapshot": "frozen21_new",
+    "sha256": "85eee7880d7bdf8d02938f15a5b3f6f789e59f15fe0e1631822533c37b8cf38a"
+  },
+  {
+    "module": "MarkedLegalSamples",
+    "snapshot": "published20",
+    "sha256": "ad897a11b45bad4d238d560730a548f1355be4feb89b5b53ae6b1183bddd7a21"
+  },
+  {
+    "module": "MarkedLengthAlgebra",
+    "snapshot": "frozen21_new",
+    "sha256": "39a313f959f9424cf83c06284233f2f23ca3dd2469117c4491c0cc536021968c"
+  },
+  {
+    "module": "MarkedLengthInput",
+    "snapshot": "frozen21_new",
+    "sha256": "3425378039d183f61a4ed092ca9530264e9f144cd9c4c450f3c7bd48c3d89066"
+  },
+  {
+    "module": "MarkedLengthNormalization",
+    "snapshot": "frozen21_new",
+    "sha256": "5ea82c09f6b8cf490214ba7289a622a61f1c4773be9606ebe7daa58ebd9ab861"
+  },
+  {
+    "module": "MarkedNormalizationAlgebra",
+    "snapshot": "frozen21_new",
+    "sha256": "b00c18b6dce0d6e563d22d5e9ab34097bdd9f44b86b0f93d4776981ecadec01f"
+  },
+  {
+    "module": "MarkedNormalizationKappa",
+    "snapshot": "frozen21_new",
+    "sha256": "5c57d6f836efc18aa58a265658c9b41939c1febdf750d008e26d45c4788bcd98"
+  },
+  {
+    "module": "MarkedPivotEstimate",
+    "snapshot": "published20",
+    "sha256": "93c402ffb4b23de883a584f7e186d7635609f1b6b5f72143ada1c5daf48d0b07"
+  },
+  {
+    "module": "MarkedPivotSelection",
+    "snapshot": "published20",
+    "sha256": "25c9a9bb0ad710247ab9ff97c1828a4be7c0191b52d87858255ad15cd39849e0"
+  },
+  {
+    "module": "MarkedPruningAssembly",
+    "snapshot": "published20",
+    "sha256": "dae972e4186d60030519ec122c1237b9761f3c994f354f8df0758778c6c74397"
+  },
+  {
+    "module": "MarkedPruningRecovery",
+    "snapshot": "published20",
+    "sha256": "e98709d3961a58561b128df8aabb44ff5ddbe8569b2b9e3a053cfad662387321"
+  },
+  {
+    "module": "MarkedSpatialPruning",
+    "snapshot": "published20",
+    "sha256": "361f6d9d41f3915849c859c4be5dde6c4be54445886a009817abbd8fd8166061"
+  },
+  {
+    "module": "MarkedSubsetSamples",
+    "snapshot": "published20",
+    "sha256": "c709ae01f5a7205595416f6a0dd53a2ce4a85e0a8de48be39bf5358a6a41061c"
+  },
+  {
+    "module": "MaximalLengths",
+    "snapshot": "frozen21_new",
+    "sha256": "fd82e02ef4c9d74904c44f4b357a9ab45ef5b3c142619541f441c6b015bb86b5"
+  },
+  {
+    "module": "MeasurableAngularDecomposition",
+    "snapshot": "published20",
+    "sha256": "b718f0d98d1bfbbf03135c98b387bad3e3a1d7cfa29f1c65754cb051bfa030a0"
+  },
+  {
+    "module": "MeasurableAngularSpatialLengths",
+    "snapshot": "frozen21_new",
+    "sha256": "fbc9188f6ddfb3884f5b9c1e068f1ef6d7f8a4aee3be74b36f3fea0e1dcedb92"
+  },
+  {
+    "module": "MeasurableLengthEstimates",
+    "snapshot": "frozen21_new",
+    "sha256": "e2265f0016c380f0f58449bdf1f9d31f217a3274a76da73e9a78eb0ba83a9e30"
+  },
+  {
+    "module": "MeasurableSeedDensityLengths",
+    "snapshot": "published20",
+    "sha256": "2005fa25b02fbaa8d99e9cf70b39b616df178b4bf95f535186a0bf952a3b0f88"
+  },
+  {
+    "module": "MinPivotLogBudget",
+    "snapshot": "frozen21_new",
+    "sha256": "a80c585e5f7be68da70e8e27f78d6cfdbc0a5973d697a40cf192050c69c4e8e8"
+  },
+  {
+    "module": "OriginalLowerDensity",
+    "snapshot": "published20",
+    "sha256": "b48a842f3bb022bbc7284a9846c730cc47d548e1b7b0ae882b92575cd56ee0c1"
+  },
+  {
+    "module": "ProjectedGrid",
+    "snapshot": "frozen21_new",
+    "sha256": "7ce2f4373b7ff11280775ead5eed783ef76599fa3d3c69861696babb11807faa"
+  },
+  {
+    "module": "ProjectedGridFamily",
+    "snapshot": "frozen21_new",
+    "sha256": "92744d3882fc76cb440fb5ffcecab5757adb2857fa371d8a986bfbba3d6d532f"
+  },
+  {
+    "module": "ProjectionConclusion",
+    "snapshot": "published20",
+    "sha256": "db6e3a985bab44768929d9863c581a7ec8755713b9aea753a0fe7cee67cc62bb"
+  },
+  {
+    "module": "ProjectiveAngleComparison",
+    "snapshot": "frozen21_new",
+    "sha256": "cce9de5b8c22b8bfc4801282e01fbe028962266a94dcdca70839121fc3012834"
+  },
+  {
+    "module": "SamplingLengthRealization",
+    "snapshot": "published20",
+    "sha256": "1732e22b425ac9321b2fc8edbbdd9eec6a06d27df0afb9997fecbc28409cfaa6"
+  },
+  {
+    "module": "SourceAnalyticInputs",
+    "snapshot": "published20",
+    "sha256": "0e41e594931a2ca53beebfc0297e6ca99b0d1d09c5eedb0ccb1e980a4c40b322"
+  },
+  {
+    "module": "SourceDensityPruning",
+    "snapshot": "frozen21_new",
+    "sha256": "8ba01cd9897ceee6de47c453913a6f95879da65ce566b07d7d031721db92b8af"
+  },
+  {
+    "module": "SourceDensityPruningGeometry",
+    "snapshot": "frozen21_new",
+    "sha256": "4d184d94334bf531dc00b3d12aaf352ad6a9a1418fd6bb2b7ae97b9e769ef2c4"
+  },
+  {
+    "module": "SourceGoodMass",
+    "snapshot": "frozen21_new",
+    "sha256": "cc8c4b79d7b9085960e8cfc8f33b7a4df86db50b21d28c29b46285496c7b3f27"
+  },
+  {
+    "module": "SourceMarkedLengths",
+    "snapshot": "frozen21_new",
+    "sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e"
+  },
+  {
+    "module": "SourceMarkedNormalization",
+    "snapshot": "frozen21_new",
+    "sha256": "5f222dc2d7791e3fbb8717f301d61fb1b716c4c9c020821cbf8807853e13eef3"
+  },
+  {
+    "module": "SourceMarkedPivotSmallScaleInputs",
+    "snapshot": "published20",
+    "sha256": "c776d76661bd93493c9c4a2aec1e9fff799cff780dcb3ab6c4dc5a9f12942a5f"
+  },
+  {
+    "module": "SourceUnmarkedLengths",
+    "snapshot": "frozen21_new",
+    "sha256": "1fad383899933828f56fb22a0e9e4576fdf6adabdb50aa05159de83459c03217"
+  },
+  {
+    "module": "SpatialTubeLengths",
+    "snapshot": "frozen21_new",
+    "sha256": "7fd29ea3872f1301975f82261c1fdcf89084c7324dd4481f36d15943b7933635"
+  },
+  {
+    "module": "UnmarkedLengthEstimates",
+    "snapshot": "frozen21_new",
+    "sha256": "9a2ceb7a87aa23d7b86491124c777ef6756baa6b9ab5d6a1e91c99e1275984fe"
+  },
+  {
+    "module": "UnrestrictedPivot",
+    "snapshot": "published20",
+    "sha256": "724ccc29a18566f85f3f928b742e10a901b0b4596646b3106bb9b381bdbb0722"
+  }
+]

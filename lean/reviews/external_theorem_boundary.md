@@ -1,0 +1,35 @@
+# Boundary between cited theorems and the manuscript's remaining claims
+
+> Historical pre-authorization review. The user subsequently explicitly requested published results as custom axioms. Checkpoint 14 supersedes the earlier no-custom-axioms status: see `external_axiom_statement_review.md` and the delivered `AXIOMS.md` and `external_axioms.json`. The distinction between published integer-dimensional estimates and the manuscript’s new pivot remains in force.
+
+Checked 6 September 2026 against the combined manuscript and the primary sources below. This is a dependency audit, not a proposal to add Lean axioms. The initial geometry audit records an earlier state of development; many of its formal obligations have since been proved.
+
+## Exact external results that can supply genuine inputs
+
+**Wolff's integer-dimensional maximal theorem.** Theorem 1, printed p. 652, gives the Kakeya/Nikodym operator estimate with input exponent `p=(n+2)/2`, output exponent `(n−1)p'`, and arbitrary positive scale loss. It supplies the standard full-direction base exponents, including `M₅(7/2)` and `M₆(4)`, after the operator-to-separated-tube and geometric normalization bridges. It does not state the arbitrary-real-cap, arbitrary-ambient lifted inequality (5.5). The publisher's scanned pages 651–652 were inspected directly. [Wolff 1995, Theorem 1](https://ems.press/content/serial-article-files/37888?nt=1).
+
+**Katz–Tao's actual theorems.** Definition 6.1 uses saturated shadings and real direction-cap parameters in an integer ambient space. Equation (40) removes saturation of the *family size*, not saturation of the shading. Theorem 6.2 proves `K(n,d), K(d+1,d') ⇒ K(n,(2n+1+d')/4)` in that framework. Section 6's pivot and lift lemmas operate there. Separately, Theorem 1.1 gives an actual full-direction maximal estimate at input exponent `(4n+3)/7`; it is not the manuscript's arbitrary-density real-cap recursion. These exact results could be taken as external premises for their own scopes. They do not supply prescribed powers of λ, ξ, κ or a scale-growing cap coefficient A for the manuscript's new interfaces. [Katz–Tao, New bounds for Kakeya problems, Theorem 1.1 and Section 6, PDF pp. 1, 18–24](https://arxiv.org/pdf/math/0102135).
+
+**Published alternative maximal bases.** Zahl's Theorem 1.5 gives an actual integer-dimensional maximal exponent through its displayed optimization formula; in dimension eight it yields `21/4`. Hickman–Rogers–Zhang's Theorem 1.2 gives the corresponding range in conjugate-exponent notation. These can improve a full-direction starting point after precise endpoint/positive-loss translation. Their statements do not automatically supply a real-cap family estimate in a larger ambient space. [Zahl, Theorem 1.5, equation (1.6), PDF p. 3](https://arxiv.org/pdf/1908.05314), [Hickman–Rogers–Zhang, Theorem 1.2 and Figure 1, PDF p. 2](https://arxiv.org/pdf/1908.05589).
+
+**Angular selection.** Wang–Zahl Lemma 7.8 is already stated for separated vectors in `Rⁿ`: it provides one scale, disjoint caps, broad subsets, and logarithmically retained population. Corollary 7.10 is a tube/shading result in `R³`. The latter cannot simply be imported as the manuscript's higher-dimensional global tube assignment, marked-density recovery, and overlap theorem. Those additional constructions need proofs; the present development has proved substantial finite and measurable versions. [Wang–Zahl v1, Lemma 7.8 and Corollary 7.10, printed pp. 63–64](https://arxiv.org/pdf/2502.17655v1).
+
+## Manuscript interfaces: what an exact import would leave
+
+| Target in the combined PDF | Exact boundary |
+|---|---|
+| (5.4), base analytic estimate | A published full-direction maximal theorem supplies the relevant integer case after normalization. An arbitrary real cap parameter requires a separate proved estimate or reduction. |
+| Lemma 2.1, cap-four projection, (2.2) | The five-dimensional maximal theorem supplies the final projected analytic bound (2.4). Gaussian collision probabilities, simultaneous bounded/noncollapsing projection, independent-set selection, finite-cell collapse, and cumulative-density conversion remain mathematical bridges. Importing (2.2) wholesale would assume those bridges. |
+| Section 4, fractional-direction seed and Corollary 4.3 | Real m in arbitrary adequate ambient dimension, explicit density power, and uniform linear `A⁻¹` dependence are part of the manuscript's generalized estimate. The named classical maximal theorem alone is not this statement. Actual broad hairbrush, thinning, one-box recovery, and logarithmic accounting are now proved locally; global assembly remains separate. |
+| (5.5), lifted analytic estimate | It requires all separated families with real cap exponent d, all `A≥1` including A depending on N, cumulative incidence density, empty shadings, and uniform `A⁻¹s^(q+e)`. Neither a saturated-shading result nor a fixed-A comparable-density result is an exact substitute. The cumulative conversion is elementary but must be proved from the right arbitrary-density input. |
+| Theorem 5.1, particularly (5.3) | This is the quantitative arbitrary-density upgrade: explicit powers of λ, marks, angular/two-ends parameters, and uniform base/lift interfaces. Its collision/fiber/rounding and energy connections must be established with those parameters. The cited saturated pivot mechanism does not by itself prove this stronger statement. |
+| Sections 6–8 | Simultaneous sampling, angular reassignment, measurable transport, and the final density exponent `max(D,C)` are application-specific proof obligations. Classical probabilistic and two-ends tools may be imported at their exact statements, but do not eliminate the constructions and parameter bookkeeping. |
+| Appendix A | The cumulative real-cap bush estimate is already proved in `Bush.lean`; it need not be assumed. Using it gives a different, weaker lifted exponent and does not certify the remaining pivot/globalization interfaces. |
+
+The label “new” here means additional to the exact cited statement, not a claim of originality against the entire literature. No exhaustive novelty search was performed.
+
+## Consequence for the conditional ETA
+
+Allowing the actual external maximal theorems can remove the work of reproving those classical input theorems. It does **not** establish that the main remaining density-sensitive pivot and real-cap interfaces match an existing theorem. Consequently the earlier “3–10 days if the statements match” estimate remains a low-confidence planning scenario, not an evidence-backed completion estimate. Assuming the manuscript's own generalized (5.3) or (5.5) under a Katz–Tao label would change the verification target by assuming a central part of what needs verification.
+
+For an honest conditional package, each imported result would need its exact statement, source/version, explicit hypotheses, and a proved adapter into the current definitions. It should be reported as a theorem conditional on those named premises. The ongoing clean development has introduced no such custom axioms.

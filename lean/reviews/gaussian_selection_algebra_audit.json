@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "GaussianSelectionAlgebra",
+      "status": "PASS",
+      "sha256": "3c3a7328fea7ce04c314b8232afe62e85331cc82a13ce761017f6fb6f523b324",
+      "named_theorems": 5,
+      "theorem_declarations": 7,
+      "all_declarations": 9,
+      "custom_axioms": []
+    }
+  ]
+}

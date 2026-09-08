@@ -1,0 +1,62 @@
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.bandSum_partition AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.PositiveLaws.mk._flat_ctor AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.indicator_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level._simp_1_2 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.PositiveLaws AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level._simp_1_5 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.PositiveLaws.mk AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_sum_le._proof_1_3 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_sum_le._proof_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.PositiveLaws.casesOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.PositiveLaws.mul_const AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level._simp_1_8 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.dyadicHeight AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.indicator.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometric_weights_sum_le AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.PositiveLaws.sum_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.geometricWeight AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.PositiveLaws.bounded AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.PositiveLaws.level_after_bounded_part AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.bandSum AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.PositiveLaws.bandSum_le AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.PositiveLaws.monotone AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.PositiveLaws.zero AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.PositiveLaws.recOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.bandSum_le_of_disjoint AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.PositiveLaws.add_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.PositiveLaws.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_sum_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.geometricWeight_sum_le._proof_1_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.weighted_level_cover AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.bandSum_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.finite_restricted_level AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadic_restricted_level AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.RestrictedInterpolation.dyadicHeight_mono AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.RestrictedInterpolation.indicator AXIOMS [propext, Classical.choice, Quot.sound]

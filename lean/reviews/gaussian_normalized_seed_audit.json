@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "GaussianNormalizedSeed",
+      "status": "PASS",
+      "sha256": "f0a6b55ef0da354e7da2975a9e05a4b630c1dd3cdbb3c59c376f386d83186594",
+      "named_theorems": 5,
+      "theorem_declarations": 12,
+      "all_declarations": 12,
+      "custom_axioms": []
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sampleFiber_output AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.fiber_direction_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sampleFiber._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sampleFiber._proof_4 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_displacement_ne_zero._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.output_scale_of_twentieth_power._simp_1_5 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LegalOutputDirections.secondIndices AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalOutputDirections.roundingConstant AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.roundingConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_displacement_ne_zero._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sample_output_cap._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.mem_secondIndices._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_integer_count AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sampleFiber._proof_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sampleFiber._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.output_scale_of_twentieth_power._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_displacement_ne_zero AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sample_output_cap._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_count_polynomial AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.LegalOutputDirections.sampleFiber AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.mem_secondIndices AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.output_scale_of_twentieth_power._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sample_output_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.secondIndices.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.mem_secondIndices._simp_1_5 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sample_output_cap._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.unitize_pos_scale AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.normalized_output_direction AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.output_scale_of_twentieth_power AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.intermediate_rounding AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_displacement_ne_zero._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_displacement_ne_zero._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_displacement_ne_zero._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_displacement_ne_zero._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sample_output_cap._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.fiber_displacement_error AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sample_output_cap._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.mem_secondIndices._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sample_output_cap._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.mem_secondIndices._simp_1_4 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sample_output_cap._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.fiber_displacement_lower AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.roundingConstant_ge_one AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_center_unit AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_displacement_ne_zero._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.secondIndices.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngleFiberSelection.outputs.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_cap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.output_scale_of_twentieth_power._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.output_scale_of_twentieth_power._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.output_scale_of_twentieth_power._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.output_scale_of_twentieth_power._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.fiber_displacement_ne_zero AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.sampleFiber_second AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalOutputDirections.second_indices_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalAngleNormalization.angle.congr_simp AXIOMS [propext, Classical.choice, Quot.sound]

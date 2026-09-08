@@ -1,0 +1,22 @@
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.collision_row_membership AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.collision_row_membership._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.energy_le_sum_rows._simp_1_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.collision_energy_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.collision_row_membership._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.energy_le_sum_rows._simp_1_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.rowConstant._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.rowConstant_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.row_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.collision_row_membership._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.collision_row_membership._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.rowConstant._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.energy_le_sum_rows AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.energy_le_sum_rows._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.CollisionEnergy.energy_le_sum_rows._simp_1_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.CollisionEnergy.rowConstant AXIOMS [propext, Classical.choice, Quot.sound]

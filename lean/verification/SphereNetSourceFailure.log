@@ -1,0 +1,6 @@
+AUDIT_DECLARATION KakeyaFormal.SphereNetSourceFailure.rawLaw AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSourceFailure.rawLaw._proof_3 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSourceFailure.rawLaw._proof_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SphereNetSourceFailure.highCells AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSourceFailure.rawLaw._proof_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SphereNetSourceFailure.source_angular_failure AXIOMS [propext, Classical.choice, Quot.sound]

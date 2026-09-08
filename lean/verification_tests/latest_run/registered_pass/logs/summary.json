@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-07T03:39:05.311934+00:00",
+  "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "theorem_count": 1,
+  "audited_theorem_count": 1,
+  "modules": [
+    {
+      "module": "Fixture",
+      "theorem_count": 1,
+      "source_declarations": [
+        "usesPublished"
+      ],
+      "audited_theorem_count": 1,
+      "audited_theorems": [
+        "Fixture.usesPublished"
+      ],
+      "source_sha256": "1c85d0061ad8802b63f28ee6a02b3cbb5fa4f939130ffca5ad52f1dde1b359cd",
+      "compiler_exit_code": 0,
+      "axioms": [
+        "Fixture.published"
+      ],
+      "command": [
+        "/Users/ssoh/.elan/bin/lake",
+        "env",
+        "lean",
+        "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/registered_pass/scratch/Fixture_AxiomAudit.lean"
+      ],
+      "declared_external_axioms": [
+        "Fixture.published"
+      ],
+      "theorem_dependencies": {
+        "Fixture.usesPublished": [
+          "Fixture.published"
+        ]
+      },
+      "theorems_using_external_axioms": {
+        "Fixture.usesPublished": [
+          "Fixture.published"
+        ]
+      },
+      "audited_declaration_count": 2,
+      "declaration_dependencies": {
+        "Fixture.usesPublished": [
+          "Fixture.published"
+        ],
+        "Fixture.published": [
+          "Fixture.published"
+        ]
+      },
+      "declarations_using_external_axioms": {
+        "Fixture.usesPublished": [
+          "Fixture.published"
+        ],
+        "Fixture.published": [
+          "Fixture.published"
+        ]
+      }
+    }
+  ],
+  "audited_declaration_count": 2,
+  "trust_mode": "registered_published_axioms",
+  "external_axioms": [
+    {
+      "name": "Fixture.published",
+      "module": "Fixture",
+      "source_url": "https://example.invalid/synthetic-verifier-test",
+      "source_locator": "Synthetic True axiom; not a published result",
+      "formal_statement": "Fixture.published : True",
+      "trust_boundary": "Verifier regression fixture only; no mathematical import",
+      "module_sha256": "1c85d0061ad8802b63f28ee6a02b3cbb5fa4f939130ffca5ad52f1dde1b359cd"
+    }
+  ],
+  "theorems_using_external_axioms": 1,
+  "declarations_using_external_axioms": 2,
+  "exact_named_checks": 0,
+  "scope": "All local declarations in every delivered module, including definitions, proof-bearing data and generated declarations, were audited for logical dependencies. This verifies the delivered formal statements and their recorded assumptions; correspondence with the manuscript and coverage of its results require the separate source completion audit."
+}

@@ -1,0 +1,18 @@
+'KakeyaFormal.AngularBoxRecovery.single_box_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxRecovery.single_box_recovery AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicRescaling.transformedTube.congr_simp AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxRecovery.retention_le AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxRecovery.retention_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxRecovery.directionLoss._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AngularBoxRecovery.directionLoss._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicCap.family.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularBoxRecovery.angularLoss AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularBoxRecovery.capCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularBoxRecovery.broadCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularBoxRecovery.retention AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxRecovery.angularLoss._proof_1 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.AngularBoxRecovery.directionLoss AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularBoxRecovery.directionLoss_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AngularBoxRecovery.endsCoefficient AXIOMS [propext, Classical.choice, Quot.sound]

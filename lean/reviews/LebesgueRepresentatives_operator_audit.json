@@ -1,0 +1,279 @@
+{
+  "module": "LebesgueRepresentatives",
+  "status": "PASS",
+  "source_sha256": "0384ebb173ae149fe7fc253d2b4b9fda0fd10797505c66ae5ec5865933250523",
+  "source_theorems": [
+    "construct",
+    "membership",
+    "full_union_subset",
+    "marks_union_subset",
+    "full_union_ae",
+    "marks_union_ae",
+    "full_measure",
+    "marks_measure",
+    "full_real",
+    "marks_real",
+    "full_inter_measure",
+    "marks_inter_measure",
+    "full_inter_real",
+    "marks_inter_real",
+    "full_union_measure",
+    "marks_union_measure",
+    "full_union_real",
+    "marks_union_real",
+    "full_total_real",
+    "marks_total_real",
+    "rows_ae",
+    "transfer_ae"
+  ],
+  "audited_theorem_count": 35,
+  "audited_declaration_count": 49,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_union_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.mk.injEq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_union_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_inter_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_union_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.mk.inj": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_union_ae._simp_1_1": [
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.transfer_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.rows_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_total_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.membership": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.mk.sizeOf_spec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_union_subset": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_union_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_union_ae._simp_1_1": [
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.nested": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_total_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.construct": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.rows_ae._simp_1_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_inter_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_union_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_measurable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_inter_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_ae": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_inter_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks_union_real": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full_union_measure": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output._sizeOf_1": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.noConfusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.mk._flat_ctor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.noConfusionType": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.rec": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.full": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.mk": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.casesOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output._sizeOf_inst": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.ctorIdx": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.mk.noConfusion": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.marks": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output.recOn": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LebesgueRepresentatives.Output": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

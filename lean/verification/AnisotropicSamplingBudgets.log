@@ -1,0 +1,39 @@
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingInput.broadConstant.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.density_population_retention AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.broad_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.endsCoefficient.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.marked_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.depthCoefficient._proof_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.coefficients_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingBudgets.markedCoefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.inverse_retention AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingBudgets.depthCoefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.ends_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.per_depth_retention AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.broadCoefficient.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.uniform_constants AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.broadCoefficient._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.depthCoefficient_pos AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingBudgets.endsCoefficient AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.depthCoefficient._proof_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.population_retention AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.density_retention AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.retention_budget AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AnisotropicSamplingBudgets.depth_bound AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.AnisotropicSamplingBudgets.broadCoefficient AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

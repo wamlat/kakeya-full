@@ -1,0 +1,16 @@
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.normalized_localized_family._simp_1_6 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.normalized_localized_family._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.normalized_localized_family._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.normalized_localized_family._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.normalized_localized_family._simp_1_5 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGridTubes.localWidth AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.normalized_localized_family._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.center_near_fine_origin AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.normalized_localized_family._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.LocalizedGridTubes.fineOrigin AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.localized_grid_interval AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.normalized_localized_family AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.localWidth_pos AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LocalizedGridTubes.fine_grid_rescale AXIOMS [propext, Classical.choice, Quot.sound]

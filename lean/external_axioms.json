@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "authorization": "On 6 September 2026 the user explicitly requested Katz–Tao and other published results as custom axioms. This supersedes the earlier no-custom-axioms preference; the manuscript’s new arguments are not authorized as published inputs.",
+  "predicate": "For every fixed MeasurableNormalization and eps>0 there exists c>0, before all MeasurableConfiguration n geom (n-1), such that c*delta^(2*n-1-d+eps)*lambda^d*M <= volume.real unionSet. The record still carries cap hypotheses; its cap coefficient is absent from the bound.",
+  "axioms": [
+    {
+      "name": "KakeyaFormal.ExternalAxioms.wolff1995",
+      "module": "ExternalAxioms",
+      "source_url": "https://ems.press/content/serial-article-files/37888?nt=1",
+      "source_locator": "Wolff (1995), Theorem 1, printed p. 652; includes the already known n=2 case described there.",
+      "formal_statement": "∀ (n : ℕ), 2 ≤ n → NormalizedShadingBound n (((n : ℝ) + 2) / 2)",
+      "trust_boundary": "Trusted normalized restricted-shading corollary of the cited published maximal estimate, including the mathematical translation from operator estimates via testing/Hölder and direction packing, fixed separation coefficients, projective versus angular metrics, closed capsule versus cylinder carriers, tube-volume normalization, and extension to 0<delta<=1. These source-to-predicate translations are assumed rather than kernel-proved here. The inverse-cap-coefficient weakening and measurable-to-grid adapter are proved. No fractional-cap, larger-ambient or manuscript generalized pivot result is assumed.",
+      "module_sha256": "682bf293fa1447361ce8fa67d14ee6d07e2566c56e3d0e14037b0b1ef57d5bc5"
+    },
+    {
+      "name": "KakeyaFormal.ExternalAxioms.katzTao2002",
+      "module": "ExternalAxioms",
+      "source_url": "https://arxiv.org/pdf/math/0102135v1",
+      "source_locator": "Katz–Tao, New bounds for Kakeya problems, arXiv:math/0102135v1 (16 February 2001), Theorem 1.1 and Section 5; journal publication 2002.",
+      "formal_statement": "∀ (n : ℕ), 2 ≤ n → NormalizedShadingBound n ((4 * (n : ℝ) + 3) / 7)",
+      "trust_boundary": "Trusted normalized restricted-shading corollary of the cited published maximal estimate, including the mathematical translation from operator estimates via testing/Hölder and direction packing, fixed separation coefficients, projective versus angular metrics, closed capsule versus cylinder carriers, tube-volume normalization, and extension to 0<delta<=1. These source-to-predicate translations are assumed rather than kernel-proved here. The inverse-cap-coefficient weakening and measurable-to-grid adapter are proved. No fractional-cap, larger-ambient or manuscript generalized pivot result is assumed.",
+      "module_sha256": "682bf293fa1447361ce8fa67d14ee6d07e2566c56e3d0e14037b0b1ef57d5bc5"
+    },
+    {
+      "name": "KakeyaFormal.ExternalAxioms.zahl2021",
+      "module": "ExternalAxioms",
+      "source_url": "https://arxiv.org/pdf/1908.05314v4",
+      "source_locator": "Zahl, New Kakeya estimates using Gromov’s algebraic lemma, arXiv:1908.05314v4 (12 January 2021), Theorem 1.5, equation (1.6).",
+      "formal_statement": "∀ (n : ℕ), 2 ≤ n → NormalizedShadingBound n (zahlExponent n)",
+      "trust_boundary": "Trusted normalized restricted-shading corollary of the cited published maximal estimate, including the mathematical translation from operator estimates via testing/Hölder and direction packing, fixed separation coefficients, projective versus angular metrics, closed capsule versus cylinder carriers, tube-volume normalization, and extension to 0<delta<=1. These source-to-predicate translations are assumed rather than kernel-proved here. The inverse-cap-coefficient weakening and measurable-to-grid adapter are proved. No fractional-cap, larger-ambient or manuscript generalized pivot result is assumed.",
+      "module_sha256": "682bf293fa1447361ce8fa67d14ee6d07e2566c56e3d0e14037b0b1ef57d5bc5"
+    }
+  ]
+}

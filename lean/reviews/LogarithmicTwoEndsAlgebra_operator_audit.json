@@ -1,0 +1,62 @@
+{
+  "module": "LogarithmicTwoEndsAlgebra",
+  "status": "PASS",
+  "source_sha256": "8497459fb6230c4df07a5afb8c013722d3bf68867803385c4d614bddb6c4342e",
+  "source_theorems": [
+    "lossPower_nonneg",
+    "constraint_power",
+    "density_factor"
+  ],
+  "audited_theorem_count": 10,
+  "audited_declaration_count": 11,
+  "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "declaration_dependencies": {
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.density_factor._simp_1_1": [
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.density_factor._simp_1_6": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.density_factor._simp_1_2": [
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.density_factor._simp_1_7": [
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.density_factor._simp_1_4": [
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.density_factor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.constraint_power": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.density_factor._simp_1_5": [
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.density_factor._simp_1_3": [
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.lossPower_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KakeyaFormal.LogarithmicTwoEndsAlgebra.lossPower": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.indicatorMaximal_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.indicatorLevel_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.normMaximal_measurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.maximal_measurable_of_aemeasurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.average_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.maximal_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.maximal_lowerSemicontinuous AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.average_lowerSemicontinuous AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.average_eq_open_scaled AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.KakeyaOperatorMeasurability.maximal_lowerSemicontinuous_of_aemeasurable AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

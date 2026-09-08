@@ -1,0 +1,2 @@
+AUDIT_THEOREM KakeyaFormal.GridHairbrush.finite_broad_hairbrush AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.GridHairbrush.realized_density AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "module_count": 406,
+  "source_theorems": 3177,
+  "audited_theorems": 6401,
+  "all_declarations": 8160,
+  "exact_checks": 131,
+  "all_frozen_hashes_match": true,
+  "old381_unchanged": true,
+  "external_axioms": 3,
+  "external_dependent_theorems": 7,
+  "external_dependent_declarations": 10
+}

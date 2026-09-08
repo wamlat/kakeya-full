@@ -1,0 +1,17 @@
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.remote_count AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.projected_interval_nonconcentration AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.oriented_early_late AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.early_late_on_positive_branch._simp_1_2 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.positive_or_negative_branch AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.legal_triples AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.early_late_on_positive_branch AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.finite_quantile AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.LegalParameterSelection.legal_triples._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

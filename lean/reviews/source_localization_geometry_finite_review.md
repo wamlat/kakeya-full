@@ -1,0 +1,13 @@
+# SourceLocalizationGeometry: independent finite review
+
+Read-only final source SHA-256 `cbc68cc2b665b643046bde76acd81289efda033dde4745c4c75cee8202ba7c96`. Reviewed both complete theorem statements/proofs, the unchanged SourceLocalization at SHA`8bb4be461f60b9625f83b5bdfb1c9cecfc5eb76b40fe39ce4627b043cc8dce88`, and TwoEndsGlobalization.unit_ball_cover against combined Lemma3.1 / first-step Lemma7. Clean production .olean is available; author’s whole-source audit has now been verified PASS2 named/2 local theorem/2 total declarations at this exact hash, using standard foundations only. No duplicate compiler/dependency audit is claimed.
+
+No mathematical defect found. `construct` fixes c,C before the original family, scale and density. The only extra geometric smallness is width*delta≤1/2. It uses the ACTUAL axis midpoint and the existing actual unit-axis estimate: longitudinal distance to midpoint≤1/2 plus transverse distance≤width*delta makes every old shade center lie in the midpoint unit ball. Thus the top-cover input to SourceLocalization is proved, not supplied or a definitionally different family.
+
+The returned Selection is exactly the one carrying the preserved dyadic j≤J, rho=radius(J,j), original-cell ball restrictions, cM/log(2/delta)^2 population, and both rho^alpha*lambda≤s≤C*rho inequalities. Relative full two ends, original support and comparable counts remain literal fields of that same Selection. Neither density nor radius is chosen again in this wrapper.
+
+`unit_source_notation` sets width1 and delta=1/N. From N≥2 it proves 0<delta≤1/2, hence the geometric cover condition, and rewrites 2/(1/N)=2N exactly. It has no top-cover, favorable-radius, class, selected-population or relative-two-ends premise. Constants precede every original F,N,lambda. The domain alpha≥0 includes the source0<alpha<1/2; M>0,lambda>0 and actual original factor-two comparability are explicit.
+
+The direct source convention here is unit axis/width1 at N≥2. General fixed width remains available with the explicit fixed small-scale condition in construct; the module does not silently claim arbitrary long original axes are unit axes. That is a normalization boundary, not a hidden desired conclusion. Existing separate length/grid normalization consumers handle their own conventions.
+
+This closes the identified joint dyadic-certificate/top-cover packaging requirement in development. Both localization sources remain outside frozen checkpoint23’s418 modules and need subsequent frozen integration/publication. The finite completion matrix is updated to distinguish the positively proved development interface from its absence in that older snapshot.

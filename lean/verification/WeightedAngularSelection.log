@@ -1,0 +1,17 @@
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_9 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_8 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_3 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_1 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._proof_1_10 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.actual_angular_groups AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_6 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_2 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_7 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_4 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces._simp_1_5 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.actual_angular_assignment AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.WeightedAngularSelection.common_scale_pieces AXIOMS [propext, Classical.choice, Quot.sound]

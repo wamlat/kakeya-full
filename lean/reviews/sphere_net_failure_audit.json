@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "source": "SphereNetFailure.lean",
+  "source_sha256": "3667726a67e39c9766916bc246bc5b4fde4d721892e53d8f074bfefc6d73735a",
+  "named_theorems": 4,
+  "local_theorems": 13,
+  "all_local_declarations": 17,
+  "allowed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "unexpected_axioms": [],
+  "entries": [
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.law.congr_simp",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.source_tail",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.uniform_probability",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "_private.SphereNetFailureSourceAudit.0.KakeyaFormal.SphereNetFailure.probability_le.match_1_1.eq_2",
+      "axioms": []
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.angularFailure._proof_1",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "_private.SphereNetFailureSourceAudit.0.KakeyaFormal.SphereNetFailure.probability_le.match_1_1.eq_1",
+      "axioms": []
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.probability_le",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetFailure.law",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.law._proof_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.test_count_threshold",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.law._proof_3",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.law._proof_2",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.angularFailure._proof_2",
+      "axioms": [
+        "propext"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetFailure.probability_le.match_1_1",
+      "axioms": []
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "_private.SphereNetFailureSourceAudit.0.KakeyaFormal.SphereNetFailure.probability_le.match_1_1.splitter",
+      "axioms": []
+    },
+    {
+      "kind": "THEOREM",
+      "name": "KakeyaFormal.SphereNetFailure.law.eq_1",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    },
+    {
+      "kind": "DECLARATION",
+      "name": "KakeyaFormal.SphereNetFailure.angularFailure",
+      "axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ]
+    }
+  ],
+  "log": "../SphereNetFailure_axioms.log"
+}

@@ -1,0 +1,209 @@
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Admissible._sunfold AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.support.match_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Feasible._f AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.casesOn AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.union_inter_component AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.support.eq_def AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.union_inter_component._simp_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Feasible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.leaf.injEq AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.ctorElimType AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.leaf.elim AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.node AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.child AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.node.sizeOf_spec AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.rank._unsafe_rec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Feasible._sunfold AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.below AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.recOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION _private.CapSelection_AxiomAudit.0.KakeyaVerification.CapSelection.CapacityTree.support.match_1.splitter AXIOMS [propext,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.support AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.below.casesOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.brecOn AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.rec AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.noConfusionType AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.union_inter_component._simp_1_3 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.admissible_mono AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.brecOn.go AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Admissible.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Partitioned._unsafe_rec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.leaf.inj AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.node.noConfusion AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM _private.CapSelection_AxiomAudit.0.KakeyaVerification.CapSelection.CapacityTree.Admissible.match_1.eq_1 AXIOMS [propext,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Partitioned._sunfold AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.inverseCoefficientColorSelection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Admissible.congr_simp AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.coordinate_gap_of_same_residue AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.mass_le_rank AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.self AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Feasible.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.support._unsafe_rec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Feasible.eq_def AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM _private.CapSelection_AxiomAudit.0.KakeyaVerification.CapSelection.CapacityTree.support.match_1.eq_2 AXIOMS [propext,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Admissible.match_1 AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.brecOn.eq AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.rank.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.support._sunfold AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.capacity.eq_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.rank._f AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Feasible.congr_simp AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.terminal_fibers_injective AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.below.child AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Admissible AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.uniformSelection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Admissible.eq_def AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Partitioned AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.capacity.eq_2 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.below.rec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.lattice_color_separates AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Admissible._unsafe_rec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.leaf AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Partitioned._f AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.node.elim AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.node.injEq AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.admissible_card AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.support.eq_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.leaf.sizeOf_spec AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.terminal_unique AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.rec AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Feasible._unsafe_rec AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.rank._sunfold AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.support.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.latticeCellSelection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Occurs.brecOn AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.recOn AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.below AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.union_inter_component._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.support._f AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.all_capacities AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION _private.CapSelection_AxiomAudit.0.KakeyaVerification.CapSelection.CapacityTree.Admissible.match_1.splitter AXIOMS [propext,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.below.self AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM _private.CapSelection_AxiomAudit.0.KakeyaVerification.CapSelection.CapacityTree.Admissible.match_1.eq_2 AXIOMS [propext,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.noConfusion AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.occurs_subset AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.covered_query_uniform_bound AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.node.inj AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.uniform_feasible AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.leaf.noConfusion AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Occurs.casesOn AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.attainsRank AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.fractionalSelection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Admissible.eq_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.covered_query_capacity AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.rank.eq_def AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.ctorElim AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM _private.CapSelection_AxiomAudit.0.KakeyaVerification.CapSelection.CapacityTree.support.match_1.eq_1 AXIOMS [propext,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree._sizeOf_1 AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.capacity AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.inverseCoefficientSelection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.rank.eq_2 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.ctorIdx AXIOMS [propext, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.Admissible._f AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree.rank AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_DECLARATION KakeyaVerification.CapSelection.CapacityTree._sizeOf_inst AXIOMS [propext, Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.monochromaticSelection AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaVerification.CapSelection.CapacityTree.Feasible.eq_2 AXIOMS [propext, Classical.choice, Quot.sound]

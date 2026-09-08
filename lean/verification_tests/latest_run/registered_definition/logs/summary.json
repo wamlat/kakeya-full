@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "utc": "2026-09-07T03:39:29.193499+00:00",
+  "lean_version": "Lean (version 4.33.1, arm64-apple-darwin24.6.0, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib_revision": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "theorem_count": 1,
+  "audited_theorem_count": 3,
+  "modules": [
+    {
+      "module": "Fixture",
+      "theorem_count": 1,
+      "source_declarations": [
+        "unrelated"
+      ],
+      "audited_theorem_count": 3,
+      "audited_theorems": [
+        "Fixture.Certificate.mk.sizeOf_spec",
+        "Fixture.Certificate.proof",
+        "Fixture.unrelated"
+      ],
+      "source_sha256": "c9415b5b076d7f4e953387ffd38ff99bdf10581deb924d8be03794209f8ee58f",
+      "compiler_exit_code": 0,
+      "axioms": [
+        "Fixture.published"
+      ],
+      "command": [
+        "/Users/ssoh/.elan/bin/lake",
+        "env",
+        "lean",
+        "/Users/ssoh/Documents/Codex/2026-09-06/work/audit_work/checkpoint23_regression_work/axiom-regression-s6ibn3qp/registered_definition/scratch/Fixture_AxiomAudit.lean"
+      ],
+      "declared_external_axioms": [
+        "Fixture.published"
+      ],
+      "theorem_dependencies": {
+        "Fixture.Certificate.proof": [],
+        "Fixture.unrelated": [],
+        "Fixture.Certificate.mk.sizeOf_spec": []
+      },
+      "theorems_using_external_axioms": {},
+      "audited_declaration_count": 17,
+      "declaration_dependencies": {
+        "Fixture.Certificate.proof": [],
+        "Fixture.unrelated": [],
+        "Fixture.Certificate.mk.sizeOf_spec": [],
+        "Fixture.Certificate.recOn": [],
+        "Fixture.Certificate.mk.noConfusion": [],
+        "Fixture.proofCertificate": [
+          "Fixture.published"
+        ],
+        "Fixture.Certificate.mk._flat_ctor": [],
+        "Fixture.Certificate._sizeOf_1": [],
+        "Fixture.Certificate.rec": [],
+        "Fixture.Certificate.noConfusion": [],
+        "Fixture.Certificate.casesOn": [],
+        "Fixture.Certificate": [],
+        "Fixture.published": [
+          "Fixture.published"
+        ],
+        "Fixture.Certificate._sizeOf_inst": [],
+        "Fixture.Certificate.ctorIdx": [],
+        "Fixture.Certificate.noConfusionType": [],
+        "Fixture.Certificate.mk": []
+      },
+      "declarations_using_external_axioms": {
+        "Fixture.proofCertificate": [
+          "Fixture.published"
+        ],
+        "Fixture.published": [
+          "Fixture.published"
+        ]
+      }
+    }
+  ],
+  "audited_declaration_count": 17,
+  "trust_mode": "registered_published_axioms",
+  "external_axioms": [
+    {
+      "name": "Fixture.published",
+      "module": "Fixture",
+      "source_url": "https://example.invalid/synthetic-verifier-test",
+      "source_locator": "Synthetic True axiom; not a published result",
+      "formal_statement": "Fixture.published : True",
+      "trust_boundary": "Verifier regression fixture only; no mathematical import",
+      "module_sha256": "c9415b5b076d7f4e953387ffd38ff99bdf10581deb924d8be03794209f8ee58f"
+    }
+  ],
+  "theorems_using_external_axioms": 0,
+  "declarations_using_external_axioms": 2,
+  "exact_named_checks": 0,
+  "scope": "All local declarations in every delivered module, including definitions, proof-bearing data and generated declarations, were audited for logical dependencies. This verifies the delivered formal statements and their recorded assumptions; correspondence with the manuscript and coverage of its results require the separate source completion audit."
+}

@@ -1,0 +1,7 @@
+AUDIT_THEOREM KakeyaFormal.FractionalSeed.fractional_discrete_seed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeed.cover_power_identity AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeed.density_seed_log_product AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeed.fractional_real_cap_seed AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.FractionalSeed.fractional_discrete_seed._proof_1_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]

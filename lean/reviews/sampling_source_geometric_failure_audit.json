@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "modules": [
+    {
+      "module": "SamplingSourceGeometricFailure",
+      "status": "PASS",
+      "sha256": "e3ce1d27d2e010fcdf44aedb56576b0ab9bee0e481a1088570f1a08c86ae4627",
+      "named_theorems": 2,
+      "theorem_declarations": 2,
+      "all_declarations": 2,
+      "custom_axioms": []
+    }
+  ]
+}

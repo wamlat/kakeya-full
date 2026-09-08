@@ -1,0 +1,56 @@
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.good_row_eq._simp_1_2 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceGoodMass.goodRows.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.retained_marked_overlap AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.retained_overlap AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.surviving_broad_on_good AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceGoodMass.good.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.pieces_measurable AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.all_rows_two_ends._simp_1_1 AXIOMS [propext]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.surviving_two_ends AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.surviving_piece_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SourceDensityPruningGeometry.survivingPiece AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.good_row_eq AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.surviving_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.survivingPiece.eq_1 AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.AngularDecomposition.Broad.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.marked_piece_broad AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.surviving_piece_subset_original AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.surviving_piece_nonempty AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.good_row_eq._simp_1_3 AXIOMS [propext]
+AUDIT_DECLARATION KakeyaFormal.SourceDensityPruningGeometry.markedPiece AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.all_rows_two_ends AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.marked_piece_subset AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.surviving_piece_eq AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_DECLARATION KakeyaFormal.SourceDensityPruningGeometry.kept AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruning.survives.eq_1 AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruning.piece.eq_1 AXIOMS []
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.active_density AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.retained_half_mass AXIOMS [propext,
+ Classical.choice,
+ Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.goodRows_broad AXIOMS [propext, Classical.choice, Quot.sound]
+AUDIT_THEOREM KakeyaFormal.SourceDensityPruningGeometry.pieces_finite AXIOMS [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,11 @@
+# Actual operator restricted weak estimate
+
+`OperatorRestrictedWeak.lean` defines the actual extended-real Kakeya operator restricted weak predicate. It quantifies an arbitrary positive epsilon, then a positive constant C before every positive mesh delta≤1, measurable set E, and positive level lambda. The conclusion is the literal sphere-measure bound for `{v | ofReal lambda < maximal delta (indicator E) v}` by `ofReal (C * delta^(-(n-a+epsilon)) * lambda^(-a)) * volume E`. It uses the same original-position operator and sphere measure as the audited core.
+
+`from_shading` derives this predicate from the proved position-unrestricted MaximalShading.Estimate n a for n>0. The finite-input branch converts the root's actual real estimate using independently finite sphere measure and finite input volume. Infinite input volume is handled by the strictly positive coefficient, making the right side infinite; levels greater than one have empty actual operator level sets. Exact equality of real and ENNReal indicator levels is applied before these branches. No output-measurability premise is inserted; the statement is an outer-measure inequality on the actual level set and works whether or not measurability has yet been proved.
+
+The named `six_first` theorem proves the actual six-dimensional restricted weak estimate at a=33/8. The named `endpoint` and `endpoint_formula` derive the exact algebraic endpoint for every integer n≥6 from the already proved MainMaximal results, with no external axiom, original M6(4) assumption, or analytical oracle. These are restricted weak indicator statements, not strong-type operator norms.
+
+Clean .olean build with zero diagnostics. Frozen SHA256 9e3e426ee47a5e23e3740d8a3cf7b1e973b6061fb9d476cf9d8776ecd3c204e4. Exact-source audit PASS5 named declarations (one definition/four theorems), standard foundations only; source-prefix/hash and declaration checks passed. Audit files/log/meta use `OperatorRestrictedWeak_full_source_audit.*`. No shared registry or frozen source was edited.
+
+Root IndicatorRestrictedWeak independently reviewed with no mathematical defect; report `indicator_restricted_weak_independent_review.md` records the exact mesh, density, population cancellation and uniform quantifier checks.

@@ -1,0 +1,2129 @@
+{
+  "checkpoint": 23,
+  "status": "PASS",
+  "scope": "mathematical_source_coverage",
+  "utc": "2026-09-07T04:25:40.647372+00:00",
+  "frozen_source_hashes_sha256": "d1064bdbd50a6234671f321ad0827148b6f3833d32fa2b5bb94461ef179e72bb",
+  "verifier_sha256": "419584e57059334f50092d3fe72782c71b5f50d7c19198a44cd4b3cae3e42799",
+  "integrated_summary_sha256": "1ca7623ef9d3909918e83809c52e25aedc0bf1331d2b7542ff4652bf6d7c4195",
+  "source_documents": [
+    {
+      "name": "kakeya_combined (1).pdf",
+      "path": "/Users/ssoh/Downloads/kakeya_combined (1).pdf",
+      "bytes": 307199,
+      "sha256": "9c3afb90b33f1ccdbc9b11f4d3939499710d3df68268e3b3c3487867db08a678"
+    },
+    {
+      "name": "kakeya_6d_first_step.pdf",
+      "path": "/Users/ssoh/Downloads/kakeya_6d_first_step.pdf",
+      "bytes": 152210,
+      "sha256": "f8d0fa6409e286bc5fa279518331462e1899ed66066adbfb027d5cf0657620ac"
+    },
+    {
+      "name": "kakeya_6d_audit.md",
+      "path": "/Users/ssoh/Downloads/kakeya_6d_audit.md",
+      "bytes": 13205,
+      "sha256": "d96698f33001c6c04654d20742702e80a052495ce7a244037288df22c2abe771"
+    }
+  ],
+  "semantic_reviews": {
+    "checkpoint23_finite_completion_audit.md": "376250541144fac1a38de45b561c5ec3a8d3c875932039eabe06d7008b7c0654",
+    "checkpoint23_geometry_completion_audit.md": "f9303ec2757926a5f7da3ff2338d2acd1470eb26cab4fdbab8dee7b64586b211",
+    "checkpoint23_analytic_completion_audit.md": "b6cc5fd34501d289df4bded2224bada629e142ddb3a4aa41fd2e483f6d899f1c"
+  },
+  "review_indexes": {
+    "checkpoint23_finite_completion_hashes.json": "f703ff09cb6e454149a73b5d3733e76ba70d29874ecd581eb15b392d1291b144",
+    "checkpoint23_geometry_completion_hashes.json": "c00cddf690264d907a7497364b6186a20abe9cfea017d0493d39212281e8542b",
+    "checkpoint23_analytic_completion_hashes.json": "db0b7852f5b783560ce72d83f5d0ef9adf0d4e961cd886e33af359e547287b1b"
+  },
+  "numbered_combined_results": 17,
+  "first_step_main_and_lemmas": 8,
+  "supplementary_requirements": 15,
+  "requirements": [
+    {
+      "id": "C-T1.1",
+      "source": "combined.txt:64-94",
+      "title": "Theorem 1.1",
+      "required_conclusion_and_scope": "Every integer n>=6 has M_n(3+(2-sqrt2)(n-4)) for original completed-Lebesgue shadings at arbitrary positions; the constant precedes scale, density and family. Actual tube-volume sums and density exponent are retained.",
+      "proof_locators": [
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "endpoint_formula",
+          "line": 55,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.endpoint_formula",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "estimate_iff_borel",
+          "line": 49,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.estimate_iff_borel",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "MainEndpoint",
+          "declaration": "diagonal_discrete",
+          "line": 29,
+          "source_sha256": "b2949fad8e54f338063da3a50c93aadeeff58bbdb8dda5e8641957688344e3a4",
+          "audited_name": "KakeyaFormal.MainEndpoint.diagonal_discrete",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-C1.1",
+      "source": "combined.txt:145-185",
+      "title": "Corollary 1.1",
+      "required_conclusion_and_scope": "The fixed single-error input at the same A and scale cutoff gives exactly one logarithm, unchanged error and density power, including empty, unequal and arbitrarily tiny rows. The separate all-errors input permits absorbing that logarithm.",
+      "proof_locators": [
+        {
+          "module": "CumulativeFixedError",
+          "declaration": "source_notation",
+          "line": 213,
+          "source_sha256": "266e9eb0435e9e665335b633e07301ffc23dcc5d06ac911f0c9d29742a7ba961",
+          "audited_name": "KakeyaFormal.CumulativeFixedError.source_notation",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "CumulativeFixedError",
+          "declaration": "from_fixed_input",
+          "line": 166,
+          "source_sha256": "266e9eb0435e9e665335b633e07301ffc23dcc5d06ac911f0c9d29742a7ba961",
+          "audited_name": "KakeyaFormal.CumulativeFixedError.from_fixed_input",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "CumulativeFixedError",
+          "declaration": "linear_bin_budget",
+          "line": 122,
+          "source_sha256": "266e9eb0435e9e665335b633e07301ffc23dcc5d06ac911f0c9d29742a7ba961",
+          "audited_name": "KakeyaFormal.CumulativeFixedError.linear_bin_budget",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "CumulativeLengths",
+          "declaration": "from_cumulative",
+          "line": 12,
+          "source_sha256": "cef706b53546f6c16daaf44b635f4ae6435cdaf180b2ada84df084b23d07ebbc",
+          "audited_name": "KakeyaFormal.CumulativeLengths.from_cumulative",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-L2.1",
+      "source": "combined.txt:219-279",
+      "title": "Lemma 2.1",
+      "required_conclusion_and_scope": "The actual Gaussian projection from ambient7/cap4 to ambient5 produces the same-family cumulative lower bound c A^-1 N^(-1/2-eps) s^(7/2+eps) M; simultaneous norm, noncollapse and collision selection and original-label preservation are constructed.",
+      "proof_locators": [
+        {
+          "module": "GaussianNormalizedSeed",
+          "declaration": "source_count",
+          "line": 84,
+          "source_sha256": "f0a6b55ef0da354e7da2975a9e05a4b630c1dd3cdbb3c59c376f386d83186594",
+          "audited_name": "KakeyaFormal.GaussianNormalizedSeed.source_count",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "GaussianProjectedFamily",
+          "declaration": "construct",
+          "line": 75,
+          "source_sha256": "ed86bcb0bd91f7a72cb18f60d38ec0a84ace44ff5728260eee7ba932fd98e900",
+          "audited_name": "KakeyaFormal.GaussianProjectedFamily.construct",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "GaussianCollisionSelection",
+          "declaration": "select",
+          "line": 61,
+          "source_sha256": "23a7af20dd78d04e7c4d0c98f89a49ebcca9d1d4f637316d6f3e59132d556952",
+          "audited_name": "KakeyaFormal.GaussianCollisionSelection.select",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-T2.2",
+      "source": "combined.txt:280-367",
+      "title": "Theorem 2.2",
+      "required_conclusion_and_scope": "M6(4) implies M6(33/8); the conclusion is itself proved. The shading statement has no two-ends, angular, sampling or cap hypothesis.",
+      "proof_locators": [
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "six_first_step",
+          "line": 60,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.six_first_step",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "six_first",
+          "line": 58,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.six_first",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SixDimensionalUnrestricted",
+          "declaration": "discrete",
+          "line": 18,
+          "source_sha256": "942105ec8c6b5c687be573d10899cbbb34f77f0b8765f2181112ac2b5c16a0ee",
+          "audited_name": "KakeyaFormal.SixDimensionalUnrestricted.discrete",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-L3.1",
+      "source": "combined.txt:386-404",
+      "title": "Lemma 3.1",
+      "required_conclusion_and_scope": "An actual common dyadic localization retains c M/log(2N)^2 original rows, actual ball restrictions, both density comparisons and all relative ball tests; original completed-measurable restrictions are separately constructed.",
+      "proof_locators": [
+        {
+          "module": "SourceLocalizationGeometry",
+          "declaration": "unit_source_notation",
+          "line": 32,
+          "source_sha256": "cbc68cc2b665b643046bde76acd81289efda033dde4745c4c75cee8202ba7c96",
+          "audited_name": "KakeyaFormal.SourceLocalizationGeometry.unit_source_notation",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceLocalization",
+          "declaration": "construct",
+          "line": 80,
+          "source_sha256": "8bb4be461f60b9625f83b5bdfb1c9cecfc5eb76b40fe39ce4627b043cc8dce88",
+          "audited_name": "KakeyaFormal.SourceLocalization.construct",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueLocalization",
+          "declaration": "exists_selection",
+          "line": 46,
+          "source_sha256": "714383c010dad54ecc9140b79f61f11486a9a6f215bf417f8a4d7c8c23cdb50e",
+          "audited_name": "KakeyaFormal.LebesgueLocalization.exists_selection",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-L3.2",
+      "source": "combined.txt:415-421",
+      "title": "Lemma 3.2",
+      "required_conclusion_and_scope": "Actual original tube assignments and restricted shadings have common angular/spatial scale, whole-carrier containment, cubic-log mass retention, pointwise broadness and overlap, including original bounded lengths and completed-measurable inputs.",
+      "proof_locators": [
+        {
+          "module": "LebesgueAngularSpatial",
+          "declaration": "construct",
+          "line": 43,
+          "source_sha256": "d1dad9395442f6a89a1338bc4c4f8acd09a219315fb17299d9b463cac45a98d7",
+          "audited_name": "KakeyaFormal.LebesgueAngularSpatial.construct",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "MeasurableAngularSpatialLengths",
+          "declaration": "construct",
+          "line": 163,
+          "source_sha256": "fbc9188f6ddfb3884f5b9c1e068f1ef6d7f8a4aee3be74b36f3fea0e1dcedb92",
+          "audited_name": "KakeyaFormal.MeasurableAngularSpatialLengths.construct",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-L4.1",
+      "source": "combined.txt:748-844",
+      "title": "Lemma 4.1",
+      "required_conclusion_and_scope": "Fractional-direction arbitrary-shading seed for every real m>1 has the source scale/density powers and inverse-A dependence; thinning and localization are supplied by proofs.",
+      "proof_locators": [
+        {
+          "module": "FractionalSeedFullRange",
+          "declaration": "fractional_discrete_seed",
+          "line": 17,
+          "source_sha256": "319aa2a0e18b601051cc29520d2a5702fac9fa7edbaa371e24b45aaf6d9f9642",
+          "audited_name": "KakeyaFormal.FractionalSeedFullRange.fractional_discrete_seed",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "FractionalSeedFullRange",
+          "declaration": "fractional_real_cap_seed",
+          "line": 91,
+          "source_sha256": "319aa2a0e18b601051cc29520d2a5702fac9fa7edbaa371e24b45aaf6d9f9642",
+          "audited_name": "KakeyaFormal.FractionalSeedFullRange.fractional_real_cap_seed",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-L4.2",
+      "source": "combined.txt:750-770",
+      "title": "Lemma 4.2",
+      "required_conclusion_and_scope": "An actual integral leaf subset satisfies every descendant capacity and has at least the mass of a feasible fractional selection in a finite partition tree, including empty support and zero capacities.",
+      "proof_locators": [
+        {
+          "module": "CapSelection",
+          "declaration": "fractionalSelection",
+          "line": 138,
+          "source_sha256": "c0f5e50dbce6d9ca6eee3ea6dfe9221648d36e46c0d6af0129e0a12ec29190e7",
+          "audited_name": "KakeyaVerification.CapSelection.CapacityTree.fractionalSelection",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "CapSelection",
+          "declaration": "all_capacities",
+          "line": 174,
+          "source_sha256": "c0f5e50dbce6d9ca6eee3ea6dfe9221648d36e46c0d6af0129e0a12ec29190e7",
+          "audited_name": "KakeyaVerification.CapSelection.CapacityTree.all_capacities",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "CapThinningGeometry",
+          "declaration": "partitionTree",
+          "line": 74,
+          "source_sha256": "2db7aea7b312cc2f8f8a5b0f7a5c8d5c8c6fe306e038073908887b1fbc83fb2a",
+          "audited_name": "KakeyaFormal.CapThinningGeometry.partitionTree",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-C4.3",
+      "source": "combined.txt:845-855",
+      "title": "Corollary 4.3",
+      "required_conclusion_and_scope": "The source cumulative fractional seed covers unequal/empty original rows, every real m>1 and the literal requested scale/density error.",
+      "proof_locators": [
+        {
+          "module": "FractionalSeedFullRange",
+          "declaration": "source_cumulative",
+          "line": 113,
+          "source_sha256": "319aa2a0e18b601051cc29520d2a5702fac9fa7edbaa371e24b45aaf6d9f9642",
+          "audited_name": "KakeyaFormal.FractionalSeedFullRange.source_cumulative",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "FractionalSeedFullRange",
+          "declaration": "fractional_cumulative_seed",
+          "line": 103,
+          "source_sha256": "319aa2a0e18b601051cc29520d2a5702fac9fa7edbaa371e24b45aaf6d9f9642",
+          "audited_name": "KakeyaFormal.FractionalSeedFullRange.fractional_cumulative_seed",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-C4.4",
+      "source": "combined.txt:856-870",
+      "title": "Corollary 4.4",
+      "required_conclusion_and_scope": "An actual retained original direction subset has target h separation, population at least c A^-1(delta/h)^m M and fixed cap bound at h; whole original rows persist.",
+      "proof_locators": [
+        {
+          "module": "CapThinningGeometry",
+          "declaration": "full_cap_thinning",
+          "line": 783,
+          "source_sha256": "2db7aea7b312cc2f8f8a5b0f7a5c8d5c8c6fe306e038073908887b1fbc83fb2a",
+          "audited_name": "KakeyaFormal.CapThinningGeometry.full_cap_thinning",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LocalizedDirectionThinning",
+          "declaration": "thin_to_scale",
+          "line": 52,
+          "source_sha256": "eb51d4938225318a3eca5439a36ceee9c448271eea0dccfc337e7e39677f7a95",
+          "audited_name": "KakeyaFormal.LocalizedDirectionThinning.thin_to_scale",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-T5.1",
+      "source": "combined.txt:882-1319",
+      "title": "Theorem 5.1",
+      "required_conclusion_and_scope": "The source-strength base/lifted analytic hypotheses give the original marked fourth-power estimate with exact kappa, xi, log, scale, density and population powers for p>0,q>=2 and the source smallness test. It retains these explicitly stated analytic premises. One source small constant is chosen after fixed geometric conventions and before alpha and all varying data.",
+      "proof_locators": [
+        {
+          "module": "SourceMarkedLengths",
+          "declaration": "source_notation",
+          "line": 92,
+          "source_sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+          "audited_name": "KakeyaFormal.SourceMarkedLengths.source_notation",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceMarkedLengths",
+          "declaration": "source_fourth",
+          "line": 21,
+          "source_sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+          "audited_name": "KakeyaFormal.SourceMarkedLengths.source_fourth",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceAnalyticInputs",
+          "declaration": "Base.to_discrete",
+          "line": 33,
+          "source_sha256": "0e41e594931a2ca53beebfc0297e6ca99b0d1d09c5eedb0ccb1e980a4c40b322",
+          "audited_name": "KakeyaFormal.SourceAnalyticInputs.Base.to_discrete",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceAnalyticInputs",
+          "declaration": "Lifted.to_discrete",
+          "line": 46,
+          "source_sha256": "0e41e594931a2ca53beebfc0297e6ca99b0d1d09c5eedb0ccb1e980a4c40b322",
+          "audited_name": "KakeyaFormal.SourceAnalyticInputs.Lifted.to_discrete",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-L5.2",
+      "source": "combined.txt:1283-1306",
+      "title": "Lemma 5.2",
+      "required_conclusion_and_scope": "Given precisely the displayed precursor inequalities, the density and closing inequalities give (5.34), including q>=2 and the exact sigma-to-lambda and kappa losses. The actual energy consumer derives the closing precursor.",
+      "proof_locators": [
+        {
+          "module": "ClosingEnergyAlgebra",
+          "declaration": "source_density_combination",
+          "line": 183,
+          "source_sha256": "7ea91cf4de666749ae6c389fa42975a079a8eb9f199761132103a02d17c092ff",
+          "audited_name": "KakeyaFormal.ClosingEnergyAlgebra.source_density_combination",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "ClosingEnergyAlgebra",
+          "declaration": "source_from_energy",
+          "line": 229,
+          "source_sha256": "7ea91cf4de666749ae6c389fa42975a079a8eb9f199761132103a02d17c092ff",
+          "audited_name": "KakeyaFormal.ClosingEnergyAlgebra.source_from_energy",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "ClosingEnergyAlgebra",
+          "declaration": "error_kappa_weakening",
+          "line": 252,
+          "source_sha256": "7ea91cf4de666749ae6c389fa42975a079a8eb9f199761132103a02d17c092ff",
+          "audited_name": "KakeyaFormal.ClosingEnergyAlgebra.error_kappa_weakening",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-L6.1",
+      "source": "combined.txt:1333-1496",
+      "title": "Lemma 6.1",
+      "required_conclusion_and_scope": "The original raw incidence law yields the low/high alternative and a same-outcome realization of full density, quarter marked mass, relative marks, full ball tests, exact closed-cap broadness, unchanged geometry and original support. Both source failure budgets are <1/8 and success probability >3/4.",
+      "proof_locators": [
+        {
+          "module": "LebesgueSamplingSource",
+          "declaration": "source_sampling",
+          "line": 53,
+          "source_sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+          "audited_name": "KakeyaFormal.LebesgueSamplingSource.source_sampling",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueSamplingSource",
+          "declaration": "source_realization",
+          "line": 84,
+          "source_sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+          "audited_name": "KakeyaFormal.LebesgueSamplingSource.source_realization",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SamplingSourceProbability",
+          "declaration": "source_sampling",
+          "line": 39,
+          "source_sha256": "b4edcc1ad3f7345f86e37ed69553b110f3cfd465c0fc4a73a59f02521be54fc4",
+          "audited_name": "KakeyaFormal.SamplingSourceProbability.source_sampling",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-P7.1",
+      "source": "combined.txt:1497-1653",
+      "title": "Proposition 7.1",
+      "required_conclusion_and_scope": "All-angle two-ends estimate follows from the actual base/lifted hypotheses over the full source positive-p range and sparse margin. Original arbitrary fixed density multiples and bounded individual lengths are allowed; no favorable marked or sampled output is a premise.",
+      "proof_locators": [
+        {
+          "module": "SourceUnmarkedLengths",
+          "declaration": "angular",
+          "line": 12,
+          "source_sha256": "1fad383899933828f56fb22a0e9e4576fdf6adabdb50aa05159de83459c03217",
+          "audited_name": "KakeyaFormal.SourceUnmarkedLengths.angular",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-P8.1",
+      "source": "combined.txt:1654-1702",
+      "title": "Proposition 8.1",
+      "required_conclusion_and_scope": "Source absolute-cap unit-two-ends input globalizes for every C>0 to unrestricted inverse-A density exponent max(D,C), preserving the set exponent D. Actual localization, disjoint old-cell summation, direction thinning and measurable conversion are supplied.",
+      "proof_locators": [
+        {
+          "module": "SourceAnalyticInputs",
+          "declaration": "TwoEnds.globalize",
+          "line": 99,
+          "source_sha256": "0e41e594931a2ca53beebfc0297e6ca99b0d1d09c5eedb0ccb1e980a4c40b322",
+          "audited_name": "KakeyaFormal.SourceAnalyticInputs.TwoEnds.globalize",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceAnalyticInputs",
+          "declaration": "TwoEnds.globalize_measurable",
+          "line": 104,
+          "source_sha256": "0e41e594931a2ca53beebfc0297e6ca99b0d1d09c5eedb0ccb1e980a4c40b322",
+          "audited_name": "KakeyaFormal.SourceAnalyticInputs.TwoEnds.globalize_measurable",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueRealCap",
+          "declaration": "globalize",
+          "line": 161,
+          "source_sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+          "audited_name": "KakeyaFormal.LebesgueRealCap.globalize",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceUnmarkedLengths",
+          "declaration": "globalize",
+          "line": 44,
+          "source_sha256": "1fad383899933828f56fb22a0e9e4576fdf6adabdb50aa05159de83459c03217",
+          "audited_name": "KakeyaFormal.SourceUnmarkedLengths.globalize",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-C8.2",
+      "source": "combined.txt:1703-1758",
+      "title": "Corollary 8.2",
+      "required_conclusion_and_scope": "For 3<dprime<d<m, p>=d and q>=dprime, the actual K(m,d,p) and K(d,dprime,q) estimates imply K(m,(2m+3+dprime)/4,max(D,(p+2q+4)/4)); all-angle removal, cumulative lift and globalization are proved.",
+      "proof_locators": [
+        {
+          "module": "UnrestrictedPivot",
+          "declaration": "real_cap_pivot",
+          "line": 14,
+          "source_sha256": "724ccc29a18566f85f3f928b742e10a901b0b4596646b3106bb9b381bdbb0722",
+          "audited_name": "KakeyaFormal.UnrestrictedPivot.real_cap_pivot",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "C-LA.1",
+      "source": "combined.txt:1924-1964",
+      "title": "Lemma A.1",
+      "required_conclusion_and_scope": "The no-epsilon cumulative bush lower bound c A^-1 delta^(m/2-1) s^((m+2)/2) M holds with arbitrary unequal/empty rows and without comparability or two-ends premises; bounded original lengths have an actual adapter.",
+      "proof_locators": [
+        {
+          "module": "Bush",
+          "declaration": "cumulative_bush_estimate",
+          "line": 488,
+          "source_sha256": "50b774bc5992159e34b334a26f94e508bfa054cea15ed0bb64441af628de644a",
+          "audited_name": "KakeyaFormal.Bush.cumulative_bush_estimate",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "BushLengths",
+          "declaration": "cumulative",
+          "line": 11,
+          "source_sha256": "9d7b3b280e93affa08115c1e9c097422157997c722a5a670cb64692020d667a9",
+          "audited_name": "KakeyaFormal.BushLengths.cumulative",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "F-main",
+      "source": "first_step.txt:24-50",
+      "title": "First-step proposed theorem",
+      "required_conclusion_and_scope": "The arbitrary original completed-measurable shading implication M6(4)->M6(33/8) is proved, with scale exponent15/8+eps and density exponent33/8; the literal strong operator bound is a separate proved consumer.",
+      "proof_locators": [
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "six_first_step",
+          "line": 60,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.six_first_step",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "six_first",
+          "line": 58,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.six_first",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "MainOperator",
+          "declaration": "six_first",
+          "line": 11,
+          "source_sha256": "1969cc3901ec390b7b0f0ff36d9d229eed83b5e9eb8f78541cb705adf0ba90d3",
+          "audited_name": "KakeyaFormal.MainOperator.six_first",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "F-L1",
+      "source": "first_step.txt:55-110",
+      "title": "First-step Lemma 1",
+      "required_conclusion_and_scope": "The actual ambient7 to5 Gaussian route gives the inverse-A lifted cumulative input, including empty/unequal rows. A generic ambient7 seed is not substituted for the projection route.",
+      "proof_locators": [
+        {
+          "module": "GaussianNormalizedSeed",
+          "declaration": "source_count",
+          "line": 84,
+          "source_sha256": "f0a6b55ef0da354e7da2975a9e05a4b630c1dd3cdbb3c59c376f386d83186594",
+          "audited_name": "KakeyaFormal.GaussianNormalizedSeed.source_count",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "GaussianProjectionSeed",
+          "declaration": "original_rows",
+          "line": 22,
+          "source_sha256": "5344667dc4cb6ff8f50b551288d4f18b0648116f6533a6b5284df7244d9f1357",
+          "audited_name": "KakeyaFormal.GaussianProjectionSeed.original_rows",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "F-L2",
+      "source": "first_step.txt:111-148",
+      "title": "First-step Lemma 2",
+      "required_conclusion_and_scope": "Actual angular/spatial restriction, marked retention and pointwise broadness are constructed for the original family; subsequent good-mass pruning uses actual masks and proved fractions.",
+      "proof_locators": [
+        {
+          "module": "LebesgueAngularSpatial",
+          "declaration": "construct",
+          "line": 43,
+          "source_sha256": "d1dad9395442f6a89a1338bc4c4f8acd09a219315fb17299d9b463cac45a98d7",
+          "audited_name": "KakeyaFormal.LebesgueAngularSpatial.construct",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueDensityPruning",
+          "declaration": "source_fractions",
+          "line": 80,
+          "source_sha256": "bb2474418b4adc435bc08e504ecd982ac2221b5a804e05bc7f7a004cb6e93010",
+          "audited_name": "KakeyaFormal.LebesgueDensityPruning.source_fractions",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "F-L3",
+      "source": "first_step.txt:149-213",
+      "title": "First-step Lemma 3",
+      "required_conclusion_and_scope": "Continuous density-square hairbrush has the exact sqrt-cap and logarithmic losses, original measures and bounded individual lengths. Fine-scale raw marked formulas are retained separately, with their required scale tests.",
+      "proof_locators": [
+        {
+          "module": "LebesgueSeedDensity",
+          "declaration": "logarithmic_density_seed",
+          "line": 11,
+          "source_sha256": "cc505d91734f1e039f4304eb5233c2a7747f23f33533574f5c2ed890d757344b",
+          "audited_name": "KakeyaFormal.LebesgueSeedDensity.logarithmic_density_seed",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueSeedDensity",
+          "declaration": "comparable_density_seed",
+          "line": 52,
+          "source_sha256": "cc505d91734f1e039f4304eb5233c2a7747f23f33533574f5c2ed890d757344b",
+          "audited_name": "KakeyaFormal.LebesgueSeedDensity.comparable_density_seed",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueHairbrush",
+          "declaration": "broad_hairbrush_squared",
+          "line": 110,
+          "source_sha256": "02c63fed02ad8e4679b198ea2d9e0cefcaa8bea4accc933539214225867b8c96",
+          "audited_name": "KakeyaFormal.LebesgueHairbrush.broad_hairbrush_squared",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "F-L4",
+      "source": "first_step.txt:214-375",
+      "title": "First-step Lemma 4",
+      "required_conclusion_and_scope": "The numerical six-dimensional marked core has kappa^58 xi^7 log^-8 N^(33/2-3e) lambda^(15+2e) S^3. Base and lifted estimates and actual collision/lift closing are proved; source normalization is explicit.",
+      "proof_locators": [
+        {
+          "module": "SixDimensionalCore",
+          "declaration": "marked_estimate",
+          "line": 28,
+          "source_sha256": "b37e9ee19d97d10e487534d25df89c00d5f71432b0fb5e1b4599d7cdc19c4db7",
+          "audited_name": "KakeyaFormal.SixDimensionalCore.marked_estimate",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SixDimensionalCore",
+          "declaration": "base",
+          "line": 14,
+          "source_sha256": "b37e9ee19d97d10e487534d25df89c00d5f71432b0fb5e1b4599d7cdc19c4db7",
+          "audited_name": "KakeyaFormal.SixDimensionalCore.base",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SixDimensionalCore",
+          "declaration": "lift",
+          "line": 20,
+          "source_sha256": "b37e9ee19d97d10e487534d25df89c00d5f71432b0fb5e1b4599d7cdc19c4db7",
+          "audited_name": "KakeyaFormal.SixDimensionalCore.lift",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceMarkedLengths",
+          "declaration": "source_notation",
+          "line": 92,
+          "source_sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+          "audited_name": "KakeyaFormal.SourceMarkedLengths.source_notation",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "six_model_constants",
+          "line": 344,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.six_model_constants",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "F-L5",
+      "source": "first_step.txt:376-431",
+      "title": "First-step Lemma 5",
+      "required_conclusion_and_scope": "The original measurable count-or-discretize alternative, source density band, quarter marks, two-ends, closed-cap broadness and physical old-grid support come from one actual raw-law outcome.",
+      "proof_locators": [
+        {
+          "module": "LebesgueSamplingSource",
+          "declaration": "source_sampling",
+          "line": 53,
+          "source_sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+          "audited_name": "KakeyaFormal.LebesgueSamplingSource.source_sampling",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueSamplingSource",
+          "declaration": "source_realization",
+          "line": 84,
+          "source_sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+          "audited_name": "KakeyaFormal.LebesgueSamplingSource.source_realization",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "F-L6",
+      "source": "first_step.txt:432-530",
+      "title": "First-step Lemma 6",
+      "required_conclusion_and_scope": "One constant chosen after fixed geometry,lengthUpper,c0,C0,B0,alpha,b,eps and before original N,lambda,M,F proves c N^(33/8-eps) lambda^(15/4)(M/N^5)<=E for ORIGINAL B0 log(2N)^b two-ends. The cap follows from separation; the density exponent remains15/4.",
+      "proof_locators": [
+        {
+          "module": "SixDimensionalLogarithmicLengths",
+          "declaration": "source_notation",
+          "line": 43,
+          "source_sha256": "a4b219785138dc9b83af8d790eb4ce0a8cd271277e52f6470652da5119f891dc",
+          "audited_name": "KakeyaFormal.SixDimensionalLogarithmicLengths.source_notation",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LogarithmicLengthEstimates",
+          "declaration": "estimate",
+          "line": 48,
+          "source_sha256": "6a4c9c352ea8d5769beea554d3b3a0fccaeec492297ed7bf08d2bc1c721b9068",
+          "audited_name": "KakeyaFormal.LogarithmicLengthEstimates.estimate",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "WideLogarithmicTwoEnds",
+          "declaration": "estimate",
+          "line": 15,
+          "source_sha256": "129fab43489452c389ffa12e7f47c15c35b2384895edc36e41c6ac159eb7c6fa",
+          "audited_name": "KakeyaFormal.WideLogarithmicTwoEnds.estimate",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LogarithmicTwoEnds",
+          "declaration": "estimate",
+          "line": 47,
+          "source_sha256": "569da09b05110e964f820042b223f08b1ba0ed42f3a9dbf0aa2a972c5d0cf075",
+          "audited_name": "KakeyaFormal.LogarithmicTwoEnds.estimate",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "F-L7",
+      "source": "first_step.txt:531-574",
+      "title": "First-step Lemma 7",
+      "required_conclusion_and_scope": "The same actual original localization has a dyadic witness, retained c M/log^2 population, both density bounds and every relative two-ends test. The source unit-width top cover is derived from actual midpoint geometry.",
+      "proof_locators": [
+        {
+          "module": "SourceLocalizationGeometry",
+          "declaration": "unit_source_notation",
+          "line": 32,
+          "source_sha256": "cbc68cc2b665b643046bde76acd81289efda033dde4745c4c75cee8202ba7c96",
+          "audited_name": "KakeyaFormal.SourceLocalizationGeometry.unit_source_notation",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceLocalization",
+          "declaration": "dyadic_selection",
+          "line": 14,
+          "source_sha256": "8bb4be461f60b9625f83b5bdfb1c9cecfc5eb76b40fe39ce4627b043cc8dce88",
+          "audited_name": "KakeyaFormal.SourceLocalization.dyadic_selection",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-realcap",
+      "source": "combined.txt:96-144; (1.3)-(1.5)",
+      "title": "Real-cap and off-diagonal endpoint",
+      "required_conclusion_and_scope": "The real cap parameter is independent of integer ambient dimension. Every A>=1 is allowed after the uniform constant, all actual projective caps are tested, and the density envelope is max(P(m),4). Count and physical-volume Jacobians are correctly distinguished.",
+      "proof_locators": [
+        {
+          "module": "LebesgueRealCap",
+          "declaration": "real_cap_endpoint",
+          "line": 146,
+          "source_sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+          "audited_name": "KakeyaFormal.LebesgueRealCap.real_cap_endpoint",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueRealCap",
+          "declaration": "diagonal_volume",
+          "line": 155,
+          "source_sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+          "audited_name": "KakeyaFormal.LebesgueRealCap.diagonal_volume",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "MainEndpoint",
+          "declaration": "real_cap_measurable",
+          "line": 22,
+          "source_sha256": "b2949fad8e54f338063da3a50c93aadeeff58bbdb8dda5e8641957688344e3a4",
+          "audited_name": "KakeyaFormal.MainEndpoint.real_cap_measurable",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-pruning",
+      "source": "combined.txt:463-538; (3.3)-(3.10)",
+      "title": "Original-set good-mass accounting",
+      "required_conclusion_and_scope": "The same original survivor masks yield deletion<=W/8, surviving good mass>=3W/4 and retained good mass>=5W/8; density, relative two-ends, twice broadness, half marks and overlap follow for the same original completed-measurable sets.",
+      "proof_locators": [
+        {
+          "module": "LebesgueDensityPruning",
+          "declaration": "source_fractions",
+          "line": 80,
+          "source_sha256": "bb2474418b4adc435bc08e504ecd982ac2221b5a804e05bc7f7a004cb6e93010",
+          "audited_name": "KakeyaFormal.LebesgueDensityPruning.source_fractions",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceDensityPruningGeometry",
+          "declaration": "surviving_two_ends",
+          "line": 100,
+          "source_sha256": "4d184d94334bf531dc00b3d12aaf352ad6a9a1418fd6bb2b7ae97b9e769ef2c4",
+          "audited_name": "KakeyaFormal.SourceDensityPruningGeometry.surviving_two_ends",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceDensityPruningGeometry",
+          "declaration": "marked_piece_broad",
+          "line": 177,
+          "source_sha256": "4d184d94334bf531dc00b3d12aaf352ad6a9a1418fd6bb2b7ae97b9e769ef2c4",
+          "audited_name": "KakeyaFormal.SourceDensityPruningGeometry.marked_piece_broad",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceDensityPruningGeometry",
+          "declaration": "retained_half_mass",
+          "line": 188,
+          "source_sha256": "4d184d94334bf531dc00b3d12aaf352ad6a9a1418fd6bb2b7ae97b9e769ef2c4",
+          "audited_name": "KakeyaFormal.SourceDensityPruningGeometry.retained_half_mass",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-hairbrush",
+      "source": "combined.txt:489-747; (4.4),(4.8),(4.11)-(4.16),(4.23)",
+      "title": "Continuous and raw marked hairbrush",
+      "required_conclusion_and_scope": "The all-angle continuous sigma^2 A^-1/2 formula and both literal squared/unsquared marked fine-scale kernels are proved from actual tube intersections, plane bins and all-ball ends; a common null deletion preserves pointwise incidence.",
+      "proof_locators": [
+        {
+          "module": "LebesgueSeedDensity",
+          "declaration": "logarithmic_density_seed",
+          "line": 11,
+          "source_sha256": "cc505d91734f1e039f4304eb5233c2a7747f23f33533574f5c2ed890d757344b",
+          "audited_name": "KakeyaFormal.LebesgueSeedDensity.logarithmic_density_seed",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueHairbrush",
+          "declaration": "broad_hairbrush_squared",
+          "line": 110,
+          "source_sha256": "02c63fed02ad8e4679b198ea2d9e0cefcaa8bea4accc933539214225867b8c96",
+          "audited_name": "KakeyaFormal.LebesgueHairbrush.broad_hairbrush_squared",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueHairbrush",
+          "declaration": "broad_hairbrush_linear",
+          "line": 146,
+          "source_sha256": "02c63fed02ad8e4679b198ea2d9e0cefcaa8bea4accc933539214225867b8c96",
+          "audited_name": "KakeyaFormal.LebesgueHairbrush.broad_hairbrush_linear",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueHairbrush",
+          "declaration": "real_cap_hairbrush_linear",
+          "line": 194,
+          "source_sha256": "02c63fed02ad8e4679b198ea2d9e0cefcaa8bea4accc933539214225867b8c96",
+          "audited_name": "KakeyaFormal.LebesgueHairbrush.real_cap_hairbrush_linear",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-sharpness",
+      "source": "combined.txt:833-844",
+      "title": "Inverse-cap sharpness",
+      "required_conclusion_and_scope": "Actual separated radial-pencil configurations contradict uniform sublinear A loss in the stated real-cap range. Error is chosen before a proposed constant, and the physical counterexample exists at arbitrarily small scales.",
+      "proof_locators": [
+        {
+          "module": "RadialSharpness",
+          "declaration": "counterexamples",
+          "line": 51,
+          "source_sha256": "85c786911547c5f41ba61519c05b586c6f5976478628b94efcdcf7e24f6da52f",
+          "audited_name": "KakeyaFormal.RadialSharpness.counterexamples",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "RadialSharpness",
+          "declaration": "no_uniform_sublinear_cap",
+          "line": 82,
+          "source_sha256": "85c786911547c5f41ba61519c05b586c6f5976478628b94efcdcf7e24f6da52f",
+          "audited_name": "KakeyaFormal.RadialSharpness.no_uniform_sublinear_cap",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-fibers",
+      "source": "combined.txt:982-1282; (5.14)-(5.33)",
+      "title": "Actual pivot fibers, collisions and closing",
+      "required_conclusion_and_scope": "Common angle fibers, legal output labels, attached endpoint samples, actual grouped lifted families and old-union support feed the energy lower bound. No desired collision, pruning or witness inequality is hidden in the final pivot input.",
+      "proof_locators": [
+        {
+          "module": "AngleFiberSelection",
+          "declaration": "select_angle_fibers",
+          "line": 369,
+          "source_sha256": "d702856a448b6471d91313f11fc5a1d9312f401da7199d9e95233dfdf44a5283",
+          "audited_name": "KakeyaFormal.AngleFiberSelection.select_angle_fibers",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "ActualLabelSelection",
+          "declaration": "construct",
+          "line": 81,
+          "source_sha256": "0d539179b03bca2a6b14daec0f7bbdee21910837d9145a44da7ad2db6d927605",
+          "audited_name": "KakeyaFormal.ActualLabelSelection.construct",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "CollisionEnergy",
+          "declaration": "collision_energy_bound",
+          "line": 126,
+          "source_sha256": "1e0e0282114a25a68b2c70efc9ee7154db16342556e59fb6847ecc67734e6cb7",
+          "audited_name": "KakeyaFormal.CollisionEnergy.collision_energy_bound",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "ClosingEnergyAlgebra",
+          "declaration": "retained_grouped_closing",
+          "line": 202,
+          "source_sha256": "7ea91cf4de666749ae6c389fa42975a079a8eb9f199761132103a02d17c092ff",
+          "audited_name": "KakeyaFormal.ClosingEnergyAlgebra.retained_grouped_closing",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceMarkedLengths",
+          "declaration": "source_fourth",
+          "line": 21,
+          "source_sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+          "audited_name": "KakeyaFormal.SourceMarkedLengths.source_fourth",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-sampling",
+      "source": "combined.txt:1333-1496; (6.1)-(6.19)",
+      "title": "Whole-sphere tests and exact raw law",
+      "required_conclusion_and_scope": "The original positive cell support and raw arrays are unchanged under Borel representatives; whole projective nets, exact N^(ambient+2) event budget and both <1/8 failures share the same product law. The same selected outcome has all physical conclusions.",
+      "proof_locators": [
+        {
+          "module": "LebesgueSampling",
+          "declaration": "data_eq",
+          "line": 181,
+          "source_sha256": "ad78a4007b9bb51323e504fa7137b8b3fadadc3e8e24a92229685e0767ca34c3",
+          "audited_name": "KakeyaFormal.LebesgueSampling.data_eq",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueSampling",
+          "declaration": "law_heq",
+          "line": 188,
+          "source_sha256": "ad78a4007b9bb51323e504fa7137b8b3fadadc3e8e24a92229685e0767ca34c3",
+          "audited_name": "KakeyaFormal.LebesgueSampling.law_heq",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SamplingSourceProbability",
+          "declaration": "source_sampling",
+          "line": 39,
+          "source_sha256": "b4edcc1ad3f7345f86e37ed69553b110f3cfd465c0fc4a73a59f02521be54fc4",
+          "audited_name": "KakeyaFormal.SamplingSourceProbability.source_sampling",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueSamplingSource",
+          "declaration": "source_realization",
+          "line": 84,
+          "source_sha256": "c311e49f0316f1b0572ce686dbd01851dfc3d2e9258012ee15da537483f02262",
+          "audited_name": "KakeyaFormal.LebesgueSamplingSource.source_realization",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-measurable",
+      "source": "combined.txt:1654-1758; section8.1",
+      "title": "Original measurable and low-density conversion",
+      "required_conclusion_and_scope": "Actual cell intersection weights and original union volumes are used, including low-density and unequal-occupancy cases. Exact prescribed-mass subsets of original completed-measurable shadings are constructed with both endpoints allowed.",
+      "proof_locators": [
+        {
+          "module": "LebesgueDensityTrimming",
+          "declaration": "construct",
+          "line": 29,
+          "source_sha256": "79a5d42d97ea6c9f67fe2a311f6cc04e39ba42e8d49bfccadea80ee047fd68c0",
+          "audited_name": "KakeyaFormal.LebesgueDensityTrimming.construct",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "of_borel",
+          "line": 28,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.of_borel",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueRealCap",
+          "declaration": "volume_of_borel",
+          "line": 128,
+          "source_sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+          "audited_name": "KakeyaFormal.LebesgueRealCap.volume_of_borel",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueRealCap",
+          "declaration": "lengths_of_borel",
+          "line": 182,
+          "source_sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+          "audited_name": "KakeyaFormal.LebesgueRealCap.lengths_of_borel",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-diagonal",
+      "source": "combined.txt:1759-1813; section9.1",
+      "title": "Diagonal iteration and limits",
+      "required_conclusion_and_scope": "Actual finite-stage estimates and finite-depth error absorption prove the six/eight sequences and endpoints29/7,37/7. The endpoint is not obtained by substituting infinite depth into a configuration-dependent constant.",
+      "proof_locators": [
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "six_diagonal_limit",
+          "line": 64,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.six_diagonal_limit",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "eight_diagonal_limit",
+          "line": 65,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.eight_diagonal_limit",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "diagonal_six_table",
+          "line": 312,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.diagonal_six_table",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "diagonal_eight_table",
+          "line": 316,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.diagonal_eight_table",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-realcap-iteration",
+      "source": "combined.txt:1814-1875; section9.2",
+      "title": "Real-cap iteration and density envelope",
+      "required_conclusion_and_scope": "Proved seed and pivot give actual finite real-cap stages. The recursion a_next=(2+a^2)/4 tends to2-sqrt2, and both set exponent and density envelope survive finite-depth passage to the endpoint.",
+      "proof_locators": [
+        {
+          "module": "UnrestrictedPivot",
+          "declaration": "real_cap_endpoint",
+          "line": 52,
+          "source_sha256": "724ccc29a18566f85f3f928b742e10a901b0b4596646b3106bb9b381bdbb0722",
+          "audited_name": "KakeyaFormal.UnrestrictedPivot.real_cap_endpoint",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Endpoint",
+          "declaration": "real_cap_endpoint_from_seed_and_pivot",
+          "line": 64,
+          "source_sha256": "648989bbe7a7cb15ea24435581ae6bb3f0b1cb625f0e7b53f3a09cb5e8f11f05",
+          "audited_name": "KakeyaFormal.real_cap_endpoint_from_seed_and_pivot",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "slope_tendsto",
+          "line": 88,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.slope_tendsto",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "density_envelope_bound",
+          "line": 146,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.density_envelope_bound",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-operator",
+      "source": "combined.txt:1876-1918; (9.7)-(9.8)",
+      "title": "Literal strong maximal operator",
+      "required_conclusion_and_scope": "The supremum over actual original-position tube averages is measurable and satisfies the Mathlib eLpNorm bound C delta^(1-n/a-eps) for every a.e.-measurable real input. Both interpolation stages, measurable approximation and infinite norm cases are proved.",
+      "proof_locators": [
+        {
+          "module": "MainOperator",
+          "declaration": "endpoint_formula",
+          "line": 16,
+          "source_sha256": "1969cc3901ec390b7b0f0ff36d9d229eed83b5e9eb8f78541cb705adf0ba90d3",
+          "audited_name": "KakeyaFormal.MainOperator.endpoint_formula",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "MainOperator",
+          "declaration": "six_first",
+          "line": 11,
+          "source_sha256": "1969cc3901ec390b7b0f0ff36d9d229eed83b5e9eb8f78541cb705adf0ba90d3",
+          "audited_name": "KakeyaFormal.MainOperator.six_first",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "OperatorNorm",
+          "declaration": "Estimate",
+          "line": 20,
+          "source_sha256": "561acefdd002efa0525e5861c1162e005612a4125079d82621592332ac7f862e",
+          "audited_name": "KakeyaFormal.OperatorNorm.Estimate",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-lengths",
+      "source": "combined.txt:53-64,96-109; fixed conventions",
+      "title": "Individual lengths, volumes and operator denominators",
+      "required_conclusion_and_scope": "Actual bounded individual lengths and fixed widths/separations are transported with common dilation and proved volume Jacobians. Original tube-volume sums and individual operator-average denominators are retained; constants precede the original configuration.",
+      "proof_locators": [
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "length_endpoint_formula",
+          "line": 118,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.length_endpoint_formula",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueRealCap",
+          "declaration": "lengths_of_borel",
+          "line": 182,
+          "source_sha256": "25c03a381ee37d14a63c231348c83aeff9cd6a573bc8a57affa79ab4283b9503",
+          "audited_name": "KakeyaFormal.LebesgueRealCap.lengths_of_borel",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LengthOperatorNorm",
+          "declaration": "endpoint_formula",
+          "line": 88,
+          "source_sha256": "e45b94338ec243e8613ab2dc8afce92e9ba8c0a77092f8111e01ac9d0f348574",
+          "audited_name": "KakeyaFormal.LengthOperatorNorm.endpoint_formula",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LengthOperatorNorm",
+          "declaration": "six_first",
+          "line": 111,
+          "source_sha256": "e45b94338ec243e8613ab2dc8afce92e9ba8c0a77092f8111e01ac9d0f348574",
+          "audited_name": "KakeyaFormal.LengthOperatorNorm.six_first",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_geometry_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-bush-iterations",
+      "source": "combined.txt:1965-2036; AppendixA.2-A.3",
+      "title": "Both prescribed bush iterations",
+      "required_conclusion_and_scope": "Actual ambient-(n+1) bush lifts and the positive-p pivot prove both prescribed finite recurrences and n>=5 limits(4n+4)/7 and(4n+3)/7, retaining the distinct set/density exponents. The generic measurable/length adapters give their original-set conclusions.",
+      "proof_locators": [
+        {
+          "module": "BushIteration",
+          "declaration": "bush_stage",
+          "line": 103,
+          "source_sha256": "8077245382f010bec470501c8085ffa9fc7f163b4805bc683f444a7587142e90",
+          "audited_name": "KakeyaFormal.BushIteration.bush_stage",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "BushIteration",
+          "declaration": "weakened_bush_stage",
+          "line": 118,
+          "source_sha256": "8077245382f010bec470501c8085ffa9fc7f163b4805bc683f444a7587142e90",
+          "audited_name": "KakeyaFormal.BushIteration.weakened_bush_stage",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "BushIteration",
+          "declaration": "bush_endpoint",
+          "line": 133,
+          "source_sha256": "8077245382f010bec470501c8085ffa9fc7f163b4805bc683f444a7587142e90",
+          "audited_name": "KakeyaFormal.BushIteration.bush_endpoint",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "BushIteration",
+          "declaration": "weakened_bush_endpoint",
+          "line": 144,
+          "source_sha256": "8077245382f010bec470501c8085ffa9fc7f163b4805bc683f444a7587142e90",
+          "audited_name": "KakeyaFormal.BushIteration.weakened_bush_endpoint",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "BushIterationConsequences",
+          "declaration": "bush_endpoint_maximal",
+          "line": 36,
+          "source_sha256": "198d1fcc8443790e431513e19aafd9cda013bf54608ed519e5e52f31ad274798",
+          "audited_name": "KakeyaFormal.BushIteration.bush_endpoint_maximal",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "LebesgueMaximal",
+          "declaration": "lengths_of_borel",
+          "line": 87,
+          "source_sha256": "d5e0eb9c25e731e854835d7bb28647e1f336888e15a1439d8ed180bb5cb705b9",
+          "audited_name": "KakeyaFormal.LebesgueMaximal.lengths_of_borel",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-benchmarks",
+      "source": "combined.txt:2037-end; AppendixB",
+      "title": "Exact benchmark maximum, table and conversions",
+      "required_conclusion_and_scope": "The finite max-min formula over every integer2<=ell<=n gives each listed exact rational benchmark. Rational radical bounds prove comparison signs and all adjoint fractions. Printed decimal formatting is separately checked numerically.",
+      "proof_locators": [
+        {
+          "module": "Scalar",
+          "declaration": "benchmark_five",
+          "line": 360,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.benchmark_five",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "benchmark_six",
+          "line": 366,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.benchmark_six",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "benchmark_fifteen",
+          "line": 420,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.benchmark_fifteen",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "benchmark_comparison_signs",
+          "line": 433,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.benchmark_comparison_signs",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "benchmark_adjoint_conversion",
+          "line": 450,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.benchmark_adjoint_conversion",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "sqrt_two_rational_bounds",
+          "line": 426,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.sqrt_two_rational_bounds",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-five-caveat",
+      "source": "combined.txt:83-94; AppendixB",
+      "title": "Dimension-five envelope restriction",
+      "required_conclusion_and_scope": "The numerical five-dimensional real-cap profile has density envelope4; no diagonal M5 assertion is inferred below that envelope.",
+      "proof_locators": [
+        {
+          "module": "Scalar",
+          "declaration": "dimension_five_envelope_is_four",
+          "line": 217,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.dimension_five_envelope_is_four",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "Scalar",
+          "declaration": "diagonal_envelope_obstruction",
+          "line": 223,
+          "source_sha256": "82f3445a716ab028879a75094b200169a1ac84ed4558c7480719c40a137c0eac",
+          "audited_name": "KakeyaScalar.diagonal_envelope_obstruction",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_finite_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md"
+      ],
+      "status": "proved"
+    },
+    {
+      "id": "S-conventions",
+      "source": "combined.txt:53-64,96-109,898-912",
+      "title": "Metric and marked small-constant conventions",
+      "required_conclusion_and_scope": "Actual chord/projective-angle comparison is proved. The marked source small constant is existentially chosen once for fixed normalization and used in both positions of its minimum, before alpha and all varying data. No alpha-uniform comparison with a distinct preassigned constant is asserted.",
+      "proof_locators": [
+        {
+          "module": "ProjectiveAngleComparison",
+          "declaration": "chord_angle_bounds",
+          "line": 40,
+          "source_sha256": "cce9de5b8c22b8bfc4801282e01fbe028962266a94dcdca70839121fc3012834",
+          "audited_name": "KakeyaFormal.ProjectiveAngleComparison.chord_angle_bounds",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "ProjectiveAngleComparison",
+          "declaration": "cap_comparison",
+          "line": 73,
+          "source_sha256": "cce9de5b8c22b8bfc4801282e01fbe028962266a94dcdca70839121fc3012834",
+          "audited_name": "KakeyaFormal.ProjectiveAngleComparison.cap_comparison",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "SourceMarkedLengths",
+          "declaration": "source_notation",
+          "line": 92,
+          "source_sha256": "9b7c8685193c4bb78e95523947f316b64840ffa7ba558f4bf7b5dbfe3c764e8e",
+          "audited_name": "KakeyaFormal.SourceMarkedLengths.source_notation",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        {
+          "module": "MinPivotLogBudget",
+          "declaration": "source_notation",
+          "line": 89,
+          "source_sha256": "a80c585e5f7be68da70e8e27f78d6cfdbc0a5973d697a40cf192050c69c4e8e8",
+          "audited_name": "KakeyaFormal.MinPivotLogBudget.source_notation",
+          "logical_dependencies": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        }
+      ],
+      "semantic_reviews": [
+        "checkpoint23_geometry_completion_audit.md",
+        "checkpoint23_analytic_completion_audit.md",
+        "checkpoint23_finite_completion_audit.md"
+      ],
+      "status": "proved"
+    }
+  ],
+  "remaining_source_requirements": [],
+  "qualifications": [
+    "Coverage is mathematical source-statement correspondence under the documented fixed conventions; it is a semantic review, separate from kernel checking.",
+    "The marked small constant is chosen existentially for fixed normalization before alpha and all varying parameters; uniform comparison to a distinct preassigned constant is not asserted.",
+    "Ceiling capacities, a complement-graph independent-set argument, selected rounded projection labels and an exact induced finite product law are sufficient proved alternatives to the corresponding prose methods.",
+    "Historical attribution, priority, exhaustive literature comparison and the proofs within cited papers are not newly formalized. Exactly three authorized published normalized inputs remain explicit optional custom axioms, isolated in ExternalAxioms; no listed main or new source consumer depends on them.",
+    "Decimal display QA and the separate exact-check script are auxiliary checks; exact rational/radical theorem statements are kernel checked.",
+    "The reviews were produced within the same AI-assisted development process and are not independent human expert endorsements.",
+    "Matching installed dependencies and the verified unchanged406 local build cache were reused. Every exact module source was recompiled for the declaration audit. Cold-cache setup/downloading was not separately tested."
+  ],
+  "release_boundary": "The complete427 integrated verifier and12 verifier regressions passed. Archive construction and final byte validation are separate publication gates."
+}
